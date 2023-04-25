@@ -14,110 +14,107 @@
 
 // 0x00000001 System.Void App_Controller::Update()
 extern void App_Controller_Update_mDEE0BAD331E8FB725EFA8BB12BE6265AD817312B (void);
-// 0x00000002 System.Void App_Controller::OnApplicationQuit()
-extern void App_Controller_OnApplicationQuit_m6052D8CA7993CAA1D0682DAD60FD8FAB56DB5096 (void);
-// 0x00000003 System.Void App_Controller::.ctor()
+// 0x00000002 System.Void App_Controller::.ctor()
 extern void App_Controller__ctor_m0243002394CC93090C67CBDCD16246CB1FC275B9 (void);
-// 0x00000004 System.Void AzureSpatialAnchorsScript::Start()
+// 0x00000003 System.Void AzureSpatialAnchorsScript::Start()
 extern void AzureSpatialAnchorsScript_Start_m15FB7FE8BF98A354FACFC073A1CD1DD38224BF46 (void);
-// 0x00000005 System.Void AzureSpatialAnchorsScript::Update()
+// 0x00000004 System.Void AzureSpatialAnchorsScript::Update()
 extern void AzureSpatialAnchorsScript_Update_m9E4961D1F25B41811C92ED6EA14C6256046DB41F (void);
-// 0x00000006 System.Void AzureSpatialAnchorsScript::ShortTap(UnityEngine.Vector3)
+// 0x00000005 System.Void AzureSpatialAnchorsScript::ShortTap(UnityEngine.Vector3)
 extern void AzureSpatialAnchorsScript_ShortTap_m47C9D401B9A08DB5A72A6B11D2B17F64121D7EEF (void);
-// 0x00000007 System.Void AzureSpatialAnchorsScript::LongTap()
+// 0x00000006 System.Void AzureSpatialAnchorsScript::LongTap()
 extern void AzureSpatialAnchorsScript_LongTap_m8D532EA2E2853842F657191F556B7207319EB83B (void);
-// 0x00000008 System.Void AzureSpatialAnchorsScript::RemoveAllAnchorGameObjects()
+// 0x00000007 System.Void AzureSpatialAnchorsScript::RemoveAllAnchorGameObjects()
 extern void AzureSpatialAnchorsScript_RemoveAllAnchorGameObjects_m0F67921AEBC0E5D353444EF3BD54891425DA22BE (void);
-// 0x00000009 System.Boolean AzureSpatialAnchorsScript::IsAnchorNearby(UnityEngine.Vector3,UnityEngine.GameObject&)
+// 0x00000008 System.Boolean AzureSpatialAnchorsScript::IsAnchorNearby(UnityEngine.Vector3,UnityEngine.GameObject&)
 extern void AzureSpatialAnchorsScript_IsAnchorNearby_m1BAF677746B7C4E76467FF44573232E2D22EBE92 (void);
-// 0x0000000A System.Threading.Tasks.Task AzureSpatialAnchorsScript::CreateAnchor(UnityEngine.Vector3)
+// 0x00000009 System.Threading.Tasks.Task AzureSpatialAnchorsScript::CreateAnchor(UnityEngine.Vector3)
 extern void AzureSpatialAnchorsScript_CreateAnchor_m44DE1E2E7FB4E30070CCDD72CDB387823647D7AF (void);
-// 0x0000000B System.Void AzureSpatialAnchorsScript::LocateAnchor()
+// 0x0000000A System.Void AzureSpatialAnchorsScript::LocateAnchor()
 extern void AzureSpatialAnchorsScript_LocateAnchor_m631A88B7631D5A3E291866F2DEA2DA7C6FCF299B (void);
-// 0x0000000C System.Void AzureSpatialAnchorsScript::SpatialAnchorManager_AnchorLocated(System.Object,Microsoft.Azure.SpatialAnchors.AnchorLocatedEventArgs)
+// 0x0000000B System.Void AzureSpatialAnchorsScript::SpatialAnchorManager_AnchorLocated(System.Object,Microsoft.Azure.SpatialAnchors.AnchorLocatedEventArgs)
 extern void AzureSpatialAnchorsScript_SpatialAnchorManager_AnchorLocated_mB089A7C1F975B60D7AF6A3F466F28B9FB5634762 (void);
-// 0x0000000D System.Void AzureSpatialAnchorsScript::DeleteAnchor(UnityEngine.GameObject)
+// 0x0000000C System.Void AzureSpatialAnchorsScript::DeleteAnchor(UnityEngine.GameObject)
 extern void AzureSpatialAnchorsScript_DeleteAnchor_m2CABEBCB21D7198032417770227ACCC51146153A (void);
-// 0x0000000E System.Void AzureSpatialAnchorsScript::.ctor()
+// 0x0000000D System.Void AzureSpatialAnchorsScript::.ctor()
 extern void AzureSpatialAnchorsScript__ctor_m9D9FC828A425842185E3BD362601892F5C3A75C4 (void);
-// 0x0000000F System.Void AzureSpatialAnchorsScript/<>c::.cctor()
+// 0x0000000E System.Void AzureSpatialAnchorsScript/<>c::.cctor()
 extern void U3CU3Ec__cctor_m2897146AF737F00DAF7AB3707F0BD478E7B28447 (void);
-// 0x00000010 System.Void AzureSpatialAnchorsScript/<>c::.ctor()
+// 0x0000000F System.Void AzureSpatialAnchorsScript/<>c::.ctor()
 extern void U3CU3Ec__ctor_mBCE894E1920821B8A35FE11A2F87ADEB84B9FCA0 (void);
-// 0x00000011 System.Void AzureSpatialAnchorsScript/<>c::<Start>b__5_0(System.Object,Microsoft.Azure.SpatialAnchors.OnLogDebugEventArgs)
+// 0x00000010 System.Void AzureSpatialAnchorsScript/<>c::<Start>b__5_0(System.Object,Microsoft.Azure.SpatialAnchors.OnLogDebugEventArgs)
 extern void U3CU3Ec_U3CStartU3Eb__5_0_m5D37E2732881AF0570F6358550BAD636517D3EB1 (void);
-// 0x00000012 System.Void AzureSpatialAnchorsScript/<>c::<Start>b__5_1(System.Object,Microsoft.Azure.SpatialAnchors.SessionErrorEventArgs)
+// 0x00000011 System.Void AzureSpatialAnchorsScript/<>c::<Start>b__5_1(System.Object,Microsoft.Azure.SpatialAnchors.SessionErrorEventArgs)
 extern void U3CU3Ec_U3CStartU3Eb__5_1_m35436AF75B4E0E1B40364E9857A498387CE104C4 (void);
-// 0x00000013 System.Void AzureSpatialAnchorsScript/<ShortTap>d__7::MoveNext()
+// 0x00000012 System.Void AzureSpatialAnchorsScript/<ShortTap>d__7::MoveNext()
 extern void U3CShortTapU3Ed__7_MoveNext_m284B524902110824A3EBF22F6A8550E4FF1DEC8D (void);
-// 0x00000014 System.Void AzureSpatialAnchorsScript/<ShortTap>d__7::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000013 System.Void AzureSpatialAnchorsScript/<ShortTap>d__7::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CShortTapU3Ed__7_SetStateMachine_m5BDC418EBD92FAE215A349A5F377693D7F54BA03 (void);
-// 0x00000015 System.Void AzureSpatialAnchorsScript/<LongTap>d__8::MoveNext()
+// 0x00000014 System.Void AzureSpatialAnchorsScript/<LongTap>d__8::MoveNext()
 extern void U3CLongTapU3Ed__8_MoveNext_m40E8E8E6E00D0100D690AADB7D2AC27D584DA264 (void);
-// 0x00000016 System.Void AzureSpatialAnchorsScript/<LongTap>d__8::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000015 System.Void AzureSpatialAnchorsScript/<LongTap>d__8::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CLongTapU3Ed__8_SetStateMachine_mCF5F980D475EA34A12D909984350DE4D4F0B3B5B (void);
-// 0x00000017 System.Void AzureSpatialAnchorsScript/<>c__DisplayClass10_0::.ctor()
+// 0x00000016 System.Void AzureSpatialAnchorsScript/<>c__DisplayClass10_0::.ctor()
 extern void U3CU3Ec__DisplayClass10_0__ctor_m687677092574AC599F21344A037E0380B735996D (void);
-// 0x00000018 System.Tuple`2<System.Single,UnityEngine.GameObject> AzureSpatialAnchorsScript/<>c__DisplayClass10_0::<IsAnchorNearby>b__0(System.Tuple`2<System.Single,UnityEngine.GameObject>,UnityEngine.GameObject)
+// 0x00000017 System.Tuple`2<System.Single,UnityEngine.GameObject> AzureSpatialAnchorsScript/<>c__DisplayClass10_0::<IsAnchorNearby>b__0(System.Tuple`2<System.Single,UnityEngine.GameObject>,UnityEngine.GameObject)
 extern void U3CU3Ec__DisplayClass10_0_U3CIsAnchorNearbyU3Eb__0_m61A258BCB663E185635BA9269F2EDD09ED20D37B (void);
-// 0x00000019 System.Void AzureSpatialAnchorsScript/<CreateAnchor>d__11::MoveNext()
+// 0x00000018 System.Void AzureSpatialAnchorsScript/<CreateAnchor>d__11::MoveNext()
 extern void U3CCreateAnchorU3Ed__11_MoveNext_m574FFA09928FBBCAE2886DEA301D5DF10DB60105 (void);
-// 0x0000001A System.Void AzureSpatialAnchorsScript/<CreateAnchor>d__11::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000019 System.Void AzureSpatialAnchorsScript/<CreateAnchor>d__11::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CCreateAnchorU3Ed__11_SetStateMachine_mE4B9B0CC845A765C0556AEDEE4A2F5C3867581A1 (void);
-// 0x0000001B System.Void AzureSpatialAnchorsScript/<>c__DisplayClass13_0::.ctor()
+// 0x0000001A System.Void AzureSpatialAnchorsScript/<>c__DisplayClass13_0::.ctor()
 extern void U3CU3Ec__DisplayClass13_0__ctor_m1B0F79DB38627DBABF9CF698AB1837CBC660E202 (void);
-// 0x0000001C System.Void AzureSpatialAnchorsScript/<>c__DisplayClass13_0::<SpatialAnchorManager_AnchorLocated>b__0()
+// 0x0000001B System.Void AzureSpatialAnchorsScript/<>c__DisplayClass13_0::<SpatialAnchorManager_AnchorLocated>b__0()
 extern void U3CU3Ec__DisplayClass13_0_U3CSpatialAnchorManager_AnchorLocatedU3Eb__0_m724CBFA6148DA86951667B54A4B7DE0F104611CE (void);
-// 0x0000001D System.Void AzureSpatialAnchorsScript/<DeleteAnchor>d__14::MoveNext()
+// 0x0000001C System.Void AzureSpatialAnchorsScript/<DeleteAnchor>d__14::MoveNext()
 extern void U3CDeleteAnchorU3Ed__14_MoveNext_m0C93464F9A98633137F704A3D9B799D03E1BDEED (void);
-// 0x0000001E System.Void AzureSpatialAnchorsScript/<DeleteAnchor>d__14::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000001D System.Void AzureSpatialAnchorsScript/<DeleteAnchor>d__14::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CDeleteAnchorU3Ed__14_SetStateMachine_mEAAA33871606376F0C1849E32F13CC17AE7CF947 (void);
-// 0x0000001F System.Void Sensor_Update::Start()
+// 0x0000001E System.Void Sensor_Update::Start()
 extern void Sensor_Update_Start_m5B4044CE96DCF47BC746AD81CF7D98B940D95054 (void);
-// 0x00000020 System.Void Sensor_Update::UpdateSensor()
+// 0x0000001F System.Void Sensor_Update::UpdateSensor()
 extern void Sensor_Update_UpdateSensor_mE7790384D240AE54E06E5E764BC217A602219CED (void);
-// 0x00000021 System.Threading.Tasks.Task`1<System.String> Sensor_Update::get_data(System.String,System.String)
+// 0x00000020 System.Threading.Tasks.Task`1<System.String> Sensor_Update::get_data(System.String,System.String)
 extern void Sensor_Update_get_data_m1CBE4F0A602F3F31F81FB7F5FD2744D2144CF14B (void);
-// 0x00000022 System.Void Sensor_Update::update_awair()
+// 0x00000021 System.Void Sensor_Update::update_awair()
 extern void Sensor_Update_update_awair_m36C1B0C45F5391A6CEF6B78EE2E85AC0354CF059 (void);
-// 0x00000023 System.Void Sensor_Update::update_temp_humid()
+// 0x00000022 System.Void Sensor_Update::update_temp_humid()
 extern void Sensor_Update_update_temp_humid_mFC445BD24BD3A66959820CAA08232374FC919159 (void);
-// 0x00000024 System.Void Sensor_Update::update_door()
+// 0x00000023 System.Void Sensor_Update::update_door()
 extern void Sensor_Update_update_door_m1621291ADFA91C5AF2D4D100D54215E6CE3EFCF5 (void);
-// 0x00000025 System.Void Sensor_Update::update_light()
+// 0x00000024 System.Void Sensor_Update::update_light()
 extern void Sensor_Update_update_light_m0B434D031984DE7931EF4B0CCC394C02DB002B64 (void);
-// 0x00000026 System.Void Sensor_Update::update_dual_motion()
+// 0x00000025 System.Void Sensor_Update::update_dual_motion()
 extern void Sensor_Update_update_dual_motion_mF54998F4794C1CE889D80E0BB55151435C3565DD (void);
-// 0x00000027 System.Void Sensor_Update::.ctor()
+// 0x00000026 System.Void Sensor_Update::.ctor()
 extern void Sensor_Update__ctor_m028ABD8C8F62920E6D6788F29F9020CD5D66C7A3 (void);
-// 0x00000028 System.Void Sensor_Update/<get_data>d__6::MoveNext()
+// 0x00000027 System.Void Sensor_Update/<get_data>d__6::MoveNext()
 extern void U3Cget_dataU3Ed__6_MoveNext_m8FBFD678851DDF7BD9A3B71CD1404CDB25A145FF (void);
-// 0x00000029 System.Void Sensor_Update/<get_data>d__6::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000028 System.Void Sensor_Update/<get_data>d__6::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3Cget_dataU3Ed__6_SetStateMachine_mEEAC962D55FAEF801013DB9840BBEFF2029C6F05 (void);
-// 0x0000002A System.Void Sensor_Update/<update_awair>d__7::MoveNext()
+// 0x00000029 System.Void Sensor_Update/<update_awair>d__7::MoveNext()
 extern void U3Cupdate_awairU3Ed__7_MoveNext_mD9E2E1FCB195D184CB020CE38157C4C20E6AEE1E (void);
-// 0x0000002B System.Void Sensor_Update/<update_awair>d__7::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000002A System.Void Sensor_Update/<update_awair>d__7::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3Cupdate_awairU3Ed__7_SetStateMachine_m344719CB94D92B842482A77D9804A4796928B96E (void);
-// 0x0000002C System.Void Sensor_Update/<update_temp_humid>d__8::MoveNext()
+// 0x0000002B System.Void Sensor_Update/<update_temp_humid>d__8::MoveNext()
 extern void U3Cupdate_temp_humidU3Ed__8_MoveNext_m3438A36DAB49C532A77EEEE1603952D0DFCFD34F (void);
-// 0x0000002D System.Void Sensor_Update/<update_temp_humid>d__8::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000002C System.Void Sensor_Update/<update_temp_humid>d__8::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3Cupdate_temp_humidU3Ed__8_SetStateMachine_m8BF801C729C2903B91BC251CCEF933E6085FEEA6 (void);
-// 0x0000002E System.Void Sensor_Update/<update_door>d__9::MoveNext()
+// 0x0000002D System.Void Sensor_Update/<update_door>d__9::MoveNext()
 extern void U3Cupdate_doorU3Ed__9_MoveNext_m816C722965553763B6FCCB121F2FA45F1DC2335D (void);
-// 0x0000002F System.Void Sensor_Update/<update_door>d__9::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000002E System.Void Sensor_Update/<update_door>d__9::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3Cupdate_doorU3Ed__9_SetStateMachine_m2EA8FEED4E1A5503460B4DD464B89976EBBDF96B (void);
-// 0x00000030 System.Void Sensor_Update/<update_light>d__10::MoveNext()
+// 0x0000002F System.Void Sensor_Update/<update_light>d__10::MoveNext()
 extern void U3Cupdate_lightU3Ed__10_MoveNext_m8002243CA1419D7D085284637A673B0EC7BC0950 (void);
-// 0x00000031 System.Void Sensor_Update/<update_light>d__10::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000030 System.Void Sensor_Update/<update_light>d__10::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3Cupdate_lightU3Ed__10_SetStateMachine_m9503100B085EF3E5AE09D0F162D6340E33EF9D39 (void);
-// 0x00000032 System.Void Sensor_Update/<update_dual_motion>d__11::MoveNext()
+// 0x00000031 System.Void Sensor_Update/<update_dual_motion>d__11::MoveNext()
 extern void U3Cupdate_dual_motionU3Ed__11_MoveNext_m93952343219C104DFE0F21F717F136B6B455DC6A (void);
-// 0x00000033 System.Void Sensor_Update/<update_dual_motion>d__11::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000032 System.Void Sensor_Update/<update_dual_motion>d__11::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3Cupdate_dual_motionU3Ed__11_SetStateMachine_mDA4275827133975BA923321AF92FE469F67C3032 (void);
-static Il2CppMethodPointer s_methodPointers[51] = 
+static Il2CppMethodPointer s_methodPointers[50] = 
 {
 	App_Controller_Update_mDEE0BAD331E8FB725EFA8BB12BE6265AD817312B,
-	App_Controller_OnApplicationQuit_m6052D8CA7993CAA1D0682DAD60FD8FAB56DB5096,
 	App_Controller__ctor_m0243002394CC93090C67CBDCD16246CB1FC275B9,
 	AzureSpatialAnchorsScript_Start_m15FB7FE8BF98A354FACFC073A1CD1DD38224BF46,
 	AzureSpatialAnchorsScript_Update_m9E4961D1F25B41811C92ED6EA14C6256046DB41F,
@@ -190,87 +187,86 @@ extern void U3Cupdate_dual_motionU3Ed__11_MoveNext_m93952343219C104DFE0F21F717F1
 extern void U3Cupdate_dual_motionU3Ed__11_SetStateMachine_mDA4275827133975BA923321AF92FE469F67C3032_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[20] = 
 {
-	{ 0x06000013, U3CShortTapU3Ed__7_MoveNext_m284B524902110824A3EBF22F6A8550E4FF1DEC8D_AdjustorThunk },
-	{ 0x06000014, U3CShortTapU3Ed__7_SetStateMachine_m5BDC418EBD92FAE215A349A5F377693D7F54BA03_AdjustorThunk },
-	{ 0x06000015, U3CLongTapU3Ed__8_MoveNext_m40E8E8E6E00D0100D690AADB7D2AC27D584DA264_AdjustorThunk },
-	{ 0x06000016, U3CLongTapU3Ed__8_SetStateMachine_mCF5F980D475EA34A12D909984350DE4D4F0B3B5B_AdjustorThunk },
-	{ 0x06000019, U3CCreateAnchorU3Ed__11_MoveNext_m574FFA09928FBBCAE2886DEA301D5DF10DB60105_AdjustorThunk },
-	{ 0x0600001A, U3CCreateAnchorU3Ed__11_SetStateMachine_mE4B9B0CC845A765C0556AEDEE4A2F5C3867581A1_AdjustorThunk },
-	{ 0x0600001D, U3CDeleteAnchorU3Ed__14_MoveNext_m0C93464F9A98633137F704A3D9B799D03E1BDEED_AdjustorThunk },
-	{ 0x0600001E, U3CDeleteAnchorU3Ed__14_SetStateMachine_mEAAA33871606376F0C1849E32F13CC17AE7CF947_AdjustorThunk },
-	{ 0x06000028, U3Cget_dataU3Ed__6_MoveNext_m8FBFD678851DDF7BD9A3B71CD1404CDB25A145FF_AdjustorThunk },
-	{ 0x06000029, U3Cget_dataU3Ed__6_SetStateMachine_mEEAC962D55FAEF801013DB9840BBEFF2029C6F05_AdjustorThunk },
-	{ 0x0600002A, U3Cupdate_awairU3Ed__7_MoveNext_mD9E2E1FCB195D184CB020CE38157C4C20E6AEE1E_AdjustorThunk },
-	{ 0x0600002B, U3Cupdate_awairU3Ed__7_SetStateMachine_m344719CB94D92B842482A77D9804A4796928B96E_AdjustorThunk },
-	{ 0x0600002C, U3Cupdate_temp_humidU3Ed__8_MoveNext_m3438A36DAB49C532A77EEEE1603952D0DFCFD34F_AdjustorThunk },
-	{ 0x0600002D, U3Cupdate_temp_humidU3Ed__8_SetStateMachine_m8BF801C729C2903B91BC251CCEF933E6085FEEA6_AdjustorThunk },
-	{ 0x0600002E, U3Cupdate_doorU3Ed__9_MoveNext_m816C722965553763B6FCCB121F2FA45F1DC2335D_AdjustorThunk },
-	{ 0x0600002F, U3Cupdate_doorU3Ed__9_SetStateMachine_m2EA8FEED4E1A5503460B4DD464B89976EBBDF96B_AdjustorThunk },
-	{ 0x06000030, U3Cupdate_lightU3Ed__10_MoveNext_m8002243CA1419D7D085284637A673B0EC7BC0950_AdjustorThunk },
-	{ 0x06000031, U3Cupdate_lightU3Ed__10_SetStateMachine_m9503100B085EF3E5AE09D0F162D6340E33EF9D39_AdjustorThunk },
-	{ 0x06000032, U3Cupdate_dual_motionU3Ed__11_MoveNext_m93952343219C104DFE0F21F717F136B6B455DC6A_AdjustorThunk },
-	{ 0x06000033, U3Cupdate_dual_motionU3Ed__11_SetStateMachine_mDA4275827133975BA923321AF92FE469F67C3032_AdjustorThunk },
+	{ 0x06000012, U3CShortTapU3Ed__7_MoveNext_m284B524902110824A3EBF22F6A8550E4FF1DEC8D_AdjustorThunk },
+	{ 0x06000013, U3CShortTapU3Ed__7_SetStateMachine_m5BDC418EBD92FAE215A349A5F377693D7F54BA03_AdjustorThunk },
+	{ 0x06000014, U3CLongTapU3Ed__8_MoveNext_m40E8E8E6E00D0100D690AADB7D2AC27D584DA264_AdjustorThunk },
+	{ 0x06000015, U3CLongTapU3Ed__8_SetStateMachine_mCF5F980D475EA34A12D909984350DE4D4F0B3B5B_AdjustorThunk },
+	{ 0x06000018, U3CCreateAnchorU3Ed__11_MoveNext_m574FFA09928FBBCAE2886DEA301D5DF10DB60105_AdjustorThunk },
+	{ 0x06000019, U3CCreateAnchorU3Ed__11_SetStateMachine_mE4B9B0CC845A765C0556AEDEE4A2F5C3867581A1_AdjustorThunk },
+	{ 0x0600001C, U3CDeleteAnchorU3Ed__14_MoveNext_m0C93464F9A98633137F704A3D9B799D03E1BDEED_AdjustorThunk },
+	{ 0x0600001D, U3CDeleteAnchorU3Ed__14_SetStateMachine_mEAAA33871606376F0C1849E32F13CC17AE7CF947_AdjustorThunk },
+	{ 0x06000027, U3Cget_dataU3Ed__6_MoveNext_m8FBFD678851DDF7BD9A3B71CD1404CDB25A145FF_AdjustorThunk },
+	{ 0x06000028, U3Cget_dataU3Ed__6_SetStateMachine_mEEAC962D55FAEF801013DB9840BBEFF2029C6F05_AdjustorThunk },
+	{ 0x06000029, U3Cupdate_awairU3Ed__7_MoveNext_mD9E2E1FCB195D184CB020CE38157C4C20E6AEE1E_AdjustorThunk },
+	{ 0x0600002A, U3Cupdate_awairU3Ed__7_SetStateMachine_m344719CB94D92B842482A77D9804A4796928B96E_AdjustorThunk },
+	{ 0x0600002B, U3Cupdate_temp_humidU3Ed__8_MoveNext_m3438A36DAB49C532A77EEEE1603952D0DFCFD34F_AdjustorThunk },
+	{ 0x0600002C, U3Cupdate_temp_humidU3Ed__8_SetStateMachine_m8BF801C729C2903B91BC251CCEF933E6085FEEA6_AdjustorThunk },
+	{ 0x0600002D, U3Cupdate_doorU3Ed__9_MoveNext_m816C722965553763B6FCCB121F2FA45F1DC2335D_AdjustorThunk },
+	{ 0x0600002E, U3Cupdate_doorU3Ed__9_SetStateMachine_m2EA8FEED4E1A5503460B4DD464B89976EBBDF96B_AdjustorThunk },
+	{ 0x0600002F, U3Cupdate_lightU3Ed__10_MoveNext_m8002243CA1419D7D085284637A673B0EC7BC0950_AdjustorThunk },
+	{ 0x06000030, U3Cupdate_lightU3Ed__10_SetStateMachine_m9503100B085EF3E5AE09D0F162D6340E33EF9D39_AdjustorThunk },
+	{ 0x06000031, U3Cupdate_dual_motionU3Ed__11_MoveNext_m93952343219C104DFE0F21F717F136B6B455DC6A_AdjustorThunk },
+	{ 0x06000032, U3Cupdate_dual_motionU3Ed__11_SetStateMachine_mDA4275827133975BA923321AF92FE469F67C3032_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[51] = 
+static const int32_t s_InvokerIndices[50] = 
 {
-	6256,
-	6256,
-	6256,
-	6256,
-	6256,
-	5170,
-	6256,
-	6256,
+	6254,
+	6254,
+	6254,
+	6254,
+	5168,
+	6254,
+	6254,
 	1894,
-	4484,
-	6256,
-	2845,
-	5085,
-	6256,
-	9150,
-	6256,
-	2845,
-	2845,
-	6256,
-	5085,
-	6256,
-	5085,
-	6256,
+	4482,
+	6254,
+	2844,
+	5083,
+	6254,
+	9147,
+	6254,
+	2844,
+	2844,
+	6254,
+	5083,
+	6254,
+	5083,
+	6254,
 	2271,
-	6256,
-	5085,
-	6256,
-	6256,
-	6256,
-	5085,
-	6256,
-	6256,
+	6254,
+	5083,
+	6254,
+	6254,
+	6254,
+	5083,
+	6254,
+	6254,
 	2271,
-	6256,
-	6256,
-	6256,
-	6256,
-	6256,
-	6256,
-	6256,
-	5085,
-	6256,
-	5085,
-	6256,
-	5085,
-	6256,
-	5085,
-	6256,
-	5085,
-	6256,
-	5085,
+	6254,
+	6254,
+	6254,
+	6254,
+	6254,
+	6254,
+	6254,
+	5083,
+	6254,
+	5083,
+	6254,
+	5083,
+	6254,
+	5083,
+	6254,
+	5083,
+	6254,
+	5083,
 };
 extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	51,
+	50,
 	s_methodPointers,
 	20,
 	s_adjustorThunks,

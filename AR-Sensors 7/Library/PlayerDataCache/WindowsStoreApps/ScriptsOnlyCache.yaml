@@ -14,11 +14,6 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.OpenXR.MotionControllerFeaturePlugin
     - Microsoft.MixedReality.OpenXR.Remoting.AppRemotingPlugin
     - Microsoft.MixedReality.OpenXR.Remoting.PlayModeRemotingPlugin
-    Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll:
-    - Microsoft.MixedReality.Toolkit.Editor.MixedRealityToolkitConfigurationProfileInspector
-    - Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityInputSystemProfileInspector
-    - Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityPointerProfileInspector
-    - Microsoft.MixedReality.Toolkit.Inspectors.MixedRealityEyeTrackingProfileInspector
     Microsoft.MixedReality.Toolkit.Editor.Utilities.dll:
     - Microsoft.MixedReality.Toolkit.Utilities.Editor.ProjectPreferences
     Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll:
@@ -46,8 +41,6 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.UI.ObjectManipulator
     Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll:
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputRecordingProfile
-    Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll:
-    - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfileInspector
     Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll:
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile
     Microsoft.MixedReality.Toolkit.Services.InputSystem.dll:
@@ -334,19 +327,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7822}
     - Class: 114
-      Script: {instanceID: 8092}
+      Script: {instanceID: 7968}
     - Class: 114
-      Script: {instanceID: 8134}
+      Script: {instanceID: 8094}
     - Class: 114
-      Script: {instanceID: 8190}
+      Script: {instanceID: 8136}
     - Class: 114
-      Script: {instanceID: 8538}
+      Script: {instanceID: 8192}
     - Class: 114
-      Script: {instanceID: 8558}
+      Script: {instanceID: 8540}
     - Class: 114
-      Script: {instanceID: 8592}
+      Script: {instanceID: 8560}
     - Class: 114
-      Script: {instanceID: 27302}
+      Script: {instanceID: 8594}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -2878,6 +2871,12 @@ ScriptsOnlyBuild:
     className: ToolTipBackgroundBlob
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: App_Controller
+  - hash:
+      serializedVersion: 2
       Hash: c1bba5c0ac4e9785596c89f3517b9c52
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
@@ -3188,12 +3187,6 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.OpenXR.dll
     namespaceName: Microsoft.MixedReality.OpenXR
     className: ControllerModelArticulator
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: App_Controller
   platform: 21
   scenePathNames:
   - Assets/Scenes/MainScene.unity

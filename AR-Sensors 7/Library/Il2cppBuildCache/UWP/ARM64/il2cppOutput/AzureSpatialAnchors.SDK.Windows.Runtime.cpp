@@ -433,7 +433,6 @@ IL2CPP_EXTERN_C RuntimeClass* CloudSpatialAnchorSession_tA71B2460BEFD6D2F80236B2
 IL2CPP_EXTERN_C RuntimeClass* CloudSpatialAnchorWatcher_t1084A2771602AA403BF855F4917F9D5F452C61D9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CloudSpatialAnchor_t03448002616C4EF52821932C9ACC3DEFA04A8D70_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CloudSpatialException_t0D51F010B5D03F5317C347AC2735D2039C2215B4_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t521306497EEE741202CFF9F69FB533CCAD8C8ACD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t995AB6A9D11D19858440976C9072FEB5F13721FB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_tF3C725E671EDAABF8BE52CD602715BEAC91A5374_il2cpp_TypeInfo_var;
@@ -1727,24 +1726,6 @@ public:
 };
 
 
-// System.DateTime
-struct DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 
-{
-public:
-	// System.UInt64 System.DateTime::dateData
-	uint64_t ___dateData_44;
-
-public:
-	inline static int32_t get_offset_of_dateData_44() { return static_cast<int32_t>(offsetof(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405, ___dateData_44)); }
-	inline uint64_t get_dateData_44() const { return ___dateData_44; }
-	inline uint64_t* get_address_of_dateData_44() { return &___dateData_44; }
-	inline void set_dateData_44(uint64_t value)
-	{
-		___dateData_44 = value;
-	}
-};
-
-
 // System.Enum
 struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
 {
@@ -2164,34 +2145,6 @@ public:
 	inline void set_value___2(int32_t value)
 	{
 		___value___2 = value;
-	}
-};
-
-
-// System.DateTimeOffset
-struct DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 
-{
-public:
-	// System.DateTime System.DateTimeOffset::m_dateTime
-	DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___m_dateTime_2;
-	// System.Int16 System.DateTimeOffset::m_offsetMinutes
-	int16_t ___m_offsetMinutes_3;
-
-public:
-	inline static int32_t get_offset_of_m_dateTime_2() { return static_cast<int32_t>(offsetof(DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5, ___m_dateTime_2)); }
-	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  get_m_dateTime_2() const { return ___m_dateTime_2; }
-	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * get_address_of_m_dateTime_2() { return &___m_dateTime_2; }
-	inline void set_m_dateTime_2(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  value)
-	{
-		___m_dateTime_2 = value;
-	}
-
-	inline static int32_t get_offset_of_m_offsetMinutes_3() { return static_cast<int32_t>(offsetof(DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5, ___m_offsetMinutes_3)); }
-	inline int16_t get_m_offsetMinutes_3() const { return ___m_offsetMinutes_3; }
-	inline int16_t* get_address_of_m_offsetMinutes_3() { return &___m_offsetMinutes_3; }
-	inline void set_m_offsetMinutes_3(int16_t value)
-	{
-		___m_offsetMinutes_3 = value;
 	}
 };
 
@@ -4002,60 +3955,6 @@ public:
 // System.Boolean
 
 
-// System.DateTime
-
-struct DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_StaticFields
-{
-public:
-	// System.Int32[] System.DateTime::DaysToMonth365
-	Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* ___DaysToMonth365_29;
-	// System.Int32[] System.DateTime::DaysToMonth366
-	Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* ___DaysToMonth366_30;
-	// System.DateTime System.DateTime::MinValue
-	DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___MinValue_31;
-	// System.DateTime System.DateTime::MaxValue
-	DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___MaxValue_32;
-
-public:
-	inline static int32_t get_offset_of_DaysToMonth365_29() { return static_cast<int32_t>(offsetof(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_StaticFields, ___DaysToMonth365_29)); }
-	inline Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* get_DaysToMonth365_29() const { return ___DaysToMonth365_29; }
-	inline Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32** get_address_of_DaysToMonth365_29() { return &___DaysToMonth365_29; }
-	inline void set_DaysToMonth365_29(Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* value)
-	{
-		___DaysToMonth365_29 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___DaysToMonth365_29), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_DaysToMonth366_30() { return static_cast<int32_t>(offsetof(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_StaticFields, ___DaysToMonth366_30)); }
-	inline Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* get_DaysToMonth366_30() const { return ___DaysToMonth366_30; }
-	inline Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32** get_address_of_DaysToMonth366_30() { return &___DaysToMonth366_30; }
-	inline void set_DaysToMonth366_30(Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* value)
-	{
-		___DaysToMonth366_30 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___DaysToMonth366_30), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_MinValue_31() { return static_cast<int32_t>(offsetof(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_StaticFields, ___MinValue_31)); }
-	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  get_MinValue_31() const { return ___MinValue_31; }
-	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * get_address_of_MinValue_31() { return &___MinValue_31; }
-	inline void set_MinValue_31(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  value)
-	{
-		___MinValue_31 = value;
-	}
-
-	inline static int32_t get_offset_of_MaxValue_32() { return static_cast<int32_t>(offsetof(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_StaticFields, ___MaxValue_32)); }
-	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  get_MaxValue_32() const { return ___MaxValue_32; }
-	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * get_address_of_MaxValue_32() { return &___MaxValue_32; }
-	inline void set_MaxValue_32(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  value)
-	{
-		___MaxValue_32 = value;
-	}
-};
-
-
-// System.DateTime
-
-
 // System.Enum
 
 struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_StaticFields
@@ -4341,38 +4240,6 @@ public:
 
 
 // Microsoft.Azure.SpatialAnchors.CloudSpatialErrorCode
-
-
-// System.DateTimeOffset
-
-struct DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5_StaticFields
-{
-public:
-	// System.DateTimeOffset System.DateTimeOffset::MinValue
-	DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5  ___MinValue_0;
-	// System.DateTimeOffset System.DateTimeOffset::MaxValue
-	DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5  ___MaxValue_1;
-
-public:
-	inline static int32_t get_offset_of_MinValue_0() { return static_cast<int32_t>(offsetof(DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5_StaticFields, ___MinValue_0)); }
-	inline DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5  get_MinValue_0() const { return ___MinValue_0; }
-	inline DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 * get_address_of_MinValue_0() { return &___MinValue_0; }
-	inline void set_MinValue_0(DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5  value)
-	{
-		___MinValue_0 = value;
-	}
-
-	inline static int32_t get_offset_of_MaxValue_1() { return static_cast<int32_t>(offsetof(DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5_StaticFields, ___MaxValue_1)); }
-	inline DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5  get_MaxValue_1() const { return ___MaxValue_1; }
-	inline DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 * get_address_of_MaxValue_1() { return &___MaxValue_1; }
-	inline void set_MaxValue_1(DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5  value)
-	{
-		___MaxValue_1 = value;
-	}
-};
-
-
-// System.DateTimeOffset
 
 
 // System.Delegate
@@ -5244,12 +5111,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_ssc_cloud_spatial_ancho
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_ssc_cloud_spatial_anchor_get_local_anchor_m419FD0BD76C7FED953731300E0F8F6E3952A01EE (intptr_t ___handle0, intptr_t* ___result1, const RuntimeMethod* method);
 // Microsoft.Azure.SpatialAnchors.status Microsoft.Azure.SpatialAnchors.NativeLibrary::ssc_cloud_spatial_anchor_set_local_anchor(System.IntPtr,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_ssc_cloud_spatial_anchor_set_local_anchor_m76DD473EA98C56D2428F922EAB9343F4E3E8070D (intptr_t ___handle0, intptr_t ___value1, const RuntimeMethod* method);
-// System.Boolean System.DateTimeOffset::op_Equality(System.DateTimeOffset,System.DateTimeOffset)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DateTimeOffset_op_Equality_m7081E0EB910D82BFEFDE9C6645F46B426D1FC409 (DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5  ___left0, DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5  ___right1, const RuntimeMethod* method);
-// System.Int64 System.DateTimeOffset::ToUnixTimeMilliseconds()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t DateTimeOffset_ToUnixTimeMilliseconds_mC53AF9F504753A615CB6CE358DFBD514BF78613F (DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 * __this, const RuntimeMethod* method);
-// Microsoft.Azure.SpatialAnchors.status Microsoft.Azure.SpatialAnchors.NativeLibrary::ssc_cloud_spatial_anchor_set_expiration(System.IntPtr,System.Int64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_ssc_cloud_spatial_anchor_set_expiration_mD19DADBCCB2926E069DB5A8F01B48FC375526E56 (intptr_t ___handle0, int64_t ___value1, const RuntimeMethod* method);
 // Microsoft.Azure.SpatialAnchors.status Microsoft.Azure.SpatialAnchors.NativeLibrary::ssc_cloud_spatial_anchor_get_identifier(System.IntPtr,System.String&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_ssc_cloud_spatial_anchor_get_identifier_mF590CFE45AB55D695184B2591A8A67A970F88397 (intptr_t ___handle0, String_t** ___result1, const RuntimeMethod* method);
 // System.UInt64 Microsoft.Azure.SpatialAnchors.CloudSpatialAnchor::ConvertHandleToCookie(System.IntPtr)
@@ -6122,9 +5983,6 @@ IL2CPP_EXTERN_C int32_t CDECL ssc_cloud_spatial_anchor_session_start(intptr_t);
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_AzureSpatialAnchors_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL ssc_cloud_spatial_anchor_session_stop(intptr_t);
-#endif
-#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_AzureSpatialAnchors_INTERNAL
-IL2CPP_EXTERN_C int32_t CDECL ssc_cloud_spatial_anchor_set_expiration(intptr_t, int64_t);
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_AzureSpatialAnchors_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL ssc_cloud_spatial_anchor_set_local_anchor(intptr_t, intptr_t);
@@ -7122,71 +6980,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CloudSpatialAnchor_set_LocalAnchor_m4C72
 		int32_t L_3;
 		L_3 = NativeLibrary_ssc_cloud_spatial_anchor_set_local_anchor_m76DD473EA98C56D2428F922EAB9343F4E3E8070D((intptr_t)L_1, (intptr_t)L_2, /*hidden argument*/NULL);
 		NativeLibraryHelpers_CheckStatus_mF79DE584C5BF171C8FD5C325824AD8523CC68900((intptr_t)L_0, L_3, /*hidden argument*/NULL);
-		// }
-		return;
-	}
-}
-// System.Void Microsoft.Azure.SpatialAnchors.CloudSpatialAnchor::set_Expiration(System.DateTimeOffset)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CloudSpatialAnchor_set_Expiration_m007F24FA249BD1F2663B0C80D68D2E9260CAC2A9 (CloudSpatialAnchor_t03448002616C4EF52821932C9ACC3DEFA04A8D70 * __this, DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5  ___value0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	intptr_t G_B2_0;
-	memset((&G_B2_0), 0, sizeof(G_B2_0));
-	intptr_t G_B2_1;
-	memset((&G_B2_1), 0, sizeof(G_B2_1));
-	intptr_t G_B1_0;
-	memset((&G_B1_0), 0, sizeof(G_B1_0));
-	intptr_t G_B1_1;
-	memset((&G_B1_1), 0, sizeof(G_B1_1));
-	int64_t G_B3_0 = 0;
-	intptr_t G_B3_1;
-	memset((&G_B3_1), 0, sizeof(G_B3_1));
-	intptr_t G_B3_2;
-	memset((&G_B3_2), 0, sizeof(G_B3_2));
-	{
-		// Microsoft.Azure.SpatialAnchors.NativeLibraryHelpers.CheckStatus(this.handle, Microsoft.Azure.SpatialAnchors.NativeLibrary.ssc_cloud_spatial_anchor_set_expiration(this.handle, (value == DateTimeOffset.MaxValue) ? 0 : value.ToUnixTimeMilliseconds()));
-		intptr_t L_0 = __this->get_handle_0();
-		intptr_t L_1 = __this->get_handle_0();
-		DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5  L_2 = ___value0;
-		IL2CPP_RUNTIME_CLASS_INIT(DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5_il2cpp_TypeInfo_var);
-		DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5  L_3 = ((DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5_StaticFields*)il2cpp_codegen_static_fields_for(DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5_il2cpp_TypeInfo_var))->get_MaxValue_1();
-		bool L_4;
-		L_4 = DateTimeOffset_op_Equality_m7081E0EB910D82BFEFDE9C6645F46B426D1FC409(L_2, L_3, /*hidden argument*/NULL);
-		G_B1_0 = L_1;
-		G_B1_1 = L_0;
-		if (L_4)
-		{
-			G_B2_0 = L_1;
-			G_B2_1 = L_0;
-			goto IL_0022;
-		}
-	}
-	{
-		int64_t L_5;
-		L_5 = DateTimeOffset_ToUnixTimeMilliseconds_mC53AF9F504753A615CB6CE358DFBD514BF78613F((DateTimeOffset_t205B59B1EFB6646DCE3CC50553377BF6023615B5 *)(&___value0), /*hidden argument*/NULL);
-		G_B3_0 = L_5;
-		G_B3_1 = G_B1_0;
-		G_B3_2 = G_B1_1;
-		goto IL_0024;
-	}
-
-IL_0022:
-	{
-		G_B3_0 = ((int64_t)((int64_t)0));
-		G_B3_1 = G_B2_0;
-		G_B3_2 = G_B2_1;
-	}
-
-IL_0024:
-	{
-		int32_t L_6;
-		L_6 = NativeLibrary_ssc_cloud_spatial_anchor_set_expiration_mD19DADBCCB2926E069DB5A8F01B48FC375526E56((intptr_t)G_B3_1, G_B3_0, /*hidden argument*/NULL);
-		NativeLibraryHelpers_CheckStatus_mF79DE584C5BF171C8FD5C325824AD8523CC68900((intptr_t)G_B3_2, L_6, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -10857,29 +10650,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_ssc_cloud_spatial_ancho
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ssc_cloud_spatial_anchor_session_stop)(___handle0);
 	#else
 	int32_t returnValue = il2cppPInvokeFunc(___handle0);
-	#endif
-
-	return returnValue;
-}
-// Microsoft.Azure.SpatialAnchors.status Microsoft.Azure.SpatialAnchors.NativeLibrary::ssc_cloud_spatial_anchor_set_expiration(System.IntPtr,System.Int64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_ssc_cloud_spatial_anchor_set_expiration_mD19DADBCCB2926E069DB5A8F01B48FC375526E56 (intptr_t ___handle0, int64_t ___value1, const RuntimeMethod* method)
-{
-	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int64_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_AzureSpatialAnchors_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(intptr_t) + sizeof(int64_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("AzureSpatialAnchors"), "ssc_cloud_spatial_anchor_set_expiration", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	// Native function invocation
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_AzureSpatialAnchors_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ssc_cloud_spatial_anchor_set_expiration)(___handle0, ___value1);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___handle0, ___value1);
 	#endif
 
 	return returnValue;

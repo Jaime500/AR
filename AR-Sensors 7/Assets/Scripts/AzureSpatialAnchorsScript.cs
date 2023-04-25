@@ -194,24 +194,15 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
     private async Task CreateAnchor(Vector3 position)
     {
         //Create Anchor GameObject. We will use ASA to save the position and the rotation of this GameObject.
-        if (!InputDevices.GetDeviceAtXRNode(XRNode.Head).TryGetFeatureValue(CommonUsages.devicePosition, out Vector3 headPosition))
-        {
-            headPosition = Vector3.zero;
-        }
-
-        Quaternion orientationTowardsHead = Quaternion.LookRotation(position - headPosition, Vector3.up);
-
         GameObject anchorGameObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
         anchorGameObject.GetComponent<MeshRenderer>().material.shader = Shader.Find("Legacy Shaders/Diffuse");
         anchorGameObject.transform.position = position;
-        //anchorGameObject.transform.rotation = orientationTowardsHead;
         anchorGameObject.transform.localScale = Vector3.one * 0.1f;
 
         //Add and configure ASA components
         CloudNativeAnchor cloudNativeAnchor = anchorGameObject.AddComponent<CloudNativeAnchor>();
         await cloudNativeAnchor.NativeToCloud();
         CloudSpatialAnchor cloudSpatialAnchor = cloudNativeAnchor.CloudAnchor;
-        cloudSpatialAnchor.Expiration = DateTimeOffset.Now.AddDays(3);
 
         //Collect Environment Data
         while (!_spatialAnchorManager.IsReadyForCreate)
