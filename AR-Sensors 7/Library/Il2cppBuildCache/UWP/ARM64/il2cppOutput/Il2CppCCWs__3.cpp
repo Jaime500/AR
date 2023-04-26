@@ -14,6 +14,10 @@
 #include "utils/New.h"
 
 
+// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairComparer<System.String,Microsoft.MixedReality.Toolkit.Input.UnityInput.GenericJoystickController>
+struct KeyValuePairComparer_tFD0D470A66B1127993F366BB896EC70D6A5C40EA;
+// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairComparer<System.String,System.Net.Http.Headers.HeaderInfo>
+struct KeyValuePairComparer_t36DF719181FA0532A10AAF2719A6A6B84D9AFC40;
 // System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairComparer<System.String,System.Int32>
 struct KeyValuePairComparer_tB2E62E094C80F7761E340013C09A290681F689C2;
 // System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairComparer<System.String,System.LocalDataStoreSlot>
@@ -102,10 +106,10 @@ struct KeyValuePairComparer_tA03899A8FF9F02263656F522E42AACF1B2766DD4;
 struct KeyValuePairComparer_t92EC2338A74EB06D83BB4B6B1A5C05FF83060C23;
 // System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairComparer<System.Type,System.Collections.Generic.List`1<System.Type>>
 struct KeyValuePairComparer_t792D12FA18806112C8361C26EE6678192D3F176C;
-// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairComparer<System.Type,System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.BaseEventSystem/EventHandlerEntry>>
-struct KeyValuePairComparer_t2CFBDF66B618A99AB4D15D0586038CD1B008C10C;
-// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairComparer<System.Type,System.WeakReference`1<Microsoft.MixedReality.Toolkit.IMixedRealityService>>
-struct KeyValuePairComparer_tF3B07BC8C63587924708C38A8B7193E7F5F128D0;
+// System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Input.UnityInput.GenericJoystickController>[]
+struct KeyValuePair_2U5BU5D_tCD35845673814B3EAA092292DF7875BF12122386;
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Net.Http.Headers.HeaderInfo>[]
+struct KeyValuePair_2U5BU5D_t00F7758FB762B25C1A56861429E9A9CA7C4D185A;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>[]
 struct KeyValuePair_2U5BU5D_tA68F714495CC387B9B61D053469DAAFAF1FF4322;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.LocalDataStoreSlot>[]
@@ -194,10 +198,6 @@ struct KeyValuePair_2U5BU5D_tF55E3DC752EDD757260685C6D24859D10EB38929;
 struct KeyValuePair_2U5BU5D_t748C7159B1B314EB61900BF94054350806D5DB05;
 // System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<System.Type>>[]
 struct KeyValuePair_2U5BU5D_t01E71626981F310B4DE2D4A9649F69CD5BD43165;
-// System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.BaseEventSystem/EventHandlerEntry>>[]
-struct KeyValuePair_2U5BU5D_tBDC0825ECB856F3F0AA64D8249249DD6C5E2792F;
-// System.Collections.Generic.KeyValuePair`2<System.Type,System.WeakReference`1<Microsoft.MixedReality.Toolkit.IMixedRealityService>>[]
-struct KeyValuePair_2U5BU5D_t5014CFF83709CCECEEF11F41281BF3524369AE82;
 // System.Char[]
 struct CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34;
 // System.Type[]
@@ -326,6 +326,84 @@ struct NOVTABLE IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8 : Il
 };
 
 // System.Object
+
+
+// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.String,Microsoft.MixedReality.Toolkit.Input.UnityInput.GenericJoystickController>
+struct ConstantSplittableMap_2_tB7AB5DCC883D399BCED267E5839708DF284226D9  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue>[] System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::items
+	KeyValuePair_2U5BU5D_tCD35845673814B3EAA092292DF7875BF12122386* ___items_1;
+	// System.Int32 System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::firstItemIndex
+	int32_t ___firstItemIndex_2;
+	// System.Int32 System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::lastItemIndex
+	int32_t ___lastItemIndex_3;
+
+public:
+	inline static int32_t get_offset_of_items_1() { return static_cast<int32_t>(offsetof(ConstantSplittableMap_2_tB7AB5DCC883D399BCED267E5839708DF284226D9, ___items_1)); }
+	inline KeyValuePair_2U5BU5D_tCD35845673814B3EAA092292DF7875BF12122386* get_items_1() const { return ___items_1; }
+	inline KeyValuePair_2U5BU5D_tCD35845673814B3EAA092292DF7875BF12122386** get_address_of_items_1() { return &___items_1; }
+	inline void set_items_1(KeyValuePair_2U5BU5D_tCD35845673814B3EAA092292DF7875BF12122386* value)
+	{
+		___items_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___items_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_firstItemIndex_2() { return static_cast<int32_t>(offsetof(ConstantSplittableMap_2_tB7AB5DCC883D399BCED267E5839708DF284226D9, ___firstItemIndex_2)); }
+	inline int32_t get_firstItemIndex_2() const { return ___firstItemIndex_2; }
+	inline int32_t* get_address_of_firstItemIndex_2() { return &___firstItemIndex_2; }
+	inline void set_firstItemIndex_2(int32_t value)
+	{
+		___firstItemIndex_2 = value;
+	}
+
+	inline static int32_t get_offset_of_lastItemIndex_3() { return static_cast<int32_t>(offsetof(ConstantSplittableMap_2_tB7AB5DCC883D399BCED267E5839708DF284226D9, ___lastItemIndex_3)); }
+	inline int32_t get_lastItemIndex_3() const { return ___lastItemIndex_3; }
+	inline int32_t* get_address_of_lastItemIndex_3() { return &___lastItemIndex_3; }
+	inline void set_lastItemIndex_3(int32_t value)
+	{
+		___lastItemIndex_3 = value;
+	}
+};
+
+
+// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.String,System.Net.Http.Headers.HeaderInfo>
+struct ConstantSplittableMap_2_t75560343B80AA5C9D9E215D58396936ECDC4DE58  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue>[] System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::items
+	KeyValuePair_2U5BU5D_t00F7758FB762B25C1A56861429E9A9CA7C4D185A* ___items_1;
+	// System.Int32 System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::firstItemIndex
+	int32_t ___firstItemIndex_2;
+	// System.Int32 System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::lastItemIndex
+	int32_t ___lastItemIndex_3;
+
+public:
+	inline static int32_t get_offset_of_items_1() { return static_cast<int32_t>(offsetof(ConstantSplittableMap_2_t75560343B80AA5C9D9E215D58396936ECDC4DE58, ___items_1)); }
+	inline KeyValuePair_2U5BU5D_t00F7758FB762B25C1A56861429E9A9CA7C4D185A* get_items_1() const { return ___items_1; }
+	inline KeyValuePair_2U5BU5D_t00F7758FB762B25C1A56861429E9A9CA7C4D185A** get_address_of_items_1() { return &___items_1; }
+	inline void set_items_1(KeyValuePair_2U5BU5D_t00F7758FB762B25C1A56861429E9A9CA7C4D185A* value)
+	{
+		___items_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___items_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_firstItemIndex_2() { return static_cast<int32_t>(offsetof(ConstantSplittableMap_2_t75560343B80AA5C9D9E215D58396936ECDC4DE58, ___firstItemIndex_2)); }
+	inline int32_t get_firstItemIndex_2() const { return ___firstItemIndex_2; }
+	inline int32_t* get_address_of_firstItemIndex_2() { return &___firstItemIndex_2; }
+	inline void set_firstItemIndex_2(int32_t value)
+	{
+		___firstItemIndex_2 = value;
+	}
+
+	inline static int32_t get_offset_of_lastItemIndex_3() { return static_cast<int32_t>(offsetof(ConstantSplittableMap_2_t75560343B80AA5C9D9E215D58396936ECDC4DE58, ___lastItemIndex_3)); }
+	inline int32_t get_lastItemIndex_3() const { return ___lastItemIndex_3; }
+	inline int32_t* get_address_of_lastItemIndex_3() { return &___lastItemIndex_3; }
+	inline void set_lastItemIndex_3(int32_t value)
+	{
+		___lastItemIndex_3 = value;
+	}
+};
 
 
 // System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.String,System.Int32>
@@ -2044,84 +2122,6 @@ public:
 };
 
 
-// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.Type,System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.BaseEventSystem/EventHandlerEntry>>
-struct ConstantSplittableMap_2_t0628394749380B76C3CCA6F0F7B82EA0EDFB7C46  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue>[] System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::items
-	KeyValuePair_2U5BU5D_tBDC0825ECB856F3F0AA64D8249249DD6C5E2792F* ___items_1;
-	// System.Int32 System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::firstItemIndex
-	int32_t ___firstItemIndex_2;
-	// System.Int32 System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::lastItemIndex
-	int32_t ___lastItemIndex_3;
-
-public:
-	inline static int32_t get_offset_of_items_1() { return static_cast<int32_t>(offsetof(ConstantSplittableMap_2_t0628394749380B76C3CCA6F0F7B82EA0EDFB7C46, ___items_1)); }
-	inline KeyValuePair_2U5BU5D_tBDC0825ECB856F3F0AA64D8249249DD6C5E2792F* get_items_1() const { return ___items_1; }
-	inline KeyValuePair_2U5BU5D_tBDC0825ECB856F3F0AA64D8249249DD6C5E2792F** get_address_of_items_1() { return &___items_1; }
-	inline void set_items_1(KeyValuePair_2U5BU5D_tBDC0825ECB856F3F0AA64D8249249DD6C5E2792F* value)
-	{
-		___items_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___items_1), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_firstItemIndex_2() { return static_cast<int32_t>(offsetof(ConstantSplittableMap_2_t0628394749380B76C3CCA6F0F7B82EA0EDFB7C46, ___firstItemIndex_2)); }
-	inline int32_t get_firstItemIndex_2() const { return ___firstItemIndex_2; }
-	inline int32_t* get_address_of_firstItemIndex_2() { return &___firstItemIndex_2; }
-	inline void set_firstItemIndex_2(int32_t value)
-	{
-		___firstItemIndex_2 = value;
-	}
-
-	inline static int32_t get_offset_of_lastItemIndex_3() { return static_cast<int32_t>(offsetof(ConstantSplittableMap_2_t0628394749380B76C3CCA6F0F7B82EA0EDFB7C46, ___lastItemIndex_3)); }
-	inline int32_t get_lastItemIndex_3() const { return ___lastItemIndex_3; }
-	inline int32_t* get_address_of_lastItemIndex_3() { return &___lastItemIndex_3; }
-	inline void set_lastItemIndex_3(int32_t value)
-	{
-		___lastItemIndex_3 = value;
-	}
-};
-
-
-// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.Type,System.WeakReference`1<Microsoft.MixedReality.Toolkit.IMixedRealityService>>
-struct ConstantSplittableMap_2_tE6C1634BD7345C8A52123556214BC972F7B7C0A2  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue>[] System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::items
-	KeyValuePair_2U5BU5D_t5014CFF83709CCECEEF11F41281BF3524369AE82* ___items_1;
-	// System.Int32 System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::firstItemIndex
-	int32_t ___firstItemIndex_2;
-	// System.Int32 System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::lastItemIndex
-	int32_t ___lastItemIndex_3;
-
-public:
-	inline static int32_t get_offset_of_items_1() { return static_cast<int32_t>(offsetof(ConstantSplittableMap_2_tE6C1634BD7345C8A52123556214BC972F7B7C0A2, ___items_1)); }
-	inline KeyValuePair_2U5BU5D_t5014CFF83709CCECEEF11F41281BF3524369AE82* get_items_1() const { return ___items_1; }
-	inline KeyValuePair_2U5BU5D_t5014CFF83709CCECEEF11F41281BF3524369AE82** get_address_of_items_1() { return &___items_1; }
-	inline void set_items_1(KeyValuePair_2U5BU5D_t5014CFF83709CCECEEF11F41281BF3524369AE82* value)
-	{
-		___items_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___items_1), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_firstItemIndex_2() { return static_cast<int32_t>(offsetof(ConstantSplittableMap_2_tE6C1634BD7345C8A52123556214BC972F7B7C0A2, ___firstItemIndex_2)); }
-	inline int32_t get_firstItemIndex_2() const { return ___firstItemIndex_2; }
-	inline int32_t* get_address_of_firstItemIndex_2() { return &___firstItemIndex_2; }
-	inline void set_firstItemIndex_2(int32_t value)
-	{
-		___firstItemIndex_2 = value;
-	}
-
-	inline static int32_t get_offset_of_lastItemIndex_3() { return static_cast<int32_t>(offsetof(ConstantSplittableMap_2_tE6C1634BD7345C8A52123556214BC972F7B7C0A2, ___lastItemIndex_3)); }
-	inline int32_t get_lastItemIndex_3() const { return ___lastItemIndex_3; }
-	inline int32_t* get_address_of_lastItemIndex_3() { return &___lastItemIndex_3; }
-	inline void set_lastItemIndex_3(int32_t value)
-	{
-		___lastItemIndex_3 = value;
-	}
-};
-
-
 // System.Reflection.MemberInfo
 struct MemberInfo_t  : public RuntimeObject
 {
@@ -2250,6 +2250,52 @@ struct NOVTABLE IMapView_2_t07701AB21EE8172E2D5B5FB43E65A4766C139B20 : Il2CppIIn
 
 
 // System.Object
+
+
+// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.String,Microsoft.MixedReality.Toolkit.Input.UnityInput.GenericJoystickController>
+
+struct ConstantSplittableMap_2_tB7AB5DCC883D399BCED267E5839708DF284226D9_StaticFields
+{
+public:
+	// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairComparer<TKey,TValue> System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::keyValuePairComparer
+	KeyValuePairComparer_tFD0D470A66B1127993F366BB896EC70D6A5C40EA * ___keyValuePairComparer_0;
+
+public:
+	inline static int32_t get_offset_of_keyValuePairComparer_0() { return static_cast<int32_t>(offsetof(ConstantSplittableMap_2_tB7AB5DCC883D399BCED267E5839708DF284226D9_StaticFields, ___keyValuePairComparer_0)); }
+	inline KeyValuePairComparer_tFD0D470A66B1127993F366BB896EC70D6A5C40EA * get_keyValuePairComparer_0() const { return ___keyValuePairComparer_0; }
+	inline KeyValuePairComparer_tFD0D470A66B1127993F366BB896EC70D6A5C40EA ** get_address_of_keyValuePairComparer_0() { return &___keyValuePairComparer_0; }
+	inline void set_keyValuePairComparer_0(KeyValuePairComparer_tFD0D470A66B1127993F366BB896EC70D6A5C40EA * value)
+	{
+		___keyValuePairComparer_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___keyValuePairComparer_0), (void*)value);
+	}
+};
+
+
+// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.String,Microsoft.MixedReality.Toolkit.Input.UnityInput.GenericJoystickController>
+
+
+// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.String,System.Net.Http.Headers.HeaderInfo>
+
+struct ConstantSplittableMap_2_t75560343B80AA5C9D9E215D58396936ECDC4DE58_StaticFields
+{
+public:
+	// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairComparer<TKey,TValue> System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::keyValuePairComparer
+	KeyValuePairComparer_t36DF719181FA0532A10AAF2719A6A6B84D9AFC40 * ___keyValuePairComparer_0;
+
+public:
+	inline static int32_t get_offset_of_keyValuePairComparer_0() { return static_cast<int32_t>(offsetof(ConstantSplittableMap_2_t75560343B80AA5C9D9E215D58396936ECDC4DE58_StaticFields, ___keyValuePairComparer_0)); }
+	inline KeyValuePairComparer_t36DF719181FA0532A10AAF2719A6A6B84D9AFC40 * get_keyValuePairComparer_0() const { return ___keyValuePairComparer_0; }
+	inline KeyValuePairComparer_t36DF719181FA0532A10AAF2719A6A6B84D9AFC40 ** get_address_of_keyValuePairComparer_0() { return &___keyValuePairComparer_0; }
+	inline void set_keyValuePairComparer_0(KeyValuePairComparer_t36DF719181FA0532A10AAF2719A6A6B84D9AFC40 * value)
+	{
+		___keyValuePairComparer_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___keyValuePairComparer_0), (void*)value);
+	}
+};
+
+
+// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.String,System.Net.Http.Headers.HeaderInfo>
 
 
 // System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.String,System.Int32>
@@ -3264,52 +3310,6 @@ public:
 // System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.Type,System.Collections.Generic.List`1<System.Type>>
 
 
-// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.Type,System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.BaseEventSystem/EventHandlerEntry>>
-
-struct ConstantSplittableMap_2_t0628394749380B76C3CCA6F0F7B82EA0EDFB7C46_StaticFields
-{
-public:
-	// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairComparer<TKey,TValue> System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::keyValuePairComparer
-	KeyValuePairComparer_t2CFBDF66B618A99AB4D15D0586038CD1B008C10C * ___keyValuePairComparer_0;
-
-public:
-	inline static int32_t get_offset_of_keyValuePairComparer_0() { return static_cast<int32_t>(offsetof(ConstantSplittableMap_2_t0628394749380B76C3CCA6F0F7B82EA0EDFB7C46_StaticFields, ___keyValuePairComparer_0)); }
-	inline KeyValuePairComparer_t2CFBDF66B618A99AB4D15D0586038CD1B008C10C * get_keyValuePairComparer_0() const { return ___keyValuePairComparer_0; }
-	inline KeyValuePairComparer_t2CFBDF66B618A99AB4D15D0586038CD1B008C10C ** get_address_of_keyValuePairComparer_0() { return &___keyValuePairComparer_0; }
-	inline void set_keyValuePairComparer_0(KeyValuePairComparer_t2CFBDF66B618A99AB4D15D0586038CD1B008C10C * value)
-	{
-		___keyValuePairComparer_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___keyValuePairComparer_0), (void*)value);
-	}
-};
-
-
-// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.Type,System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.BaseEventSystem/EventHandlerEntry>>
-
-
-// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.Type,System.WeakReference`1<Microsoft.MixedReality.Toolkit.IMixedRealityService>>
-
-struct ConstantSplittableMap_2_tE6C1634BD7345C8A52123556214BC972F7B7C0A2_StaticFields
-{
-public:
-	// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairComparer<TKey,TValue> System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::keyValuePairComparer
-	KeyValuePairComparer_tF3B07BC8C63587924708C38A8B7193E7F5F128D0 * ___keyValuePairComparer_0;
-
-public:
-	inline static int32_t get_offset_of_keyValuePairComparer_0() { return static_cast<int32_t>(offsetof(ConstantSplittableMap_2_tE6C1634BD7345C8A52123556214BC972F7B7C0A2_StaticFields, ___keyValuePairComparer_0)); }
-	inline KeyValuePairComparer_tF3B07BC8C63587924708C38A8B7193E7F5F128D0 * get_keyValuePairComparer_0() const { return ___keyValuePairComparer_0; }
-	inline KeyValuePairComparer_tF3B07BC8C63587924708C38A8B7193E7F5F128D0 ** get_address_of_keyValuePairComparer_0() { return &___keyValuePairComparer_0; }
-	inline void set_keyValuePairComparer_0(KeyValuePairComparer_tF3B07BC8C63587924708C38A8B7193E7F5F128D0 * value)
-	{
-		___keyValuePairComparer_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___keyValuePairComparer_0), (void*)value);
-	}
-};
-
-
-// System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.Type,System.WeakReference`1<Microsoft.MixedReality.Toolkit.IMixedRealityService>>
-
-
 // System.Reflection.MemberInfo
 
 
@@ -3470,12 +3470,12 @@ public:
 #pragma clang diagnostic pop
 #endif
 
+il2cpp_hresult_t IBindableIterable_First_m91EC6ED0173145266318FDB7F9074798CD766BD7_ComCallableWrapperProjectedMethod(RuntimeObject* __this, IBindableIterator_tD7550F1144CFBE58090050457A2BE92B1CAEABBB** comReturnValue);
 il2cpp_hresult_t IMapView_2_Lookup_m66634C00C961C7768897D388C2B5164C725E5DA6_ComCallableWrapperProjectedMethod(RuntimeObject* __this, Il2CppHString ___key0, int32_t* comReturnValue);
 il2cpp_hresult_t IMapView_2_get_Size_m84D9E32AEE514FB3D963961C40B6ADE4053273F0_ComCallableWrapperProjectedMethod(RuntimeObject* __this, uint32_t* comReturnValue);
 il2cpp_hresult_t IMapView_2_HasKey_m58FF395677F45DCFB3C34790C1B8EA9F3FA2B854_ComCallableWrapperProjectedMethod(RuntimeObject* __this, Il2CppHString ___key0, bool* comReturnValue);
 il2cpp_hresult_t IMapView_2_Split_mB7FA30C6154E705958DA25B185A635382425B860_ComCallableWrapperProjectedMethod(RuntimeObject* __this, IMapView_2_tF4CA61667F5F65A76776BC44B449959B1A5CFD82** ___first0, IMapView_2_tF4CA61667F5F65A76776BC44B449959B1A5CFD82** ___second1);
 il2cpp_hresult_t IIterable_1_First_mE4524DC68711FA3BBED088D21A0C0886ED005EEE_ComCallableWrapperProjectedMethod(RuntimeObject* __this, IIterator_1_tE9B563526C618CB18271B63A0D8B6972E4075CDC** comReturnValue);
-il2cpp_hresult_t IBindableIterable_First_m91EC6ED0173145266318FDB7F9074798CD766BD7_ComCallableWrapperProjectedMethod(RuntimeObject* __this, IBindableIterator_tD7550F1144CFBE58090050457A2BE92B1CAEABBB** comReturnValue);
 il2cpp_hresult_t IMapView_2_Lookup_mC226A587D3EB776EBAAF655FFB36C67B1A315D65_ComCallableWrapperProjectedMethod(RuntimeObject* __this, Il2CppHString ___key0, Il2CppIInspectable** comReturnValue);
 il2cpp_hresult_t IMapView_2_get_Size_mEEF9E99289AFB12AE3EA4C207B17A8F0052B66AE_ComCallableWrapperProjectedMethod(RuntimeObject* __this, uint32_t* comReturnValue);
 il2cpp_hresult_t IMapView_2_HasKey_mD49CF5C044925DD6600120A2307BBF30958B4202_ComCallableWrapperProjectedMethod(RuntimeObject* __this, Il2CppHString ___key0, bool* comReturnValue);
@@ -3503,6 +3503,196 @@ il2cpp_hresult_t IMapView_2_Split_mC4A46E6EF101979B74DC06E561BF53551356B526_ComC
 il2cpp_hresult_t IIterable_1_First_m8E2E16956AA32782F4D2C2CBD584BB831B38B3CD_ComCallableWrapperProjectedMethod(RuntimeObject* __this, IIterator_1_t26ECF7FB21DDDCC40F218828892F6EC998F8C41F** comReturnValue);
 
 
+
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.String,Microsoft.MixedReality.Toolkit.Input.UnityInput.GenericJoystickController>
+struct ConstantSplittableMap_2_tB7AB5DCC883D399BCED267E5839708DF284226D9_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<ConstantSplittableMap_2_tB7AB5DCC883D399BCED267E5839708DF284226D9_ComCallableWrapper>, IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8
+{
+	inline ConstantSplittableMap_2_tB7AB5DCC883D399BCED267E5839708DF284226D9_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<ConstantSplittableMap_2_tB7AB5DCC883D399BCED267E5839708DF284226D9_ComCallableWrapper>(obj) {}
+
+	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
+	{
+		if (::memcmp(&iid, &Il2CppIUnknown::IID, sizeof(Il2CppGuid)) == 0
+		 || ::memcmp(&iid, &Il2CppIInspectable::IID, sizeof(Il2CppGuid)) == 0
+		 || ::memcmp(&iid, &Il2CppIAgileObject::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = GetIdentity();
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &Il2CppIManagedObjectHolder::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<Il2CppIManagedObjectHolder*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &Il2CppIMarshal::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<Il2CppIMarshal*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &Il2CppIWeakReferenceSource::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<Il2CppIWeakReferenceSource*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		*object = NULL;
+		return IL2CPP_E_NOINTERFACE;
+	}
+
+	virtual uint32_t STDCALL AddRef() IL2CPP_OVERRIDE
+	{
+		return AddRefImpl();
+	}
+
+	virtual uint32_t STDCALL Release() IL2CPP_OVERRIDE
+	{
+		return ReleaseImpl();
+	}
+
+	virtual il2cpp_hresult_t STDCALL GetIids(uint32_t* iidCount, Il2CppGuid** iids) IL2CPP_OVERRIDE
+	{
+		Il2CppGuid* interfaceIds = il2cpp_codegen_marshal_allocate_array<Il2CppGuid>(1);
+		interfaceIds[0] = IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8::IID;
+
+		*iidCount = 1;
+		*iids = interfaceIds;
+		return IL2CPP_S_OK;
+	}
+
+	virtual il2cpp_hresult_t STDCALL GetRuntimeClassName(Il2CppHString* className) IL2CPP_OVERRIDE
+	{
+		return GetRuntimeClassNameImpl(className);
+	}
+
+	virtual il2cpp_hresult_t STDCALL GetTrustLevel(int32_t* trustLevel) IL2CPP_OVERRIDE
+	{
+		return ComObjectBase::GetTrustLevel(trustLevel);
+	}
+
+	virtual il2cpp_hresult_t STDCALL IBindableIterable_First_m91EC6ED0173145266318FDB7F9074798CD766BD7(IBindableIterator_tD7550F1144CFBE58090050457A2BE92B1CAEABBB** comReturnValue) IL2CPP_OVERRIDE
+	{
+		return IBindableIterable_First_m91EC6ED0173145266318FDB7F9074798CD766BD7_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), comReturnValue);
+	}
+};
+
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_ConstantSplittableMap_2_tB7AB5DCC883D399BCED267E5839708DF284226D9(RuntimeObject* obj)
+{
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(ConstantSplittableMap_2_tB7AB5DCC883D399BCED267E5839708DF284226D9_ComCallableWrapper));
+	if (memory == NULL)
+	{
+		il2cpp_codegen_raise_out_of_memory_exception();
+	}
+
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) ConstantSplittableMap_2_tB7AB5DCC883D399BCED267E5839708DF284226D9_ComCallableWrapper(obj));
+}
+
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.String,System.Net.Http.Headers.HeaderInfo>
+struct ConstantSplittableMap_2_t75560343B80AA5C9D9E215D58396936ECDC4DE58_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<ConstantSplittableMap_2_t75560343B80AA5C9D9E215D58396936ECDC4DE58_ComCallableWrapper>, IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8
+{
+	inline ConstantSplittableMap_2_t75560343B80AA5C9D9E215D58396936ECDC4DE58_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<ConstantSplittableMap_2_t75560343B80AA5C9D9E215D58396936ECDC4DE58_ComCallableWrapper>(obj) {}
+
+	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
+	{
+		if (::memcmp(&iid, &Il2CppIUnknown::IID, sizeof(Il2CppGuid)) == 0
+		 || ::memcmp(&iid, &Il2CppIInspectable::IID, sizeof(Il2CppGuid)) == 0
+		 || ::memcmp(&iid, &Il2CppIAgileObject::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = GetIdentity();
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &Il2CppIManagedObjectHolder::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<Il2CppIManagedObjectHolder*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &Il2CppIMarshal::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<Il2CppIMarshal*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &Il2CppIWeakReferenceSource::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<Il2CppIWeakReferenceSource*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		*object = NULL;
+		return IL2CPP_E_NOINTERFACE;
+	}
+
+	virtual uint32_t STDCALL AddRef() IL2CPP_OVERRIDE
+	{
+		return AddRefImpl();
+	}
+
+	virtual uint32_t STDCALL Release() IL2CPP_OVERRIDE
+	{
+		return ReleaseImpl();
+	}
+
+	virtual il2cpp_hresult_t STDCALL GetIids(uint32_t* iidCount, Il2CppGuid** iids) IL2CPP_OVERRIDE
+	{
+		Il2CppGuid* interfaceIds = il2cpp_codegen_marshal_allocate_array<Il2CppGuid>(1);
+		interfaceIds[0] = IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8::IID;
+
+		*iidCount = 1;
+		*iids = interfaceIds;
+		return IL2CPP_S_OK;
+	}
+
+	virtual il2cpp_hresult_t STDCALL GetRuntimeClassName(Il2CppHString* className) IL2CPP_OVERRIDE
+	{
+		return GetRuntimeClassNameImpl(className);
+	}
+
+	virtual il2cpp_hresult_t STDCALL GetTrustLevel(int32_t* trustLevel) IL2CPP_OVERRIDE
+	{
+		return ComObjectBase::GetTrustLevel(trustLevel);
+	}
+
+	virtual il2cpp_hresult_t STDCALL IBindableIterable_First_m91EC6ED0173145266318FDB7F9074798CD766BD7(IBindableIterator_tD7550F1144CFBE58090050457A2BE92B1CAEABBB** comReturnValue) IL2CPP_OVERRIDE
+	{
+		return IBindableIterable_First_m91EC6ED0173145266318FDB7F9074798CD766BD7_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), comReturnValue);
+	}
+};
+
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_ConstantSplittableMap_2_t75560343B80AA5C9D9E215D58396936ECDC4DE58(RuntimeObject* obj)
+{
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(ConstantSplittableMap_2_t75560343B80AA5C9D9E215D58396936ECDC4DE58_ComCallableWrapper));
+	if (memory == NULL)
+	{
+		il2cpp_codegen_raise_out_of_memory_exception();
+	}
+
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) ConstantSplittableMap_2_t75560343B80AA5C9D9E215D58396936ECDC4DE58_ComCallableWrapper(obj));
+}
 
 // COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.String,System.Int32>
 struct ConstantSplittableMap_2_t2DB7DE97E746959818A5D48B4BDAAEEBC6BFF041_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<ConstantSplittableMap_2_t2DB7DE97E746959818A5D48B4BDAAEEBC6BFF041_ComCallableWrapper>, IMapView_2_tF4CA61667F5F65A76776BC44B449959B1A5CFD82, IIterable_1_tC1B323F9031EA36094A9613B13F783C30560D9D6, IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8
@@ -7928,194 +8118,4 @@ IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_ConstantSplittableMa
 	}
 
 	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) ConstantSplittableMap_2_t97276225CD3E6C30F75AEBBA8CE5EB3616183A02_ComCallableWrapper(obj));
-}
-
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.Type,System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.BaseEventSystem/EventHandlerEntry>>
-struct ConstantSplittableMap_2_t0628394749380B76C3CCA6F0F7B82EA0EDFB7C46_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<ConstantSplittableMap_2_t0628394749380B76C3CCA6F0F7B82EA0EDFB7C46_ComCallableWrapper>, IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8
-{
-	inline ConstantSplittableMap_2_t0628394749380B76C3CCA6F0F7B82EA0EDFB7C46_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<ConstantSplittableMap_2_t0628394749380B76C3CCA6F0F7B82EA0EDFB7C46_ComCallableWrapper>(obj) {}
-
-	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
-	{
-		if (::memcmp(&iid, &Il2CppIUnknown::IID, sizeof(Il2CppGuid)) == 0
-		 || ::memcmp(&iid, &Il2CppIInspectable::IID, sizeof(Il2CppGuid)) == 0
-		 || ::memcmp(&iid, &Il2CppIAgileObject::IID, sizeof(Il2CppGuid)) == 0)
-		{
-			*object = GetIdentity();
-			AddRefImpl();
-			return IL2CPP_S_OK;
-		}
-
-		if (::memcmp(&iid, &Il2CppIManagedObjectHolder::IID, sizeof(Il2CppGuid)) == 0)
-		{
-			*object = static_cast<Il2CppIManagedObjectHolder*>(this);
-			AddRefImpl();
-			return IL2CPP_S_OK;
-		}
-
-		if (::memcmp(&iid, &IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8::IID, sizeof(Il2CppGuid)) == 0)
-		{
-			*object = static_cast<IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8*>(this);
-			AddRefImpl();
-			return IL2CPP_S_OK;
-		}
-
-		if (::memcmp(&iid, &Il2CppIMarshal::IID, sizeof(Il2CppGuid)) == 0)
-		{
-			*object = static_cast<Il2CppIMarshal*>(this);
-			AddRefImpl();
-			return IL2CPP_S_OK;
-		}
-
-		if (::memcmp(&iid, &Il2CppIWeakReferenceSource::IID, sizeof(Il2CppGuid)) == 0)
-		{
-			*object = static_cast<Il2CppIWeakReferenceSource*>(this);
-			AddRefImpl();
-			return IL2CPP_S_OK;
-		}
-
-		*object = NULL;
-		return IL2CPP_E_NOINTERFACE;
-	}
-
-	virtual uint32_t STDCALL AddRef() IL2CPP_OVERRIDE
-	{
-		return AddRefImpl();
-	}
-
-	virtual uint32_t STDCALL Release() IL2CPP_OVERRIDE
-	{
-		return ReleaseImpl();
-	}
-
-	virtual il2cpp_hresult_t STDCALL GetIids(uint32_t* iidCount, Il2CppGuid** iids) IL2CPP_OVERRIDE
-	{
-		Il2CppGuid* interfaceIds = il2cpp_codegen_marshal_allocate_array<Il2CppGuid>(1);
-		interfaceIds[0] = IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8::IID;
-
-		*iidCount = 1;
-		*iids = interfaceIds;
-		return IL2CPP_S_OK;
-	}
-
-	virtual il2cpp_hresult_t STDCALL GetRuntimeClassName(Il2CppHString* className) IL2CPP_OVERRIDE
-	{
-		return GetRuntimeClassNameImpl(className);
-	}
-
-	virtual il2cpp_hresult_t STDCALL GetTrustLevel(int32_t* trustLevel) IL2CPP_OVERRIDE
-	{
-		return ComObjectBase::GetTrustLevel(trustLevel);
-	}
-
-	virtual il2cpp_hresult_t STDCALL IBindableIterable_First_m91EC6ED0173145266318FDB7F9074798CD766BD7(IBindableIterator_tD7550F1144CFBE58090050457A2BE92B1CAEABBB** comReturnValue) IL2CPP_OVERRIDE
-	{
-		return IBindableIterable_First_m91EC6ED0173145266318FDB7F9074798CD766BD7_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), comReturnValue);
-	}
-};
-
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_ConstantSplittableMap_2_t0628394749380B76C3CCA6F0F7B82EA0EDFB7C46(RuntimeObject* obj)
-{
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(ConstantSplittableMap_2_t0628394749380B76C3CCA6F0F7B82EA0EDFB7C46_ComCallableWrapper));
-	if (memory == NULL)
-	{
-		il2cpp_codegen_raise_out_of_memory_exception();
-	}
-
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) ConstantSplittableMap_2_t0628394749380B76C3CCA6F0F7B82EA0EDFB7C46_ComCallableWrapper(obj));
-}
-
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2<System.Type,System.WeakReference`1<Microsoft.MixedReality.Toolkit.IMixedRealityService>>
-struct ConstantSplittableMap_2_tE6C1634BD7345C8A52123556214BC972F7B7C0A2_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<ConstantSplittableMap_2_tE6C1634BD7345C8A52123556214BC972F7B7C0A2_ComCallableWrapper>, IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8
-{
-	inline ConstantSplittableMap_2_tE6C1634BD7345C8A52123556214BC972F7B7C0A2_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<ConstantSplittableMap_2_tE6C1634BD7345C8A52123556214BC972F7B7C0A2_ComCallableWrapper>(obj) {}
-
-	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
-	{
-		if (::memcmp(&iid, &Il2CppIUnknown::IID, sizeof(Il2CppGuid)) == 0
-		 || ::memcmp(&iid, &Il2CppIInspectable::IID, sizeof(Il2CppGuid)) == 0
-		 || ::memcmp(&iid, &Il2CppIAgileObject::IID, sizeof(Il2CppGuid)) == 0)
-		{
-			*object = GetIdentity();
-			AddRefImpl();
-			return IL2CPP_S_OK;
-		}
-
-		if (::memcmp(&iid, &Il2CppIManagedObjectHolder::IID, sizeof(Il2CppGuid)) == 0)
-		{
-			*object = static_cast<Il2CppIManagedObjectHolder*>(this);
-			AddRefImpl();
-			return IL2CPP_S_OK;
-		}
-
-		if (::memcmp(&iid, &IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8::IID, sizeof(Il2CppGuid)) == 0)
-		{
-			*object = static_cast<IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8*>(this);
-			AddRefImpl();
-			return IL2CPP_S_OK;
-		}
-
-		if (::memcmp(&iid, &Il2CppIMarshal::IID, sizeof(Il2CppGuid)) == 0)
-		{
-			*object = static_cast<Il2CppIMarshal*>(this);
-			AddRefImpl();
-			return IL2CPP_S_OK;
-		}
-
-		if (::memcmp(&iid, &Il2CppIWeakReferenceSource::IID, sizeof(Il2CppGuid)) == 0)
-		{
-			*object = static_cast<Il2CppIWeakReferenceSource*>(this);
-			AddRefImpl();
-			return IL2CPP_S_OK;
-		}
-
-		*object = NULL;
-		return IL2CPP_E_NOINTERFACE;
-	}
-
-	virtual uint32_t STDCALL AddRef() IL2CPP_OVERRIDE
-	{
-		return AddRefImpl();
-	}
-
-	virtual uint32_t STDCALL Release() IL2CPP_OVERRIDE
-	{
-		return ReleaseImpl();
-	}
-
-	virtual il2cpp_hresult_t STDCALL GetIids(uint32_t* iidCount, Il2CppGuid** iids) IL2CPP_OVERRIDE
-	{
-		Il2CppGuid* interfaceIds = il2cpp_codegen_marshal_allocate_array<Il2CppGuid>(1);
-		interfaceIds[0] = IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8::IID;
-
-		*iidCount = 1;
-		*iids = interfaceIds;
-		return IL2CPP_S_OK;
-	}
-
-	virtual il2cpp_hresult_t STDCALL GetRuntimeClassName(Il2CppHString* className) IL2CPP_OVERRIDE
-	{
-		return GetRuntimeClassNameImpl(className);
-	}
-
-	virtual il2cpp_hresult_t STDCALL GetTrustLevel(int32_t* trustLevel) IL2CPP_OVERRIDE
-	{
-		return ComObjectBase::GetTrustLevel(trustLevel);
-	}
-
-	virtual il2cpp_hresult_t STDCALL IBindableIterable_First_m91EC6ED0173145266318FDB7F9074798CD766BD7(IBindableIterator_tD7550F1144CFBE58090050457A2BE92B1CAEABBB** comReturnValue) IL2CPP_OVERRIDE
-	{
-		return IBindableIterable_First_m91EC6ED0173145266318FDB7F9074798CD766BD7_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), comReturnValue);
-	}
-};
-
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_ConstantSplittableMap_2_tE6C1634BD7345C8A52123556214BC972F7B7C0A2(RuntimeObject* obj)
-{
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(ConstantSplittableMap_2_tE6C1634BD7345C8A52123556214BC972F7B7C0A2_ComCallableWrapper));
-	if (memory == NULL)
-	{
-		il2cpp_codegen_raise_out_of_memory_exception();
-	}
-
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) ConstantSplittableMap_2_tE6C1634BD7345C8A52123556214BC972F7B7C0A2_ComCallableWrapper(obj));
 }

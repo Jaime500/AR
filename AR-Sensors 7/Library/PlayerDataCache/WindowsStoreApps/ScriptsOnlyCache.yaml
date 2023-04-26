@@ -1,8 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - App_Controller
     - AzureSpatialAnchorsScript
+    - DevelopAzureSpatialAnchorsScript
+    - Gaze_Update
     - Sensor_Update
     AzureSpatialAnchors.SDK.Core.Runtime.dll:
     - Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorConfig
@@ -14,6 +15,8 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.OpenXR.MotionControllerFeaturePlugin
     - Microsoft.MixedReality.OpenXR.Remoting.AppRemotingPlugin
     - Microsoft.MixedReality.OpenXR.Remoting.PlayModeRemotingPlugin
+    Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll:
+    - Microsoft.MixedReality.Toolkit.Editor.MixedRealityToolkitConfigurationProfileInspector
     Microsoft.MixedReality.Toolkit.Editor.Utilities.dll:
     - Microsoft.MixedReality.Toolkit.Utilities.Editor.ProjectPreferences
     Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll:
@@ -37,8 +40,6 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Input.TouchPointer
     - Microsoft.MixedReality.Toolkit.Teleport.ParabolicTeleportPointer
     - Microsoft.MixedReality.Toolkit.Teleport.TeleportCursor
-    - Microsoft.MixedReality.Toolkit.UI.ConstraintManager
-    - Microsoft.MixedReality.Toolkit.UI.ObjectManipulator
     Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll:
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputRecordingProfile
     Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll:
@@ -46,7 +47,6 @@ ScriptsOnlyBuild:
     Microsoft.MixedReality.Toolkit.Services.InputSystem.dll:
     - Microsoft.MixedReality.Toolkit.Input.GazeProvider
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputModule
-    - Microsoft.MixedReality.Toolkit.Input.NearInteractionGrabbable
     Microsoft.MixedReality.Toolkit.dll:
     - Microsoft.MixedReality.Toolkit.Boundary.MixedRealityBoundaryVisualizationProfile
     - Microsoft.MixedReality.Toolkit.Diagnostics.MixedRealityDiagnosticsProfile
@@ -199,8 +199,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2542}
     - Class: 114
-      Script: {instanceID: 2546}
-    - Class: 114
       Script: {instanceID: 2666}
     - Class: 114
       Script: {instanceID: 2766}
@@ -230,8 +228,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3182}
     - Class: 114
       Script: {instanceID: 3236}
-    - Class: 114
-      Script: {instanceID: 3348}
     - Class: 114
       Script: {instanceID: 3486}
     - Class: 114
@@ -335,11 +331,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8192}
     - Class: 114
-      Script: {instanceID: 8540}
-    - Class: 114
       Script: {instanceID: 8560}
     - Class: 114
       Script: {instanceID: 8594}
+    - Class: 114
+      Script: {instanceID: 22198}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -2874,7 +2870,7 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: App_Controller
+    className: Gaze_Update
   - hash:
       serializedVersion: 2
       Hash: c1bba5c0ac4e9785596c89f3517b9c52
@@ -3187,7 +3183,13 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.OpenXR.dll
     namespaceName: Microsoft.MixedReality.OpenXR
     className: ControllerModelArticulator
+  - hash:
+      serializedVersion: 2
+      Hash: e9e277110c564ee6f476ba8ee581da84
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DevelopAzureSpatialAnchorsScript
   platform: 21
   scenePathNames:
   - Assets/Scenes/MainScene.unity
-  playerPath: D:/AR sensors builds
+  playerPath: D:/AR Sensors Build 2

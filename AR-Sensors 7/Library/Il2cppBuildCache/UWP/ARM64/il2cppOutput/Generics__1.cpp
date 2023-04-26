@@ -472,6 +472,8 @@ struct Action_1_tD7283AF33B9EDBF795E893E5D721CCFF1583A0BF;
 struct Action_1_t64ADA0E0ECD2E9E3AC7AA143249A9BFE4AE9C320;
 // System.Action`1<Microsoft.MixedReality.WorldLocking.Core.AnchorManager/SpongyAnchorWithId>
 struct Action_1_tD584E7D43930B38BF76B69E5FF51B3544D51F8D7;
+// System.Action`1<AzureSpatialAnchorsScript/SensorInformation>
+struct Action_1_t6B22A156A855AC4B7724E80005AB03807A375669;
 // System.Action`1<Microsoft.MixedReality.Toolkit.BaseEventSystem/EventHandlerEntry>
 struct Action_1_t350363C78F8F4E98943D630693658DE7F18A8039;
 // System.Action`1<UnityEngine.BeforeRenderHelper/OrderBlock>
@@ -907,6 +909,7 @@ IL2CPP_EXTERN_C RuntimeClass* Record_t5D2EF3432D8EA5FE1E2CF58B5345D23FF06DD445_i
 IL2CPP_EXTERN_C RuntimeClass* RenderRequest_t7DEDFA6AAA1C8D381280183054C328F26BBCCE94_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneInfo_t28BDCAC17ED468EDDD1A5672F65E822FE036B3EE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Scene_t5495AD2FDC587DB2E94D9BDE2B85868BFB9A92EE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SerializedBinding_t6754BE38A661BCD50AD1D3C4AA045AEFA692784F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SessionInfo_t693487E54200EFD8E3528A4947ECBF85A0DABCE7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ShaderProperties_t55833D28331D51875BFB1BB681F7AECA42EC63CC_il2cpp_TypeInfo_var;
@@ -7723,6 +7726,71 @@ struct XRReferenceImage_tB1803A72EB581FB35B2CA944973679132A1D4467_marshaled_com
 	Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * ___m_Texture_5;
 };
 
+// AzureSpatialAnchorsScript/SensorInformation
+struct SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482 
+{
+public:
+	// UnityEngine.Vector3 AzureSpatialAnchorsScript/SensorInformation::position
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___position_0;
+	// UnityEngine.Quaternion AzureSpatialAnchorsScript/SensorInformation::rotation
+	Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  ___rotation_1;
+	// System.String AzureSpatialAnchorsScript/SensorInformation::deviceId
+	String_t* ___deviceId_2;
+	// System.Int32 AzureSpatialAnchorsScript/SensorInformation::deviceClass
+	int32_t ___deviceClass_3;
+
+public:
+	inline static int32_t get_offset_of_position_0() { return static_cast<int32_t>(offsetof(SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482, ___position_0)); }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  get_position_0() const { return ___position_0; }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * get_address_of_position_0() { return &___position_0; }
+	inline void set_position_0(Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  value)
+	{
+		___position_0 = value;
+	}
+
+	inline static int32_t get_offset_of_rotation_1() { return static_cast<int32_t>(offsetof(SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482, ___rotation_1)); }
+	inline Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  get_rotation_1() const { return ___rotation_1; }
+	inline Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 * get_address_of_rotation_1() { return &___rotation_1; }
+	inline void set_rotation_1(Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  value)
+	{
+		___rotation_1 = value;
+	}
+
+	inline static int32_t get_offset_of_deviceId_2() { return static_cast<int32_t>(offsetof(SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482, ___deviceId_2)); }
+	inline String_t* get_deviceId_2() const { return ___deviceId_2; }
+	inline String_t** get_address_of_deviceId_2() { return &___deviceId_2; }
+	inline void set_deviceId_2(String_t* value)
+	{
+		___deviceId_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___deviceId_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_deviceClass_3() { return static_cast<int32_t>(offsetof(SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482, ___deviceClass_3)); }
+	inline int32_t get_deviceClass_3() const { return ___deviceClass_3; }
+	inline int32_t* get_address_of_deviceClass_3() { return &___deviceClass_3; }
+	inline void set_deviceClass_3(int32_t value)
+	{
+		___deviceClass_3 = value;
+	}
+};
+
+// Native definition for P/Invoke marshalling of AzureSpatialAnchorsScript/SensorInformation
+struct SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482_marshaled_pinvoke
+{
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___position_0;
+	Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  ___rotation_1;
+	char* ___deviceId_2;
+	int32_t ___deviceClass_3;
+};
+// Native definition for COM marshalling of AzureSpatialAnchorsScript/SensorInformation
+struct SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482_marshaled_com
+{
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___position_0;
+	Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  ___rotation_1;
+	Il2CppChar* ___deviceId_2;
+	int32_t ___deviceClass_3;
+};
+
 // UnityEngine.Camera/RenderRequestMode
 struct RenderRequestMode_tCB120B82DED523ADBA2D6093A1A8ABF17D94A313 
 {
@@ -12838,6 +12906,15 @@ public:
 };
 
 
+// System.Action`1<AzureSpatialAnchorsScript/SensorInformation>
+struct Action_1_t6B22A156A855AC4B7724E80005AB03807A375669  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
 // System.Action`1<Microsoft.MixedReality.Toolkit.BaseEventSystem/EventHandlerEntry>
 struct Action_1_t350363C78F8F4E98943D630693658DE7F18A8039  : public MulticastDelegate_t
 {
@@ -17675,6 +17752,12 @@ public:
 // UnityEngine.XR.ARSubsystems.XRReferenceImage
 
 
+// AzureSpatialAnchorsScript/SensorInformation
+
+
+// AzureSpatialAnchorsScript/SensorInformation
+
+
 // UnityEngine.Camera/RenderRequestMode
 
 
@@ -18804,6 +18887,12 @@ public:
 
 
 // System.Action`1<Microsoft.MixedReality.WorldLocking.Core.AnchorManager/SpongyAnchorWithId>
+
+
+// System.Action`1<AzureSpatialAnchorsScript/SensorInformation>
+
+
+// System.Action`1<AzureSpatialAnchorsScript/SensorInformation>
 
 
 // System.Action`1<Microsoft.MixedReality.Toolkit.BaseEventSystem/EventHandlerEntry>
@@ -42722,6 +42811,123 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Action_1_BeginInvoke_mD15382C9
 }
 // System.Void System.Action`1<Microsoft.MixedReality.WorldLocking.Core.AnchorManager/SpongyAnchorWithId>::EndInvoke(System.IAsyncResult)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_EndInvoke_m9558F77F67031B992CBC6BD15F2FEE9094A7EBCF_gshared (Action_1_tD584E7D43930B38BF76B69E5FF51B3544D51F8D7 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Action`1<AzureSpatialAnchorsScript/SensorInformation>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mA57EE7A90F12F6292A8B1779943B1510221BC63F_gshared (Action_1_t6B22A156A855AC4B7724E80005AB03807A375669 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+	}
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void System.Action`1<AzureSpatialAnchorsScript/SensorInformation>::Invoke(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_m01A2E8D91320EAC51AB83B8B1033AE39AB1FE05A_gshared (Action_1_t6B22A156A855AC4B7724E80005AB03807A375669 * __this, SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482  ___obj0, const RuntimeMethod* method)
+{
+	DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 1)
+			{
+				// open
+				typedef void (*FunctionPointerType) (SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482 , const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(___obj0, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef void (*FunctionPointerType) (void*, SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482 , const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(targetThis, ___obj0, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						GenericInterfaceActionInvoker1< SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482  >::Invoke(targetMethod, targetThis, ___obj0);
+					else
+						GenericVirtActionInvoker1< SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482  >::Invoke(targetMethod, targetThis, ___obj0);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						InterfaceActionInvoker1< SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482  >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___obj0);
+					else
+						VirtActionInvoker1< SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482  >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___obj0);
+				}
+			}
+			else
+			{
+				if (___parameterCount == 0)
+				{
+					typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)((RuntimeObject*)(reinterpret_cast<RuntimeObject*>(&___obj0) - 1), targetMethod);
+				}
+				else
+				{
+					typedef void (*FunctionPointerType) (void*, SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482 , const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(targetThis, ___obj0, targetMethod);
+				}
+			}
+		}
+	}
+}
+// System.IAsyncResult System.Action`1<AzureSpatialAnchorsScript/SensorInformation>::BeginInvoke(T,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Action_1_BeginInvoke_mB53C67F759E50C046E4440E8331F15C1C85B4B89_gshared (Action_1_t6B22A156A855AC4B7724E80005AB03807A375669 * __this, SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482  ___obj0, AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * ___callback1, RuntimeObject * ___object2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482_il2cpp_TypeInfo_var, &___obj0);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);;
+}
+// System.Void System.Action`1<AzureSpatialAnchorsScript/SensorInformation>::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_EndInvoke_m207A7016B8D733049517B0023399B858029174C3_gshared (Action_1_t6B22A156A855AC4B7724E80005AB03807A375669 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 }
