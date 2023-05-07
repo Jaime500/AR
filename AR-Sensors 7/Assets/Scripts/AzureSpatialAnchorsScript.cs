@@ -91,7 +91,17 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
         } }, // (211)
         { "d7a52e8e-0bc1-4707-899e-a80efdfc7e3a", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 0.5f), new Quaternion(0, 0, 0, 0), "70886b123c0b", 0) } }, // elevator (210)
         { "f19def10-eca3-4efd-9fac-0da4c7f4e09d", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } },
-        { "0074e2e5-1f5b-46f6-bb22-2bc26d3f7556", new List<SensorInformation>() {new SensorInformation (new Vector3(0.25f, 0, -0.5f), Quaternion.AngleAxis(180, Vector3.up), "70886b122593", 0) } }, // meeting room (217)
+        { "0074e2e5-1f5b-46f6-bb22-2bc26d3f7556", new List<SensorInformation>() {new SensorInformation (new Vector3(-0.25f, 0, -0.75f), Quaternion.AngleAxis(180, Vector3.up), "70886b122593", 0) } }, // team room (217)
+        { "e22df7d4-0f27-4738-888f-908096daa38d", new List<SensorInformation>() {
+            new SensorInformation (new Vector3(-1.25f, 0, -.3f), Quaternion.AngleAxis(270, Vector3.up), "70886b125f1e", 0), // awair
+            new SensorInformation (new Vector3(1.3f, 0, 1.8f), new Quaternion(0, 0, 0, 0), "018a2167", 1), // temp/humidity
+        } }, // Heydarian office (281)
+        { "16ed98d4-8846-4cf0-ada7-779843f0cbbe", new List<SensorInformation>() {
+            new SensorInformation (new Vector3(0.3f, 0, 1.3f), new Quaternion(0, 0, 0, 0), "70886b123039", 0), // awair
+            new SensorInformation (new Vector3(-1.2f, 0, -1.25f), Quaternion.AngleAxis(180, Vector3.up), "018984f9", 1), // temp/humidity
+            new SensorInformation (new Vector3(0.5f, 1.25f, 0), new Quaternion(0, 0, 0, 0), "050621a8", 4), // light
+            new SensorInformation (new Vector3(0.1f, 1.25f, 0), new Quaternion(0, 0, 0, 0), "050d69ce", 5), // dual motion
+        } }, // Campbell office (281)
     };
 
     // <Start>
