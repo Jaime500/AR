@@ -296,12 +296,6 @@ struct ARTrackable_2_t58FD44998233516720A9EE3B931F13796297535B;
 struct ARTrackable_2_t7C8719769136E9DE70853AB513E6842BEE0EFA92;
 // System.Action`1<System.Threading.AsyncLocalValueChangedArgs`1<System.Object>>
 struct Action_1_t566931F3B591902EEA08703E7C802BBA36F5E45F;
-// System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,System.Object>>
-struct Action_1_t5D0B3E3AAFAEFD3D25716FC3DD08298049969E42;
-// System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.Object,System.Object>>
-struct Action_1_t40E07226970315802D69E370D2D523D085612DE5;
-// System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.UInt64Enum,System.Object>>
-struct Action_1_tFD99F0B1DAC3E9DDB70C7F339F98AEF1FEB152AF;
 // System.Action`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.Object>>
 struct Action_1_tE9B8FB7D6B8EE48949424BC36924F45C2CCF6422;
 // System.Action`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>>
@@ -516,8 +510,6 @@ struct Action_1_t37A3921EADC8A988238E1CCD5CA7C1E858F7E5DF;
 struct Action_1_t2AB487D29AF3ADCDC0EF5CF6C9975901337A7967;
 // System.Action`1<Microsoft.MixedReality.WorldLocking.Core.Triangulator.SimpleTriangulator/Triangle>
 struct Action_1_t4532AB03C3F15C8086E1C6AEC3A69C9946DF375A;
-// System.Action`1<Microsoft.MixedReality.WorldLocking.Tools.SpacePinMeshVisualizer/IndexedTriangle>
-struct Action_1_t5B1510881E31FFF8B60A5790BFEE72ED741A83B5;
 // System.Action`1<TMPro.SpriteAssetUtilities.TexturePacker_JsonArray/Frame>
 struct Action_1_tC4BF66A8BD99ED8D2FE8BF91DC0A6EAF55F99773;
 // System.Action`1<UnityEngine.InputSystem.UI.TrackedDeviceRaycaster/RaycastHitData>
@@ -864,10 +856,6 @@ IL2CPP_EXTERN_C RuntimeClass* HIDElementDescriptor_tFB38373ABAFB8E910B966D9FA52D
 IL2CPP_EXTERN_C RuntimeClass* HIDReportData_tF41A69FD7D6BB249F5E780B6A3A784B0024FAC59_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IDisposable_t099785737FC6A1E3699919A94109383715A8D807_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IMECompositionString_t2FF8DD4A10EA5DF2D7023622FD79384367D4FD83_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* IdPair_2_t416B5C525EF9231F5C3A0F848183A335276AE54E_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* IdPair_2_t498C12342C549DB3FBE8E0B63175FD68C689520C_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* IdPair_2_tF435E8E4ECC6D784FF1A6A8A9B4D870C1794540C_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* IndexedTriangle_t08CE587717E4C1CBD0F71C0F410904C56B092D8B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InputBinding_t95FC40907C92DDB8F118F0062BE49C22ADF28FFB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InputDeviceDescription_tBE78411023CFED0A42110A1357D65BD6E5EDBB58_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E_il2cpp_TypeInfo_var;
@@ -1517,36 +1505,6 @@ public:
 	{
 		___current_3 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___current_3), (void*)value);
-	}
-};
-
-
-// Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.Object,System.Object>
-struct IdPair_2_tF435E8E4ECC6D784FF1A6A8A9B4D870C1794540C 
-{
-public:
-	// IdType Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2::id
-	RuntimeObject * ___id_0;
-	// T Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2::target
-	RuntimeObject * ___target_1;
-
-public:
-	inline static int32_t get_offset_of_id_0() { return static_cast<int32_t>(offsetof(IdPair_2_tF435E8E4ECC6D784FF1A6A8A9B4D870C1794540C, ___id_0)); }
-	inline RuntimeObject * get_id_0() const { return ___id_0; }
-	inline RuntimeObject ** get_address_of_id_0() { return &___id_0; }
-	inline void set_id_0(RuntimeObject * value)
-	{
-		___id_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___id_0), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_target_1() { return static_cast<int32_t>(offsetof(IdPair_2_tF435E8E4ECC6D784FF1A6A8A9B4D870C1794540C, ___target_1)); }
-	inline RuntimeObject * get_target_1() const { return ___target_1; }
-	inline RuntimeObject ** get_address_of_target_1() { return &___target_1; }
-	inline void set_target_1(RuntimeObject * value)
-	{
-		___target_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___target_1), (void*)value);
 	}
 };
 
@@ -5411,44 +5369,6 @@ public:
 };
 
 
-// Microsoft.MixedReality.WorldLocking.Tools.SpacePinMeshVisualizer/IndexedTriangle
-struct IndexedTriangle_t08CE587717E4C1CBD0F71C0F410904C56B092D8B 
-{
-public:
-	// System.Int32 Microsoft.MixedReality.WorldLocking.Tools.SpacePinMeshVisualizer/IndexedTriangle::index0
-	int32_t ___index0_0;
-	// System.Int32 Microsoft.MixedReality.WorldLocking.Tools.SpacePinMeshVisualizer/IndexedTriangle::index1
-	int32_t ___index1_1;
-	// System.Int32 Microsoft.MixedReality.WorldLocking.Tools.SpacePinMeshVisualizer/IndexedTriangle::index2
-	int32_t ___index2_2;
-
-public:
-	inline static int32_t get_offset_of_index0_0() { return static_cast<int32_t>(offsetof(IndexedTriangle_t08CE587717E4C1CBD0F71C0F410904C56B092D8B, ___index0_0)); }
-	inline int32_t get_index0_0() const { return ___index0_0; }
-	inline int32_t* get_address_of_index0_0() { return &___index0_0; }
-	inline void set_index0_0(int32_t value)
-	{
-		___index0_0 = value;
-	}
-
-	inline static int32_t get_offset_of_index1_1() { return static_cast<int32_t>(offsetof(IndexedTriangle_t08CE587717E4C1CBD0F71C0F410904C56B092D8B, ___index1_1)); }
-	inline int32_t get_index1_1() const { return ___index1_1; }
-	inline int32_t* get_address_of_index1_1() { return &___index1_1; }
-	inline void set_index1_1(int32_t value)
-	{
-		___index1_1 = value;
-	}
-
-	inline static int32_t get_offset_of_index2_2() { return static_cast<int32_t>(offsetof(IndexedTriangle_t08CE587717E4C1CBD0F71C0F410904C56B092D8B, ___index2_2)); }
-	inline int32_t get_index2_2() const { return ___index2_2; }
-	inline int32_t* get_address_of_index2_2() { return &___index2_2; }
-	inline void set_index2_2(int32_t value)
-	{
-		___index2_2 = value;
-	}
-};
-
-
 // TMPro.SpriteAssetUtilities.TexturePacker_JsonArray/SpriteFrame
 struct SpriteFrame_t5B610F44C5943B89962CC8CC4245EECDE29E94D9 
 {
@@ -8358,35 +8278,6 @@ public:
 	inline void set_getEnumeratorRetType_4(int32_t value)
 	{
 		___getEnumeratorRetType_4 = value;
-	}
-};
-
-
-// Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.UInt64Enum,System.Object>
-struct IdPair_2_t416B5C525EF9231F5C3A0F848183A335276AE54E 
-{
-public:
-	// IdType Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2::id
-	uint64_t ___id_0;
-	// T Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2::target
-	RuntimeObject * ___target_1;
-
-public:
-	inline static int32_t get_offset_of_id_0() { return static_cast<int32_t>(offsetof(IdPair_2_t416B5C525EF9231F5C3A0F848183A335276AE54E, ___id_0)); }
-	inline uint64_t get_id_0() const { return ___id_0; }
-	inline uint64_t* get_address_of_id_0() { return &___id_0; }
-	inline void set_id_0(uint64_t value)
-	{
-		___id_0 = value;
-	}
-
-	inline static int32_t get_offset_of_target_1() { return static_cast<int32_t>(offsetof(IdPair_2_t416B5C525EF9231F5C3A0F848183A335276AE54E, ___target_1)); }
-	inline RuntimeObject * get_target_1() const { return ___target_1; }
-	inline RuntimeObject ** get_address_of_target_1() { return &___target_1; }
-	inline void set_target_1(RuntimeObject * value)
-	{
-		___target_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___target_1), (void*)value);
 	}
 };
 
@@ -12177,24 +12068,6 @@ public:
 };
 
 
-// System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.Object,System.Object>>
-struct Action_1_t40E07226970315802D69E370D2D523D085612DE5  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-
-// System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.UInt64Enum,System.Object>>
-struct Action_1_tFD99F0B1DAC3E9DDB70C7F339F98AEF1FEB152AF  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-
 // System.Action`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.Object>>
 struct Action_1_tE9B8FB7D6B8EE48949424BC36924F45C2CCF6422  : public MulticastDelegate_t
 {
@@ -13086,15 +12959,6 @@ public:
 };
 
 
-// System.Action`1<Microsoft.MixedReality.WorldLocking.Tools.SpacePinMeshVisualizer/IndexedTriangle>
-struct Action_1_t5B1510881E31FFF8B60A5790BFEE72ED741A83B5  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-
 // System.Action`1<TMPro.SpriteAssetUtilities.TexturePacker_JsonArray/Frame>
 struct Action_1_tC4BF66A8BD99ED8D2FE8BF91DC0A6EAF55F99773  : public MulticastDelegate_t
 {
@@ -13597,35 +13461,6 @@ public:
 	inline void set_m_Index_1(int32_t value)
 	{
 		___m_Index_1 = value;
-	}
-};
-
-
-// Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,System.Object>
-struct IdPair_2_t498C12342C549DB3FBE8E0B63175FD68C689520C 
-{
-public:
-	// IdType Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2::id
-	AnchorEdge_t57A18D01F7FB07810432D6F1B2353A5ABAB70C46  ___id_0;
-	// T Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2::target
-	RuntimeObject * ___target_1;
-
-public:
-	inline static int32_t get_offset_of_id_0() { return static_cast<int32_t>(offsetof(IdPair_2_t498C12342C549DB3FBE8E0B63175FD68C689520C, ___id_0)); }
-	inline AnchorEdge_t57A18D01F7FB07810432D6F1B2353A5ABAB70C46  get_id_0() const { return ___id_0; }
-	inline AnchorEdge_t57A18D01F7FB07810432D6F1B2353A5ABAB70C46 * get_address_of_id_0() { return &___id_0; }
-	inline void set_id_0(AnchorEdge_t57A18D01F7FB07810432D6F1B2353A5ABAB70C46  value)
-	{
-		___id_0 = value;
-	}
-
-	inline static int32_t get_offset_of_target_1() { return static_cast<int32_t>(offsetof(IdPair_2_t498C12342C549DB3FBE8E0B63175FD68C689520C, ___target_1)); }
-	inline RuntimeObject * get_target_1() const { return ___target_1; }
-	inline RuntimeObject ** get_address_of_target_1() { return &___target_1; }
-	inline void set_target_1(RuntimeObject * value)
-	{
-		___target_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___target_1), (void*)value);
 	}
 };
 
@@ -15062,15 +14897,6 @@ public:
 };
 
 
-// System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,System.Object>>
-struct Action_1_t5D0B3E3AAFAEFD3D25716FC3DD08298049969E42  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-
 // System.Action`1<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>>
 struct Action_1_t138410B41708197DBEBE35B7813655C93FDC0D59  : public MulticastDelegate_t
 {
@@ -16054,12 +15880,6 @@ public:
 
 
 // System.Collections.Generic.List`1/Enumerator<System.Object>
-
-
-// Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.Object,System.Object>
-
-
-// Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.Object,System.Object>
 
 
 // UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`2<UnityEngine.InputSystem.InputControl,UnityEngine.InputSystem.LowLevel.InputEventPtr>>
@@ -17225,12 +17045,6 @@ public:
 // Microsoft.MixedReality.WorldLocking.Core.Triangulator.SimpleTriangulator/Triangle
 
 
-// Microsoft.MixedReality.WorldLocking.Tools.SpacePinMeshVisualizer/IndexedTriangle
-
-
-// Microsoft.MixedReality.WorldLocking.Tools.SpacePinMeshVisualizer/IndexedTriangle
-
-
 // TMPro.SpriteAssetUtilities.TexturePacker_JsonArray/SpriteFrame
 
 
@@ -17860,12 +17674,6 @@ public:
 // System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.XR.ARSubsystems.TrackableId,System.Object>
 
 
-// Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.UInt64Enum,System.Object>
-
-
-// Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.UInt64Enum,System.Object>
-
-
 // Unity.Collections.NativeArray`1<System.Byte>
 
 
@@ -18403,18 +18211,6 @@ public:
 // System.Action`1<System.Threading.AsyncLocalValueChangedArgs`1<System.Object>>
 
 
-// System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.Object,System.Object>>
-
-
-// System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.Object,System.Object>>
-
-
-// System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.UInt64Enum,System.Object>>
-
-
-// System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.UInt64Enum,System.Object>>
-
-
 // System.Action`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.Object>>
 
 
@@ -19009,12 +18805,6 @@ public:
 // System.Action`1<Microsoft.MixedReality.WorldLocking.Core.Triangulator.SimpleTriangulator/Triangle>
 
 
-// System.Action`1<Microsoft.MixedReality.WorldLocking.Tools.SpacePinMeshVisualizer/IndexedTriangle>
-
-
-// System.Action`1<Microsoft.MixedReality.WorldLocking.Tools.SpacePinMeshVisualizer/IndexedTriangle>
-
-
 // System.Action`1<TMPro.SpriteAssetUtilities.TexturePacker_JsonArray/Frame>
 
 
@@ -19211,12 +19001,6 @@ public:
 
 
 // Unity.Collections.NativeArray`1/Enumerator<UnityEngine.XR.ARSubsystems.XRTrackedObject>
-
-
-// Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,System.Object>
-
-
-// Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,System.Object>
 
 
 // System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
@@ -19466,12 +19250,6 @@ public:
 
 
 // Microsoft.MixedReality.WorldLocking.Core.PluginNoop/AnchorPoseRelevance
-
-
-// System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,System.Object>>
-
-
-// System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,System.Object>>
 
 
 // System.Action`1<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>>
@@ -32578,357 +32356,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_EndInvoke_mC1B0DA4C01D5E602D1CF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,System.Object>>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mC7765009E4F693F37C1F6E7666E0B76EEBD50DA7_gshared (Action_1_t5D0B3E3AAFAEFD3D25716FC3DD08298049969E42 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
-	{
-		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
-	}
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// System.Void System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,System.Object>>::Invoke(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_m78F4F43263602F443FA4352A07F2AEED321B0F8D_gshared (Action_1_t5D0B3E3AAFAEFD3D25716FC3DD08298049969E42 * __this, IdPair_2_t498C12342C549DB3FBE8E0B63175FD68C689520C  ___obj0, const RuntimeMethod* method)
-{
-	DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 1)
-			{
-				// open
-				typedef void (*FunctionPointerType) (IdPair_2_t498C12342C549DB3FBE8E0B63175FD68C689520C , const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(___obj0, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef void (*FunctionPointerType) (void*, IdPair_2_t498C12342C549DB3FBE8E0B63175FD68C689520C , const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(targetThis, ___obj0, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						GenericInterfaceActionInvoker1< IdPair_2_t498C12342C549DB3FBE8E0B63175FD68C689520C  >::Invoke(targetMethod, targetThis, ___obj0);
-					else
-						GenericVirtActionInvoker1< IdPair_2_t498C12342C549DB3FBE8E0B63175FD68C689520C  >::Invoke(targetMethod, targetThis, ___obj0);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						InterfaceActionInvoker1< IdPair_2_t498C12342C549DB3FBE8E0B63175FD68C689520C  >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___obj0);
-					else
-						VirtActionInvoker1< IdPair_2_t498C12342C549DB3FBE8E0B63175FD68C689520C  >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___obj0);
-				}
-			}
-			else
-			{
-				if (___parameterCount == 0)
-				{
-					typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
-					((FunctionPointerType)targetMethodPointer)((RuntimeObject*)(reinterpret_cast<RuntimeObject*>(&___obj0) - 1), targetMethod);
-				}
-				else
-				{
-					typedef void (*FunctionPointerType) (void*, IdPair_2_t498C12342C549DB3FBE8E0B63175FD68C689520C , const RuntimeMethod*);
-					((FunctionPointerType)targetMethodPointer)(targetThis, ___obj0, targetMethod);
-				}
-			}
-		}
-	}
-}
-// System.IAsyncResult System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,System.Object>>::BeginInvoke(T,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Action_1_BeginInvoke_m1248A6BAD39627FAF14A2604B239E31D6483AB29_gshared (Action_1_t5D0B3E3AAFAEFD3D25716FC3DD08298049969E42 * __this, IdPair_2_t498C12342C549DB3FBE8E0B63175FD68C689520C  ___obj0, AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * ___callback1, RuntimeObject * ___object2, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IdPair_2_t498C12342C549DB3FBE8E0B63175FD68C689520C_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[2] = {0};
-	__d_args[0] = Box(IdPair_2_t498C12342C549DB3FBE8E0B63175FD68C689520C_il2cpp_TypeInfo_var, &___obj0);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);;
-}
-// System.Void System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,System.Object>>::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_EndInvoke_m845B051CE1DE2F71846EA87ADD20A5366EAD225A_gshared (Action_1_t5D0B3E3AAFAEFD3D25716FC3DD08298049969E42 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
-{
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.Object,System.Object>>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m7FE362E26A4D1A8D7D8413C1ACFF892FC46CDDD7_gshared (Action_1_t40E07226970315802D69E370D2D523D085612DE5 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
-	{
-		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
-	}
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// System.Void System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.Object,System.Object>>::Invoke(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_m9A7CEE5F1DABAAEC0F3076FBF003E64C2F882B94_gshared (Action_1_t40E07226970315802D69E370D2D523D085612DE5 * __this, IdPair_2_tF435E8E4ECC6D784FF1A6A8A9B4D870C1794540C  ___obj0, const RuntimeMethod* method)
-{
-	DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 1)
-			{
-				// open
-				typedef void (*FunctionPointerType) (IdPair_2_tF435E8E4ECC6D784FF1A6A8A9B4D870C1794540C , const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(___obj0, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef void (*FunctionPointerType) (void*, IdPair_2_tF435E8E4ECC6D784FF1A6A8A9B4D870C1794540C , const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(targetThis, ___obj0, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						GenericInterfaceActionInvoker1< IdPair_2_tF435E8E4ECC6D784FF1A6A8A9B4D870C1794540C  >::Invoke(targetMethod, targetThis, ___obj0);
-					else
-						GenericVirtActionInvoker1< IdPair_2_tF435E8E4ECC6D784FF1A6A8A9B4D870C1794540C  >::Invoke(targetMethod, targetThis, ___obj0);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						InterfaceActionInvoker1< IdPair_2_tF435E8E4ECC6D784FF1A6A8A9B4D870C1794540C  >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___obj0);
-					else
-						VirtActionInvoker1< IdPair_2_tF435E8E4ECC6D784FF1A6A8A9B4D870C1794540C  >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___obj0);
-				}
-			}
-			else
-			{
-				if (___parameterCount == 0)
-				{
-					typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
-					((FunctionPointerType)targetMethodPointer)((RuntimeObject*)(reinterpret_cast<RuntimeObject*>(&___obj0) - 1), targetMethod);
-				}
-				else
-				{
-					typedef void (*FunctionPointerType) (void*, IdPair_2_tF435E8E4ECC6D784FF1A6A8A9B4D870C1794540C , const RuntimeMethod*);
-					((FunctionPointerType)targetMethodPointer)(targetThis, ___obj0, targetMethod);
-				}
-			}
-		}
-	}
-}
-// System.IAsyncResult System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.Object,System.Object>>::BeginInvoke(T,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Action_1_BeginInvoke_mC88B1CB9C861491EB6EF3317361C633A5D84AED0_gshared (Action_1_t40E07226970315802D69E370D2D523D085612DE5 * __this, IdPair_2_tF435E8E4ECC6D784FF1A6A8A9B4D870C1794540C  ___obj0, AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * ___callback1, RuntimeObject * ___object2, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IdPair_2_tF435E8E4ECC6D784FF1A6A8A9B4D870C1794540C_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[2] = {0};
-	__d_args[0] = Box(IdPair_2_tF435E8E4ECC6D784FF1A6A8A9B4D870C1794540C_il2cpp_TypeInfo_var, &___obj0);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);;
-}
-// System.Void System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.Object,System.Object>>::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_EndInvoke_mA9F65A54B4805F347135C26993D06EB57B5CA9B6_gshared (Action_1_t40E07226970315802D69E370D2D523D085612DE5 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
-{
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.UInt64Enum,System.Object>>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m1F96BB7977E5E91F742D3BCA34F58A9519379C93_gshared (Action_1_tFD99F0B1DAC3E9DDB70C7F339F98AEF1FEB152AF * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
-	{
-		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
-	}
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// System.Void System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.UInt64Enum,System.Object>>::Invoke(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_m61DA12B2C361ECAEF500AB90F14A619790D3C7CD_gshared (Action_1_tFD99F0B1DAC3E9DDB70C7F339F98AEF1FEB152AF * __this, IdPair_2_t416B5C525EF9231F5C3A0F848183A335276AE54E  ___obj0, const RuntimeMethod* method)
-{
-	DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 1)
-			{
-				// open
-				typedef void (*FunctionPointerType) (IdPair_2_t416B5C525EF9231F5C3A0F848183A335276AE54E , const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(___obj0, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef void (*FunctionPointerType) (void*, IdPair_2_t416B5C525EF9231F5C3A0F848183A335276AE54E , const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(targetThis, ___obj0, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						GenericInterfaceActionInvoker1< IdPair_2_t416B5C525EF9231F5C3A0F848183A335276AE54E  >::Invoke(targetMethod, targetThis, ___obj0);
-					else
-						GenericVirtActionInvoker1< IdPair_2_t416B5C525EF9231F5C3A0F848183A335276AE54E  >::Invoke(targetMethod, targetThis, ___obj0);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						InterfaceActionInvoker1< IdPair_2_t416B5C525EF9231F5C3A0F848183A335276AE54E  >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___obj0);
-					else
-						VirtActionInvoker1< IdPair_2_t416B5C525EF9231F5C3A0F848183A335276AE54E  >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___obj0);
-				}
-			}
-			else
-			{
-				if (___parameterCount == 0)
-				{
-					typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
-					((FunctionPointerType)targetMethodPointer)((RuntimeObject*)(reinterpret_cast<RuntimeObject*>(&___obj0) - 1), targetMethod);
-				}
-				else
-				{
-					typedef void (*FunctionPointerType) (void*, IdPair_2_t416B5C525EF9231F5C3A0F848183A335276AE54E , const RuntimeMethod*);
-					((FunctionPointerType)targetMethodPointer)(targetThis, ___obj0, targetMethod);
-				}
-			}
-		}
-	}
-}
-// System.IAsyncResult System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.UInt64Enum,System.Object>>::BeginInvoke(T,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Action_1_BeginInvoke_mAA616911291FFD7341939E64A5993685B7D2D074_gshared (Action_1_tFD99F0B1DAC3E9DDB70C7F339F98AEF1FEB152AF * __this, IdPair_2_t416B5C525EF9231F5C3A0F848183A335276AE54E  ___obj0, AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * ___callback1, RuntimeObject * ___object2, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IdPair_2_t416B5C525EF9231F5C3A0F848183A335276AE54E_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[2] = {0};
-	__d_args[0] = Box(IdPair_2_t416B5C525EF9231F5C3A0F848183A335276AE54E_il2cpp_TypeInfo_var, &___obj0);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);;
-}
-// System.Void System.Action`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<System.UInt64Enum,System.Object>>::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_EndInvoke_m9A4176984A395DFCB8FC2C06D13A9D34DF1DE8FA_gshared (Action_1_tFD99F0B1DAC3E9DDB70C7F339F98AEF1FEB152AF * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
-{
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Void System.Action`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.Object>>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m974F813CC375A0EDD87F1FEE0B4679D121EA58F4_gshared (Action_1_tE9B8FB7D6B8EE48949424BC36924F45C2CCF6422 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
@@ -45385,123 +44812,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Action_1_BeginInvoke_mF282F47F
 }
 // System.Void System.Action`1<Microsoft.MixedReality.WorldLocking.Core.Triangulator.SimpleTriangulator/Triangle>::EndInvoke(System.IAsyncResult)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_EndInvoke_mB717D45655B86121679075D4BAE6506C1BBCAA81_gshared (Action_1_t4532AB03C3F15C8086E1C6AEC3A69C9946DF375A * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
-{
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void System.Action`1<Microsoft.MixedReality.WorldLocking.Tools.SpacePinMeshVisualizer/IndexedTriangle>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mAE7775CCEE696A800DBBCDEBB5D5ED7386EAFBBF_gshared (Action_1_t5B1510881E31FFF8B60A5790BFEE72ED741A83B5 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	if (___object0 == NULL && !MethodIsStatic((RuntimeMethod*)___method1))
-	{
-		il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
-	}
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// System.Void System.Action`1<Microsoft.MixedReality.WorldLocking.Tools.SpacePinMeshVisualizer/IndexedTriangle>::Invoke(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_mE65E8B59469F6BE8632A039ABD6601B3E88D141F_gshared (Action_1_t5B1510881E31FFF8B60A5790BFEE72ED741A83B5 * __this, IndexedTriangle_t08CE587717E4C1CBD0F71C0F410904C56B092D8B  ___obj0, const RuntimeMethod* method)
-{
-	DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 1)
-			{
-				// open
-				typedef void (*FunctionPointerType) (IndexedTriangle_t08CE587717E4C1CBD0F71C0F410904C56B092D8B , const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(___obj0, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef void (*FunctionPointerType) (void*, IndexedTriangle_t08CE587717E4C1CBD0F71C0F410904C56B092D8B , const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(targetThis, ___obj0, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						GenericInterfaceActionInvoker1< IndexedTriangle_t08CE587717E4C1CBD0F71C0F410904C56B092D8B  >::Invoke(targetMethod, targetThis, ___obj0);
-					else
-						GenericVirtActionInvoker1< IndexedTriangle_t08CE587717E4C1CBD0F71C0F410904C56B092D8B  >::Invoke(targetMethod, targetThis, ___obj0);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						InterfaceActionInvoker1< IndexedTriangle_t08CE587717E4C1CBD0F71C0F410904C56B092D8B  >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___obj0);
-					else
-						VirtActionInvoker1< IndexedTriangle_t08CE587717E4C1CBD0F71C0F410904C56B092D8B  >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___obj0);
-				}
-			}
-			else
-			{
-				if (___parameterCount == 0)
-				{
-					typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
-					((FunctionPointerType)targetMethodPointer)((RuntimeObject*)(reinterpret_cast<RuntimeObject*>(&___obj0) - 1), targetMethod);
-				}
-				else
-				{
-					typedef void (*FunctionPointerType) (void*, IndexedTriangle_t08CE587717E4C1CBD0F71C0F410904C56B092D8B , const RuntimeMethod*);
-					((FunctionPointerType)targetMethodPointer)(targetThis, ___obj0, targetMethod);
-				}
-			}
-		}
-	}
-}
-// System.IAsyncResult System.Action`1<Microsoft.MixedReality.WorldLocking.Tools.SpacePinMeshVisualizer/IndexedTriangle>::BeginInvoke(T,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Action_1_BeginInvoke_m7E1BC75F134879D6DCD5AD44B367DC14C740D4DF_gshared (Action_1_t5B1510881E31FFF8B60A5790BFEE72ED741A83B5 * __this, IndexedTriangle_t08CE587717E4C1CBD0F71C0F410904C56B092D8B  ___obj0, AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * ___callback1, RuntimeObject * ___object2, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IndexedTriangle_t08CE587717E4C1CBD0F71C0F410904C56B092D8B_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[2] = {0};
-	__d_args[0] = Box(IndexedTriangle_t08CE587717E4C1CBD0F71C0F410904C56B092D8B_il2cpp_TypeInfo_var, &___obj0);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);;
-}
-// System.Void System.Action`1<Microsoft.MixedReality.WorldLocking.Tools.SpacePinMeshVisualizer/IndexedTriangle>::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_EndInvoke_m757A19ECF83B940B11651F277FB0775DC29A9638_gshared (Action_1_t5B1510881E31FFF8B60A5790BFEE72ED741A83B5 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 }

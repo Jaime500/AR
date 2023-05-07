@@ -2182,68 +2182,68 @@ struct Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827  : public RuntimeObjec
 {
 public:
 	// System.Int32 System.Text.Encoding::m_codePage
-	int32_t ___m_codePage_55;
+	int32_t ___m_codePage_9;
 	// System.Globalization.CodePageDataItem System.Text.Encoding::dataItem
-	CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E * ___dataItem_56;
+	CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E * ___dataItem_10;
 	// System.Boolean System.Text.Encoding::m_deserializedFromEverett
-	bool ___m_deserializedFromEverett_57;
+	bool ___m_deserializedFromEverett_11;
 	// System.Boolean System.Text.Encoding::m_isReadOnly
-	bool ___m_isReadOnly_58;
+	bool ___m_isReadOnly_12;
 	// System.Text.EncoderFallback System.Text.Encoding::encoderFallback
-	EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 * ___encoderFallback_59;
+	EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 * ___encoderFallback_13;
 	// System.Text.DecoderFallback System.Text.Encoding::decoderFallback
-	DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D * ___decoderFallback_60;
+	DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D * ___decoderFallback_14;
 
 public:
-	inline static int32_t get_offset_of_m_codePage_55() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___m_codePage_55)); }
-	inline int32_t get_m_codePage_55() const { return ___m_codePage_55; }
-	inline int32_t* get_address_of_m_codePage_55() { return &___m_codePage_55; }
-	inline void set_m_codePage_55(int32_t value)
+	inline static int32_t get_offset_of_m_codePage_9() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___m_codePage_9)); }
+	inline int32_t get_m_codePage_9() const { return ___m_codePage_9; }
+	inline int32_t* get_address_of_m_codePage_9() { return &___m_codePage_9; }
+	inline void set_m_codePage_9(int32_t value)
 	{
-		___m_codePage_55 = value;
+		___m_codePage_9 = value;
 	}
 
-	inline static int32_t get_offset_of_dataItem_56() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___dataItem_56)); }
-	inline CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E * get_dataItem_56() const { return ___dataItem_56; }
-	inline CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E ** get_address_of_dataItem_56() { return &___dataItem_56; }
-	inline void set_dataItem_56(CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E * value)
+	inline static int32_t get_offset_of_dataItem_10() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___dataItem_10)); }
+	inline CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E * get_dataItem_10() const { return ___dataItem_10; }
+	inline CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E ** get_address_of_dataItem_10() { return &___dataItem_10; }
+	inline void set_dataItem_10(CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E * value)
 	{
-		___dataItem_56 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___dataItem_56), (void*)value);
+		___dataItem_10 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___dataItem_10), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_m_deserializedFromEverett_57() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___m_deserializedFromEverett_57)); }
-	inline bool get_m_deserializedFromEverett_57() const { return ___m_deserializedFromEverett_57; }
-	inline bool* get_address_of_m_deserializedFromEverett_57() { return &___m_deserializedFromEverett_57; }
-	inline void set_m_deserializedFromEverett_57(bool value)
+	inline static int32_t get_offset_of_m_deserializedFromEverett_11() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___m_deserializedFromEverett_11)); }
+	inline bool get_m_deserializedFromEverett_11() const { return ___m_deserializedFromEverett_11; }
+	inline bool* get_address_of_m_deserializedFromEverett_11() { return &___m_deserializedFromEverett_11; }
+	inline void set_m_deserializedFromEverett_11(bool value)
 	{
-		___m_deserializedFromEverett_57 = value;
+		___m_deserializedFromEverett_11 = value;
 	}
 
-	inline static int32_t get_offset_of_m_isReadOnly_58() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___m_isReadOnly_58)); }
-	inline bool get_m_isReadOnly_58() const { return ___m_isReadOnly_58; }
-	inline bool* get_address_of_m_isReadOnly_58() { return &___m_isReadOnly_58; }
-	inline void set_m_isReadOnly_58(bool value)
+	inline static int32_t get_offset_of_m_isReadOnly_12() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___m_isReadOnly_12)); }
+	inline bool get_m_isReadOnly_12() const { return ___m_isReadOnly_12; }
+	inline bool* get_address_of_m_isReadOnly_12() { return &___m_isReadOnly_12; }
+	inline void set_m_isReadOnly_12(bool value)
 	{
-		___m_isReadOnly_58 = value;
+		___m_isReadOnly_12 = value;
 	}
 
-	inline static int32_t get_offset_of_encoderFallback_59() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___encoderFallback_59)); }
-	inline EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 * get_encoderFallback_59() const { return ___encoderFallback_59; }
-	inline EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 ** get_address_of_encoderFallback_59() { return &___encoderFallback_59; }
-	inline void set_encoderFallback_59(EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 * value)
+	inline static int32_t get_offset_of_encoderFallback_13() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___encoderFallback_13)); }
+	inline EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 * get_encoderFallback_13() const { return ___encoderFallback_13; }
+	inline EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 ** get_address_of_encoderFallback_13() { return &___encoderFallback_13; }
+	inline void set_encoderFallback_13(EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 * value)
 	{
-		___encoderFallback_59 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___encoderFallback_59), (void*)value);
+		___encoderFallback_13 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___encoderFallback_13), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_decoderFallback_60() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___decoderFallback_60)); }
-	inline DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D * get_decoderFallback_60() const { return ___decoderFallback_60; }
-	inline DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D ** get_address_of_decoderFallback_60() { return &___decoderFallback_60; }
-	inline void set_decoderFallback_60(DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D * value)
+	inline static int32_t get_offset_of_decoderFallback_14() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___decoderFallback_14)); }
+	inline DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D * get_decoderFallback_14() const { return ___decoderFallback_14; }
+	inline DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D ** get_address_of_decoderFallback_14() { return &___decoderFallback_14; }
+	inline void set_decoderFallback_14(DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D * value)
 	{
-		___decoderFallback_60 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___decoderFallback_60), (void*)value);
+		___decoderFallback_14 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___decoderFallback_14), (void*)value);
 	}
 };
 
@@ -4913,27 +4913,27 @@ struct Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB  : public MarshalByRefOb
 {
 public:
 	// System.IO.Stream/ReadWriteTask System.IO.Stream::_activeReadWriteTask
-	ReadWriteTask_t32CD2C230786712954C1DB518DBE420A1F4C7974 * ____activeReadWriteTask_3;
+	ReadWriteTask_t32CD2C230786712954C1DB518DBE420A1F4C7974 * ____activeReadWriteTask_2;
 	// System.Threading.SemaphoreSlim System.IO.Stream::_asyncActiveSemaphore
-	SemaphoreSlim_t3EF85FC980AE57957BEBB6B78E81DE2E3233D385 * ____asyncActiveSemaphore_4;
+	SemaphoreSlim_t3EF85FC980AE57957BEBB6B78E81DE2E3233D385 * ____asyncActiveSemaphore_3;
 
 public:
-	inline static int32_t get_offset_of__activeReadWriteTask_3() { return static_cast<int32_t>(offsetof(Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB, ____activeReadWriteTask_3)); }
-	inline ReadWriteTask_t32CD2C230786712954C1DB518DBE420A1F4C7974 * get__activeReadWriteTask_3() const { return ____activeReadWriteTask_3; }
-	inline ReadWriteTask_t32CD2C230786712954C1DB518DBE420A1F4C7974 ** get_address_of__activeReadWriteTask_3() { return &____activeReadWriteTask_3; }
-	inline void set__activeReadWriteTask_3(ReadWriteTask_t32CD2C230786712954C1DB518DBE420A1F4C7974 * value)
+	inline static int32_t get_offset_of__activeReadWriteTask_2() { return static_cast<int32_t>(offsetof(Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB, ____activeReadWriteTask_2)); }
+	inline ReadWriteTask_t32CD2C230786712954C1DB518DBE420A1F4C7974 * get__activeReadWriteTask_2() const { return ____activeReadWriteTask_2; }
+	inline ReadWriteTask_t32CD2C230786712954C1DB518DBE420A1F4C7974 ** get_address_of__activeReadWriteTask_2() { return &____activeReadWriteTask_2; }
+	inline void set__activeReadWriteTask_2(ReadWriteTask_t32CD2C230786712954C1DB518DBE420A1F4C7974 * value)
 	{
-		____activeReadWriteTask_3 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____activeReadWriteTask_3), (void*)value);
+		____activeReadWriteTask_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____activeReadWriteTask_2), (void*)value);
 	}
 
-	inline static int32_t get_offset_of__asyncActiveSemaphore_4() { return static_cast<int32_t>(offsetof(Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB, ____asyncActiveSemaphore_4)); }
-	inline SemaphoreSlim_t3EF85FC980AE57957BEBB6B78E81DE2E3233D385 * get__asyncActiveSemaphore_4() const { return ____asyncActiveSemaphore_4; }
-	inline SemaphoreSlim_t3EF85FC980AE57957BEBB6B78E81DE2E3233D385 ** get_address_of__asyncActiveSemaphore_4() { return &____asyncActiveSemaphore_4; }
-	inline void set__asyncActiveSemaphore_4(SemaphoreSlim_t3EF85FC980AE57957BEBB6B78E81DE2E3233D385 * value)
+	inline static int32_t get_offset_of__asyncActiveSemaphore_3() { return static_cast<int32_t>(offsetof(Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB, ____asyncActiveSemaphore_3)); }
+	inline SemaphoreSlim_t3EF85FC980AE57957BEBB6B78E81DE2E3233D385 * get__asyncActiveSemaphore_3() const { return ____asyncActiveSemaphore_3; }
+	inline SemaphoreSlim_t3EF85FC980AE57957BEBB6B78E81DE2E3233D385 ** get_address_of__asyncActiveSemaphore_3() { return &____asyncActiveSemaphore_3; }
+	inline void set__asyncActiveSemaphore_3(SemaphoreSlim_t3EF85FC980AE57957BEBB6B78E81DE2E3233D385 * value)
 	{
-		____asyncActiveSemaphore_4 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____asyncActiveSemaphore_4), (void*)value);
+		____asyncActiveSemaphore_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____asyncActiveSemaphore_3), (void*)value);
 	}
 };
 
@@ -5627,26 +5627,26 @@ struct AuthenticatedStream_t792DA994D6AAC4A102749A9530E95D8F049BF608  : public S
 {
 public:
 	// System.IO.Stream System.Net.Security.AuthenticatedStream::_InnerStream
-	Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * ____InnerStream_5;
+	Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * ____InnerStream_4;
 	// System.Boolean System.Net.Security.AuthenticatedStream::_LeaveStreamOpen
-	bool ____LeaveStreamOpen_6;
+	bool ____LeaveStreamOpen_5;
 
 public:
-	inline static int32_t get_offset_of__InnerStream_5() { return static_cast<int32_t>(offsetof(AuthenticatedStream_t792DA994D6AAC4A102749A9530E95D8F049BF608, ____InnerStream_5)); }
-	inline Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * get__InnerStream_5() const { return ____InnerStream_5; }
-	inline Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB ** get_address_of__InnerStream_5() { return &____InnerStream_5; }
-	inline void set__InnerStream_5(Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * value)
+	inline static int32_t get_offset_of__InnerStream_4() { return static_cast<int32_t>(offsetof(AuthenticatedStream_t792DA994D6AAC4A102749A9530E95D8F049BF608, ____InnerStream_4)); }
+	inline Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * get__InnerStream_4() const { return ____InnerStream_4; }
+	inline Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB ** get_address_of__InnerStream_4() { return &____InnerStream_4; }
+	inline void set__InnerStream_4(Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * value)
 	{
-		____InnerStream_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____InnerStream_5), (void*)value);
+		____InnerStream_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____InnerStream_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of__LeaveStreamOpen_6() { return static_cast<int32_t>(offsetof(AuthenticatedStream_t792DA994D6AAC4A102749A9530E95D8F049BF608, ____LeaveStreamOpen_6)); }
-	inline bool get__LeaveStreamOpen_6() const { return ____LeaveStreamOpen_6; }
-	inline bool* get_address_of__LeaveStreamOpen_6() { return &____LeaveStreamOpen_6; }
-	inline void set__LeaveStreamOpen_6(bool value)
+	inline static int32_t get_offset_of__LeaveStreamOpen_5() { return static_cast<int32_t>(offsetof(AuthenticatedStream_t792DA994D6AAC4A102749A9530E95D8F049BF608, ____LeaveStreamOpen_5)); }
+	inline bool get__LeaveStreamOpen_5() const { return ____LeaveStreamOpen_5; }
+	inline bool* get_address_of__LeaveStreamOpen_5() { return &____LeaveStreamOpen_5; }
+	inline void set__LeaveStreamOpen_5(bool value)
 	{
-		____LeaveStreamOpen_6 = value;
+		____LeaveStreamOpen_5 = value;
 	}
 };
 
@@ -6256,57 +6256,57 @@ struct FtpDataStream_t8D77868ECA7AFC1A74A996CADD50D0E0B40ACFB0  : public Stream_
 {
 public:
 	// System.Net.FtpWebRequest System.Net.FtpDataStream::request
-	FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * ___request_5;
+	FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * ___request_4;
 	// System.IO.Stream System.Net.FtpDataStream::networkStream
-	Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * ___networkStream_6;
+	Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * ___networkStream_5;
 	// System.Boolean System.Net.FtpDataStream::disposed
-	bool ___disposed_7;
+	bool ___disposed_6;
 	// System.Boolean System.Net.FtpDataStream::isRead
-	bool ___isRead_8;
+	bool ___isRead_7;
 	// System.Int32 System.Net.FtpDataStream::totalRead
-	int32_t ___totalRead_9;
+	int32_t ___totalRead_8;
 
 public:
-	inline static int32_t get_offset_of_request_5() { return static_cast<int32_t>(offsetof(FtpDataStream_t8D77868ECA7AFC1A74A996CADD50D0E0B40ACFB0, ___request_5)); }
-	inline FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * get_request_5() const { return ___request_5; }
-	inline FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D ** get_address_of_request_5() { return &___request_5; }
-	inline void set_request_5(FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * value)
+	inline static int32_t get_offset_of_request_4() { return static_cast<int32_t>(offsetof(FtpDataStream_t8D77868ECA7AFC1A74A996CADD50D0E0B40ACFB0, ___request_4)); }
+	inline FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * get_request_4() const { return ___request_4; }
+	inline FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D ** get_address_of_request_4() { return &___request_4; }
+	inline void set_request_4(FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * value)
 	{
-		___request_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___request_5), (void*)value);
+		___request_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___request_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_networkStream_6() { return static_cast<int32_t>(offsetof(FtpDataStream_t8D77868ECA7AFC1A74A996CADD50D0E0B40ACFB0, ___networkStream_6)); }
-	inline Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * get_networkStream_6() const { return ___networkStream_6; }
-	inline Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB ** get_address_of_networkStream_6() { return &___networkStream_6; }
-	inline void set_networkStream_6(Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * value)
+	inline static int32_t get_offset_of_networkStream_5() { return static_cast<int32_t>(offsetof(FtpDataStream_t8D77868ECA7AFC1A74A996CADD50D0E0B40ACFB0, ___networkStream_5)); }
+	inline Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * get_networkStream_5() const { return ___networkStream_5; }
+	inline Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB ** get_address_of_networkStream_5() { return &___networkStream_5; }
+	inline void set_networkStream_5(Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * value)
 	{
-		___networkStream_6 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___networkStream_6), (void*)value);
+		___networkStream_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___networkStream_5), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_disposed_7() { return static_cast<int32_t>(offsetof(FtpDataStream_t8D77868ECA7AFC1A74A996CADD50D0E0B40ACFB0, ___disposed_7)); }
-	inline bool get_disposed_7() const { return ___disposed_7; }
-	inline bool* get_address_of_disposed_7() { return &___disposed_7; }
-	inline void set_disposed_7(bool value)
+	inline static int32_t get_offset_of_disposed_6() { return static_cast<int32_t>(offsetof(FtpDataStream_t8D77868ECA7AFC1A74A996CADD50D0E0B40ACFB0, ___disposed_6)); }
+	inline bool get_disposed_6() const { return ___disposed_6; }
+	inline bool* get_address_of_disposed_6() { return &___disposed_6; }
+	inline void set_disposed_6(bool value)
 	{
-		___disposed_7 = value;
+		___disposed_6 = value;
 	}
 
-	inline static int32_t get_offset_of_isRead_8() { return static_cast<int32_t>(offsetof(FtpDataStream_t8D77868ECA7AFC1A74A996CADD50D0E0B40ACFB0, ___isRead_8)); }
-	inline bool get_isRead_8() const { return ___isRead_8; }
-	inline bool* get_address_of_isRead_8() { return &___isRead_8; }
-	inline void set_isRead_8(bool value)
+	inline static int32_t get_offset_of_isRead_7() { return static_cast<int32_t>(offsetof(FtpDataStream_t8D77868ECA7AFC1A74A996CADD50D0E0B40ACFB0, ___isRead_7)); }
+	inline bool get_isRead_7() const { return ___isRead_7; }
+	inline bool* get_address_of_isRead_7() { return &___isRead_7; }
+	inline void set_isRead_7(bool value)
 	{
-		___isRead_8 = value;
+		___isRead_7 = value;
 	}
 
-	inline static int32_t get_offset_of_totalRead_9() { return static_cast<int32_t>(offsetof(FtpDataStream_t8D77868ECA7AFC1A74A996CADD50D0E0B40ACFB0, ___totalRead_9)); }
-	inline int32_t get_totalRead_9() const { return ___totalRead_9; }
-	inline int32_t* get_address_of_totalRead_9() { return &___totalRead_9; }
-	inline void set_totalRead_9(int32_t value)
+	inline static int32_t get_offset_of_totalRead_8() { return static_cast<int32_t>(offsetof(FtpDataStream_t8D77868ECA7AFC1A74A996CADD50D0E0B40ACFB0, ___totalRead_8)); }
+	inline int32_t get_totalRead_8() const { return ___totalRead_8; }
+	inline int32_t* get_address_of_totalRead_8() { return &___totalRead_8; }
+	inline void set_totalRead_8(int32_t value)
 	{
-		___totalRead_9 = value;
+		___totalRead_8 = value;
 	}
 };
 
@@ -6334,16 +6334,16 @@ struct GZipStream_t3C2FE429FBD114B00B7B65623757F5862196B9B6  : public Stream_t5D
 {
 public:
 	// System.IO.Compression.DeflateStream System.IO.Compression.GZipStream::_deflateStream
-	DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * ____deflateStream_5;
+	DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * ____deflateStream_4;
 
 public:
-	inline static int32_t get_offset_of__deflateStream_5() { return static_cast<int32_t>(offsetof(GZipStream_t3C2FE429FBD114B00B7B65623757F5862196B9B6, ____deflateStream_5)); }
-	inline DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * get__deflateStream_5() const { return ____deflateStream_5; }
-	inline DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 ** get_address_of__deflateStream_5() { return &____deflateStream_5; }
-	inline void set__deflateStream_5(DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * value)
+	inline static int32_t get_offset_of__deflateStream_4() { return static_cast<int32_t>(offsetof(GZipStream_t3C2FE429FBD114B00B7B65623757F5862196B9B6, ____deflateStream_4)); }
+	inline DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * get__deflateStream_4() const { return ____deflateStream_4; }
+	inline DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 ** get_address_of__deflateStream_4() { return &____deflateStream_4; }
+	inline void set__deflateStream_4(DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * value)
 	{
-		____deflateStream_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____deflateStream_5), (void*)value);
+		____deflateStream_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____deflateStream_4), (void*)value);
 	}
 };
 
@@ -6650,86 +6650,86 @@ struct NetworkStream_t160A2538024FE3EC707872435D01F1C20B3B1A48  : public Stream_
 {
 public:
 	// System.Net.Sockets.Socket System.Net.Sockets.NetworkStream::m_StreamSocket
-	Socket_tD9721140F91BE95BA05B87DD26A855B215D84D09 * ___m_StreamSocket_5;
+	Socket_tD9721140F91BE95BA05B87DD26A855B215D84D09 * ___m_StreamSocket_4;
 	// System.Boolean System.Net.Sockets.NetworkStream::m_Readable
-	bool ___m_Readable_6;
+	bool ___m_Readable_5;
 	// System.Boolean System.Net.Sockets.NetworkStream::m_Writeable
-	bool ___m_Writeable_7;
+	bool ___m_Writeable_6;
 	// System.Boolean System.Net.Sockets.NetworkStream::m_OwnsSocket
-	bool ___m_OwnsSocket_8;
+	bool ___m_OwnsSocket_7;
 	// System.Int32 System.Net.Sockets.NetworkStream::m_CloseTimeout
-	int32_t ___m_CloseTimeout_9;
+	int32_t ___m_CloseTimeout_8;
 	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Net.Sockets.NetworkStream::m_CleanedUp
-	bool ___m_CleanedUp_10;
+	bool ___m_CleanedUp_9;
 	// System.Int32 System.Net.Sockets.NetworkStream::m_CurrentReadTimeout
-	int32_t ___m_CurrentReadTimeout_11;
+	int32_t ___m_CurrentReadTimeout_10;
 	// System.Int32 System.Net.Sockets.NetworkStream::m_CurrentWriteTimeout
-	int32_t ___m_CurrentWriteTimeout_12;
+	int32_t ___m_CurrentWriteTimeout_11;
 
 public:
-	inline static int32_t get_offset_of_m_StreamSocket_5() { return static_cast<int32_t>(offsetof(NetworkStream_t160A2538024FE3EC707872435D01F1C20B3B1A48, ___m_StreamSocket_5)); }
-	inline Socket_tD9721140F91BE95BA05B87DD26A855B215D84D09 * get_m_StreamSocket_5() const { return ___m_StreamSocket_5; }
-	inline Socket_tD9721140F91BE95BA05B87DD26A855B215D84D09 ** get_address_of_m_StreamSocket_5() { return &___m_StreamSocket_5; }
-	inline void set_m_StreamSocket_5(Socket_tD9721140F91BE95BA05B87DD26A855B215D84D09 * value)
+	inline static int32_t get_offset_of_m_StreamSocket_4() { return static_cast<int32_t>(offsetof(NetworkStream_t160A2538024FE3EC707872435D01F1C20B3B1A48, ___m_StreamSocket_4)); }
+	inline Socket_tD9721140F91BE95BA05B87DD26A855B215D84D09 * get_m_StreamSocket_4() const { return ___m_StreamSocket_4; }
+	inline Socket_tD9721140F91BE95BA05B87DD26A855B215D84D09 ** get_address_of_m_StreamSocket_4() { return &___m_StreamSocket_4; }
+	inline void set_m_StreamSocket_4(Socket_tD9721140F91BE95BA05B87DD26A855B215D84D09 * value)
 	{
-		___m_StreamSocket_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___m_StreamSocket_5), (void*)value);
+		___m_StreamSocket_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_StreamSocket_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_m_Readable_6() { return static_cast<int32_t>(offsetof(NetworkStream_t160A2538024FE3EC707872435D01F1C20B3B1A48, ___m_Readable_6)); }
-	inline bool get_m_Readable_6() const { return ___m_Readable_6; }
-	inline bool* get_address_of_m_Readable_6() { return &___m_Readable_6; }
-	inline void set_m_Readable_6(bool value)
+	inline static int32_t get_offset_of_m_Readable_5() { return static_cast<int32_t>(offsetof(NetworkStream_t160A2538024FE3EC707872435D01F1C20B3B1A48, ___m_Readable_5)); }
+	inline bool get_m_Readable_5() const { return ___m_Readable_5; }
+	inline bool* get_address_of_m_Readable_5() { return &___m_Readable_5; }
+	inline void set_m_Readable_5(bool value)
 	{
-		___m_Readable_6 = value;
+		___m_Readable_5 = value;
 	}
 
-	inline static int32_t get_offset_of_m_Writeable_7() { return static_cast<int32_t>(offsetof(NetworkStream_t160A2538024FE3EC707872435D01F1C20B3B1A48, ___m_Writeable_7)); }
-	inline bool get_m_Writeable_7() const { return ___m_Writeable_7; }
-	inline bool* get_address_of_m_Writeable_7() { return &___m_Writeable_7; }
-	inline void set_m_Writeable_7(bool value)
+	inline static int32_t get_offset_of_m_Writeable_6() { return static_cast<int32_t>(offsetof(NetworkStream_t160A2538024FE3EC707872435D01F1C20B3B1A48, ___m_Writeable_6)); }
+	inline bool get_m_Writeable_6() const { return ___m_Writeable_6; }
+	inline bool* get_address_of_m_Writeable_6() { return &___m_Writeable_6; }
+	inline void set_m_Writeable_6(bool value)
 	{
-		___m_Writeable_7 = value;
+		___m_Writeable_6 = value;
 	}
 
-	inline static int32_t get_offset_of_m_OwnsSocket_8() { return static_cast<int32_t>(offsetof(NetworkStream_t160A2538024FE3EC707872435D01F1C20B3B1A48, ___m_OwnsSocket_8)); }
-	inline bool get_m_OwnsSocket_8() const { return ___m_OwnsSocket_8; }
-	inline bool* get_address_of_m_OwnsSocket_8() { return &___m_OwnsSocket_8; }
-	inline void set_m_OwnsSocket_8(bool value)
+	inline static int32_t get_offset_of_m_OwnsSocket_7() { return static_cast<int32_t>(offsetof(NetworkStream_t160A2538024FE3EC707872435D01F1C20B3B1A48, ___m_OwnsSocket_7)); }
+	inline bool get_m_OwnsSocket_7() const { return ___m_OwnsSocket_7; }
+	inline bool* get_address_of_m_OwnsSocket_7() { return &___m_OwnsSocket_7; }
+	inline void set_m_OwnsSocket_7(bool value)
 	{
-		___m_OwnsSocket_8 = value;
+		___m_OwnsSocket_7 = value;
 	}
 
-	inline static int32_t get_offset_of_m_CloseTimeout_9() { return static_cast<int32_t>(offsetof(NetworkStream_t160A2538024FE3EC707872435D01F1C20B3B1A48, ___m_CloseTimeout_9)); }
-	inline int32_t get_m_CloseTimeout_9() const { return ___m_CloseTimeout_9; }
-	inline int32_t* get_address_of_m_CloseTimeout_9() { return &___m_CloseTimeout_9; }
-	inline void set_m_CloseTimeout_9(int32_t value)
+	inline static int32_t get_offset_of_m_CloseTimeout_8() { return static_cast<int32_t>(offsetof(NetworkStream_t160A2538024FE3EC707872435D01F1C20B3B1A48, ___m_CloseTimeout_8)); }
+	inline int32_t get_m_CloseTimeout_8() const { return ___m_CloseTimeout_8; }
+	inline int32_t* get_address_of_m_CloseTimeout_8() { return &___m_CloseTimeout_8; }
+	inline void set_m_CloseTimeout_8(int32_t value)
 	{
-		___m_CloseTimeout_9 = value;
+		___m_CloseTimeout_8 = value;
 	}
 
-	inline static int32_t get_offset_of_m_CleanedUp_10() { return static_cast<int32_t>(offsetof(NetworkStream_t160A2538024FE3EC707872435D01F1C20B3B1A48, ___m_CleanedUp_10)); }
-	inline bool get_m_CleanedUp_10() const { return ___m_CleanedUp_10; }
-	inline bool* get_address_of_m_CleanedUp_10() { return &___m_CleanedUp_10; }
-	inline void set_m_CleanedUp_10(bool value)
+	inline static int32_t get_offset_of_m_CleanedUp_9() { return static_cast<int32_t>(offsetof(NetworkStream_t160A2538024FE3EC707872435D01F1C20B3B1A48, ___m_CleanedUp_9)); }
+	inline bool get_m_CleanedUp_9() const { return ___m_CleanedUp_9; }
+	inline bool* get_address_of_m_CleanedUp_9() { return &___m_CleanedUp_9; }
+	inline void set_m_CleanedUp_9(bool value)
 	{
-		___m_CleanedUp_10 = value;
+		___m_CleanedUp_9 = value;
 	}
 
-	inline static int32_t get_offset_of_m_CurrentReadTimeout_11() { return static_cast<int32_t>(offsetof(NetworkStream_t160A2538024FE3EC707872435D01F1C20B3B1A48, ___m_CurrentReadTimeout_11)); }
-	inline int32_t get_m_CurrentReadTimeout_11() const { return ___m_CurrentReadTimeout_11; }
-	inline int32_t* get_address_of_m_CurrentReadTimeout_11() { return &___m_CurrentReadTimeout_11; }
-	inline void set_m_CurrentReadTimeout_11(int32_t value)
+	inline static int32_t get_offset_of_m_CurrentReadTimeout_10() { return static_cast<int32_t>(offsetof(NetworkStream_t160A2538024FE3EC707872435D01F1C20B3B1A48, ___m_CurrentReadTimeout_10)); }
+	inline int32_t get_m_CurrentReadTimeout_10() const { return ___m_CurrentReadTimeout_10; }
+	inline int32_t* get_address_of_m_CurrentReadTimeout_10() { return &___m_CurrentReadTimeout_10; }
+	inline void set_m_CurrentReadTimeout_10(int32_t value)
 	{
-		___m_CurrentReadTimeout_11 = value;
+		___m_CurrentReadTimeout_10 = value;
 	}
 
-	inline static int32_t get_offset_of_m_CurrentWriteTimeout_12() { return static_cast<int32_t>(offsetof(NetworkStream_t160A2538024FE3EC707872435D01F1C20B3B1A48, ___m_CurrentWriteTimeout_12)); }
-	inline int32_t get_m_CurrentWriteTimeout_12() const { return ___m_CurrentWriteTimeout_12; }
-	inline int32_t* get_address_of_m_CurrentWriteTimeout_12() { return &___m_CurrentWriteTimeout_12; }
-	inline void set_m_CurrentWriteTimeout_12(int32_t value)
+	inline static int32_t get_offset_of_m_CurrentWriteTimeout_11() { return static_cast<int32_t>(offsetof(NetworkStream_t160A2538024FE3EC707872435D01F1C20B3B1A48, ___m_CurrentWriteTimeout_11)); }
+	inline int32_t get_m_CurrentWriteTimeout_11() const { return ___m_CurrentWriteTimeout_11; }
+	inline int32_t* get_address_of_m_CurrentWriteTimeout_11() { return &___m_CurrentWriteTimeout_11; }
+	inline void set_m_CurrentWriteTimeout_11(int32_t value)
 	{
-		___m_CurrentWriteTimeout_12 = value;
+		___m_CurrentWriteTimeout_11 = value;
 	}
 };
 
@@ -7734,110 +7734,110 @@ struct WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918  : public S
 {
 public:
 	// System.Boolean System.Net.WebConnectionStream::closed
-	bool ___closed_5;
+	bool ___closed_4;
 	// System.Boolean System.Net.WebConnectionStream::disposed
-	bool ___disposed_6;
+	bool ___disposed_5;
 	// System.Object System.Net.WebConnectionStream::locker
-	RuntimeObject * ___locker_7;
+	RuntimeObject * ___locker_6;
 	// System.Int32 System.Net.WebConnectionStream::read_timeout
-	int32_t ___read_timeout_8;
+	int32_t ___read_timeout_7;
 	// System.Int32 System.Net.WebConnectionStream::write_timeout
-	int32_t ___write_timeout_9;
+	int32_t ___write_timeout_8;
 	// System.Boolean System.Net.WebConnectionStream::IgnoreIOErrors
-	bool ___IgnoreIOErrors_10;
+	bool ___IgnoreIOErrors_9;
 	// System.Net.HttpWebRequest System.Net.WebConnectionStream::<Request>k__BackingField
-	HttpWebRequest_tDF8F794F1E3A8A19A63C2B57C1A28A42698BF07A * ___U3CRequestU3Ek__BackingField_11;
+	HttpWebRequest_tDF8F794F1E3A8A19A63C2B57C1A28A42698BF07A * ___U3CRequestU3Ek__BackingField_10;
 	// System.Net.WebConnection System.Net.WebConnectionStream::<Connection>k__BackingField
-	WebConnection_tBFE079FE6CA946AE000FE257DD8FE6F898BB3C88 * ___U3CConnectionU3Ek__BackingField_12;
+	WebConnection_tBFE079FE6CA946AE000FE257DD8FE6F898BB3C88 * ___U3CConnectionU3Ek__BackingField_11;
 	// System.Net.WebOperation System.Net.WebConnectionStream::<Operation>k__BackingField
-	WebOperation_tA657473A4429C6E434B401D4BF98A8654E5B3E00 * ___U3COperationU3Ek__BackingField_13;
+	WebOperation_tA657473A4429C6E434B401D4BF98A8654E5B3E00 * ___U3COperationU3Ek__BackingField_12;
 	// System.IO.Stream System.Net.WebConnectionStream::<InnerStream>k__BackingField
-	Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * ___U3CInnerStreamU3Ek__BackingField_14;
+	Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * ___U3CInnerStreamU3Ek__BackingField_13;
 
 public:
-	inline static int32_t get_offset_of_closed_5() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___closed_5)); }
-	inline bool get_closed_5() const { return ___closed_5; }
-	inline bool* get_address_of_closed_5() { return &___closed_5; }
-	inline void set_closed_5(bool value)
+	inline static int32_t get_offset_of_closed_4() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___closed_4)); }
+	inline bool get_closed_4() const { return ___closed_4; }
+	inline bool* get_address_of_closed_4() { return &___closed_4; }
+	inline void set_closed_4(bool value)
 	{
-		___closed_5 = value;
+		___closed_4 = value;
 	}
 
-	inline static int32_t get_offset_of_disposed_6() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___disposed_6)); }
-	inline bool get_disposed_6() const { return ___disposed_6; }
-	inline bool* get_address_of_disposed_6() { return &___disposed_6; }
-	inline void set_disposed_6(bool value)
+	inline static int32_t get_offset_of_disposed_5() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___disposed_5)); }
+	inline bool get_disposed_5() const { return ___disposed_5; }
+	inline bool* get_address_of_disposed_5() { return &___disposed_5; }
+	inline void set_disposed_5(bool value)
 	{
-		___disposed_6 = value;
+		___disposed_5 = value;
 	}
 
-	inline static int32_t get_offset_of_locker_7() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___locker_7)); }
-	inline RuntimeObject * get_locker_7() const { return ___locker_7; }
-	inline RuntimeObject ** get_address_of_locker_7() { return &___locker_7; }
-	inline void set_locker_7(RuntimeObject * value)
+	inline static int32_t get_offset_of_locker_6() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___locker_6)); }
+	inline RuntimeObject * get_locker_6() const { return ___locker_6; }
+	inline RuntimeObject ** get_address_of_locker_6() { return &___locker_6; }
+	inline void set_locker_6(RuntimeObject * value)
 	{
-		___locker_7 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___locker_7), (void*)value);
+		___locker_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___locker_6), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_read_timeout_8() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___read_timeout_8)); }
-	inline int32_t get_read_timeout_8() const { return ___read_timeout_8; }
-	inline int32_t* get_address_of_read_timeout_8() { return &___read_timeout_8; }
-	inline void set_read_timeout_8(int32_t value)
+	inline static int32_t get_offset_of_read_timeout_7() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___read_timeout_7)); }
+	inline int32_t get_read_timeout_7() const { return ___read_timeout_7; }
+	inline int32_t* get_address_of_read_timeout_7() { return &___read_timeout_7; }
+	inline void set_read_timeout_7(int32_t value)
 	{
-		___read_timeout_8 = value;
+		___read_timeout_7 = value;
 	}
 
-	inline static int32_t get_offset_of_write_timeout_9() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___write_timeout_9)); }
-	inline int32_t get_write_timeout_9() const { return ___write_timeout_9; }
-	inline int32_t* get_address_of_write_timeout_9() { return &___write_timeout_9; }
-	inline void set_write_timeout_9(int32_t value)
+	inline static int32_t get_offset_of_write_timeout_8() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___write_timeout_8)); }
+	inline int32_t get_write_timeout_8() const { return ___write_timeout_8; }
+	inline int32_t* get_address_of_write_timeout_8() { return &___write_timeout_8; }
+	inline void set_write_timeout_8(int32_t value)
 	{
-		___write_timeout_9 = value;
+		___write_timeout_8 = value;
 	}
 
-	inline static int32_t get_offset_of_IgnoreIOErrors_10() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___IgnoreIOErrors_10)); }
-	inline bool get_IgnoreIOErrors_10() const { return ___IgnoreIOErrors_10; }
-	inline bool* get_address_of_IgnoreIOErrors_10() { return &___IgnoreIOErrors_10; }
-	inline void set_IgnoreIOErrors_10(bool value)
+	inline static int32_t get_offset_of_IgnoreIOErrors_9() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___IgnoreIOErrors_9)); }
+	inline bool get_IgnoreIOErrors_9() const { return ___IgnoreIOErrors_9; }
+	inline bool* get_address_of_IgnoreIOErrors_9() { return &___IgnoreIOErrors_9; }
+	inline void set_IgnoreIOErrors_9(bool value)
 	{
-		___IgnoreIOErrors_10 = value;
+		___IgnoreIOErrors_9 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CRequestU3Ek__BackingField_11() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___U3CRequestU3Ek__BackingField_11)); }
-	inline HttpWebRequest_tDF8F794F1E3A8A19A63C2B57C1A28A42698BF07A * get_U3CRequestU3Ek__BackingField_11() const { return ___U3CRequestU3Ek__BackingField_11; }
-	inline HttpWebRequest_tDF8F794F1E3A8A19A63C2B57C1A28A42698BF07A ** get_address_of_U3CRequestU3Ek__BackingField_11() { return &___U3CRequestU3Ek__BackingField_11; }
-	inline void set_U3CRequestU3Ek__BackingField_11(HttpWebRequest_tDF8F794F1E3A8A19A63C2B57C1A28A42698BF07A * value)
+	inline static int32_t get_offset_of_U3CRequestU3Ek__BackingField_10() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___U3CRequestU3Ek__BackingField_10)); }
+	inline HttpWebRequest_tDF8F794F1E3A8A19A63C2B57C1A28A42698BF07A * get_U3CRequestU3Ek__BackingField_10() const { return ___U3CRequestU3Ek__BackingField_10; }
+	inline HttpWebRequest_tDF8F794F1E3A8A19A63C2B57C1A28A42698BF07A ** get_address_of_U3CRequestU3Ek__BackingField_10() { return &___U3CRequestU3Ek__BackingField_10; }
+	inline void set_U3CRequestU3Ek__BackingField_10(HttpWebRequest_tDF8F794F1E3A8A19A63C2B57C1A28A42698BF07A * value)
 	{
-		___U3CRequestU3Ek__BackingField_11 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CRequestU3Ek__BackingField_11), (void*)value);
+		___U3CRequestU3Ek__BackingField_10 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CRequestU3Ek__BackingField_10), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CConnectionU3Ek__BackingField_12() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___U3CConnectionU3Ek__BackingField_12)); }
-	inline WebConnection_tBFE079FE6CA946AE000FE257DD8FE6F898BB3C88 * get_U3CConnectionU3Ek__BackingField_12() const { return ___U3CConnectionU3Ek__BackingField_12; }
-	inline WebConnection_tBFE079FE6CA946AE000FE257DD8FE6F898BB3C88 ** get_address_of_U3CConnectionU3Ek__BackingField_12() { return &___U3CConnectionU3Ek__BackingField_12; }
-	inline void set_U3CConnectionU3Ek__BackingField_12(WebConnection_tBFE079FE6CA946AE000FE257DD8FE6F898BB3C88 * value)
+	inline static int32_t get_offset_of_U3CConnectionU3Ek__BackingField_11() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___U3CConnectionU3Ek__BackingField_11)); }
+	inline WebConnection_tBFE079FE6CA946AE000FE257DD8FE6F898BB3C88 * get_U3CConnectionU3Ek__BackingField_11() const { return ___U3CConnectionU3Ek__BackingField_11; }
+	inline WebConnection_tBFE079FE6CA946AE000FE257DD8FE6F898BB3C88 ** get_address_of_U3CConnectionU3Ek__BackingField_11() { return &___U3CConnectionU3Ek__BackingField_11; }
+	inline void set_U3CConnectionU3Ek__BackingField_11(WebConnection_tBFE079FE6CA946AE000FE257DD8FE6F898BB3C88 * value)
 	{
-		___U3CConnectionU3Ek__BackingField_12 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CConnectionU3Ek__BackingField_12), (void*)value);
+		___U3CConnectionU3Ek__BackingField_11 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CConnectionU3Ek__BackingField_11), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3COperationU3Ek__BackingField_13() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___U3COperationU3Ek__BackingField_13)); }
-	inline WebOperation_tA657473A4429C6E434B401D4BF98A8654E5B3E00 * get_U3COperationU3Ek__BackingField_13() const { return ___U3COperationU3Ek__BackingField_13; }
-	inline WebOperation_tA657473A4429C6E434B401D4BF98A8654E5B3E00 ** get_address_of_U3COperationU3Ek__BackingField_13() { return &___U3COperationU3Ek__BackingField_13; }
-	inline void set_U3COperationU3Ek__BackingField_13(WebOperation_tA657473A4429C6E434B401D4BF98A8654E5B3E00 * value)
+	inline static int32_t get_offset_of_U3COperationU3Ek__BackingField_12() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___U3COperationU3Ek__BackingField_12)); }
+	inline WebOperation_tA657473A4429C6E434B401D4BF98A8654E5B3E00 * get_U3COperationU3Ek__BackingField_12() const { return ___U3COperationU3Ek__BackingField_12; }
+	inline WebOperation_tA657473A4429C6E434B401D4BF98A8654E5B3E00 ** get_address_of_U3COperationU3Ek__BackingField_12() { return &___U3COperationU3Ek__BackingField_12; }
+	inline void set_U3COperationU3Ek__BackingField_12(WebOperation_tA657473A4429C6E434B401D4BF98A8654E5B3E00 * value)
 	{
-		___U3COperationU3Ek__BackingField_13 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3COperationU3Ek__BackingField_13), (void*)value);
+		___U3COperationU3Ek__BackingField_12 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3COperationU3Ek__BackingField_12), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CInnerStreamU3Ek__BackingField_14() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___U3CInnerStreamU3Ek__BackingField_14)); }
-	inline Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * get_U3CInnerStreamU3Ek__BackingField_14() const { return ___U3CInnerStreamU3Ek__BackingField_14; }
-	inline Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB ** get_address_of_U3CInnerStreamU3Ek__BackingField_14() { return &___U3CInnerStreamU3Ek__BackingField_14; }
-	inline void set_U3CInnerStreamU3Ek__BackingField_14(Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * value)
+	inline static int32_t get_offset_of_U3CInnerStreamU3Ek__BackingField_13() { return static_cast<int32_t>(offsetof(WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918, ___U3CInnerStreamU3Ek__BackingField_13)); }
+	inline Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * get_U3CInnerStreamU3Ek__BackingField_13() const { return ___U3CInnerStreamU3Ek__BackingField_13; }
+	inline Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB ** get_address_of_U3CInnerStreamU3Ek__BackingField_13() { return &___U3CInnerStreamU3Ek__BackingField_13; }
+	inline void set_U3CInnerStreamU3Ek__BackingField_13(Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * value)
 	{
-		___U3CInnerStreamU3Ek__BackingField_14 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CInnerStreamU3Ek__BackingField_14), (void*)value);
+		___U3CInnerStreamU3Ek__BackingField_13 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CInnerStreamU3Ek__BackingField_13), (void*)value);
 	}
 };
 
@@ -8552,57 +8552,57 @@ struct DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5  : public Stream_
 {
 public:
 	// System.IO.Stream System.IO.Compression.DeflateStream::base_stream
-	Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * ___base_stream_5;
+	Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * ___base_stream_4;
 	// System.IO.Compression.CompressionMode System.IO.Compression.DeflateStream::mode
-	int32_t ___mode_6;
+	int32_t ___mode_5;
 	// System.Boolean System.IO.Compression.DeflateStream::leaveOpen
-	bool ___leaveOpen_7;
+	bool ___leaveOpen_6;
 	// System.Boolean System.IO.Compression.DeflateStream::disposed
-	bool ___disposed_8;
+	bool ___disposed_7;
 	// System.IO.Compression.DeflateStreamNative System.IO.Compression.DeflateStream::native
-	DeflateStreamNative_tD3009C913258B881B44A87BC6A99C7118558A879 * ___native_9;
+	DeflateStreamNative_tD3009C913258B881B44A87BC6A99C7118558A879 * ___native_8;
 
 public:
-	inline static int32_t get_offset_of_base_stream_5() { return static_cast<int32_t>(offsetof(DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5, ___base_stream_5)); }
-	inline Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * get_base_stream_5() const { return ___base_stream_5; }
-	inline Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB ** get_address_of_base_stream_5() { return &___base_stream_5; }
-	inline void set_base_stream_5(Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * value)
+	inline static int32_t get_offset_of_base_stream_4() { return static_cast<int32_t>(offsetof(DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5, ___base_stream_4)); }
+	inline Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * get_base_stream_4() const { return ___base_stream_4; }
+	inline Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB ** get_address_of_base_stream_4() { return &___base_stream_4; }
+	inline void set_base_stream_4(Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * value)
 	{
-		___base_stream_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___base_stream_5), (void*)value);
+		___base_stream_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___base_stream_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_mode_6() { return static_cast<int32_t>(offsetof(DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5, ___mode_6)); }
-	inline int32_t get_mode_6() const { return ___mode_6; }
-	inline int32_t* get_address_of_mode_6() { return &___mode_6; }
-	inline void set_mode_6(int32_t value)
+	inline static int32_t get_offset_of_mode_5() { return static_cast<int32_t>(offsetof(DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5, ___mode_5)); }
+	inline int32_t get_mode_5() const { return ___mode_5; }
+	inline int32_t* get_address_of_mode_5() { return &___mode_5; }
+	inline void set_mode_5(int32_t value)
 	{
-		___mode_6 = value;
+		___mode_5 = value;
 	}
 
-	inline static int32_t get_offset_of_leaveOpen_7() { return static_cast<int32_t>(offsetof(DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5, ___leaveOpen_7)); }
-	inline bool get_leaveOpen_7() const { return ___leaveOpen_7; }
-	inline bool* get_address_of_leaveOpen_7() { return &___leaveOpen_7; }
-	inline void set_leaveOpen_7(bool value)
+	inline static int32_t get_offset_of_leaveOpen_6() { return static_cast<int32_t>(offsetof(DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5, ___leaveOpen_6)); }
+	inline bool get_leaveOpen_6() const { return ___leaveOpen_6; }
+	inline bool* get_address_of_leaveOpen_6() { return &___leaveOpen_6; }
+	inline void set_leaveOpen_6(bool value)
 	{
-		___leaveOpen_7 = value;
+		___leaveOpen_6 = value;
 	}
 
-	inline static int32_t get_offset_of_disposed_8() { return static_cast<int32_t>(offsetof(DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5, ___disposed_8)); }
-	inline bool get_disposed_8() const { return ___disposed_8; }
-	inline bool* get_address_of_disposed_8() { return &___disposed_8; }
-	inline void set_disposed_8(bool value)
+	inline static int32_t get_offset_of_disposed_7() { return static_cast<int32_t>(offsetof(DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5, ___disposed_7)); }
+	inline bool get_disposed_7() const { return ___disposed_7; }
+	inline bool* get_address_of_disposed_7() { return &___disposed_7; }
+	inline void set_disposed_7(bool value)
 	{
-		___disposed_8 = value;
+		___disposed_7 = value;
 	}
 
-	inline static int32_t get_offset_of_native_9() { return static_cast<int32_t>(offsetof(DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5, ___native_9)); }
-	inline DeflateStreamNative_tD3009C913258B881B44A87BC6A99C7118558A879 * get_native_9() const { return ___native_9; }
-	inline DeflateStreamNative_tD3009C913258B881B44A87BC6A99C7118558A879 ** get_address_of_native_9() { return &___native_9; }
-	inline void set_native_9(DeflateStreamNative_tD3009C913258B881B44A87BC6A99C7118558A879 * value)
+	inline static int32_t get_offset_of_native_8() { return static_cast<int32_t>(offsetof(DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5, ___native_8)); }
+	inline DeflateStreamNative_tD3009C913258B881B44A87BC6A99C7118558A879 * get_native_8() const { return ___native_8; }
+	inline DeflateStreamNative_tD3009C913258B881B44A87BC6A99C7118558A879 ** get_address_of_native_8() { return &___native_8; }
+	inline void set_native_8(DeflateStreamNative_tD3009C913258B881B44A87BC6A99C7118558A879 * value)
 	{
-		___native_9 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___native_9), (void*)value);
+		___native_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___native_8), (void*)value);
 	}
 };
 
@@ -8669,158 +8669,158 @@ struct FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26  : public Stream_t5D
 {
 public:
 	// System.Byte[] System.IO.FileStream::buf
-	ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___buf_7;
+	ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___buf_6;
 	// System.String System.IO.FileStream::name
-	String_t* ___name_8;
+	String_t* ___name_7;
 	// Microsoft.Win32.SafeHandles.SafeFileHandle System.IO.FileStream::safeHandle
-	SafeFileHandle_tC77A9860A03C31DC46AD2C08EC10EACDC3B7A662 * ___safeHandle_9;
+	SafeFileHandle_tC77A9860A03C31DC46AD2C08EC10EACDC3B7A662 * ___safeHandle_8;
 	// System.Boolean System.IO.FileStream::isExposed
-	bool ___isExposed_10;
+	bool ___isExposed_9;
 	// System.Int64 System.IO.FileStream::append_startpos
-	int64_t ___append_startpos_11;
+	int64_t ___append_startpos_10;
 	// System.IO.FileAccess System.IO.FileStream::access
-	int32_t ___access_12;
+	int32_t ___access_11;
 	// System.Boolean System.IO.FileStream::owner
-	bool ___owner_13;
+	bool ___owner_12;
 	// System.Boolean System.IO.FileStream::async
-	bool ___async_14;
+	bool ___async_13;
 	// System.Boolean System.IO.FileStream::canseek
-	bool ___canseek_15;
+	bool ___canseek_14;
 	// System.Boolean System.IO.FileStream::anonymous
-	bool ___anonymous_16;
+	bool ___anonymous_15;
 	// System.Boolean System.IO.FileStream::buf_dirty
-	bool ___buf_dirty_17;
+	bool ___buf_dirty_16;
 	// System.Int32 System.IO.FileStream::buf_size
-	int32_t ___buf_size_18;
+	int32_t ___buf_size_17;
 	// System.Int32 System.IO.FileStream::buf_length
-	int32_t ___buf_length_19;
+	int32_t ___buf_length_18;
 	// System.Int32 System.IO.FileStream::buf_offset
-	int32_t ___buf_offset_20;
+	int32_t ___buf_offset_19;
 	// System.Int64 System.IO.FileStream::buf_start
-	int64_t ___buf_start_21;
+	int64_t ___buf_start_20;
 
 public:
-	inline static int32_t get_offset_of_buf_7() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___buf_7)); }
-	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* get_buf_7() const { return ___buf_7; }
-	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726** get_address_of_buf_7() { return &___buf_7; }
-	inline void set_buf_7(ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* value)
+	inline static int32_t get_offset_of_buf_6() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___buf_6)); }
+	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* get_buf_6() const { return ___buf_6; }
+	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726** get_address_of_buf_6() { return &___buf_6; }
+	inline void set_buf_6(ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* value)
 	{
-		___buf_7 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___buf_7), (void*)value);
+		___buf_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___buf_6), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_name_8() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___name_8)); }
-	inline String_t* get_name_8() const { return ___name_8; }
-	inline String_t** get_address_of_name_8() { return &___name_8; }
-	inline void set_name_8(String_t* value)
+	inline static int32_t get_offset_of_name_7() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___name_7)); }
+	inline String_t* get_name_7() const { return ___name_7; }
+	inline String_t** get_address_of_name_7() { return &___name_7; }
+	inline void set_name_7(String_t* value)
 	{
-		___name_8 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___name_8), (void*)value);
+		___name_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___name_7), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_safeHandle_9() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___safeHandle_9)); }
-	inline SafeFileHandle_tC77A9860A03C31DC46AD2C08EC10EACDC3B7A662 * get_safeHandle_9() const { return ___safeHandle_9; }
-	inline SafeFileHandle_tC77A9860A03C31DC46AD2C08EC10EACDC3B7A662 ** get_address_of_safeHandle_9() { return &___safeHandle_9; }
-	inline void set_safeHandle_9(SafeFileHandle_tC77A9860A03C31DC46AD2C08EC10EACDC3B7A662 * value)
+	inline static int32_t get_offset_of_safeHandle_8() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___safeHandle_8)); }
+	inline SafeFileHandle_tC77A9860A03C31DC46AD2C08EC10EACDC3B7A662 * get_safeHandle_8() const { return ___safeHandle_8; }
+	inline SafeFileHandle_tC77A9860A03C31DC46AD2C08EC10EACDC3B7A662 ** get_address_of_safeHandle_8() { return &___safeHandle_8; }
+	inline void set_safeHandle_8(SafeFileHandle_tC77A9860A03C31DC46AD2C08EC10EACDC3B7A662 * value)
 	{
-		___safeHandle_9 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___safeHandle_9), (void*)value);
+		___safeHandle_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___safeHandle_8), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_isExposed_10() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___isExposed_10)); }
-	inline bool get_isExposed_10() const { return ___isExposed_10; }
-	inline bool* get_address_of_isExposed_10() { return &___isExposed_10; }
-	inline void set_isExposed_10(bool value)
+	inline static int32_t get_offset_of_isExposed_9() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___isExposed_9)); }
+	inline bool get_isExposed_9() const { return ___isExposed_9; }
+	inline bool* get_address_of_isExposed_9() { return &___isExposed_9; }
+	inline void set_isExposed_9(bool value)
 	{
-		___isExposed_10 = value;
+		___isExposed_9 = value;
 	}
 
-	inline static int32_t get_offset_of_append_startpos_11() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___append_startpos_11)); }
-	inline int64_t get_append_startpos_11() const { return ___append_startpos_11; }
-	inline int64_t* get_address_of_append_startpos_11() { return &___append_startpos_11; }
-	inline void set_append_startpos_11(int64_t value)
+	inline static int32_t get_offset_of_append_startpos_10() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___append_startpos_10)); }
+	inline int64_t get_append_startpos_10() const { return ___append_startpos_10; }
+	inline int64_t* get_address_of_append_startpos_10() { return &___append_startpos_10; }
+	inline void set_append_startpos_10(int64_t value)
 	{
-		___append_startpos_11 = value;
+		___append_startpos_10 = value;
 	}
 
-	inline static int32_t get_offset_of_access_12() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___access_12)); }
-	inline int32_t get_access_12() const { return ___access_12; }
-	inline int32_t* get_address_of_access_12() { return &___access_12; }
-	inline void set_access_12(int32_t value)
+	inline static int32_t get_offset_of_access_11() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___access_11)); }
+	inline int32_t get_access_11() const { return ___access_11; }
+	inline int32_t* get_address_of_access_11() { return &___access_11; }
+	inline void set_access_11(int32_t value)
 	{
-		___access_12 = value;
+		___access_11 = value;
 	}
 
-	inline static int32_t get_offset_of_owner_13() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___owner_13)); }
-	inline bool get_owner_13() const { return ___owner_13; }
-	inline bool* get_address_of_owner_13() { return &___owner_13; }
-	inline void set_owner_13(bool value)
+	inline static int32_t get_offset_of_owner_12() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___owner_12)); }
+	inline bool get_owner_12() const { return ___owner_12; }
+	inline bool* get_address_of_owner_12() { return &___owner_12; }
+	inline void set_owner_12(bool value)
 	{
-		___owner_13 = value;
+		___owner_12 = value;
 	}
 
-	inline static int32_t get_offset_of_async_14() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___async_14)); }
-	inline bool get_async_14() const { return ___async_14; }
-	inline bool* get_address_of_async_14() { return &___async_14; }
-	inline void set_async_14(bool value)
+	inline static int32_t get_offset_of_async_13() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___async_13)); }
+	inline bool get_async_13() const { return ___async_13; }
+	inline bool* get_address_of_async_13() { return &___async_13; }
+	inline void set_async_13(bool value)
 	{
-		___async_14 = value;
+		___async_13 = value;
 	}
 
-	inline static int32_t get_offset_of_canseek_15() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___canseek_15)); }
-	inline bool get_canseek_15() const { return ___canseek_15; }
-	inline bool* get_address_of_canseek_15() { return &___canseek_15; }
-	inline void set_canseek_15(bool value)
+	inline static int32_t get_offset_of_canseek_14() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___canseek_14)); }
+	inline bool get_canseek_14() const { return ___canseek_14; }
+	inline bool* get_address_of_canseek_14() { return &___canseek_14; }
+	inline void set_canseek_14(bool value)
 	{
-		___canseek_15 = value;
+		___canseek_14 = value;
 	}
 
-	inline static int32_t get_offset_of_anonymous_16() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___anonymous_16)); }
-	inline bool get_anonymous_16() const { return ___anonymous_16; }
-	inline bool* get_address_of_anonymous_16() { return &___anonymous_16; }
-	inline void set_anonymous_16(bool value)
+	inline static int32_t get_offset_of_anonymous_15() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___anonymous_15)); }
+	inline bool get_anonymous_15() const { return ___anonymous_15; }
+	inline bool* get_address_of_anonymous_15() { return &___anonymous_15; }
+	inline void set_anonymous_15(bool value)
 	{
-		___anonymous_16 = value;
+		___anonymous_15 = value;
 	}
 
-	inline static int32_t get_offset_of_buf_dirty_17() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___buf_dirty_17)); }
-	inline bool get_buf_dirty_17() const { return ___buf_dirty_17; }
-	inline bool* get_address_of_buf_dirty_17() { return &___buf_dirty_17; }
-	inline void set_buf_dirty_17(bool value)
+	inline static int32_t get_offset_of_buf_dirty_16() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___buf_dirty_16)); }
+	inline bool get_buf_dirty_16() const { return ___buf_dirty_16; }
+	inline bool* get_address_of_buf_dirty_16() { return &___buf_dirty_16; }
+	inline void set_buf_dirty_16(bool value)
 	{
-		___buf_dirty_17 = value;
+		___buf_dirty_16 = value;
 	}
 
-	inline static int32_t get_offset_of_buf_size_18() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___buf_size_18)); }
-	inline int32_t get_buf_size_18() const { return ___buf_size_18; }
-	inline int32_t* get_address_of_buf_size_18() { return &___buf_size_18; }
-	inline void set_buf_size_18(int32_t value)
+	inline static int32_t get_offset_of_buf_size_17() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___buf_size_17)); }
+	inline int32_t get_buf_size_17() const { return ___buf_size_17; }
+	inline int32_t* get_address_of_buf_size_17() { return &___buf_size_17; }
+	inline void set_buf_size_17(int32_t value)
 	{
-		___buf_size_18 = value;
+		___buf_size_17 = value;
 	}
 
-	inline static int32_t get_offset_of_buf_length_19() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___buf_length_19)); }
-	inline int32_t get_buf_length_19() const { return ___buf_length_19; }
-	inline int32_t* get_address_of_buf_length_19() { return &___buf_length_19; }
-	inline void set_buf_length_19(int32_t value)
+	inline static int32_t get_offset_of_buf_length_18() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___buf_length_18)); }
+	inline int32_t get_buf_length_18() const { return ___buf_length_18; }
+	inline int32_t* get_address_of_buf_length_18() { return &___buf_length_18; }
+	inline void set_buf_length_18(int32_t value)
 	{
-		___buf_length_19 = value;
+		___buf_length_18 = value;
 	}
 
-	inline static int32_t get_offset_of_buf_offset_20() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___buf_offset_20)); }
-	inline int32_t get_buf_offset_20() const { return ___buf_offset_20; }
-	inline int32_t* get_address_of_buf_offset_20() { return &___buf_offset_20; }
-	inline void set_buf_offset_20(int32_t value)
+	inline static int32_t get_offset_of_buf_offset_19() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___buf_offset_19)); }
+	inline int32_t get_buf_offset_19() const { return ___buf_offset_19; }
+	inline int32_t* get_address_of_buf_offset_19() { return &___buf_offset_19; }
+	inline void set_buf_offset_19(int32_t value)
 	{
-		___buf_offset_20 = value;
+		___buf_offset_19 = value;
 	}
 
-	inline static int32_t get_offset_of_buf_start_21() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___buf_start_21)); }
-	inline int64_t get_buf_start_21() const { return ___buf_start_21; }
-	inline int64_t* get_address_of_buf_start_21() { return &___buf_start_21; }
-	inline void set_buf_start_21(int64_t value)
+	inline static int32_t get_offset_of_buf_start_20() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26, ___buf_start_20)); }
+	inline int64_t get_buf_start_20() const { return ___buf_start_20; }
+	inline int64_t* get_address_of_buf_start_20() { return &___buf_start_20; }
+	inline void set_buf_start_20(int64_t value)
 	{
-		___buf_start_21 = value;
+		___buf_start_20 = value;
 	}
 };
 
@@ -10443,118 +10443,118 @@ struct WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887  : public WebC
 {
 public:
 	// System.IO.MemoryStream System.Net.WebRequestStream::writeBuffer
-	MemoryStream_t0B450399DD6D0175074FED99DD321D65771C9E1C * ___writeBuffer_16;
+	MemoryStream_t0B450399DD6D0175074FED99DD321D65771C9E1C * ___writeBuffer_15;
 	// System.Boolean System.Net.WebRequestStream::requestWritten
-	bool ___requestWritten_17;
+	bool ___requestWritten_16;
 	// System.Boolean System.Net.WebRequestStream::allowBuffering
-	bool ___allowBuffering_18;
+	bool ___allowBuffering_17;
 	// System.Boolean System.Net.WebRequestStream::sendChunked
-	bool ___sendChunked_19;
+	bool ___sendChunked_18;
 	// System.Net.WebCompletionSource System.Net.WebRequestStream::pendingWrite
-	WebCompletionSource_tF1258B468350A374EC59049FE0E31C7879D6AB1E * ___pendingWrite_20;
+	WebCompletionSource_tF1258B468350A374EC59049FE0E31C7879D6AB1E * ___pendingWrite_19;
 	// System.Int64 System.Net.WebRequestStream::totalWritten
-	int64_t ___totalWritten_21;
+	int64_t ___totalWritten_20;
 	// System.Byte[] System.Net.WebRequestStream::headers
-	ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___headers_22;
+	ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___headers_21;
 	// System.Boolean System.Net.WebRequestStream::headersSent
-	bool ___headersSent_23;
+	bool ___headersSent_22;
 	// System.Int32 System.Net.WebRequestStream::completeRequestWritten
-	int32_t ___completeRequestWritten_24;
+	int32_t ___completeRequestWritten_23;
 	// System.Int32 System.Net.WebRequestStream::chunkTrailerWritten
-	int32_t ___chunkTrailerWritten_25;
+	int32_t ___chunkTrailerWritten_24;
 	// System.Boolean System.Net.WebRequestStream::<KeepAlive>k__BackingField
-	bool ___U3CKeepAliveU3Ek__BackingField_26;
+	bool ___U3CKeepAliveU3Ek__BackingField_25;
 
 public:
-	inline static int32_t get_offset_of_writeBuffer_16() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___writeBuffer_16)); }
-	inline MemoryStream_t0B450399DD6D0175074FED99DD321D65771C9E1C * get_writeBuffer_16() const { return ___writeBuffer_16; }
-	inline MemoryStream_t0B450399DD6D0175074FED99DD321D65771C9E1C ** get_address_of_writeBuffer_16() { return &___writeBuffer_16; }
-	inline void set_writeBuffer_16(MemoryStream_t0B450399DD6D0175074FED99DD321D65771C9E1C * value)
+	inline static int32_t get_offset_of_writeBuffer_15() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___writeBuffer_15)); }
+	inline MemoryStream_t0B450399DD6D0175074FED99DD321D65771C9E1C * get_writeBuffer_15() const { return ___writeBuffer_15; }
+	inline MemoryStream_t0B450399DD6D0175074FED99DD321D65771C9E1C ** get_address_of_writeBuffer_15() { return &___writeBuffer_15; }
+	inline void set_writeBuffer_15(MemoryStream_t0B450399DD6D0175074FED99DD321D65771C9E1C * value)
 	{
-		___writeBuffer_16 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___writeBuffer_16), (void*)value);
+		___writeBuffer_15 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___writeBuffer_15), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_requestWritten_17() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___requestWritten_17)); }
-	inline bool get_requestWritten_17() const { return ___requestWritten_17; }
-	inline bool* get_address_of_requestWritten_17() { return &___requestWritten_17; }
-	inline void set_requestWritten_17(bool value)
+	inline static int32_t get_offset_of_requestWritten_16() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___requestWritten_16)); }
+	inline bool get_requestWritten_16() const { return ___requestWritten_16; }
+	inline bool* get_address_of_requestWritten_16() { return &___requestWritten_16; }
+	inline void set_requestWritten_16(bool value)
 	{
-		___requestWritten_17 = value;
+		___requestWritten_16 = value;
 	}
 
-	inline static int32_t get_offset_of_allowBuffering_18() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___allowBuffering_18)); }
-	inline bool get_allowBuffering_18() const { return ___allowBuffering_18; }
-	inline bool* get_address_of_allowBuffering_18() { return &___allowBuffering_18; }
-	inline void set_allowBuffering_18(bool value)
+	inline static int32_t get_offset_of_allowBuffering_17() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___allowBuffering_17)); }
+	inline bool get_allowBuffering_17() const { return ___allowBuffering_17; }
+	inline bool* get_address_of_allowBuffering_17() { return &___allowBuffering_17; }
+	inline void set_allowBuffering_17(bool value)
 	{
-		___allowBuffering_18 = value;
+		___allowBuffering_17 = value;
 	}
 
-	inline static int32_t get_offset_of_sendChunked_19() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___sendChunked_19)); }
-	inline bool get_sendChunked_19() const { return ___sendChunked_19; }
-	inline bool* get_address_of_sendChunked_19() { return &___sendChunked_19; }
-	inline void set_sendChunked_19(bool value)
+	inline static int32_t get_offset_of_sendChunked_18() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___sendChunked_18)); }
+	inline bool get_sendChunked_18() const { return ___sendChunked_18; }
+	inline bool* get_address_of_sendChunked_18() { return &___sendChunked_18; }
+	inline void set_sendChunked_18(bool value)
 	{
-		___sendChunked_19 = value;
+		___sendChunked_18 = value;
 	}
 
-	inline static int32_t get_offset_of_pendingWrite_20() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___pendingWrite_20)); }
-	inline WebCompletionSource_tF1258B468350A374EC59049FE0E31C7879D6AB1E * get_pendingWrite_20() const { return ___pendingWrite_20; }
-	inline WebCompletionSource_tF1258B468350A374EC59049FE0E31C7879D6AB1E ** get_address_of_pendingWrite_20() { return &___pendingWrite_20; }
-	inline void set_pendingWrite_20(WebCompletionSource_tF1258B468350A374EC59049FE0E31C7879D6AB1E * value)
+	inline static int32_t get_offset_of_pendingWrite_19() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___pendingWrite_19)); }
+	inline WebCompletionSource_tF1258B468350A374EC59049FE0E31C7879D6AB1E * get_pendingWrite_19() const { return ___pendingWrite_19; }
+	inline WebCompletionSource_tF1258B468350A374EC59049FE0E31C7879D6AB1E ** get_address_of_pendingWrite_19() { return &___pendingWrite_19; }
+	inline void set_pendingWrite_19(WebCompletionSource_tF1258B468350A374EC59049FE0E31C7879D6AB1E * value)
 	{
-		___pendingWrite_20 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___pendingWrite_20), (void*)value);
+		___pendingWrite_19 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___pendingWrite_19), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_totalWritten_21() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___totalWritten_21)); }
-	inline int64_t get_totalWritten_21() const { return ___totalWritten_21; }
-	inline int64_t* get_address_of_totalWritten_21() { return &___totalWritten_21; }
-	inline void set_totalWritten_21(int64_t value)
+	inline static int32_t get_offset_of_totalWritten_20() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___totalWritten_20)); }
+	inline int64_t get_totalWritten_20() const { return ___totalWritten_20; }
+	inline int64_t* get_address_of_totalWritten_20() { return &___totalWritten_20; }
+	inline void set_totalWritten_20(int64_t value)
 	{
-		___totalWritten_21 = value;
+		___totalWritten_20 = value;
 	}
 
-	inline static int32_t get_offset_of_headers_22() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___headers_22)); }
-	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* get_headers_22() const { return ___headers_22; }
-	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726** get_address_of_headers_22() { return &___headers_22; }
-	inline void set_headers_22(ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* value)
+	inline static int32_t get_offset_of_headers_21() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___headers_21)); }
+	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* get_headers_21() const { return ___headers_21; }
+	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726** get_address_of_headers_21() { return &___headers_21; }
+	inline void set_headers_21(ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* value)
 	{
-		___headers_22 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___headers_22), (void*)value);
+		___headers_21 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___headers_21), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_headersSent_23() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___headersSent_23)); }
-	inline bool get_headersSent_23() const { return ___headersSent_23; }
-	inline bool* get_address_of_headersSent_23() { return &___headersSent_23; }
-	inline void set_headersSent_23(bool value)
+	inline static int32_t get_offset_of_headersSent_22() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___headersSent_22)); }
+	inline bool get_headersSent_22() const { return ___headersSent_22; }
+	inline bool* get_address_of_headersSent_22() { return &___headersSent_22; }
+	inline void set_headersSent_22(bool value)
 	{
-		___headersSent_23 = value;
+		___headersSent_22 = value;
 	}
 
-	inline static int32_t get_offset_of_completeRequestWritten_24() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___completeRequestWritten_24)); }
-	inline int32_t get_completeRequestWritten_24() const { return ___completeRequestWritten_24; }
-	inline int32_t* get_address_of_completeRequestWritten_24() { return &___completeRequestWritten_24; }
-	inline void set_completeRequestWritten_24(int32_t value)
+	inline static int32_t get_offset_of_completeRequestWritten_23() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___completeRequestWritten_23)); }
+	inline int32_t get_completeRequestWritten_23() const { return ___completeRequestWritten_23; }
+	inline int32_t* get_address_of_completeRequestWritten_23() { return &___completeRequestWritten_23; }
+	inline void set_completeRequestWritten_23(int32_t value)
 	{
-		___completeRequestWritten_24 = value;
+		___completeRequestWritten_23 = value;
 	}
 
-	inline static int32_t get_offset_of_chunkTrailerWritten_25() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___chunkTrailerWritten_25)); }
-	inline int32_t get_chunkTrailerWritten_25() const { return ___chunkTrailerWritten_25; }
-	inline int32_t* get_address_of_chunkTrailerWritten_25() { return &___chunkTrailerWritten_25; }
-	inline void set_chunkTrailerWritten_25(int32_t value)
+	inline static int32_t get_offset_of_chunkTrailerWritten_24() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___chunkTrailerWritten_24)); }
+	inline int32_t get_chunkTrailerWritten_24() const { return ___chunkTrailerWritten_24; }
+	inline int32_t* get_address_of_chunkTrailerWritten_24() { return &___chunkTrailerWritten_24; }
+	inline void set_chunkTrailerWritten_24(int32_t value)
 	{
-		___chunkTrailerWritten_25 = value;
+		___chunkTrailerWritten_24 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CKeepAliveU3Ek__BackingField_26() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___U3CKeepAliveU3Ek__BackingField_26)); }
-	inline bool get_U3CKeepAliveU3Ek__BackingField_26() const { return ___U3CKeepAliveU3Ek__BackingField_26; }
-	inline bool* get_address_of_U3CKeepAliveU3Ek__BackingField_26() { return &___U3CKeepAliveU3Ek__BackingField_26; }
-	inline void set_U3CKeepAliveU3Ek__BackingField_26(bool value)
+	inline static int32_t get_offset_of_U3CKeepAliveU3Ek__BackingField_25() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887, ___U3CKeepAliveU3Ek__BackingField_25)); }
+	inline bool get_U3CKeepAliveU3Ek__BackingField_25() const { return ___U3CKeepAliveU3Ek__BackingField_25; }
+	inline bool* get_address_of_U3CKeepAliveU3Ek__BackingField_25() { return &___U3CKeepAliveU3Ek__BackingField_25; }
+	inline void set_U3CKeepAliveU3Ek__BackingField_25(bool value)
 	{
-		___U3CKeepAliveU3Ek__BackingField_26 = value;
+		___U3CKeepAliveU3Ek__BackingField_25 = value;
 	}
 };
 
@@ -10564,183 +10564,183 @@ struct WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F  : public Web
 {
 public:
 	// System.Net.BufferOffsetSize System.Net.WebResponseStream::readBuffer
-	BufferOffsetSize_tF2771CD84FA1EB3961DB41CF866EDE296987572F * ___readBuffer_15;
+	BufferOffsetSize_tF2771CD84FA1EB3961DB41CF866EDE296987572F * ___readBuffer_14;
 	// System.Int64 System.Net.WebResponseStream::contentLength
-	int64_t ___contentLength_16;
+	int64_t ___contentLength_15;
 	// System.Int64 System.Net.WebResponseStream::totalRead
-	int64_t ___totalRead_17;
+	int64_t ___totalRead_16;
 	// System.Boolean System.Net.WebResponseStream::nextReadCalled
-	bool ___nextReadCalled_18;
+	bool ___nextReadCalled_17;
 	// System.Int32 System.Net.WebResponseStream::stream_length
-	int32_t ___stream_length_19;
+	int32_t ___stream_length_18;
 	// System.Net.WebCompletionSource System.Net.WebResponseStream::pendingRead
-	WebCompletionSource_tF1258B468350A374EC59049FE0E31C7879D6AB1E * ___pendingRead_20;
+	WebCompletionSource_tF1258B468350A374EC59049FE0E31C7879D6AB1E * ___pendingRead_19;
 	// System.Object System.Net.WebResponseStream::locker
-	RuntimeObject * ___locker_21;
+	RuntimeObject * ___locker_20;
 	// System.Int32 System.Net.WebResponseStream::nestedRead
-	int32_t ___nestedRead_22;
+	int32_t ___nestedRead_21;
 	// System.Boolean System.Net.WebResponseStream::read_eof
-	bool ___read_eof_23;
+	bool ___read_eof_22;
 	// System.Net.WebRequestStream System.Net.WebResponseStream::<RequestStream>k__BackingField
-	WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887 * ___U3CRequestStreamU3Ek__BackingField_24;
+	WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887 * ___U3CRequestStreamU3Ek__BackingField_23;
 	// System.Net.WebHeaderCollection System.Net.WebResponseStream::<Headers>k__BackingField
-	WebHeaderCollection_tB7EEB47640F12A532E1D8331A5AD498A289824D4 * ___U3CHeadersU3Ek__BackingField_25;
+	WebHeaderCollection_tB7EEB47640F12A532E1D8331A5AD498A289824D4 * ___U3CHeadersU3Ek__BackingField_24;
 	// System.Net.HttpStatusCode System.Net.WebResponseStream::<StatusCode>k__BackingField
-	int32_t ___U3CStatusCodeU3Ek__BackingField_26;
+	int32_t ___U3CStatusCodeU3Ek__BackingField_25;
 	// System.String System.Net.WebResponseStream::<StatusDescription>k__BackingField
-	String_t* ___U3CStatusDescriptionU3Ek__BackingField_27;
+	String_t* ___U3CStatusDescriptionU3Ek__BackingField_26;
 	// System.Version System.Net.WebResponseStream::<Version>k__BackingField
-	Version_tBDAEDED25425A1D09910468B8BD1759115646E3C * ___U3CVersionU3Ek__BackingField_28;
+	Version_tBDAEDED25425A1D09910468B8BD1759115646E3C * ___U3CVersionU3Ek__BackingField_27;
 	// System.Boolean System.Net.WebResponseStream::<KeepAlive>k__BackingField
-	bool ___U3CKeepAliveU3Ek__BackingField_29;
+	bool ___U3CKeepAliveU3Ek__BackingField_28;
 	// System.Boolean System.Net.WebResponseStream::<ChunkedRead>k__BackingField
-	bool ___U3CChunkedReadU3Ek__BackingField_30;
+	bool ___U3CChunkedReadU3Ek__BackingField_29;
 	// System.Net.MonoChunkStream System.Net.WebResponseStream::<ChunkStream>k__BackingField
-	MonoChunkStream_t890E01BB394186CFA1A1B92B07A1F996E9A2C9E7 * ___U3CChunkStreamU3Ek__BackingField_31;
+	MonoChunkStream_t890E01BB394186CFA1A1B92B07A1F996E9A2C9E7 * ___U3CChunkStreamU3Ek__BackingField_30;
 
 public:
-	inline static int32_t get_offset_of_readBuffer_15() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___readBuffer_15)); }
-	inline BufferOffsetSize_tF2771CD84FA1EB3961DB41CF866EDE296987572F * get_readBuffer_15() const { return ___readBuffer_15; }
-	inline BufferOffsetSize_tF2771CD84FA1EB3961DB41CF866EDE296987572F ** get_address_of_readBuffer_15() { return &___readBuffer_15; }
-	inline void set_readBuffer_15(BufferOffsetSize_tF2771CD84FA1EB3961DB41CF866EDE296987572F * value)
+	inline static int32_t get_offset_of_readBuffer_14() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___readBuffer_14)); }
+	inline BufferOffsetSize_tF2771CD84FA1EB3961DB41CF866EDE296987572F * get_readBuffer_14() const { return ___readBuffer_14; }
+	inline BufferOffsetSize_tF2771CD84FA1EB3961DB41CF866EDE296987572F ** get_address_of_readBuffer_14() { return &___readBuffer_14; }
+	inline void set_readBuffer_14(BufferOffsetSize_tF2771CD84FA1EB3961DB41CF866EDE296987572F * value)
 	{
-		___readBuffer_15 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___readBuffer_15), (void*)value);
+		___readBuffer_14 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___readBuffer_14), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_contentLength_16() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___contentLength_16)); }
-	inline int64_t get_contentLength_16() const { return ___contentLength_16; }
-	inline int64_t* get_address_of_contentLength_16() { return &___contentLength_16; }
-	inline void set_contentLength_16(int64_t value)
+	inline static int32_t get_offset_of_contentLength_15() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___contentLength_15)); }
+	inline int64_t get_contentLength_15() const { return ___contentLength_15; }
+	inline int64_t* get_address_of_contentLength_15() { return &___contentLength_15; }
+	inline void set_contentLength_15(int64_t value)
 	{
-		___contentLength_16 = value;
+		___contentLength_15 = value;
 	}
 
-	inline static int32_t get_offset_of_totalRead_17() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___totalRead_17)); }
-	inline int64_t get_totalRead_17() const { return ___totalRead_17; }
-	inline int64_t* get_address_of_totalRead_17() { return &___totalRead_17; }
-	inline void set_totalRead_17(int64_t value)
+	inline static int32_t get_offset_of_totalRead_16() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___totalRead_16)); }
+	inline int64_t get_totalRead_16() const { return ___totalRead_16; }
+	inline int64_t* get_address_of_totalRead_16() { return &___totalRead_16; }
+	inline void set_totalRead_16(int64_t value)
 	{
-		___totalRead_17 = value;
+		___totalRead_16 = value;
 	}
 
-	inline static int32_t get_offset_of_nextReadCalled_18() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___nextReadCalled_18)); }
-	inline bool get_nextReadCalled_18() const { return ___nextReadCalled_18; }
-	inline bool* get_address_of_nextReadCalled_18() { return &___nextReadCalled_18; }
-	inline void set_nextReadCalled_18(bool value)
+	inline static int32_t get_offset_of_nextReadCalled_17() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___nextReadCalled_17)); }
+	inline bool get_nextReadCalled_17() const { return ___nextReadCalled_17; }
+	inline bool* get_address_of_nextReadCalled_17() { return &___nextReadCalled_17; }
+	inline void set_nextReadCalled_17(bool value)
 	{
-		___nextReadCalled_18 = value;
+		___nextReadCalled_17 = value;
 	}
 
-	inline static int32_t get_offset_of_stream_length_19() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___stream_length_19)); }
-	inline int32_t get_stream_length_19() const { return ___stream_length_19; }
-	inline int32_t* get_address_of_stream_length_19() { return &___stream_length_19; }
-	inline void set_stream_length_19(int32_t value)
+	inline static int32_t get_offset_of_stream_length_18() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___stream_length_18)); }
+	inline int32_t get_stream_length_18() const { return ___stream_length_18; }
+	inline int32_t* get_address_of_stream_length_18() { return &___stream_length_18; }
+	inline void set_stream_length_18(int32_t value)
 	{
-		___stream_length_19 = value;
+		___stream_length_18 = value;
 	}
 
-	inline static int32_t get_offset_of_pendingRead_20() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___pendingRead_20)); }
-	inline WebCompletionSource_tF1258B468350A374EC59049FE0E31C7879D6AB1E * get_pendingRead_20() const { return ___pendingRead_20; }
-	inline WebCompletionSource_tF1258B468350A374EC59049FE0E31C7879D6AB1E ** get_address_of_pendingRead_20() { return &___pendingRead_20; }
-	inline void set_pendingRead_20(WebCompletionSource_tF1258B468350A374EC59049FE0E31C7879D6AB1E * value)
+	inline static int32_t get_offset_of_pendingRead_19() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___pendingRead_19)); }
+	inline WebCompletionSource_tF1258B468350A374EC59049FE0E31C7879D6AB1E * get_pendingRead_19() const { return ___pendingRead_19; }
+	inline WebCompletionSource_tF1258B468350A374EC59049FE0E31C7879D6AB1E ** get_address_of_pendingRead_19() { return &___pendingRead_19; }
+	inline void set_pendingRead_19(WebCompletionSource_tF1258B468350A374EC59049FE0E31C7879D6AB1E * value)
 	{
-		___pendingRead_20 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___pendingRead_20), (void*)value);
+		___pendingRead_19 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___pendingRead_19), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_locker_21() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___locker_21)); }
-	inline RuntimeObject * get_locker_21() const { return ___locker_21; }
-	inline RuntimeObject ** get_address_of_locker_21() { return &___locker_21; }
-	inline void set_locker_21(RuntimeObject * value)
+	inline static int32_t get_offset_of_locker_20() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___locker_20)); }
+	inline RuntimeObject * get_locker_20() const { return ___locker_20; }
+	inline RuntimeObject ** get_address_of_locker_20() { return &___locker_20; }
+	inline void set_locker_20(RuntimeObject * value)
 	{
-		___locker_21 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___locker_21), (void*)value);
+		___locker_20 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___locker_20), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_nestedRead_22() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___nestedRead_22)); }
-	inline int32_t get_nestedRead_22() const { return ___nestedRead_22; }
-	inline int32_t* get_address_of_nestedRead_22() { return &___nestedRead_22; }
-	inline void set_nestedRead_22(int32_t value)
+	inline static int32_t get_offset_of_nestedRead_21() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___nestedRead_21)); }
+	inline int32_t get_nestedRead_21() const { return ___nestedRead_21; }
+	inline int32_t* get_address_of_nestedRead_21() { return &___nestedRead_21; }
+	inline void set_nestedRead_21(int32_t value)
 	{
-		___nestedRead_22 = value;
+		___nestedRead_21 = value;
 	}
 
-	inline static int32_t get_offset_of_read_eof_23() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___read_eof_23)); }
-	inline bool get_read_eof_23() const { return ___read_eof_23; }
-	inline bool* get_address_of_read_eof_23() { return &___read_eof_23; }
-	inline void set_read_eof_23(bool value)
+	inline static int32_t get_offset_of_read_eof_22() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___read_eof_22)); }
+	inline bool get_read_eof_22() const { return ___read_eof_22; }
+	inline bool* get_address_of_read_eof_22() { return &___read_eof_22; }
+	inline void set_read_eof_22(bool value)
 	{
-		___read_eof_23 = value;
+		___read_eof_22 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CRequestStreamU3Ek__BackingField_24() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___U3CRequestStreamU3Ek__BackingField_24)); }
-	inline WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887 * get_U3CRequestStreamU3Ek__BackingField_24() const { return ___U3CRequestStreamU3Ek__BackingField_24; }
-	inline WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887 ** get_address_of_U3CRequestStreamU3Ek__BackingField_24() { return &___U3CRequestStreamU3Ek__BackingField_24; }
-	inline void set_U3CRequestStreamU3Ek__BackingField_24(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887 * value)
+	inline static int32_t get_offset_of_U3CRequestStreamU3Ek__BackingField_23() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___U3CRequestStreamU3Ek__BackingField_23)); }
+	inline WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887 * get_U3CRequestStreamU3Ek__BackingField_23() const { return ___U3CRequestStreamU3Ek__BackingField_23; }
+	inline WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887 ** get_address_of_U3CRequestStreamU3Ek__BackingField_23() { return &___U3CRequestStreamU3Ek__BackingField_23; }
+	inline void set_U3CRequestStreamU3Ek__BackingField_23(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887 * value)
 	{
-		___U3CRequestStreamU3Ek__BackingField_24 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CRequestStreamU3Ek__BackingField_24), (void*)value);
+		___U3CRequestStreamU3Ek__BackingField_23 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CRequestStreamU3Ek__BackingField_23), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CHeadersU3Ek__BackingField_25() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___U3CHeadersU3Ek__BackingField_25)); }
-	inline WebHeaderCollection_tB7EEB47640F12A532E1D8331A5AD498A289824D4 * get_U3CHeadersU3Ek__BackingField_25() const { return ___U3CHeadersU3Ek__BackingField_25; }
-	inline WebHeaderCollection_tB7EEB47640F12A532E1D8331A5AD498A289824D4 ** get_address_of_U3CHeadersU3Ek__BackingField_25() { return &___U3CHeadersU3Ek__BackingField_25; }
-	inline void set_U3CHeadersU3Ek__BackingField_25(WebHeaderCollection_tB7EEB47640F12A532E1D8331A5AD498A289824D4 * value)
+	inline static int32_t get_offset_of_U3CHeadersU3Ek__BackingField_24() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___U3CHeadersU3Ek__BackingField_24)); }
+	inline WebHeaderCollection_tB7EEB47640F12A532E1D8331A5AD498A289824D4 * get_U3CHeadersU3Ek__BackingField_24() const { return ___U3CHeadersU3Ek__BackingField_24; }
+	inline WebHeaderCollection_tB7EEB47640F12A532E1D8331A5AD498A289824D4 ** get_address_of_U3CHeadersU3Ek__BackingField_24() { return &___U3CHeadersU3Ek__BackingField_24; }
+	inline void set_U3CHeadersU3Ek__BackingField_24(WebHeaderCollection_tB7EEB47640F12A532E1D8331A5AD498A289824D4 * value)
 	{
-		___U3CHeadersU3Ek__BackingField_25 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CHeadersU3Ek__BackingField_25), (void*)value);
+		___U3CHeadersU3Ek__BackingField_24 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CHeadersU3Ek__BackingField_24), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CStatusCodeU3Ek__BackingField_26() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___U3CStatusCodeU3Ek__BackingField_26)); }
-	inline int32_t get_U3CStatusCodeU3Ek__BackingField_26() const { return ___U3CStatusCodeU3Ek__BackingField_26; }
-	inline int32_t* get_address_of_U3CStatusCodeU3Ek__BackingField_26() { return &___U3CStatusCodeU3Ek__BackingField_26; }
-	inline void set_U3CStatusCodeU3Ek__BackingField_26(int32_t value)
+	inline static int32_t get_offset_of_U3CStatusCodeU3Ek__BackingField_25() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___U3CStatusCodeU3Ek__BackingField_25)); }
+	inline int32_t get_U3CStatusCodeU3Ek__BackingField_25() const { return ___U3CStatusCodeU3Ek__BackingField_25; }
+	inline int32_t* get_address_of_U3CStatusCodeU3Ek__BackingField_25() { return &___U3CStatusCodeU3Ek__BackingField_25; }
+	inline void set_U3CStatusCodeU3Ek__BackingField_25(int32_t value)
 	{
-		___U3CStatusCodeU3Ek__BackingField_26 = value;
+		___U3CStatusCodeU3Ek__BackingField_25 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CStatusDescriptionU3Ek__BackingField_27() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___U3CStatusDescriptionU3Ek__BackingField_27)); }
-	inline String_t* get_U3CStatusDescriptionU3Ek__BackingField_27() const { return ___U3CStatusDescriptionU3Ek__BackingField_27; }
-	inline String_t** get_address_of_U3CStatusDescriptionU3Ek__BackingField_27() { return &___U3CStatusDescriptionU3Ek__BackingField_27; }
-	inline void set_U3CStatusDescriptionU3Ek__BackingField_27(String_t* value)
+	inline static int32_t get_offset_of_U3CStatusDescriptionU3Ek__BackingField_26() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___U3CStatusDescriptionU3Ek__BackingField_26)); }
+	inline String_t* get_U3CStatusDescriptionU3Ek__BackingField_26() const { return ___U3CStatusDescriptionU3Ek__BackingField_26; }
+	inline String_t** get_address_of_U3CStatusDescriptionU3Ek__BackingField_26() { return &___U3CStatusDescriptionU3Ek__BackingField_26; }
+	inline void set_U3CStatusDescriptionU3Ek__BackingField_26(String_t* value)
 	{
-		___U3CStatusDescriptionU3Ek__BackingField_27 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CStatusDescriptionU3Ek__BackingField_27), (void*)value);
+		___U3CStatusDescriptionU3Ek__BackingField_26 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CStatusDescriptionU3Ek__BackingField_26), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CVersionU3Ek__BackingField_28() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___U3CVersionU3Ek__BackingField_28)); }
-	inline Version_tBDAEDED25425A1D09910468B8BD1759115646E3C * get_U3CVersionU3Ek__BackingField_28() const { return ___U3CVersionU3Ek__BackingField_28; }
-	inline Version_tBDAEDED25425A1D09910468B8BD1759115646E3C ** get_address_of_U3CVersionU3Ek__BackingField_28() { return &___U3CVersionU3Ek__BackingField_28; }
-	inline void set_U3CVersionU3Ek__BackingField_28(Version_tBDAEDED25425A1D09910468B8BD1759115646E3C * value)
+	inline static int32_t get_offset_of_U3CVersionU3Ek__BackingField_27() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___U3CVersionU3Ek__BackingField_27)); }
+	inline Version_tBDAEDED25425A1D09910468B8BD1759115646E3C * get_U3CVersionU3Ek__BackingField_27() const { return ___U3CVersionU3Ek__BackingField_27; }
+	inline Version_tBDAEDED25425A1D09910468B8BD1759115646E3C ** get_address_of_U3CVersionU3Ek__BackingField_27() { return &___U3CVersionU3Ek__BackingField_27; }
+	inline void set_U3CVersionU3Ek__BackingField_27(Version_tBDAEDED25425A1D09910468B8BD1759115646E3C * value)
 	{
-		___U3CVersionU3Ek__BackingField_28 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CVersionU3Ek__BackingField_28), (void*)value);
+		___U3CVersionU3Ek__BackingField_27 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CVersionU3Ek__BackingField_27), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CKeepAliveU3Ek__BackingField_29() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___U3CKeepAliveU3Ek__BackingField_29)); }
-	inline bool get_U3CKeepAliveU3Ek__BackingField_29() const { return ___U3CKeepAliveU3Ek__BackingField_29; }
-	inline bool* get_address_of_U3CKeepAliveU3Ek__BackingField_29() { return &___U3CKeepAliveU3Ek__BackingField_29; }
-	inline void set_U3CKeepAliveU3Ek__BackingField_29(bool value)
+	inline static int32_t get_offset_of_U3CKeepAliveU3Ek__BackingField_28() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___U3CKeepAliveU3Ek__BackingField_28)); }
+	inline bool get_U3CKeepAliveU3Ek__BackingField_28() const { return ___U3CKeepAliveU3Ek__BackingField_28; }
+	inline bool* get_address_of_U3CKeepAliveU3Ek__BackingField_28() { return &___U3CKeepAliveU3Ek__BackingField_28; }
+	inline void set_U3CKeepAliveU3Ek__BackingField_28(bool value)
 	{
-		___U3CKeepAliveU3Ek__BackingField_29 = value;
+		___U3CKeepAliveU3Ek__BackingField_28 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CChunkedReadU3Ek__BackingField_30() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___U3CChunkedReadU3Ek__BackingField_30)); }
-	inline bool get_U3CChunkedReadU3Ek__BackingField_30() const { return ___U3CChunkedReadU3Ek__BackingField_30; }
-	inline bool* get_address_of_U3CChunkedReadU3Ek__BackingField_30() { return &___U3CChunkedReadU3Ek__BackingField_30; }
-	inline void set_U3CChunkedReadU3Ek__BackingField_30(bool value)
+	inline static int32_t get_offset_of_U3CChunkedReadU3Ek__BackingField_29() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___U3CChunkedReadU3Ek__BackingField_29)); }
+	inline bool get_U3CChunkedReadU3Ek__BackingField_29() const { return ___U3CChunkedReadU3Ek__BackingField_29; }
+	inline bool* get_address_of_U3CChunkedReadU3Ek__BackingField_29() { return &___U3CChunkedReadU3Ek__BackingField_29; }
+	inline void set_U3CChunkedReadU3Ek__BackingField_29(bool value)
 	{
-		___U3CChunkedReadU3Ek__BackingField_30 = value;
+		___U3CChunkedReadU3Ek__BackingField_29 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CChunkStreamU3Ek__BackingField_31() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___U3CChunkStreamU3Ek__BackingField_31)); }
-	inline MonoChunkStream_t890E01BB394186CFA1A1B92B07A1F996E9A2C9E7 * get_U3CChunkStreamU3Ek__BackingField_31() const { return ___U3CChunkStreamU3Ek__BackingField_31; }
-	inline MonoChunkStream_t890E01BB394186CFA1A1B92B07A1F996E9A2C9E7 ** get_address_of_U3CChunkStreamU3Ek__BackingField_31() { return &___U3CChunkStreamU3Ek__BackingField_31; }
-	inline void set_U3CChunkStreamU3Ek__BackingField_31(MonoChunkStream_t890E01BB394186CFA1A1B92B07A1F996E9A2C9E7 * value)
+	inline static int32_t get_offset_of_U3CChunkStreamU3Ek__BackingField_30() { return static_cast<int32_t>(offsetof(WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F, ___U3CChunkStreamU3Ek__BackingField_30)); }
+	inline MonoChunkStream_t890E01BB394186CFA1A1B92B07A1F996E9A2C9E7 * get_U3CChunkStreamU3Ek__BackingField_30() const { return ___U3CChunkStreamU3Ek__BackingField_30; }
+	inline MonoChunkStream_t890E01BB394186CFA1A1B92B07A1F996E9A2C9E7 ** get_address_of_U3CChunkStreamU3Ek__BackingField_30() { return &___U3CChunkStreamU3Ek__BackingField_30; }
+	inline void set_U3CChunkStreamU3Ek__BackingField_30(MonoChunkStream_t890E01BB394186CFA1A1B92B07A1F996E9A2C9E7 * value)
 	{
-		___U3CChunkStreamU3Ek__BackingField_31 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CChunkStreamU3Ek__BackingField_31), (void*)value);
+		___U3CChunkStreamU3Ek__BackingField_30 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CChunkStreamU3Ek__BackingField_30), (void*)value);
 	}
 };
 
@@ -11604,16 +11604,16 @@ struct FileWebStream_t3FE155782224B8E59388C0D8D767BDA4F21B915C  : public FileStr
 {
 public:
 	// System.Net.FileWebRequest System.Net.FileWebStream::m_request
-	FileWebRequest_tCB19C2A278EDBAC1EC2A802398B6B14AB16782AE * ___m_request_22;
+	FileWebRequest_tCB19C2A278EDBAC1EC2A802398B6B14AB16782AE * ___m_request_21;
 
 public:
-	inline static int32_t get_offset_of_m_request_22() { return static_cast<int32_t>(offsetof(FileWebStream_t3FE155782224B8E59388C0D8D767BDA4F21B915C, ___m_request_22)); }
-	inline FileWebRequest_tCB19C2A278EDBAC1EC2A802398B6B14AB16782AE * get_m_request_22() const { return ___m_request_22; }
-	inline FileWebRequest_tCB19C2A278EDBAC1EC2A802398B6B14AB16782AE ** get_address_of_m_request_22() { return &___m_request_22; }
-	inline void set_m_request_22(FileWebRequest_tCB19C2A278EDBAC1EC2A802398B6B14AB16782AE * value)
+	inline static int32_t get_offset_of_m_request_21() { return static_cast<int32_t>(offsetof(FileWebStream_t3FE155782224B8E59388C0D8D767BDA4F21B915C, ___m_request_21)); }
+	inline FileWebRequest_tCB19C2A278EDBAC1EC2A802398B6B14AB16782AE * get_m_request_21() const { return ___m_request_21; }
+	inline FileWebRequest_tCB19C2A278EDBAC1EC2A802398B6B14AB16782AE ** get_address_of_m_request_21() { return &___m_request_21; }
+	inline void set_m_request_21(FileWebRequest_tCB19C2A278EDBAC1EC2A802398B6B14AB16782AE * value)
 	{
-		___m_request_22 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___m_request_22), (void*)value);
+		___m_request_21 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_request_21), (void*)value);
 	}
 };
 
@@ -13250,7 +13250,7 @@ public:
 	// System.Collections.Hashtable modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::encodings
 	Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * ___encodings_8;
 	// System.Object System.Text.Encoding::s_InternalSyncObject
-	RuntimeObject * ___s_InternalSyncObject_61;
+	RuntimeObject * ___s_InternalSyncObject_15;
 
 public:
 	inline static int32_t get_offset_of_defaultEncoding_0() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827_StaticFields, ___defaultEncoding_0)); }
@@ -13334,13 +13334,13 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___encodings_8), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_s_InternalSyncObject_61() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827_StaticFields, ___s_InternalSyncObject_61)); }
-	inline RuntimeObject * get_s_InternalSyncObject_61() const { return ___s_InternalSyncObject_61; }
-	inline RuntimeObject ** get_address_of_s_InternalSyncObject_61() { return &___s_InternalSyncObject_61; }
-	inline void set_s_InternalSyncObject_61(RuntimeObject * value)
+	inline static int32_t get_offset_of_s_InternalSyncObject_15() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827_StaticFields, ___s_InternalSyncObject_15)); }
+	inline RuntimeObject * get_s_InternalSyncObject_15() const { return ___s_InternalSyncObject_15; }
+	inline RuntimeObject ** get_address_of_s_InternalSyncObject_15() { return &___s_InternalSyncObject_15; }
+	inline void set_s_InternalSyncObject_15(RuntimeObject * value)
 	{
-		___s_InternalSyncObject_61 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_InternalSyncObject_61), (void*)value);
+		___s_InternalSyncObject_15 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_InternalSyncObject_15), (void*)value);
 	}
 };
 
@@ -15831,27 +15831,27 @@ struct FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26_StaticFields
 {
 public:
 	// System.Byte[] System.IO.FileStream::buf_recycle
-	ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___buf_recycle_5;
+	ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___buf_recycle_4;
 	// System.Object System.IO.FileStream::buf_recycle_lock
-	RuntimeObject * ___buf_recycle_lock_6;
+	RuntimeObject * ___buf_recycle_lock_5;
 
 public:
-	inline static int32_t get_offset_of_buf_recycle_5() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26_StaticFields, ___buf_recycle_5)); }
-	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* get_buf_recycle_5() const { return ___buf_recycle_5; }
-	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726** get_address_of_buf_recycle_5() { return &___buf_recycle_5; }
-	inline void set_buf_recycle_5(ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* value)
+	inline static int32_t get_offset_of_buf_recycle_4() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26_StaticFields, ___buf_recycle_4)); }
+	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* get_buf_recycle_4() const { return ___buf_recycle_4; }
+	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726** get_address_of_buf_recycle_4() { return &___buf_recycle_4; }
+	inline void set_buf_recycle_4(ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* value)
 	{
-		___buf_recycle_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___buf_recycle_5), (void*)value);
+		___buf_recycle_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___buf_recycle_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_buf_recycle_lock_6() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26_StaticFields, ___buf_recycle_lock_6)); }
-	inline RuntimeObject * get_buf_recycle_lock_6() const { return ___buf_recycle_lock_6; }
-	inline RuntimeObject ** get_address_of_buf_recycle_lock_6() { return &___buf_recycle_lock_6; }
-	inline void set_buf_recycle_lock_6(RuntimeObject * value)
+	inline static int32_t get_offset_of_buf_recycle_lock_5() { return static_cast<int32_t>(offsetof(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26_StaticFields, ___buf_recycle_lock_5)); }
+	inline RuntimeObject * get_buf_recycle_lock_5() const { return ___buf_recycle_lock_5; }
+	inline RuntimeObject ** get_address_of_buf_recycle_lock_5() { return &___buf_recycle_lock_5; }
+	inline void set_buf_recycle_lock_5(RuntimeObject * value)
 	{
-		___buf_recycle_lock_6 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___buf_recycle_lock_6), (void*)value);
+		___buf_recycle_lock_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___buf_recycle_lock_5), (void*)value);
 	}
 };
 
@@ -16863,16 +16863,16 @@ struct WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887_StaticFields
 {
 public:
 	// System.Byte[] System.Net.WebRequestStream::crlf
-	ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___crlf_15;
+	ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___crlf_14;
 
 public:
-	inline static int32_t get_offset_of_crlf_15() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887_StaticFields, ___crlf_15)); }
-	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* get_crlf_15() const { return ___crlf_15; }
-	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726** get_address_of_crlf_15() { return &___crlf_15; }
-	inline void set_crlf_15(ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* value)
+	inline static int32_t get_offset_of_crlf_14() { return static_cast<int32_t>(offsetof(WebRequestStream_t9F0251C03B8D0975476759A9C3791E6849E43887_StaticFields, ___crlf_14)); }
+	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* get_crlf_14() const { return ___crlf_14; }
+	inline ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726** get_address_of_crlf_14() { return &___crlf_14; }
+	inline void set_crlf_14(ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* value)
 	{
-		___crlf_15 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___crlf_15), (void*)value);
+		___crlf_14 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___crlf_14), (void*)value);
 	}
 };
 
@@ -23405,7 +23405,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileWebStream__ctor_mAC5E31F61865C55A0BC
 		IL2CPP_RUNTIME_CLASS_INIT(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26_il2cpp_TypeInfo_var);
 		FileStream__ctor_m3B5FED0863BA31DCF29A27B99FFDCB699626C326(__this, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
 		FileWebRequest_tCB19C2A278EDBAC1EC2A802398B6B14AB16782AE * L_4 = ___request0;
-		__this->set_m_request_22(L_4);
+		__this->set_m_request_21(L_4);
 		return;
 	}
 }
@@ -23428,7 +23428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileWebStream__ctor_m5E2038F8FB3B8C052A6
 		IL2CPP_RUNTIME_CLASS_INIT(FileStream_t6342275F1C1E26F5EEB5AD510933C95B78A5DA26_il2cpp_TypeInfo_var);
 		FileStream__ctor_m446168E332C8770748277DC4E83A92DFEFECCCFA(__this, L_0, L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
 		FileWebRequest_tCB19C2A278EDBAC1EC2A802398B6B14AB16782AE * L_6 = ___request0;
-		__this->set_m_request_22(L_6);
+		__this->set_m_request_21(L_6);
 		return;
 	}
 }
@@ -23451,7 +23451,7 @@ IL_0000:
 
 IL_0003:
 		{
-			FileWebRequest_tCB19C2A278EDBAC1EC2A802398B6B14AB16782AE * L_1 = __this->get_m_request_22();
+			FileWebRequest_tCB19C2A278EDBAC1EC2A802398B6B14AB16782AE * L_1 = __this->get_m_request_21();
 			if (!L_1)
 			{
 				goto IL_0016;
@@ -23460,7 +23460,7 @@ IL_0003:
 
 IL_000b:
 		{
-			FileWebRequest_tCB19C2A278EDBAC1EC2A802398B6B14AB16782AE * L_2 = __this->get_m_request_22();
+			FileWebRequest_tCB19C2A278EDBAC1EC2A802398B6B14AB16782AE * L_2 = __this->get_m_request_21();
 			NullCheck(L_2);
 			FileWebRequest_UnblockReader_m71733AFB64CCAE0043F76194EE532B48ADB3E955(L_2, /*hidden argument*/NULL);
 		}
@@ -23765,7 +23765,7 @@ IL_0012:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileWebStream_CheckError_m5373399E1C7A5036852A3495F5B3C04640BB0F51 (FileWebStream_t3FE155782224B8E59388C0D8D767BDA4F21B915C * __this, const RuntimeMethod* method)
 {
 	{
-		FileWebRequest_tCB19C2A278EDBAC1EC2A802398B6B14AB16782AE * L_0 = __this->get_m_request_22();
+		FileWebRequest_tCB19C2A278EDBAC1EC2A802398B6B14AB16782AE * L_0 = __this->get_m_request_21();
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = FileWebRequest_get_Aborted_m687CEE80919037332B61F2C449D9EBA8A4E7C587(L_0, /*hidden argument*/NULL);
@@ -24227,11 +24227,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FtpDataStream__ctor_m12DEF84E5023BF6B70B
 IL_0014:
 	{
 		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_2 = ___request0;
-		__this->set_request_5(L_2);
+		__this->set_request_4(L_2);
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_3 = ___stream1;
-		__this->set_networkStream_6(L_3);
+		__this->set_networkStream_5(L_3);
 		bool L_4 = ___isRead2;
-		__this->set_isRead_8(L_4);
+		__this->set_isRead_7(L_4);
 		return;
 	}
 }
@@ -24239,7 +24239,7 @@ IL_0014:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FtpDataStream_get_CanRead_m48FB556F7773DF8E545F31ECD8228E8385BDA839 (FtpDataStream_t8D77868ECA7AFC1A74A996CADD50D0E0B40ACFB0 * __this, const RuntimeMethod* method)
 {
 	{
-		bool L_0 = __this->get_isRead_8();
+		bool L_0 = __this->get_isRead_7();
 		return L_0;
 	}
 }
@@ -24247,7 +24247,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FtpDataStream_get_CanRead_m48FB556F7773D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FtpDataStream_get_CanWrite_m444A11DB30A8721418B3F4D6D2A86EE5F11E8746 (FtpDataStream_t8D77868ECA7AFC1A74A996CADD50D0E0B40ACFB0 * __this, const RuntimeMethod* method)
 {
 	{
-		bool L_0 = __this->get_isRead_8();
+		bool L_0 = __this->get_isRead_7();
 		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 	}
 }
@@ -24326,7 +24326,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FtpDataStream_ReadInternal_m94D61B121
 	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 		V_0 = 0;
-		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_0 = __this->get_request_5();
+		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_0 = __this->get_request_4();
 		NullCheck(L_0);
 		FtpWebRequest_CheckIfAborted_mBDB00979DE4C68226AB0EE95DB5B2CAB89B707B9(L_0, /*hidden argument*/NULL);
 	}
@@ -24334,7 +24334,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FtpDataStream_ReadInternal_m94D61B121
 IL_000d:
 	try
 	{ // begin try (depth: 1)
-		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_1 = __this->get_networkStream_6();
+		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_1 = __this->get_networkStream_5();
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_2 = ___buffer0;
 		int32_t L_3 = ___offset1;
 		int32_t L_4 = ___size2;
@@ -24363,9 +24363,9 @@ CATCH_001e:
 
 IL_002a:
 	{
-		int32_t L_7 = __this->get_totalRead_9();
+		int32_t L_7 = __this->get_totalRead_8();
 		int32_t L_8 = V_0;
-		__this->set_totalRead_9(((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)L_8)));
+		__this->set_totalRead_8(((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)L_8)));
 		int32_t L_9 = V_0;
 		if (L_9)
 		{
@@ -24373,11 +24373,11 @@ IL_002a:
 		}
 	}
 	{
-		__this->set_networkStream_6((Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB *)NULL);
-		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_10 = __this->get_request_5();
+		__this->set_networkStream_5((Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB *)NULL);
+		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_10 = __this->get_request_4();
 		NullCheck(L_10);
 		FtpWebRequest_CloseDataConnection_m983F10DAF3E36D46B6D22FBDC494F38D71C3251C(L_10, /*hidden argument*/NULL);
-		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_11 = __this->get_request_5();
+		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_11 = __this->get_request_4();
 		NullCheck(L_11);
 		FtpWebRequest_SetTransferCompleted_mFB703E4DED6BCE1C5DDBEE467409FFCBB5BAF2AF(L_11, /*hidden argument*/NULL);
 	}
@@ -24400,7 +24400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FtpDataStream_BeginRead_m83CC8
 	}
 	{
 		FtpDataStream_CheckDisposed_m30B108103AEB6D930A55C4328585281546B869A5(__this, /*hidden argument*/NULL);
-		bool L_0 = __this->get_isRead_8();
+		bool L_0 = __this->get_isRead_7();
 		if (L_0)
 		{
 			goto IL_0014;
@@ -24575,7 +24575,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FtpDataStream_Read_m85E3CBB3FB4C53F9F
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_0 = __this->get_request_5();
+		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_0 = __this->get_request_4();
 		NullCheck(L_0);
 		FtpWebRequest_CheckIfAborted_mBDB00979DE4C68226AB0EE95DB5B2CAB89B707B9(L_0, /*hidden argument*/NULL);
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_1 = ___buffer0;
@@ -24598,7 +24598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FtpDataStream_Read_m85E3CBB3FB4C53F9F
 		NullCheck(L_7);
 		WaitHandle_t1D7DD8480FD5DA4E3AF92F569890FB972D9B1842 * L_8;
 		L_8 = InterfaceFuncInvoker0< WaitHandle_t1D7DD8480FD5DA4E3AF92F569890FB972D9B1842 * >::Invoke(1 /* System.Threading.WaitHandle System.IAsyncResult::get_AsyncWaitHandle() */, IAsyncResult_tC9F97BF36FCF122D29D3101D80642278297BF370_il2cpp_TypeInfo_var, L_7);
-		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_9 = __this->get_request_5();
+		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_9 = __this->get_request_4();
 		NullCheck(L_9);
 		int32_t L_10;
 		L_10 = FtpWebRequest_get_ReadWriteTimeout_mD8A07E29A06BF1528C1387284B91C409638CCE8C_inline(L_9, /*hidden argument*/NULL);
@@ -24630,7 +24630,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FtpDataStream_WriteInternal_m81F7D1C21D1
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
-		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_0 = __this->get_request_5();
+		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_0 = __this->get_request_4();
 		NullCheck(L_0);
 		FtpWebRequest_CheckIfAborted_mBDB00979DE4C68226AB0EE95DB5B2CAB89B707B9(L_0, /*hidden argument*/NULL);
 	}
@@ -24638,7 +24638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FtpDataStream_WriteInternal_m81F7D1C21D1
 IL_000b:
 	try
 	{ // begin try (depth: 1)
-		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_1 = __this->get_networkStream_6();
+		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_1 = __this->get_networkStream_5();
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_2 = ___buffer0;
 		int32_t L_3 = ___offset1;
 		int32_t L_4 = ___size2;
@@ -24680,7 +24680,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FtpDataStream_BeginWrite_m41F1
 	}
 	{
 		FtpDataStream_CheckDisposed_m30B108103AEB6D930A55C4328585281546B869A5(__this, /*hidden argument*/NULL);
-		bool L_0 = __this->get_isRead_8();
+		bool L_0 = __this->get_isRead_7();
 		if (!L_0)
 		{
 			goto IL_0014;
@@ -24854,7 +24854,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FtpDataStream_Write_m96C5B0680938D989B25
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_0 = __this->get_request_5();
+		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_0 = __this->get_request_4();
 		NullCheck(L_0);
 		FtpWebRequest_CheckIfAborted_mBDB00979DE4C68226AB0EE95DB5B2CAB89B707B9(L_0, /*hidden argument*/NULL);
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_1 = ___buffer0;
@@ -24877,7 +24877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FtpDataStream_Write_m96C5B0680938D989B25
 		NullCheck(L_7);
 		WaitHandle_t1D7DD8480FD5DA4E3AF92F569890FB972D9B1842 * L_8;
 		L_8 = InterfaceFuncInvoker0< WaitHandle_t1D7DD8480FD5DA4E3AF92F569890FB972D9B1842 * >::Invoke(1 /* System.Threading.WaitHandle System.IAsyncResult::get_AsyncWaitHandle() */, IAsyncResult_tC9F97BF36FCF122D29D3101D80642278297BF370_il2cpp_TypeInfo_var, L_7);
-		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_9 = __this->get_request_5();
+		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_9 = __this->get_request_4();
 		NullCheck(L_9);
 		int32_t L_10;
 		L_10 = FtpWebRequest_get_ReadWriteTimeout_mD8A07E29A06BF1528C1387284B91C409638CCE8C_inline(L_9, /*hidden argument*/NULL);
@@ -24956,7 +24956,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FtpDataStream_System_IDisposable_Dispose
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FtpDataStream_Dispose_m47AE39EC076C9369C0B25FD39729EB9A1A878539 (FtpDataStream_t8D77868ECA7AFC1A74A996CADD50D0E0B40ACFB0 * __this, bool ___disposing0, const RuntimeMethod* method)
 {
 	{
-		bool L_0 = __this->get_disposed_7();
+		bool L_0 = __this->get_disposed_6();
 		if (!L_0)
 		{
 			goto IL_0009;
@@ -24968,22 +24968,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FtpDataStream_Dispose_m47AE39EC076C9369C
 
 IL_0009:
 	{
-		__this->set_disposed_7((bool)1);
-		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_1 = __this->get_networkStream_6();
+		__this->set_disposed_6((bool)1);
+		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_1 = __this->get_networkStream_5();
 		if (!L_1)
 		{
 			goto IL_003c;
 		}
 	}
 	{
-		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_2 = __this->get_request_5();
+		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_2 = __this->get_request_4();
 		NullCheck(L_2);
 		FtpWebRequest_CloseDataConnection_m983F10DAF3E36D46B6D22FBDC494F38D71C3251C(L_2, /*hidden argument*/NULL);
-		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_3 = __this->get_request_5();
+		FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D * L_3 = __this->get_request_4();
 		NullCheck(L_3);
 		FtpWebRequest_SetTransferCompleted_mFB703E4DED6BCE1C5DDBEE467409FFCBB5BAF2AF(L_3, /*hidden argument*/NULL);
-		__this->set_request_5((FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D *)NULL);
-		__this->set_networkStream_6((Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB *)NULL);
+		__this->set_request_4((FtpWebRequest_t9CA7B151B9A2C305627461D607795EC345CD267D *)NULL);
+		__this->set_networkStream_5((Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB *)NULL);
 	}
 
 IL_003c:
@@ -24995,7 +24995,7 @@ IL_003c:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FtpDataStream_CheckDisposed_m30B108103AEB6D930A55C4328585281546B869A5 (FtpDataStream_t8D77868ECA7AFC1A74A996CADD50D0E0B40ACFB0 * __this, const RuntimeMethod* method)
 {
 	{
-		bool L_0 = __this->get_disposed_7();
+		bool L_0 = __this->get_disposed_6();
 		if (!L_0)
 		{
 			goto IL_0019;
@@ -30456,7 +30456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GZipStream__ctor_mB3960180B764F1399480D5
 		bool L_2 = ___leaveOpen2;
 		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_3 = (DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 *)il2cpp_codegen_object_new(DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5_il2cpp_TypeInfo_var);
 		DeflateStream__ctor_mB1FE9763B287BCA943AEBB3832117BACCE1D4C24(L_3, L_0, L_1, L_2, ((int32_t)31), /*hidden argument*/NULL);
-		__this->set__deflateStream_5(L_3);
+		__this->set__deflateStream_4(L_3);
 		return;
 	}
 }
@@ -30466,7 +30466,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GZipStream_get_CanRead_m497E40DBEB52A4D1
 	DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * G_B2_0 = NULL;
 	DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * G_B1_0 = NULL;
 	{
-		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_5();
+		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_4();
 		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_1 = L_0;
 		G_B1_0 = L_1;
 		if (L_1)
@@ -30493,7 +30493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GZipStream_get_CanWrite_m6CA9878AA502CD3
 	DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * G_B2_0 = NULL;
 	DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * G_B1_0 = NULL;
 	{
-		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_5();
+		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_4();
 		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_1 = L_0;
 		G_B1_0 = L_1;
 		if (L_1)
@@ -30520,7 +30520,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GZipStream_get_CanSeek_m33BA0754E63EC314
 	DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * G_B2_0 = NULL;
 	DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * G_B1_0 = NULL;
 	{
-		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_5();
+		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_4();
 		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_1 = L_0;
 		G_B1_0 = L_1;
 		if (L_1)
@@ -30573,7 +30573,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GZipStream_Flush_m84B66386AF2338A8FF4325
 {
 	{
 		GZipStream_CheckDeflateStream_mBFDFD94751C45AB953DFB16D9ECE11D50E09AC92(__this, /*hidden argument*/NULL);
-		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_5();
+		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_4();
 		NullCheck(L_0);
 		VirtActionInvoker0::Invoke(19 /* System.Void System.IO.Stream::Flush() */, L_0);
 		return;
@@ -30602,7 +30602,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GZipStream_ReadByte_mC5CF331EFC0C9500
 {
 	{
 		GZipStream_CheckDeflateStream_mBFDFD94751C45AB953DFB16D9ECE11D50E09AC92(__this, /*hidden argument*/NULL);
-		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_5();
+		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_4();
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = VirtFuncInvoker0< int32_t >::Invoke(30 /* System.Int32 System.IO.Stream::ReadByte() */, L_0);
@@ -30655,7 +30655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GZipStream_Read_m756C14A02FE465D2FBB9
 {
 	{
 		GZipStream_CheckDeflateStream_mBFDFD94751C45AB953DFB16D9ECE11D50E09AC92(__this, /*hidden argument*/NULL);
-		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_5();
+		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_4();
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_1 = ___array0;
 		int32_t L_2 = ___offset1;
 		int32_t L_3 = ___count2;
@@ -30704,7 +30704,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GZipStream_Write_mFE0DDD12E1619DDBB728EA
 {
 	{
 		GZipStream_CheckDeflateStream_mBFDFD94751C45AB953DFB16D9ECE11D50E09AC92(__this, /*hidden argument*/NULL);
-		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_5();
+		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_4();
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_1 = ___array0;
 		int32_t L_2 = ___offset1;
 		int32_t L_3 = ___count2;
@@ -30732,7 +30732,7 @@ IL_0000:
 
 IL_0003:
 		{
-			DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_1 = __this->get__deflateStream_5();
+			DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_1 = __this->get__deflateStream_4();
 			if (!L_1)
 			{
 				goto IL_0016;
@@ -30741,14 +30741,14 @@ IL_0003:
 
 IL_000b:
 		{
-			DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_2 = __this->get__deflateStream_5();
+			DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_2 = __this->get__deflateStream_4();
 			NullCheck(L_2);
 			Stream_Dispose_m117324084DDAD414761AD29FB17A419840BA6EA0(L_2, /*hidden argument*/NULL);
 		}
 
 IL_0016:
 		{
-			__this->set__deflateStream_5((DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 *)NULL);
+			__this->set__deflateStream_4((DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 *)NULL);
 			IL2CPP_LEAVE(0x27, FINALLY_001f);
 		}
 	} // end try (depth: 1)
@@ -30780,7 +30780,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tEF253D967DB628A9F8A389A9F2E4516871FD3
 {
 	{
 		GZipStream_CheckDeflateStream_mBFDFD94751C45AB953DFB16D9ECE11D50E09AC92(__this, /*hidden argument*/NULL);
-		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_5();
+		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_4();
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_1 = ___array0;
 		int32_t L_2 = ___offset1;
 		int32_t L_3 = ___count2;
@@ -30796,7 +30796,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB6
 {
 	{
 		GZipStream_CheckDeflateStream_mBFDFD94751C45AB953DFB16D9ECE11D50E09AC92(__this, /*hidden argument*/NULL);
-		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_5();
+		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_4();
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_1 = ___array0;
 		int32_t L_2 = ___offset1;
 		int32_t L_3 = ___count2;
@@ -30812,7 +30812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB6
 {
 	{
 		GZipStream_CheckDeflateStream_mBFDFD94751C45AB953DFB16D9ECE11D50E09AC92(__this, /*hidden argument*/NULL);
-		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_5();
+		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_4();
 		CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD  L_1 = ___cancellationToken0;
 		NullCheck(L_0);
 		Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * L_2;
@@ -30825,7 +30825,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB6
 {
 	{
 		GZipStream_CheckDeflateStream_mBFDFD94751C45AB953DFB16D9ECE11D50E09AC92(__this, /*hidden argument*/NULL);
-		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_5();
+		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_4();
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_1 = ___destination0;
 		int32_t L_2 = ___bufferSize1;
 		CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD  L_3 = ___cancellationToken2;
@@ -30839,7 +30839,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GZipStream_CheckDeflateStream_mBFDFD94751C45AB953DFB16D9ECE11D50E09AC92 (GZipStream_t3C2FE429FBD114B00B7B65623757F5862196B9B6 * __this, const RuntimeMethod* method)
 {
 	{
-		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_5();
+		DeflateStream_t23FBBBCAA86C6AEA9E520A44C0FD0F947236A8B5 * L_0 = __this->get__deflateStream_4();
 		if (L_0)
 		{
 			goto IL_000d;
@@ -41656,14 +41656,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Version_get_Minor_m8FCC5D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WebOperation_tA657473A4429C6E434B401D4BF98A8654E5B3E00 * WebConnectionStream_get_Operation_mD926B0BCCEBE04C640DE920C22736C109E95FF27_inline (WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918 * __this, const RuntimeMethod* method)
 {
 	{
-		WebOperation_tA657473A4429C6E434B401D4BF98A8654E5B3E00 * L_0 = __this->get_U3COperationU3Ek__BackingField_13();
+		WebOperation_tA657473A4429C6E434B401D4BF98A8654E5B3E00 * L_0 = __this->get_U3COperationU3Ek__BackingField_12();
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WebConnection_tBFE079FE6CA946AE000FE257DD8FE6F898BB3C88 * WebConnectionStream_get_Connection_m24DACC6F27A46E8201E23C10F3A4CB322136F546_inline (WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918 * __this, const RuntimeMethod* method)
 {
 	{
-		WebConnection_tBFE079FE6CA946AE000FE257DD8FE6F898BB3C88 * L_0 = __this->get_U3CConnectionU3Ek__BackingField_12();
+		WebConnection_tBFE079FE6CA946AE000FE257DD8FE6F898BB3C88 * L_0 = __this->get_U3CConnectionU3Ek__BackingField_11();
 		return L_0;
 	}
 }
@@ -41700,35 +41700,35 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool HttpWebRequest_get_ThrowOnEr
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WebHeaderCollection_tB7EEB47640F12A532E1D8331A5AD498A289824D4 * WebResponseStream_get_Headers_mA7D647A682410D694CC962C67D38EEA488C4A9A3_inline (WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F * __this, const RuntimeMethod* method)
 {
 	{
-		WebHeaderCollection_tB7EEB47640F12A532E1D8331A5AD498A289824D4 * L_0 = __this->get_U3CHeadersU3Ek__BackingField_25();
+		WebHeaderCollection_tB7EEB47640F12A532E1D8331A5AD498A289824D4 * L_0 = __this->get_U3CHeadersU3Ek__BackingField_24();
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Version_tBDAEDED25425A1D09910468B8BD1759115646E3C * WebResponseStream_get_Version_m4BBC5EA52F6A9B3FF1EA288ED90E97F17E593356_inline (WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F * __this, const RuntimeMethod* method)
 {
 	{
-		Version_tBDAEDED25425A1D09910468B8BD1759115646E3C * L_0 = __this->get_U3CVersionU3Ek__BackingField_28();
+		Version_tBDAEDED25425A1D09910468B8BD1759115646E3C * L_0 = __this->get_U3CVersionU3Ek__BackingField_27();
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t WebResponseStream_get_StatusCode_m837CED65B650A68F08F672C9B4FF3A074CE06B94_inline (WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F * __this, const RuntimeMethod* method)
 {
 	{
-		int32_t L_0 = __this->get_U3CStatusCodeU3Ek__BackingField_26();
+		int32_t L_0 = __this->get_U3CStatusCodeU3Ek__BackingField_25();
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* WebResponseStream_get_StatusDescription_m2E93D3E49082E272D8665DE08338EF8C4B85BBB7_inline (WebResponseStream_tE736622E064B3EC1760F08EC5F0C5BD342E8016F * __this, const RuntimeMethod* method)
 {
 	{
-		String_t* L_0 = __this->get_U3CStatusDescriptionU3Ek__BackingField_27();
+		String_t* L_0 = __this->get_U3CStatusDescriptionU3Ek__BackingField_26();
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HttpWebRequest_tDF8F794F1E3A8A19A63C2B57C1A28A42698BF07A * WebConnectionStream_get_Request_m31D1A8BD789373DC74A6ACED727E3A46A972BA0B_inline (WebConnectionStream_t3D04BDBD47522FD7C97ABF7F1B4498F72FA2E918 * __this, const RuntimeMethod* method)
 {
 	{
-		HttpWebRequest_tDF8F794F1E3A8A19A63C2B57C1A28A42698BF07A * L_0 = __this->get_U3CRequestU3Ek__BackingField_11();
+		HttpWebRequest_tDF8F794F1E3A8A19A63C2B57C1A28A42698BF07A * L_0 = __this->get_U3CRequestU3Ek__BackingField_10();
 		return L_0;
 	}
 }

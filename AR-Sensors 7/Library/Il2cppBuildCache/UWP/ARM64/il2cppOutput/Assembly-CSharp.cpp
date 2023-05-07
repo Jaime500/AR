@@ -472,6 +472,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral05E994DF6D098F60674475F2FBE1F0F13CC17E76
 IL2CPP_EXTERN_C String_t* _stringLiteral060292EDC443B2AFEE876ADD47AEDCD78DADFB7F;
 IL2CPP_EXTERN_C String_t* _stringLiteral061EB9534F9EDAD2ADB903585EEDA9DFB36BA244;
 IL2CPP_EXTERN_C String_t* _stringLiteral089C7C8A2697722E9D91774E9709A7F867739578;
+IL2CPP_EXTERN_C String_t* _stringLiteral0F3E56F23F912A28EB5BE72F0C928A6C2D43F012;
 IL2CPP_EXTERN_C String_t* _stringLiteral10146B090B0884F23A38FA5159E70A62F1A906CB;
 IL2CPP_EXTERN_C String_t* _stringLiteral122DAEB6E112576FD0519243E425F6CD2E97BA90;
 IL2CPP_EXTERN_C String_t* _stringLiteral1541E05B9D2D6FD33C0D2C95645D8B270977331D;
@@ -486,6 +487,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral298AB8B8D9FA272A0D70EBF7E4CB1DC3734650D5
 IL2CPP_EXTERN_C String_t* _stringLiteral29EF2434494D144660AF17FE94C20E15C35EE5B9;
 IL2CPP_EXTERN_C String_t* _stringLiteral2B12B33254B690D6BB2653F98C810380E31E46F6;
 IL2CPP_EXTERN_C String_t* _stringLiteral2C706311BF2DB901F229A037281135883225110A;
+IL2CPP_EXTERN_C String_t* _stringLiteral2CBD0A8E40C6F0756F9D018452556DC3CA629EAD;
 IL2CPP_EXTERN_C String_t* _stringLiteral2CD22400FBC3ACC4AD0F93EAA2079A959A670811;
 IL2CPP_EXTERN_C String_t* _stringLiteral30DBA6659F138D2253230CA4C353C3602FF49420;
 IL2CPP_EXTERN_C String_t* _stringLiteral369072009697294C94D73DB57B245E4901C62A58;
@@ -572,24 +574,28 @@ IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetStateMachine_mE
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_Start_TisU3Cget_dataU3Ed__6_t7C634CCD38C4833AA9C48DA84B5BA5DAD187D270_mD110F932EE219A2127AE7363FA3284FE07CB6502_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_get_Task_mCB63CB31B1603243888A985C348A8E14CECF91D1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CCreateAnchorU3Ed__11_tE35DF79413A46B81B555FC97A1954E4AE2F1FF25_m92C2C87FED83FC21BE069B0AC69D04BD814CA8CF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mA5C8D9850A56E7CC2BB060EEF2D9D5CEB5C307B4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CCreateAnchorU3Ed__11_tE35DF79413A46B81B555FC97A1954E4AE2F1FF25_m414ABF4CD40CCE3E574A899CA45444EECE1FA937_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mA852EBBF4C82FC0E2E26154AA9CF9D241F2A4DB2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t76FAB98A539F24541F512A2D647DD478F637F983_TisU3Cupdate_awairU3Ed__7_tE69544FB06F7D7CAD66CDA075CFF0ABDEE6E7455_m3499E84521CE1BD6CA6B5DEE7D92004393884D33_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t76FAB98A539F24541F512A2D647DD478F637F983_TisU3Cupdate_doorU3Ed__9_t24F1CB604691EFB00BF93A429AC683C53F262795_mD77E2FE4ABDBCF707F54301CE849F0702DE3884A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t76FAB98A539F24541F512A2D647DD478F637F983_TisU3Cupdate_dual_motionU3Ed__11_t1289E5046F6A5ABE03BB6382E6E0E7DFFB9ABEB8_mDA3C353A5F4B7A9A9B78B06AD476D9FACD4DF931_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t76FAB98A539F24541F512A2D647DD478F637F983_TisU3Cupdate_lightU3Ed__10_tAE25D26FBB07C2A7E72220DE4A6305C8D4C84738_mB3AD24A64305C169672D83FEBF37E99803655776_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t76FAB98A539F24541F512A2D647DD478F637F983_TisU3Cupdate_temp_humidU3Ed__8_tB91E9A95B3CA8B101E582AA3D12174777433550F_m7B2A04619CA70150652B53D8B0B48A77FFFACD08_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CDeleteAnchorU3Ed__14_t6CAA626E69035936D7376CFEFEC4F377E5853D0A_m2DE13AF6228832069734FC8DEA4BE9148AC9B2DE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598_mEE1B1E931E4132817DDE8E01B1CB9ED9C0B69B0E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B_m7D14B118FCEDF25707DBFBD9687452B7C6E4C82E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CLongTapU3Ed__8_t36AAC66F5E51F1A0C7653E4DA31CCF862471710B_mE271BD9C30DBC733B53A441F34B0CCB3F4AADFED_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_m906B7C4B744E8EAE311C72E8FB0A708E9913EAFA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CShortTapU3Ed__7_t1BCE191539FF1EB2CD2AD1CE9E5DF60449170826_mE6DE3067B23E0C7BCAA99C59323465375D682B91_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CStartU3Ed__6_t70A3A7190F57CBE025DFE94D5F74B3E36F70CCCB_mCBC60EF08B48586408FD2E391BF5BA9886B44675_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785_m2E367D04BF3246FA2421DD2EFA1661F1276554CD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CDeleteAnchorU3Ed__14_t6CAA626E69035936D7376CFEFEC4F377E5853D0A_mC05C643B2DB945F640A5AE05335F0289A22808DD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598_m74C05388EAF97C74AB38585A6A133074AFFA0509_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B_mD8E8B6B0F4078F2FB79D0614F380682FA837C88C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CLongTapU3Ed__8_t36AAC66F5E51F1A0C7653E4DA31CCF862471710B_m5651785F955A6CD50820186EBD4E0C26D61D311D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mB6C124037D0E606092B9874E0081E28710FB5CA5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CShortTapU3Ed__7_t1BCE191539FF1EB2CD2AD1CE9E5DF60449170826_mD59B94F75D8B25BD9AFFEA74E1FCFA71784DC69E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CStartU3Ed__6_t70A3A7190F57CBE025DFE94D5F74B3E36F70CCCB_m9EB6EDD3BF8F2361E090FE71EE60243B4BEEC957_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785_m37063593B8EA9CF95BB2C4DC7FCF9ADA6ADB97AB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3Cupdate_awairU3Ed__7_tE69544FB06F7D7CAD66CDA075CFF0ABDEE6E7455_m0BE210C8566C4048C11A50089D018121CBB42903_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3Cupdate_doorU3Ed__9_t24F1CB604691EFB00BF93A429AC683C53F262795_mA40DC8353104E016EBCB3431AA0C1D36BD4C5BF2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3Cupdate_dual_motionU3Ed__11_t1289E5046F6A5ABE03BB6382E6E0E7DFFB9ABEB8_m559AF33F8CED3D632F7834E750D7809601F76C64_RuntimeMethod_var;
@@ -1285,68 +1291,68 @@ struct Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827  : public RuntimeObjec
 {
 public:
 	// System.Int32 System.Text.Encoding::m_codePage
-	int32_t ___m_codePage_55;
+	int32_t ___m_codePage_9;
 	// System.Globalization.CodePageDataItem System.Text.Encoding::dataItem
-	CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E * ___dataItem_56;
+	CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E * ___dataItem_10;
 	// System.Boolean System.Text.Encoding::m_deserializedFromEverett
-	bool ___m_deserializedFromEverett_57;
+	bool ___m_deserializedFromEverett_11;
 	// System.Boolean System.Text.Encoding::m_isReadOnly
-	bool ___m_isReadOnly_58;
+	bool ___m_isReadOnly_12;
 	// System.Text.EncoderFallback System.Text.Encoding::encoderFallback
-	EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 * ___encoderFallback_59;
+	EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 * ___encoderFallback_13;
 	// System.Text.DecoderFallback System.Text.Encoding::decoderFallback
-	DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D * ___decoderFallback_60;
+	DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D * ___decoderFallback_14;
 
 public:
-	inline static int32_t get_offset_of_m_codePage_55() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___m_codePage_55)); }
-	inline int32_t get_m_codePage_55() const { return ___m_codePage_55; }
-	inline int32_t* get_address_of_m_codePage_55() { return &___m_codePage_55; }
-	inline void set_m_codePage_55(int32_t value)
+	inline static int32_t get_offset_of_m_codePage_9() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___m_codePage_9)); }
+	inline int32_t get_m_codePage_9() const { return ___m_codePage_9; }
+	inline int32_t* get_address_of_m_codePage_9() { return &___m_codePage_9; }
+	inline void set_m_codePage_9(int32_t value)
 	{
-		___m_codePage_55 = value;
+		___m_codePage_9 = value;
 	}
 
-	inline static int32_t get_offset_of_dataItem_56() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___dataItem_56)); }
-	inline CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E * get_dataItem_56() const { return ___dataItem_56; }
-	inline CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E ** get_address_of_dataItem_56() { return &___dataItem_56; }
-	inline void set_dataItem_56(CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E * value)
+	inline static int32_t get_offset_of_dataItem_10() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___dataItem_10)); }
+	inline CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E * get_dataItem_10() const { return ___dataItem_10; }
+	inline CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E ** get_address_of_dataItem_10() { return &___dataItem_10; }
+	inline void set_dataItem_10(CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E * value)
 	{
-		___dataItem_56 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___dataItem_56), (void*)value);
+		___dataItem_10 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___dataItem_10), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_m_deserializedFromEverett_57() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___m_deserializedFromEverett_57)); }
-	inline bool get_m_deserializedFromEverett_57() const { return ___m_deserializedFromEverett_57; }
-	inline bool* get_address_of_m_deserializedFromEverett_57() { return &___m_deserializedFromEverett_57; }
-	inline void set_m_deserializedFromEverett_57(bool value)
+	inline static int32_t get_offset_of_m_deserializedFromEverett_11() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___m_deserializedFromEverett_11)); }
+	inline bool get_m_deserializedFromEverett_11() const { return ___m_deserializedFromEverett_11; }
+	inline bool* get_address_of_m_deserializedFromEverett_11() { return &___m_deserializedFromEverett_11; }
+	inline void set_m_deserializedFromEverett_11(bool value)
 	{
-		___m_deserializedFromEverett_57 = value;
+		___m_deserializedFromEverett_11 = value;
 	}
 
-	inline static int32_t get_offset_of_m_isReadOnly_58() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___m_isReadOnly_58)); }
-	inline bool get_m_isReadOnly_58() const { return ___m_isReadOnly_58; }
-	inline bool* get_address_of_m_isReadOnly_58() { return &___m_isReadOnly_58; }
-	inline void set_m_isReadOnly_58(bool value)
+	inline static int32_t get_offset_of_m_isReadOnly_12() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___m_isReadOnly_12)); }
+	inline bool get_m_isReadOnly_12() const { return ___m_isReadOnly_12; }
+	inline bool* get_address_of_m_isReadOnly_12() { return &___m_isReadOnly_12; }
+	inline void set_m_isReadOnly_12(bool value)
 	{
-		___m_isReadOnly_58 = value;
+		___m_isReadOnly_12 = value;
 	}
 
-	inline static int32_t get_offset_of_encoderFallback_59() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___encoderFallback_59)); }
-	inline EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 * get_encoderFallback_59() const { return ___encoderFallback_59; }
-	inline EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 ** get_address_of_encoderFallback_59() { return &___encoderFallback_59; }
-	inline void set_encoderFallback_59(EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 * value)
+	inline static int32_t get_offset_of_encoderFallback_13() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___encoderFallback_13)); }
+	inline EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 * get_encoderFallback_13() const { return ___encoderFallback_13; }
+	inline EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 ** get_address_of_encoderFallback_13() { return &___encoderFallback_13; }
+	inline void set_encoderFallback_13(EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4 * value)
 	{
-		___encoderFallback_59 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___encoderFallback_59), (void*)value);
+		___encoderFallback_13 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___encoderFallback_13), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_decoderFallback_60() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___decoderFallback_60)); }
-	inline DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D * get_decoderFallback_60() const { return ___decoderFallback_60; }
-	inline DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D ** get_address_of_decoderFallback_60() { return &___decoderFallback_60; }
-	inline void set_decoderFallback_60(DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D * value)
+	inline static int32_t get_offset_of_decoderFallback_14() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827, ___decoderFallback_14)); }
+	inline DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D * get_decoderFallback_14() const { return ___decoderFallback_14; }
+	inline DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D ** get_address_of_decoderFallback_14() { return &___decoderFallback_14; }
+	inline void set_decoderFallback_14(DecoderFallback_tF86D337D6576E81E5DA285E5673183EBC66DEF8D * value)
 	{
-		___decoderFallback_60 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___decoderFallback_60), (void*)value);
+		___decoderFallback_14 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___decoderFallback_14), (void*)value);
 	}
 };
 
@@ -6110,6 +6116,77 @@ public:
 };
 
 
+// AzureSpatialAnchorsScript/<DeleteAnchor>d__9
+struct U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598 
+{
+public:
+	// System.Int32 AzureSpatialAnchorsScript/<DeleteAnchor>d__9::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder AzureSpatialAnchorsScript/<DeleteAnchor>d__9::<>t__builder
+	AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  ___U3CU3Et__builder_1;
+	// AzureSpatialAnchorsScript AzureSpatialAnchorsScript/<DeleteAnchor>d__9::<>4__this
+	AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * ___U3CU3E4__this_2;
+	// UnityEngine.GameObject AzureSpatialAnchorsScript/<DeleteAnchor>d__9::anchorGameObject
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___anchorGameObject_3;
+	// System.Runtime.CompilerServices.TaskAwaiter AzureSpatialAnchorsScript/<DeleteAnchor>d__9::<>u__1
+	TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  ___U3CU3Eu__1_4;
+
+public:
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598, ___U3CU3E1__state_0)); }
+	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
+	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
+	inline void set_U3CU3E1__state_0(int32_t value)
+	{
+		___U3CU3E1__state_0 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598, ___U3CU3Et__builder_1)); }
+	inline AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
+	inline AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
+	inline void set_U3CU3Et__builder_1(AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  value)
+	{
+		___U3CU3Et__builder_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Et__builder_1))->___m_synchronizationContext_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___U3CU3Et__builder_1))->___m_coreState_1))->___m_stateMachine_0), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___U3CU3Et__builder_1))->___m_coreState_1))->___m_defaultContextAction_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Et__builder_1))->___m_task_2), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598, ___U3CU3E4__this_2)); }
+	inline AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
+	inline AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
+	inline void set_U3CU3E4__this_2(AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * value)
+	{
+		___U3CU3E4__this_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_anchorGameObject_3() { return static_cast<int32_t>(offsetof(U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598, ___anchorGameObject_3)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_anchorGameObject_3() const { return ___anchorGameObject_3; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_anchorGameObject_3() { return &___anchorGameObject_3; }
+	inline void set_anchorGameObject_3(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	{
+		___anchorGameObject_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___anchorGameObject_3), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3Eu__1_4() { return static_cast<int32_t>(offsetof(U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598, ___U3CU3Eu__1_4)); }
+	inline TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  get_U3CU3Eu__1_4() const { return ___U3CU3Eu__1_4; }
+	inline TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * get_address_of_U3CU3Eu__1_4() { return &___U3CU3Eu__1_4; }
+	inline void set_U3CU3Eu__1_4(TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  value)
+	{
+		___U3CU3Eu__1_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__1_4))->___m_task_0), (void*)NULL);
+	}
+};
+
+
 // AzureSpatialAnchorsScript/<LongTap>d__12
 struct U3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B 
 {
@@ -6160,66 +6237,6 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__1_3() { return static_cast<int32_t>(offsetof(U3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B, ___U3CU3Eu__1_3)); }
-	inline TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  get_U3CU3Eu__1_3() const { return ___U3CU3Eu__1_3; }
-	inline TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * get_address_of_U3CU3Eu__1_3() { return &___U3CU3Eu__1_3; }
-	inline void set_U3CU3Eu__1_3(TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  value)
-	{
-		___U3CU3Eu__1_3 = value;
-		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
-	}
-};
-
-
-// AzureSpatialAnchorsScript/<MediumTap>d__11
-struct U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA 
-{
-public:
-	// System.Int32 AzureSpatialAnchorsScript/<MediumTap>d__11::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder AzureSpatialAnchorsScript/<MediumTap>d__11::<>t__builder
-	AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  ___U3CU3Et__builder_1;
-	// AzureSpatialAnchorsScript AzureSpatialAnchorsScript/<MediumTap>d__11::<>4__this
-	AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * ___U3CU3E4__this_2;
-	// System.Runtime.CompilerServices.TaskAwaiter AzureSpatialAnchorsScript/<MediumTap>d__11::<>u__1
-	TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  ___U3CU3Eu__1_3;
-
-public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA, ___U3CU3E1__state_0)); }
-	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
-	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
-	inline void set_U3CU3E1__state_0(int32_t value)
-	{
-		___U3CU3E1__state_0 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA, ___U3CU3Et__builder_1)); }
-	inline AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
-	inline AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
-	inline void set_U3CU3Et__builder_1(AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  value)
-	{
-		___U3CU3Et__builder_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Et__builder_1))->___m_synchronizationContext_0), (void*)NULL);
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((&(((&___U3CU3Et__builder_1))->___m_coreState_1))->___m_stateMachine_0), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((&(((&___U3CU3Et__builder_1))->___m_coreState_1))->___m_defaultContextAction_1), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Et__builder_1))->___m_task_2), (void*)NULL);
-		#endif
-	}
-
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA, ___U3CU3E4__this_2)); }
-	inline AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
-	inline AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
-	inline void set_U3CU3E4__this_2(AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * value)
-	{
-		___U3CU3E4__this_2 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_2), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3Eu__1_3() { return static_cast<int32_t>(offsetof(U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA, ___U3CU3Eu__1_3)); }
 	inline TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  get_U3CU3Eu__1_3() const { return ___U3CU3Eu__1_3; }
 	inline TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * get_address_of_U3CU3Eu__1_3() { return &___U3CU3Eu__1_3; }
 	inline void set_U3CU3Eu__1_3(TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  value)
@@ -6286,6 +6303,76 @@ public:
 	{
 		___U3CU3Eu__1_3 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
+	}
+};
+
+
+// AzureSpatialAnchorsScript/<Update>d__7
+struct U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785 
+{
+public:
+	// System.Int32 AzureSpatialAnchorsScript/<Update>d__7::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder AzureSpatialAnchorsScript/<Update>d__7::<>t__builder
+	AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  ___U3CU3Et__builder_1;
+	// AzureSpatialAnchorsScript AzureSpatialAnchorsScript/<Update>d__7::<>4__this
+	AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * ___U3CU3E4__this_2;
+	// System.Int32 AzureSpatialAnchorsScript/<Update>d__7::<i>5__2
+	int32_t ___U3CiU3E5__2_3;
+	// System.Runtime.CompilerServices.TaskAwaiter AzureSpatialAnchorsScript/<Update>d__7::<>u__1
+	TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  ___U3CU3Eu__1_4;
+
+public:
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785, ___U3CU3E1__state_0)); }
+	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
+	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
+	inline void set_U3CU3E1__state_0(int32_t value)
+	{
+		___U3CU3E1__state_0 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785, ___U3CU3Et__builder_1)); }
+	inline AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
+	inline AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
+	inline void set_U3CU3Et__builder_1(AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  value)
+	{
+		___U3CU3Et__builder_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Et__builder_1))->___m_synchronizationContext_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___U3CU3Et__builder_1))->___m_coreState_1))->___m_stateMachine_0), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___U3CU3Et__builder_1))->___m_coreState_1))->___m_defaultContextAction_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Et__builder_1))->___m_task_2), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785, ___U3CU3E4__this_2)); }
+	inline AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
+	inline AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
+	inline void set_U3CU3E4__this_2(AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * value)
+	{
+		___U3CU3E4__this_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CiU3E5__2_3() { return static_cast<int32_t>(offsetof(U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785, ___U3CiU3E5__2_3)); }
+	inline int32_t get_U3CiU3E5__2_3() const { return ___U3CiU3E5__2_3; }
+	inline int32_t* get_address_of_U3CiU3E5__2_3() { return &___U3CiU3E5__2_3; }
+	inline void set_U3CiU3E5__2_3(int32_t value)
+	{
+		___U3CiU3E5__2_3 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CU3Eu__1_4() { return static_cast<int32_t>(offsetof(U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785, ___U3CU3Eu__1_4)); }
+	inline TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  get_U3CU3Eu__1_4() const { return ___U3CU3Eu__1_4; }
+	inline TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * get_address_of_U3CU3Eu__1_4() { return &___U3CU3Eu__1_4; }
+	inline void set_U3CU3Eu__1_4(TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  value)
+	{
+		___U3CU3Eu__1_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__1_4))->___m_task_0), (void*)NULL);
 	}
 };
 
@@ -7943,6 +8030,63 @@ struct WordWrapState_t15805FC5C080AC77203F872695E3B951F460DE99_marshaled_com
 	int32_t ___tagNoParsing_63;
 	int32_t ___isNonBreakingSpace_64;
 };
+
+// AzureSpatialAnchorsScript/<MediumTap>d__11
+struct U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA 
+{
+public:
+	// System.Int32 AzureSpatialAnchorsScript/<MediumTap>d__11::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder AzureSpatialAnchorsScript/<MediumTap>d__11::<>t__builder
+	AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B  ___U3CU3Et__builder_1;
+	// AzureSpatialAnchorsScript AzureSpatialAnchorsScript/<MediumTap>d__11::<>4__this
+	AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * ___U3CU3E4__this_2;
+	// System.Runtime.CompilerServices.TaskAwaiter AzureSpatialAnchorsScript/<MediumTap>d__11::<>u__1
+	TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  ___U3CU3Eu__1_3;
+
+public:
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA, ___U3CU3E1__state_0)); }
+	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
+	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
+	inline void set_U3CU3E1__state_0(int32_t value)
+	{
+		___U3CU3E1__state_0 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA, ___U3CU3Et__builder_1)); }
+	inline AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
+	inline AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
+	inline void set_U3CU3Et__builder_1(AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B  value)
+	{
+		___U3CU3Et__builder_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&___U3CU3Et__builder_1))->___m_builder_1))->___m_coreState_1))->___m_stateMachine_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&___U3CU3Et__builder_1))->___m_builder_1))->___m_coreState_1))->___m_defaultContextAction_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___U3CU3Et__builder_1))->___m_builder_1))->___m_task_2), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA, ___U3CU3E4__this_2)); }
+	inline AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
+	inline AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
+	inline void set_U3CU3E4__this_2(AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * value)
+	{
+		___U3CU3E4__this_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3Eu__1_3() { return static_cast<int32_t>(offsetof(U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA, ___U3CU3Eu__1_3)); }
+	inline TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  get_U3CU3Eu__1_3() const { return ___U3CU3Eu__1_3; }
+	inline TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * get_address_of_U3CU3Eu__1_3() { return &___U3CU3Eu__1_3; }
+	inline void set_U3CU3Eu__1_3(TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  value)
+	{
+		___U3CU3Eu__1_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
+	}
+};
+
 
 // DevelopAzureSpatialAnchorsScript/<CreateAnchor>d__11
 struct U3CCreateAnchorU3Ed__11_tE35DF79413A46B81B555FC97A1954E4AE2F1FF25 
@@ -11477,7 +11621,7 @@ public:
 	// System.Collections.Hashtable modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::encodings
 	Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * ___encodings_8;
 	// System.Object System.Text.Encoding::s_InternalSyncObject
-	RuntimeObject * ___s_InternalSyncObject_61;
+	RuntimeObject * ___s_InternalSyncObject_15;
 
 public:
 	inline static int32_t get_offset_of_defaultEncoding_0() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827_StaticFields, ___defaultEncoding_0)); }
@@ -11561,13 +11705,13 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___encodings_8), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_s_InternalSyncObject_61() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827_StaticFields, ___s_InternalSyncObject_61)); }
-	inline RuntimeObject * get_s_InternalSyncObject_61() const { return ___s_InternalSyncObject_61; }
-	inline RuntimeObject ** get_address_of_s_InternalSyncObject_61() { return &___s_InternalSyncObject_61; }
-	inline void set_s_InternalSyncObject_61(RuntimeObject * value)
+	inline static int32_t get_offset_of_s_InternalSyncObject_15() { return static_cast<int32_t>(offsetof(Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827_StaticFields, ___s_InternalSyncObject_15)); }
+	inline RuntimeObject * get_s_InternalSyncObject_15() const { return ___s_InternalSyncObject_15; }
+	inline RuntimeObject ** get_address_of_s_InternalSyncObject_15() { return &___s_InternalSyncObject_15; }
+	inline void set_s_InternalSyncObject_15(RuntimeObject * value)
 	{
-		___s_InternalSyncObject_61 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_InternalSyncObject_61), (void*)value);
+		___s_InternalSyncObject_15 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_InternalSyncObject_15), (void*)value);
 	}
 };
 
@@ -14292,22 +14436,28 @@ public:
 // System.Uri
 
 
-// AzureSpatialAnchorsScript/<LongTap>d__12
+// AzureSpatialAnchorsScript/<DeleteAnchor>d__9
+
+
+// AzureSpatialAnchorsScript/<DeleteAnchor>d__9
 
 
 // AzureSpatialAnchorsScript/<LongTap>d__12
 
 
-// AzureSpatialAnchorsScript/<MediumTap>d__11
-
-
-// AzureSpatialAnchorsScript/<MediumTap>d__11
+// AzureSpatialAnchorsScript/<LongTap>d__12
 
 
 // AzureSpatialAnchorsScript/<Start>d__6
 
 
 // AzureSpatialAnchorsScript/<Start>d__6
+
+
+// AzureSpatialAnchorsScript/<Update>d__7
+
+
+// AzureSpatialAnchorsScript/<Update>d__7
 
 
 // DevelopAzureSpatialAnchorsScript/<DeleteAnchor>d__14
@@ -14422,6 +14572,12 @@ public:
 
 
 // TMPro.WordWrapState
+
+
+// AzureSpatialAnchorsScript/<MediumTap>d__11
+
+
+// AzureSpatialAnchorsScript/<MediumTap>d__11
 
 
 // DevelopAzureSpatialAnchorsScript/<CreateAnchor>d__11
@@ -15468,41 +15624,6 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// System.Single[]
-struct SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) float m_Items[1];
-
-public:
-	inline float GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline float* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, float value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline float GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
-	{
-		m_Items[index] = value;
-	}
-};
 // System.String[]
 struct StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A  : public RuntimeArray
 {
@@ -15538,6 +15659,41 @@ public:
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+// System.Single[]
+struct SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) float m_Items[1];
+
+public:
+	inline float GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
+	{
+		m_Items[index] = value;
 	}
 };
 // System.Byte[]
@@ -15616,8 +15772,10 @@ public:
 
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<AzureSpatialAnchorsScript/<Start>d__6>(!!0&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CStartU3Ed__6_t70A3A7190F57CBE025DFE94D5F74B3E36F70CCCB_m9EB6EDD3BF8F2361E090FE71EE60243B4BEEC957_gshared (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, U3CStartU3Ed__6_t70A3A7190F57CBE025DFE94D5F74B3E36F70CCCB * ___stateMachine0, const RuntimeMethod* method);
-// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Remove(!0)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m32325BAD86F31C471AEBE80C6A7A8A6908EB0611_gshared (Dictionary_2_tBD1E3221EBD04CEBDA49B84779912E91F56B958D * __this, RuntimeObject * ___key0, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<AzureSpatialAnchorsScript/<Update>d__7>(!!0&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785_m37063593B8EA9CF95BB2C4DC7FCF9ADA6ADB97AB_gshared (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785 * ___stateMachine0, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<AzureSpatialAnchorsScript/<DeleteAnchor>d__9>(!!0&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598_m74C05388EAF97C74AB38585A6A133074AFFA0509_gshared (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598 * ___stateMachine0, const RuntimeMethod* method);
 // System.Int32 System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Count()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Dictionary_2_get_Count_m1B599EE742A00E8D399B43E225AD4C6571FBC8DA_gshared (Dictionary_2_tBD1E3221EBD04CEBDA49B84779912E91F56B958D * __this, const RuntimeMethod* method);
 // System.Collections.Generic.Dictionary`2/KeyCollection<!0,!1> System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Keys()
@@ -15630,8 +15788,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mD14F35586915F2F8014526C264
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Enumerable_Aggregate_TisRuntimeObject_TisRuntimeObject_mED4A039DA96ADBE3C3B360B99EAB65979FDC20AD_gshared (RuntimeObject* ___source0, RuntimeObject * ___seed1, Func_3_tBBBFF266D23D5A9A7940D16DA73BCD5DE0753A27 * ___func2, const RuntimeMethod* method);
 // System.Void System.TupleExtensions::Deconstruct<System.Single,System.Object>(System.Tuple`2<!!0,!!1>,!!0&,!!1&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TupleExtensions_Deconstruct_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_TisRuntimeObject_mC0188721D95A20B509E4F193C58161FD4D0EA187_gshared (Tuple_2_t4B85098D8C2AF20055A90363381C632B43EF851B * ___value0, float* ___item11, RuntimeObject ** ___item22, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<AzureSpatialAnchorsScript/<MediumTap>d__11>(!!0&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mB6C124037D0E606092B9874E0081E28710FB5CA5_gshared (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA * ___stateMachine0, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<AzureSpatialAnchorsScript/<MediumTap>d__11>(!!0&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mA852EBBF4C82FC0E2E26154AA9CF9D241F2A4DB2_gshared (AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * __this, U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA * ___stateMachine0, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<AzureSpatialAnchorsScript/<LongTap>d__12>(!!0&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B_mD8E8B6B0F4078F2FB79D0614F380682FA837C88C_gshared (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, U3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B * ___stateMachine0, const RuntimeMethod* method);
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<!0,!1> System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Object>::GetEnumerator()
@@ -15730,12 +15888,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Object_Instantiate_TisRuntime
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m84AB5E937BCE0767FE7D1B05E97869DB5A11EC88_gshared (Enumerator_t8A00DDB7992EACF03F4EC0176A52FC65DEDFC8BC * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1/Enumerator<AzureSpatialAnchorsScript/SensorInformation>::Dispose()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_m6E22D268E15AF59798CF8465739ED3A79EE0D13A_gshared (Enumerator_t8A00DDB7992EACF03F4EC0176A52FC65DEDFC8BC * __this, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,AzureSpatialAnchorsScript/<DeleteAnchor>d__9>(!!0&,!!1&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598_mEE1B1E931E4132817DDE8E01B1CB9ED9C0B69B0E_gshared (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598 * ___stateMachine1, const RuntimeMethod* method);
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Remove(!0)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m32325BAD86F31C471AEBE80C6A7A8A6908EB0611_gshared (Dictionary_2_tBD1E3221EBD04CEBDA49B84779912E91F56B958D * __this, RuntimeObject * ___key0, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,AzureSpatialAnchorsScript/<LongTap>d__12>(!!0&,!!1&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B_m7D14B118FCEDF25707DBFBD9687452B7C6E4C82E_gshared (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B * ___stateMachine1, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,AzureSpatialAnchorsScript/<MediumTap>d__11>(!!0&,!!1&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_m906B7C4B744E8EAE311C72E8FB0A708E9913EAFA_gshared (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA * ___stateMachine1, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,AzureSpatialAnchorsScript/<MediumTap>d__11>(!!0&,!!1&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mA5C8D9850A56E7CC2BB060EEF2D9D5CEB5C307B4_gshared (AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA * ___stateMachine1, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,AzureSpatialAnchorsScript/<Start>d__6>(!!0&,!!1&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CStartU3Ed__6_t70A3A7190F57CBE025DFE94D5F74B3E36F70CCCB_mCBC60EF08B48586408FD2E391BF5BA9886B44675_gshared (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CStartU3Ed__6_t70A3A7190F57CBE025DFE94D5F74B3E36F70CCCB * ___stateMachine1, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,AzureSpatialAnchorsScript/<Update>d__7>(!!0&,!!1&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785_m2E367D04BF3246FA2421DD2EFA1661F1276554CD_gshared (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785 * ___stateMachine1, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Object>::Add(!0)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_Add_mE5B3CBB3A625606D9BC4337FEAAF1D66BCB6F96E_gshared (List_1_t3F94120C77410A62EAE48421CF166B83AB95A2F5 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
 // !!0 UnityEngine.GameObject::GetComponent<System.Object>()
@@ -15784,29 +15948,20 @@ inline void AsyncVoidMethodBuilder_Start_TisU3CStartU3Ed__6_t70A3A7190F57CBE025D
 {
 	((  void (*) (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *, U3CStartU3Ed__6_t70A3A7190F57CBE025DFE94D5F74B3E36F70CCCB *, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CStartU3Ed__6_t70A3A7190F57CBE025DFE94D5F74B3E36F70CCCB_m9EB6EDD3BF8F2361E090FE71EE60243B4BEEC957_gshared)(__this, ___stateMachine0, method);
 }
-// UnityEngine.XR.InputDevice UnityEngine.XR.InputDevices::GetDeviceAtXRNode(UnityEngine.XR.XRNode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E  InputDevices_GetDeviceAtXRNode_m87495BA0026D710C1F1975B90F7AAAD3A9AA089F (int32_t ___node0, const RuntimeMethod* method);
-// System.Boolean UnityEngine.XR.InputDevice::TryGetFeatureValue(UnityEngine.XR.InputFeatureUsage`1<System.Boolean>,System.Boolean&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_TryGetFeatureValue_mF70AB4F4BC703E9242A757D0A6D84A4DA48BBBBE (InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E * __this, InputFeatureUsage_1_t28793BE3C4ACB9F1B34C0C392EAAFB16A5FA8E40  ___usage0, bool* ___value1, const RuntimeMethod* method);
-// System.Boolean UnityEngine.XR.InputDevice::TryGetFeatureValue(UnityEngine.XR.InputFeatureUsage`1<UnityEngine.Vector3>,UnityEngine.Vector3&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_TryGetFeatureValue_m9B40B8FAD5FED79E840DA7064A7A48FD9AA61C1A (InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E * __this, InputFeatureUsage_1_t2E7E3FD2C721D53BE7A1B809921F9476185C8709  ___usage0, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___value1, const RuntimeMethod* method);
-// System.Void AzureSpatialAnchorsScript::ShortTap(UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AzureSpatialAnchorsScript_ShortTap_m47C9D401B9A08DB5A72A6B11D2B17F64121D7EEF (AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___handPosition0, const RuntimeMethod* method);
-// System.Void AzureSpatialAnchorsScript::MediumTap()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AzureSpatialAnchorsScript_MediumTap_m0FA15E4992827B01D44560A1FC6C2047E50D184C (AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * __this, const RuntimeMethod* method);
-// System.Single UnityEngine.Time::get_deltaTime()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mF558623BBB4EE65C8810243B05ED204A9E8D6FD1 (const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<AzureSpatialAnchorsScript/<Update>d__7>(!!0&)
+inline void AsyncVoidMethodBuilder_Start_TisU3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785_m37063593B8EA9CF95BB2C4DC7FCF9ADA6ADB97AB (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785 * ___stateMachine0, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *, U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785 *, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785_m37063593B8EA9CF95BB2C4DC7FCF9ADA6ADB97AB_gshared)(__this, ___stateMachine0, method);
+}
 // System.Boolean AzureSpatialAnchorsScript::IsAnchorNearby(UnityEngine.Vector3,UnityEngine.GameObject&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AzureSpatialAnchorsScript_IsAnchorNearby_m1BAF677746B7C4E76467FF44573232E2D22EBE92 (AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___position0, GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** ___anchorGameObject1, const RuntimeMethod* method);
 // System.Void AzureSpatialAnchorsScript::DeleteAnchor(UnityEngine.GameObject)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AzureSpatialAnchorsScript_DeleteAnchor_m2CABEBCB21D7198032417770227ACCC51146153A (AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * __this, GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___anchorGameObject0, const RuntimeMethod* method);
-// System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,System.String>::Remove(!0)
-inline bool Dictionary_2_Remove_m3FE54F8184B07105D694C63D3D5481D9C08428C1 (Dictionary_2_t2580B3DAA23EFB18A8F9019EA2AC5F3ECDF8CCE0 * __this, GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___key0, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<AzureSpatialAnchorsScript/<DeleteAnchor>d__9>(!!0&)
+inline void AsyncVoidMethodBuilder_Start_TisU3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598_m74C05388EAF97C74AB38585A6A133074AFFA0509 (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598 * ___stateMachine0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Dictionary_2_t2580B3DAA23EFB18A8F9019EA2AC5F3ECDF8CCE0 *, GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 *, const RuntimeMethod*))Dictionary_2_Remove_m32325BAD86F31C471AEBE80C6A7A8A6908EB0611_gshared)(__this, ___key0, method);
+	((  void (*) (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *, U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598 *, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598_m74C05388EAF97C74AB38585A6A133074AFFA0509_gshared)(__this, ___stateMachine0, method);
 }
-// System.Void UnityEngine.Object::Destroy(UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mBDC17991A372E11E2E485EFC5C72F58972CBEC0F (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___obj0, const RuntimeMethod* method);
 // System.Void AzureSpatialAnchorsScript/<>c__DisplayClass10_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_m687677092574AC599F21344A037E0380B735996D (U3CU3Ec__DisplayClass10_0_t7D8DA92C84B77474416D62AE2543C0F528BBA079 * __this, const RuntimeMethod* method);
 // System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,System.String>::get_Count()
@@ -15839,11 +15994,15 @@ inline void TupleExtensions_Deconstruct_TisSingle_tE07797BA3C98D4CA9B5A19413C19A
 {
 	((  void (*) (Tuple_2_tC72FBA10363611AAC55AF5FB0B88EA9BD779C6CE *, float*, GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 **, const RuntimeMethod*))TupleExtensions_Deconstruct_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_TisRuntimeObject_mC0188721D95A20B509E4F193C58161FD4D0EA187_gshared)(___value0, ___item11, ___item22, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<AzureSpatialAnchorsScript/<MediumTap>d__11>(!!0&)
-inline void AsyncVoidMethodBuilder_Start_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mB6C124037D0E606092B9874E0081E28710FB5CA5 (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA * ___stateMachine0, const RuntimeMethod* method)
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Create()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B  AsyncTaskMethodBuilder_Create_m156BFD7083AC20B1EFCD990D6DA52E51928EC521 (const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<AzureSpatialAnchorsScript/<MediumTap>d__11>(!!0&)
+inline void AsyncTaskMethodBuilder_Start_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mA852EBBF4C82FC0E2E26154AA9CF9D241F2A4DB2 (AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * __this, U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA * ___stateMachine0, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *, U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA *, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mB6C124037D0E606092B9874E0081E28710FB5CA5_gshared)(__this, ___stateMachine0, method);
+	((  void (*) (AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B *, U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA *, const RuntimeMethod*))AsyncTaskMethodBuilder_Start_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mA852EBBF4C82FC0E2E26154AA9CF9D241F2A4DB2_gshared)(__this, ___stateMachine0, method);
 }
+// System.Threading.Tasks.Task System.Runtime.CompilerServices.AsyncTaskMethodBuilder::get_Task()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * AsyncTaskMethodBuilder_get_Task_m130181C15F259D4FAAD717BF53402A1FD0AD19F4 (AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * __this, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<AzureSpatialAnchorsScript/<LongTap>d__12>(!!0&)
 inline void AsyncVoidMethodBuilder_Start_TisU3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B_mD8E8B6B0F4078F2FB79D0614F380682FA837C88C (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, U3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B * ___stateMachine0, const RuntimeMethod* method)
 {
@@ -15859,6 +16018,8 @@ inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * Enumerator_get_Cur
 {
 	return ((  GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * (*) (Enumerator_t5D6ADFFA0D1F8F0D6BC3C2C414B686BB16CCFF63 *, const RuntimeMethod*))Enumerator_get_Current_mF254C3BDEA9F0829958522BF88C75DE8BEC4961F_gshared_inline)(__this, method);
 }
+// System.Void UnityEngine.Object::Destroy(UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mBDC17991A372E11E2E485EFC5C72F58972CBEC0F (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___obj0, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<UnityEngine.GameObject,System.String>::MoveNext()
 inline bool Enumerator_MoveNext_m95A1287F45ED010336415010570F923C0B026DFB (Enumerator_t5D6ADFFA0D1F8F0D6BC3C2C414B686BB16CCFF63 * __this, const RuntimeMethod* method)
 {
@@ -16002,8 +16163,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpatialAnchorManager_add_Error_m4AA4D75D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnchorLocatedDelegate__ctor_m8C4AC61EDFF76908A01EFE6405B2ED95DC8EA9CD (AnchorLocatedDelegate_t7FDFB5E1A64A68F7D883B82B39001CCDD6149A17 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::add_AnchorLocated(Microsoft.Azure.SpatialAnchors.AnchorLocatedDelegate)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpatialAnchorManager_add_AnchorLocated_m7605DBF01C5039B523CE6072BA36CA3EFA585AC8 (SpatialAnchorManager_t1156F8BE3B95187830DC5E8DD1181380E86C2EC0 * __this, AnchorLocatedDelegate_t7FDFB5E1A64A68F7D883B82B39001CCDD6149A17 * ___value0, const RuntimeMethod* method);
+// UnityEngine.XR.InputDevice UnityEngine.XR.InputDevices::GetDeviceAtXRNode(UnityEngine.XR.XRNode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E  InputDevices_GetDeviceAtXRNode_m87495BA0026D710C1F1975B90F7AAAD3A9AA089F (int32_t ___node0, const RuntimeMethod* method);
+// System.Boolean UnityEngine.XR.InputDevice::TryGetFeatureValue(UnityEngine.XR.InputFeatureUsage`1<System.Boolean>,System.Boolean&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_TryGetFeatureValue_mF70AB4F4BC703E9242A757D0A6D84A4DA48BBBBE (InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E * __this, InputFeatureUsage_1_t28793BE3C4ACB9F1B34C0C392EAAFB16A5FA8E40  ___usage0, bool* ___value1, const RuntimeMethod* method);
+// System.Boolean UnityEngine.XR.InputDevice::TryGetFeatureValue(UnityEngine.XR.InputFeatureUsage`1<UnityEngine.Vector3>,UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_TryGetFeatureValue_m9B40B8FAD5FED79E840DA7064A7A48FD9AA61C1A (InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E * __this, InputFeatureUsage_1_t2E7E3FD2C721D53BE7A1B809921F9476185C8709  ___usage0, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___value1, const RuntimeMethod* method);
 // System.Void DevelopAzureSpatialAnchorsScript::ShortTap(UnityEngine.Vector3)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DevelopAzureSpatialAnchorsScript_ShortTap_mA6079744F617DB420399734784223E67FC7CAC83 (DevelopAzureSpatialAnchorsScript_t7D828877B538F1FC8D537E3B5E8E8A807152F6B1 * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___handPosition0, const RuntimeMethod* method);
+// System.Single UnityEngine.Time::get_deltaTime()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mF558623BBB4EE65C8810243B05ED204A9E8D6FD1 (const RuntimeMethod* method);
 // System.Void DevelopAzureSpatialAnchorsScript::LongTap()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DevelopAzureSpatialAnchorsScript_LongTap_mAC9476A9616CF0D49AF246D767E7ED677FFD2D0C (DevelopAzureSpatialAnchorsScript_t7D828877B538F1FC8D537E3B5E8E8A807152F6B1 * __this, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<DevelopAzureSpatialAnchorsScript/<ShortTap>d__7>(!!0&)
@@ -16048,15 +16217,11 @@ inline int32_t List_1_get_Count_m6206A8F48C7A98B9CFC23A13548CB215717573BD_inline
 {
 	return ((  int32_t (*) (List_1_t6D0A10F47F3440798295D2FFFC6D016477AF38E5 *, const RuntimeMethod*))List_1_get_Count_m5D847939ABB9A78203B062CAFFE975792174D00F_gshared_inline)(__this, method);
 }
-// System.Runtime.CompilerServices.AsyncTaskMethodBuilder System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Create()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B  AsyncTaskMethodBuilder_Create_m156BFD7083AC20B1EFCD990D6DA52E51928EC521 (const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<DevelopAzureSpatialAnchorsScript/<CreateAnchor>d__11>(!!0&)
 inline void AsyncTaskMethodBuilder_Start_TisU3CCreateAnchorU3Ed__11_tE35DF79413A46B81B555FC97A1954E4AE2F1FF25_m414ABF4CD40CCE3E574A899CA45444EECE1FA937 (AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * __this, U3CCreateAnchorU3Ed__11_tE35DF79413A46B81B555FC97A1954E4AE2F1FF25 * ___stateMachine0, const RuntimeMethod* method)
 {
 	((  void (*) (AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B *, U3CCreateAnchorU3Ed__11_tE35DF79413A46B81B555FC97A1954E4AE2F1FF25 *, const RuntimeMethod*))AsyncTaskMethodBuilder_Start_TisU3CCreateAnchorU3Ed__11_tE35DF79413A46B81B555FC97A1954E4AE2F1FF25_m414ABF4CD40CCE3E574A899CA45444EECE1FA937_gshared)(__this, ___stateMachine0, method);
 }
-// System.Threading.Tasks.Task System.Runtime.CompilerServices.AsyncTaskMethodBuilder::get_Task()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * AsyncTaskMethodBuilder_get_Task_m130181C15F259D4FAAD717BF53402A1FD0AD19F4 (AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * __this, const RuntimeMethod* method);
 // System.Int32 System.Collections.Generic.List`1<System.String>::get_Count()
 inline int32_t List_1_get_Count_m199DB87BCE947106FBA38E19FDFE80CB65B61144_inline (List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * __this, const RuntimeMethod* method)
 {
@@ -16234,42 +16399,66 @@ inline void Enumerator_Dispose_m6E22D268E15AF59798CF8465739ED3A79EE0D13A (Enumer
 {
 	((  void (*) (Enumerator_t8A00DDB7992EACF03F4EC0176A52FC65DEDFC8BC *, const RuntimeMethod*))Enumerator_Dispose_m6E22D268E15AF59798CF8465739ED3A79EE0D13A_gshared)(__this, method);
 }
+// System.Threading.Tasks.Task AzureSpatialAnchorsScript::MediumTap()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * AzureSpatialAnchorsScript_MediumTap_m5EAA9A2D09D969EE1E4B33896FE52EED1E349261 (AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * __this, const RuntimeMethod* method);
+// System.Runtime.CompilerServices.TaskAwaiter System.Threading.Tasks.Task::GetAwaiter()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  Task_GetAwaiter_m1FF7528A8FE13F79207DFE970F642078EF6B1260 (Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * __this, const RuntimeMethod* method);
+// System.Boolean System.Runtime.CompilerServices.TaskAwaiter::get_IsCompleted()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TaskAwaiter_get_IsCompleted_m6F97613C55E505B5664C3C0CFC4677D296EAA8BC (TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * __this, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,AzureSpatialAnchorsScript/<DeleteAnchor>d__9>(!!0&,!!1&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598_mEE1B1E931E4132817DDE8E01B1CB9ED9C0B69B0E (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598 * ___stateMachine1, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *, U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598 *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598_mEE1B1E931E4132817DDE8E01B1CB9ED9C0B69B0E_gshared)(__this, ___awaiter0, ___stateMachine1, method);
+}
+// System.Void System.Runtime.CompilerServices.TaskAwaiter::GetResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskAwaiter_GetResult_m578EEFEC4DD1AE5E77C899B8BAA3825EB79D1330 (TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * __this, const RuntimeMethod* method);
+// System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,System.String>::Remove(!0)
+inline bool Dictionary_2_Remove_m3FE54F8184B07105D694C63D3D5481D9C08428C1 (Dictionary_2_t2580B3DAA23EFB18A8F9019EA2AC5F3ECDF8CCE0 * __this, GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___key0, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t2580B3DAA23EFB18A8F9019EA2AC5F3ECDF8CCE0 *, GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 *, const RuntimeMethod*))Dictionary_2_Remove_m32325BAD86F31C471AEBE80C6A7A8A6908EB0611_gshared)(__this, ___key0, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetException(System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_SetException_m16372173CEA3031B4CB9B8D15DA97C457F835155 (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, Exception_t * ___exception0, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_SetResult_m901385B56EBE93E472A77EA48F61E4F498F3E00E (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, const RuntimeMethod* method);
+// System.Void AzureSpatialAnchorsScript/<DeleteAnchor>d__9::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDeleteAnchorU3Ed__9_MoveNext_m4FBAE5C3453ED386A735C8FE5446DEE2E257D7DC (U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598 * __this, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_SetStateMachine_m1ED99BE03B146D8A7117E299EBA5D74999EB52D7 (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
+// System.Void AzureSpatialAnchorsScript/<DeleteAnchor>d__9::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDeleteAnchorU3Ed__9_SetStateMachine_m56B01B4061FA8B69AF29D0827E363B26EFC8A389 (U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
+// System.Void AzureSpatialAnchorsScript::RemoveAllAnchorGameObjects()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AzureSpatialAnchorsScript_RemoveAllAnchorGameObjects_m0F67921AEBC0E5D353444EF3BD54891425DA22BE (AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * __this, const RuntimeMethod* method);
 // System.Boolean Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::get_IsSessionStarted()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SpatialAnchorManager_get_IsSessionStarted_m140782A164C3DC62557FCC7E9597090786D326BB_inline (SpatialAnchorManager_t1156F8BE3B95187830DC5E8DD1181380E86C2EC0 * __this, const RuntimeMethod* method);
 // System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::DestroySession()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpatialAnchorManager_DestroySession_m94B13C4EBF5D638B0AA5DC9E558954A4510DE4C9 (SpatialAnchorManager_t1156F8BE3B95187830DC5E8DD1181380E86C2EC0 * __this, const RuntimeMethod* method);
 // System.Threading.Tasks.Task Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::StartSessionAsync()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * SpatialAnchorManager_StartSessionAsync_mD147CB686A27AA4932E3176DA1322D794D9B357E (SpatialAnchorManager_t1156F8BE3B95187830DC5E8DD1181380E86C2EC0 * __this, const RuntimeMethod* method);
-// System.Runtime.CompilerServices.TaskAwaiter System.Threading.Tasks.Task::GetAwaiter()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  Task_GetAwaiter_m1FF7528A8FE13F79207DFE970F642078EF6B1260 (Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * __this, const RuntimeMethod* method);
-// System.Boolean System.Runtime.CompilerServices.TaskAwaiter::get_IsCompleted()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TaskAwaiter_get_IsCompleted_m6F97613C55E505B5664C3C0CFC4677D296EAA8BC (TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * __this, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,AzureSpatialAnchorsScript/<LongTap>d__12>(!!0&,!!1&)
 inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B_m7D14B118FCEDF25707DBFBD9687452B7C6E4C82E (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B * ___stateMachine1, const RuntimeMethod* method)
 {
 	((  void (*) (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *, U3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B_m7D14B118FCEDF25707DBFBD9687452B7C6E4C82E_gshared)(__this, ___awaiter0, ___stateMachine1, method);
 }
-// System.Void System.Runtime.CompilerServices.TaskAwaiter::GetResult()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskAwaiter_GetResult_m578EEFEC4DD1AE5E77C899B8BAA3825EB79D1330 (TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * __this, const RuntimeMethod* method);
 // System.Void AzureSpatialAnchorsScript::LocateAnchor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AzureSpatialAnchorsScript_LocateAnchor_m631A88B7631D5A3E291866F2DEA2DA7C6FCF299B (AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * __this, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetException(System.Exception)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_SetException_m16372173CEA3031B4CB9B8D15DA97C457F835155 (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, Exception_t * ___exception0, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetResult()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_SetResult_m901385B56EBE93E472A77EA48F61E4F498F3E00E (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, const RuntimeMethod* method);
 // System.Void AzureSpatialAnchorsScript/<LongTap>d__12::MoveNext()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLongTapU3Ed__12_MoveNext_m916BB7138F782654ED210E6C155B10567AD01382 (U3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B * __this, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_SetStateMachine_m1ED99BE03B146D8A7117E299EBA5D74999EB52D7 (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
 // System.Void AzureSpatialAnchorsScript/<LongTap>d__12::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLongTapU3Ed__12_SetStateMachine_m8DDEBDF64A384F4698F82D1C2322C35AE7E406A2 (U3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,AzureSpatialAnchorsScript/<MediumTap>d__11>(!!0&,!!1&)
-inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_m906B7C4B744E8EAE311C72E8FB0A708E9913EAFA (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA * ___stateMachine1, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,AzureSpatialAnchorsScript/<MediumTap>d__11>(!!0&,!!1&)
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mA5C8D9850A56E7CC2BB060EEF2D9D5CEB5C307B4 (AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA * ___stateMachine1, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *, U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_m906B7C4B744E8EAE311C72E8FB0A708E9913EAFA_gshared)(__this, ___awaiter0, ___stateMachine1, method);
+	((  void (*) (AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B *, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *, U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA *, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mA5C8D9850A56E7CC2BB060EEF2D9D5CEB5C307B4_gshared)(__this, ___awaiter0, ___stateMachine1, method);
 }
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetException(System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_SetException_m54A9FC97C33C9AC4E514923F7C58D76B94D344C4 (AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * __this, Exception_t * ___exception0, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_SetResult_m89AF7435D1B349EE8A377B5DFFC082999D9F8CD9 (AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * __this, const RuntimeMethod* method);
 // System.Void AzureSpatialAnchorsScript/<MediumTap>d__11::MoveNext()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMediumTapU3Ed__11_MoveNext_mE509A553EF08F76D2DC8389BD4ED8A903D0F504A (U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA * __this, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_SetStateMachine_m68788E9C6C30BBAA030DEC1963E8A6C6B2C8A3E6 (AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
 // System.Void AzureSpatialAnchorsScript/<MediumTap>d__11::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMediumTapU3Ed__11_SetStateMachine_m52091E87271F361E3835472A485B0DE6BE7DC8A3 (U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,AzureSpatialAnchorsScript/<Start>d__6>(!!0&,!!1&)
@@ -16281,6 +16470,19 @@ inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__6_MoveNext_mB5B424D34ECD31585F7FEBE6A657EC87C04DCF8A (U3CStartU3Ed__6_t70A3A7190F57CBE025DFE94D5F74B3E36F70CCCB * __this, const RuntimeMethod* method);
 // System.Void AzureSpatialAnchorsScript/<Start>d__6::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__6_SetStateMachine_m34C443DFDB73C78A5399A5CF08E7313C8269036D (U3CStartU3Ed__6_t70A3A7190F57CBE025DFE94D5F74B3E36F70CCCB * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
+// System.Void AzureSpatialAnchorsScript::ShortTap(UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AzureSpatialAnchorsScript_ShortTap_m47C9D401B9A08DB5A72A6B11D2B17F64121D7EEF (AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___handPosition0, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,AzureSpatialAnchorsScript/<Update>d__7>(!!0&,!!1&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785_m2E367D04BF3246FA2421DD2EFA1661F1276554CD (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785 * ___stateMachine1, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *, U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785 *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785_m2E367D04BF3246FA2421DD2EFA1661F1276554CD_gshared)(__this, ___awaiter0, ___stateMachine1, method);
+}
+// System.Void AzureSpatialAnchorsScript::LongTap()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AzureSpatialAnchorsScript_LongTap_m8D532EA2E2853842F657191F556B7207319EB83B (AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * __this, const RuntimeMethod* method);
+// System.Void AzureSpatialAnchorsScript/<Update>d__7::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateU3Ed__7_MoveNext_m8C35A9D2639839D70E67705AFF238AEE64AF0C05 (U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785 * __this, const RuntimeMethod* method);
+// System.Void AzureSpatialAnchorsScript/<Update>d__7::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateU3Ed__7_SetStateMachine_m2D0A55CA9C0D923EE0D3E5E0D584E301BBBD427E (U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
 // System.Void DevelopAzureSpatialAnchorsScript/<>c::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mCF398FF947C109740B5D484F76296DA71FE57448 (U3CU3Ec_t5E191B96C3D79F3E263C03948C915525A2D54C91 * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0)
@@ -16344,14 +16546,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_color_mC3C88E2389B7132EBF3EB0D1F040545176B795C0 (Material_t8927C00353A72755313F046D0CE85178AE8218EE * __this, Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.Debug::LogException(System.Exception)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogException_m418B8879895C54AF03169B53DAA24EE9067E3DC7 (Exception_t * ___exception0, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetException(System.Exception)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_SetException_m54A9FC97C33C9AC4E514923F7C58D76B94D344C4 (AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * __this, Exception_t * ___exception0, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetResult()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_SetResult_m89AF7435D1B349EE8A377B5DFFC082999D9F8CD9 (AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * __this, const RuntimeMethod* method);
 // System.Void DevelopAzureSpatialAnchorsScript/<CreateAnchor>d__11::MoveNext()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateAnchorU3Ed__11_MoveNext_m996ACDF6771F6CB42836BB873EED33732A38DA8A (U3CCreateAnchorU3Ed__11_tE35DF79413A46B81B555FC97A1954E4AE2F1FF25 * __this, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_SetStateMachine_m68788E9C6C30BBAA030DEC1963E8A6C6B2C8A3E6 (AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
 // System.Void DevelopAzureSpatialAnchorsScript/<CreateAnchor>d__11::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateAnchorU3Ed__11_SetStateMachine_mCE2B4044A3E7DD95B7535259C8D45F01BD616D20 (U3CCreateAnchorU3Ed__11_tE35DF79413A46B81B555FC97A1954E4AE2F1FF25 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
 // !!0 UnityEngine.GameObject::GetComponent<Microsoft.Azure.SpatialAnchors.Unity.CloudNativeAnchor>()
@@ -16625,196 +16821,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AzureSpatialAnchorsScript_Update_m9E4961
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CommonUsages_t7C87E4E093DD61D8467CC60E3CF211F4BEAB466A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_Start_TisU3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785_m37063593B8EA9CF95BB2C4DC7FCF9ADA6ADB97AB_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
-	InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E  V_1;
+	U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  V_1;
 	memset((&V_1), 0, sizeof(V_1));
-	bool V_2 = false;
-	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  V_3;
-	memset((&V_3), 0, sizeof(V_3));
-	int32_t G_B4_0 = 0;
 	{
-		// for (int i = 0; i < 2; i++)
-		V_0 = 0;
-		goto IL_00cf;
-	}
-
-IL_0007:
-	{
-		// InputDevice device = InputDevices.GetDeviceAtXRNode((i == 0) ? XRNode.RightHand : XRNode.LeftHand);
-		int32_t L_0 = V_0;
-		if (!L_0)
-		{
-			goto IL_000d;
-		}
-	}
-	{
-		G_B4_0 = 4;
-		goto IL_000e;
-	}
-
-IL_000d:
-	{
-		G_B4_0 = 5;
-	}
-
-IL_000e:
-	{
-		InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E  L_1;
-		L_1 = InputDevices_GetDeviceAtXRNode_m87495BA0026D710C1F1975B90F7AAAD3A9AA089F(G_B4_0, /*hidden argument*/NULL);
-		V_1 = L_1;
-		// if (device.TryGetFeatureValue(CommonUsages.primaryButton, out bool isTapping))
-		IL2CPP_RUNTIME_CLASS_INIT(CommonUsages_t7C87E4E093DD61D8467CC60E3CF211F4BEAB466A_il2cpp_TypeInfo_var);
-		InputFeatureUsage_1_t28793BE3C4ACB9F1B34C0C392EAAFB16A5FA8E40  L_2 = ((CommonUsages_t7C87E4E093DD61D8467CC60E3CF211F4BEAB466A_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t7C87E4E093DD61D8467CC60E3CF211F4BEAB466A_il2cpp_TypeInfo_var))->get_primaryButton_1();
-		bool L_3;
-		L_3 = InputDevice_TryGetFeatureValue_mF70AB4F4BC703E9242A757D0A6D84A4DA48BBBBE((InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E *)(&V_1), L_2, (bool*)(&V_2), /*hidden argument*/NULL);
-		if (!L_3)
-		{
-			goto IL_00cb;
-		}
-	}
-	{
-		// if (!isTapping)
-		bool L_4 = V_2;
-		if (L_4)
-		{
-			goto IL_0094;
-		}
-	}
-	{
-		// if (1f < _tappingTimer[i] && _tappingTimer[i] < 2f)
-		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_5 = __this->get__tappingTimer_5();
-		int32_t L_6 = V_0;
-		NullCheck(L_5);
-		int32_t L_7 = L_6;
-		float L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
-		if ((!(((float)(1.0f)) < ((float)L_8))))
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_9 = __this->get__tappingTimer_5();
-		int32_t L_10 = V_0;
-		NullCheck(L_9);
-		int32_t L_11 = L_10;
-		float L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
-		if ((!(((float)L_12) < ((float)(2.0f)))))
-		{
-			goto IL_0061;
-		}
-	}
-	{
-		// if (device.TryGetFeatureValue(CommonUsages.devicePosition, out Vector3 handPosition))
-		IL2CPP_RUNTIME_CLASS_INIT(CommonUsages_t7C87E4E093DD61D8467CC60E3CF211F4BEAB466A_il2cpp_TypeInfo_var);
-		InputFeatureUsage_1_t2E7E3FD2C721D53BE7A1B809921F9476185C8709  L_13 = ((CommonUsages_t7C87E4E093DD61D8467CC60E3CF211F4BEAB466A_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t7C87E4E093DD61D8467CC60E3CF211F4BEAB466A_il2cpp_TypeInfo_var))->get_devicePosition_19();
-		bool L_14;
-		L_14 = InputDevice_TryGetFeatureValue_m9B40B8FAD5FED79E840DA7064A7A48FD9AA61C1A((InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E *)(&V_1), L_13, (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *)(&V_3), /*hidden argument*/NULL);
-		if (!L_14)
-		{
-			goto IL_0085;
-		}
-	}
-	{
-		// ShortTap(handPosition);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_15 = V_3;
-		AzureSpatialAnchorsScript_ShortTap_m47C9D401B9A08DB5A72A6B11D2B17F64121D7EEF(__this, L_15, /*hidden argument*/NULL);
-		// }
-		goto IL_0085;
-	}
-
-IL_0061:
-	{
-		// else if (4f < _tappingTimer[i] && _tappingTimer[i] < 8f)
-		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_16 = __this->get__tappingTimer_5();
-		int32_t L_17 = V_0;
-		NullCheck(L_16);
-		int32_t L_18 = L_17;
-		float L_19 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
-		if ((!(((float)(4.0f)) < ((float)L_19))))
-		{
-			goto IL_0085;
-		}
-	}
-	{
-		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_20 = __this->get__tappingTimer_5();
-		int32_t L_21 = V_0;
-		NullCheck(L_20);
-		int32_t L_22 = L_21;
-		float L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
-		if ((!(((float)L_23) < ((float)(8.0f)))))
-		{
-			goto IL_0085;
-		}
-	}
-	{
-		// MediumTap();
-		AzureSpatialAnchorsScript_MediumTap_m0FA15E4992827B01D44560A1FC6C2047E50D184C(__this, /*hidden argument*/NULL);
-	}
-
-IL_0085:
-	{
-		// _tappingTimer[i] = 0;
-		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_24 = __this->get__tappingTimer_5();
-		int32_t L_25 = V_0;
-		NullCheck(L_24);
-		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (float)(0.0f));
-		// }
-		goto IL_00cb;
-	}
-
-IL_0094:
-	{
-		// _tappingTimer[i] += Time.deltaTime;
-		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_26 = __this->get__tappingTimer_5();
-		int32_t L_27 = V_0;
-		NullCheck(L_26);
-		float* L_28 = ((L_26)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_27)));
-		float L_29 = *((float*)L_28);
-		float L_30;
-		L_30 = Time_get_deltaTime_mF558623BBB4EE65C8810243B05ED204A9E8D6FD1(/*hidden argument*/NULL);
-		*((float*)L_28) = (float)((float)il2cpp_codegen_add((float)L_29, (float)L_30));
-		// if (_tappingTimer[i] >= 4f)
-		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_31 = __this->get__tappingTimer_5();
-		int32_t L_32 = V_0;
-		NullCheck(L_31);
-		int32_t L_33 = L_32;
-		float L_34 = (L_31)->GetAt(static_cast<il2cpp_array_size_t>(L_33));
-		if ((!(((float)L_34) >= ((float)(4.0f)))))
-		{
-			goto IL_00cb;
-		}
-	}
-	{
-		// MediumTap();
-		AzureSpatialAnchorsScript_MediumTap_m0FA15E4992827B01D44560A1FC6C2047E50D184C(__this, /*hidden argument*/NULL);
-		// _tappingTimer[i] = -float.MaxValue; // reset the timer, to avoid retriggering if user is still holding tap
-		SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_35 = __this->get__tappingTimer_5();
-		int32_t L_36 = V_0;
-		NullCheck(L_35);
-		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(L_36), (float)(-(std::numeric_limits<float>::max)()));
-	}
-
-IL_00cb:
-	{
-		// for (int i = 0; i < 2; i++)
-		int32_t L_37 = V_0;
-		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_37, (int32_t)1));
-	}
-
-IL_00cf:
-	{
-		// for (int i = 0; i < 2; i++)
-		int32_t L_38 = V_0;
-		if ((((int32_t)L_38) < ((int32_t)2)))
-		{
-			goto IL_0007;
-		}
-	}
-	{
-		// }
+		(&V_0)->set_U3CU3E4__this_2(__this);
+		AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  L_0;
+		L_0 = AsyncVoidMethodBuilder_Create_m3E7C78F87F23C313FCD75A71B745C647490230C1(/*hidden argument*/NULL);
+		(&V_0)->set_U3CU3Et__builder_1(L_0);
+		(&V_0)->set_U3CU3E1__state_0((-1));
+		U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785  L_1 = V_0;
+		AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  L_2 = L_1.get_U3CU3Et__builder_1();
+		V_1 = L_2;
+		AsyncVoidMethodBuilder_Start_TisU3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785_m37063593B8EA9CF95BB2C4DC7FCF9ADA6ADB97AB((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)(&V_1), (U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785 *)(&V_0), /*hidden argument*/AsyncVoidMethodBuilder_Start_TisU3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785_m37063593B8EA9CF95BB2C4DC7FCF9ADA6ADB97AB_RuntimeMethod_var);
 		return;
 	}
 }
@@ -16850,24 +16873,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AzureSpatialAnchorsScript_DeleteAnchor_m
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_m3FE54F8184B07105D694C63D3D5481D9C08428C1_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_Start_TisU3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598_m74C05388EAF97C74AB38585A6A133074AFFA0509_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  V_1;
+	memset((&V_1), 0, sizeof(V_1));
 	{
-		// MediumTap();
-		AzureSpatialAnchorsScript_MediumTap_m0FA15E4992827B01D44560A1FC6C2047E50D184C(__this, /*hidden argument*/NULL);
-		// _foundAnchorGameObjects.Remove(anchorGameObject);
-		Dictionary_2_t2580B3DAA23EFB18A8F9019EA2AC5F3ECDF8CCE0 * L_0 = __this->get__foundAnchorGameObjects_7();
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_1 = ___anchorGameObject0;
-		NullCheck(L_0);
-		bool L_2;
-		L_2 = Dictionary_2_Remove_m3FE54F8184B07105D694C63D3D5481D9C08428C1(L_0, L_1, /*hidden argument*/Dictionary_2_Remove_m3FE54F8184B07105D694C63D3D5481D9C08428C1_RuntimeMethod_var);
-		// Destroy(anchorGameObject);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_3 = ___anchorGameObject0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
-		Object_Destroy_mBDC17991A372E11E2E485EFC5C72F58972CBEC0F(L_3, /*hidden argument*/NULL);
-		// }
+		(&V_0)->set_U3CU3E4__this_2(__this);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_0 = ___anchorGameObject0;
+		(&V_0)->set_anchorGameObject_3(L_0);
+		AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  L_1;
+		L_1 = AsyncVoidMethodBuilder_Create_m3E7C78F87F23C313FCD75A71B745C647490230C1(/*hidden argument*/NULL);
+		(&V_0)->set_U3CU3Et__builder_1(L_1);
+		(&V_0)->set_U3CU3E1__state_0((-1));
+		U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598  L_2 = V_0;
+		AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  L_3 = L_2.get_U3CU3Et__builder_1();
+		V_1 = L_3;
+		AsyncVoidMethodBuilder_Start_TisU3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598_m74C05388EAF97C74AB38585A6A133074AFFA0509((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)(&V_1), (U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598 *)(&V_0), /*hidden argument*/AsyncVoidMethodBuilder_Start_TisU3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598_m74C05388EAF97C74AB38585A6A133074AFFA0509_RuntimeMethod_var);
 		return;
 	}
 }
@@ -16967,30 +16991,35 @@ IL_005f:
 		return (bool)0;
 	}
 }
-// System.Void AzureSpatialAnchorsScript::MediumTap()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AzureSpatialAnchorsScript_MediumTap_m0FA15E4992827B01D44560A1FC6C2047E50D184C (AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * __this, const RuntimeMethod* method)
+// System.Threading.Tasks.Task AzureSpatialAnchorsScript::MediumTap()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * AzureSpatialAnchorsScript_MediumTap_m5EAA9A2D09D969EE1E4B33896FE52EED1E349261 (AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_Start_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mB6C124037D0E606092B9874E0081E28710FB5CA5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_Start_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mA852EBBF4C82FC0E2E26154AA9CF9D241F2A4DB2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA  V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  V_1;
+	AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B  V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
 		(&V_0)->set_U3CU3E4__this_2(__this);
-		AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  L_0;
-		L_0 = AsyncVoidMethodBuilder_Create_m3E7C78F87F23C313FCD75A71B745C647490230C1(/*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B  L_0;
+		L_0 = AsyncTaskMethodBuilder_Create_m156BFD7083AC20B1EFCD990D6DA52E51928EC521(/*hidden argument*/NULL);
 		(&V_0)->set_U3CU3Et__builder_1(L_0);
 		(&V_0)->set_U3CU3E1__state_0((-1));
 		U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA  L_1 = V_0;
-		AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  L_2 = L_1.get_U3CU3Et__builder_1();
+		AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B  L_2 = L_1.get_U3CU3Et__builder_1();
 		V_1 = L_2;
-		AsyncVoidMethodBuilder_Start_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mB6C124037D0E606092B9874E0081E28710FB5CA5((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)(&V_1), (U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA *)(&V_0), /*hidden argument*/AsyncVoidMethodBuilder_Start_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mB6C124037D0E606092B9874E0081E28710FB5CA5_RuntimeMethod_var);
-		return;
+		AsyncTaskMethodBuilder_Start_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mA852EBBF4C82FC0E2E26154AA9CF9D241F2A4DB2((AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B *)(&V_1), (U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA *)(&V_0), /*hidden argument*/AsyncTaskMethodBuilder_Start_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mA852EBBF4C82FC0E2E26154AA9CF9D241F2A4DB2_RuntimeMethod_var);
+		AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * L_3 = (&V_0)->get_address_of_U3CU3Et__builder_1();
+		Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * L_4;
+		L_4 = AsyncTaskMethodBuilder_get_Task_m130181C15F259D4FAAD717BF53402A1FD0AD19F4((AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B *)L_3, /*hidden argument*/NULL);
+		return L_4;
 	}
 }
 // System.Void AzureSpatialAnchorsScript::LongTap()
@@ -17398,12 +17427,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AzureSpatialAnchorsScript__ctor_m9D9FC82
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00C168B0AD8AAB65FDF5745F9B6CECF73BACC800);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral061EB9534F9EDAD2ADB903585EEDA9DFB36BA244);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral089C7C8A2697722E9D91774E9709A7F867739578);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0F3E56F23F912A28EB5BE72F0C928A6C2D43F012);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1541E05B9D2D6FD33C0D2C95645D8B270977331D);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1FC496DC927340A55F2E139EEAD0929A8C17BD83);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2082BF1380A399C3E8F85BB032714F46055F5C5E);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2717BF8AF095EB0FD93215CED1A0F33E55781A12);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral29EF2434494D144660AF17FE94C20E15C35EE5B9);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2C706311BF2DB901F229A037281135883225110A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2CBD0A8E40C6F0756F9D018452556DC3CA629EAD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3695AE7E0A85065858480830B8F64A74C54A711F);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral42145AB801791ED88590CCD1408828CDD5421325);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4844219BDF5A59B192B0C8AD8EDEFDF982D7A4BA);
@@ -17453,7 +17484,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AzureSpatialAnchorsScript__ctor_m9D9FC82
 		//         new SensorInformation (new Vector3(1.25f, 0, 0), Quaternion.AngleAxis(90, Vector3.up), "70886b12335b", 0),
 		//         new SensorInformation (new Vector3(0, 0, -1.5f), Quaternion.AngleAxis(180, Vector3.up), "awair-3446", 0),
 		//     } },
-		//     { "51213bfc-3e7e-434c-bcf6-ca08a4a37e16", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } }, // 5
+		//     { "51213bfc-3e7e-434c-bcf6-ca08a4a37e16", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } },
 		//     { "1c9d29da-1b17-4d43-8d8f-38a1d837a556", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } },
 		//     { "9843ccca-397e-4b28-b500-ee40571822e7", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } },
 		//     { "09ce0a2a-6ed9-4bb8-8754-9811df9d7592", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } },
@@ -17464,7 +17495,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AzureSpatialAnchorsScript__ctor_m9D9FC82
 		//         new SensorInformation (new Vector3(-1.25f, 0, -2), new Quaternion(0, 0, 0, 0), "018169f7", 3),
 		//         new SensorInformation (new Vector3(-.2f, 1, 0), new Quaternion(0, 0, 0, 0), "050621c6", 4),
 		//         new SensorInformation (new Vector3(1.2f, 1, 0), new Quaternion(0, 0, 0, 0), "050d68bf", 5),
-		//     } }, // 10
+		//     } },
 		//     { "59aff259-44e9-4b8e-9935-28a21770eccc", new List<SensorInformation>() {
 		//         new SensorInformation (new Vector3(0, 0.3f, -2.6f), Quaternion.AngleAxis(180, Vector3.up), "70886b123992", 0), // Entrance 1
 		//         new SensorInformation (new Vector3(0, -0.3f, -2.6f), Quaternion.AngleAxis(180, Vector3.up), "70886b1268c6", 0), // Entrance 2
@@ -17486,6 +17517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AzureSpatialAnchorsScript__ctor_m9D9FC82
 		//     } }, // (211)
 		//     { "d7a52e8e-0bc1-4707-899e-a80efdfc7e3a", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 0.5f), new Quaternion(0, 0, 0, 0), "70886b123c0b", 0) } }, // elevator (210)
 		//     { "f19def10-eca3-4efd-9fac-0da4c7f4e09d", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } },
+		//     { "0074e2e5-1f5b-46f6-bb22-2bc26d3f7556", new List<SensorInformation>() {new SensorInformation (new Vector3(0.25f, 0, -0.5f), Quaternion.AngleAxis(180, Vector3.up), "70886b122593", 0) } }, // meeting room (217)
 		// };
 		Dictionary_2_t5666FF749229092B00DC4AE9BB4BAD228B7D0ED0 * L_2 = (Dictionary_2_t5666FF749229092B00DC4AE9BB4BAD228B7D0ED0 *)il2cpp_codegen_object_new(Dictionary_2_t5666FF749229092B00DC4AE9BB4BAD228B7D0ED0_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mC66777B8A405B1C1CB3F0D7EA05347F58535DBE0(L_2, /*hidden argument*/Dictionary_2__ctor_mC66777B8A405B1C1CB3F0D7EA05347F58535DBE0_RuntimeMethod_var);
@@ -17956,7 +17988,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AzureSpatialAnchorsScript__ctor_m9D9FC82
 		List_1_Add_mC928E28C060F595F7FD4A7FFCE8D840C5C7374C1(L_168, L_171, /*hidden argument*/List_1_Add_mC928E28C060F595F7FD4A7FFCE8D840C5C7374C1_RuntimeMethod_var);
 		NullCheck(L_166);
 		Dictionary_2_Add_m4740E8763261BCEBB529D9A97DB4945B0B349AC9(L_166, _stringLiteralBCCAF62009FF2550223EA66F624FEC08AC1FD7C4, L_168, /*hidden argument*/Dictionary_2_Add_m4740E8763261BCEBB529D9A97DB4945B0B349AC9_RuntimeMethod_var);
-		__this->set__AnchorIDs_8(L_166);
+		Dictionary_2_t5666FF749229092B00DC4AE9BB4BAD228B7D0ED0 * L_172 = L_166;
+		List_1_t6F10B71DD9F9D67D5445A265F8E91C8DF7C79245 * L_173 = (List_1_t6F10B71DD9F9D67D5445A265F8E91C8DF7C79245 *)il2cpp_codegen_object_new(List_1_t6F10B71DD9F9D67D5445A265F8E91C8DF7C79245_il2cpp_TypeInfo_var);
+		List_1__ctor_m891B895759DE74DACA6D8E298AE2FD4F8E4FD6FA(L_173, /*hidden argument*/List_1__ctor_m891B895759DE74DACA6D8E298AE2FD4F8E4FD6FA_RuntimeMethod_var);
+		List_1_t6F10B71DD9F9D67D5445A265F8E91C8DF7C79245 * L_174 = L_173;
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_175;
+		memset((&L_175), 0, sizeof(L_175));
+		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_175), (0.25f), (0.0f), (-0.5f), /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_176;
+		L_176 = Vector3_get_up_mD84FDFCD32FC48C865A89FD4251232E2A9D7015A(/*hidden argument*/NULL);
+		Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  L_177;
+		L_177 = Quaternion_AngleAxis_m87085D3F05DA826A9F91AEE1D56481A770A96609((180.0f), L_176, /*hidden argument*/NULL);
+		SensorInformation_tAEFB81E493C0A584EA28274D95CB123113CA8482  L_178;
+		memset((&L_178), 0, sizeof(L_178));
+		SensorInformation__ctor_mCD24A75852373514A6774E2CA5431CB2C0B790F2((&L_178), L_175, L_177, _stringLiteral2CBD0A8E40C6F0756F9D018452556DC3CA629EAD, 0, /*hidden argument*/NULL);
+		NullCheck(L_174);
+		List_1_Add_mC928E28C060F595F7FD4A7FFCE8D840C5C7374C1(L_174, L_178, /*hidden argument*/List_1_Add_mC928E28C060F595F7FD4A7FFCE8D840C5C7374C1_RuntimeMethod_var);
+		NullCheck(L_172);
+		Dictionary_2_Add_m4740E8763261BCEBB529D9A97DB4945B0B349AC9(L_172, _stringLiteral0F3E56F23F912A28EB5BE72F0C928A6C2D43F012, L_174, /*hidden argument*/Dictionary_2_Add_m4740E8763261BCEBB529D9A97DB4945B0B349AC9_RuntimeMethod_var);
+		__this->set__AnchorIDs_8(L_172);
 		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -19555,6 +19605,166 @@ IL_01a0:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void AzureSpatialAnchorsScript/<DeleteAnchor>d__9::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDeleteAnchorU3Ed__9_MoveNext_m4FBAE5C3453ED386A735C8FE5446DEE2E257D7DC (U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598_mEE1B1E931E4132817DDE8E01B1CB9ED9C0B69B0E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_m3FE54F8184B07105D694C63D3D5481D9C08428C1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * V_1 = NULL;
+	TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Exception_t * V_3 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 3> __leave_targets;
+	{
+		int32_t L_0 = __this->get_U3CU3E1__state_0();
+		V_0 = L_0;
+		AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_1 = __this->get_U3CU3E4__this_2();
+		V_1 = L_1;
+	}
+
+IL_000e:
+	try
+	{ // begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_0046;
+			}
+		}
+
+IL_0011:
+		{
+			// await MediumTap();
+			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_3 = V_1;
+			NullCheck(L_3);
+			Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * L_4;
+			L_4 = AzureSpatialAnchorsScript_MediumTap_m5EAA9A2D09D969EE1E4B33896FE52EED1E349261(L_3, /*hidden argument*/NULL);
+			NullCheck(L_4);
+			TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  L_5;
+			L_5 = Task_GetAwaiter_m1FF7528A8FE13F79207DFE970F642078EF6B1260(L_4, /*hidden argument*/NULL);
+			V_2 = L_5;
+			bool L_6;
+			L_6 = TaskAwaiter_get_IsCompleted_m6F97613C55E505B5664C3C0CFC4677D296EAA8BC((TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *)(&V_2), /*hidden argument*/NULL);
+			if (L_6)
+			{
+				goto IL_0062;
+			}
+		}
+
+IL_0026:
+		{
+			int32_t L_7 = 0;
+			V_0 = L_7;
+			__this->set_U3CU3E1__state_0(L_7);
+			TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  L_8 = V_2;
+			__this->set_U3CU3Eu__1_4(L_8);
+			AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * L_9 = __this->get_address_of_U3CU3Et__builder_1();
+			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598_mEE1B1E931E4132817DDE8E01B1CB9ED9C0B69B0E((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)L_9, (TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *)(&V_2), (U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598 *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598_mEE1B1E931E4132817DDE8E01B1CB9ED9C0B69B0E_RuntimeMethod_var);
+			goto IL_00b2;
+		}
+
+IL_0046:
+		{
+			TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  L_10 = __this->get_U3CU3Eu__1_4();
+			V_2 = L_10;
+			TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * L_11 = __this->get_address_of_U3CU3Eu__1_4();
+			il2cpp_codegen_initobj(L_11, sizeof(TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C ));
+			int32_t L_12 = (-1);
+			V_0 = L_12;
+			__this->set_U3CU3E1__state_0(L_12);
+		}
+
+IL_0062:
+		{
+			TaskAwaiter_GetResult_m578EEFEC4DD1AE5E77C899B8BAA3825EB79D1330((TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *)(&V_2), /*hidden argument*/NULL);
+			// _foundAnchorGameObjects.Remove(anchorGameObject);
+			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_13 = V_1;
+			NullCheck(L_13);
+			Dictionary_2_t2580B3DAA23EFB18A8F9019EA2AC5F3ECDF8CCE0 * L_14 = L_13->get__foundAnchorGameObjects_7();
+			GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_15 = __this->get_anchorGameObject_3();
+			NullCheck(L_14);
+			bool L_16;
+			L_16 = Dictionary_2_Remove_m3FE54F8184B07105D694C63D3D5481D9C08428C1(L_14, L_15, /*hidden argument*/Dictionary_2_Remove_m3FE54F8184B07105D694C63D3D5481D9C08428C1_RuntimeMethod_var);
+			// Destroy(anchorGameObject);
+			GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_17 = __this->get_anchorGameObject_3();
+			IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
+			Object_Destroy_mBDC17991A372E11E2E485EFC5C72F58972CBEC0F(L_17, /*hidden argument*/NULL);
+			goto IL_009f;
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0088;
+		}
+		throw e;
+	}
+
+CATCH_0088:
+	{ // begin catch(System.Exception)
+		V_3 = ((Exception_t *)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t *));
+		__this->set_U3CU3E1__state_0(((int32_t)-2));
+		AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * L_18 = __this->get_address_of_U3CU3Et__builder_1();
+		Exception_t * L_19 = V_3;
+		AsyncVoidMethodBuilder_SetException_m16372173CEA3031B4CB9B8D15DA97C457F835155((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)L_18, L_19, /*hidden argument*/NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_00b2;
+	} // end catch (depth: 1)
+
+IL_009f:
+	{
+		// }
+		__this->set_U3CU3E1__state_0(((int32_t)-2));
+		AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * L_20 = __this->get_address_of_U3CU3Et__builder_1();
+		AsyncVoidMethodBuilder_SetResult_m901385B56EBE93E472A77EA48F61E4F498F3E00E((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)L_20, /*hidden argument*/NULL);
+	}
+
+IL_00b2:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CDeleteAnchorU3Ed__9_MoveNext_m4FBAE5C3453ED386A735C8FE5446DEE2E257D7DC_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598 * _thisAdjusted = reinterpret_cast<U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598 *>(__this + _offset);
+	U3CDeleteAnchorU3Ed__9_MoveNext_m4FBAE5C3453ED386A735C8FE5446DEE2E257D7DC(_thisAdjusted, method);
+}
+// System.Void AzureSpatialAnchorsScript/<DeleteAnchor>d__9::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDeleteAnchorU3Ed__9_SetStateMachine_m56B01B4061FA8B69AF29D0827E363B26EFC8A389 (U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+{
+	{
+		AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * L_0 = __this->get_address_of_U3CU3Et__builder_1();
+		RuntimeObject* L_1 = ___stateMachine0;
+		AsyncVoidMethodBuilder_SetStateMachine_m1ED99BE03B146D8A7117E299EBA5D74999EB52D7((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CDeleteAnchorU3Ed__9_SetStateMachine_m56B01B4061FA8B69AF29D0827E363B26EFC8A389_AdjustorThunk (RuntimeObject * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598 * _thisAdjusted = reinterpret_cast<U3CDeleteAnchorU3Ed__9_t36E2DFF56E6B86A43197418F370F963206686598 *>(__this + _offset);
+	U3CDeleteAnchorU3Ed__9_SetStateMachine_m56B01B4061FA8B69AF29D0827E363B26EFC8A389(_thisAdjusted, ___stateMachine0, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void AzureSpatialAnchorsScript/<LongTap>d__12::MoveNext()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLongTapU3Ed__12_MoveNext_m916BB7138F782654ED210E6C155B10567AD01382 (U3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B * __this, const RuntimeMethod* method)
 {
@@ -19585,87 +19795,91 @@ IL_000e:
 			int32_t L_2 = V_0;
 			if (!L_2)
 			{
-				goto IL_0063;
+				goto IL_0069;
 			}
 		}
 
 IL_0011:
 		{
-			// if (_spatialAnchorManager.IsSessionStarted)
+			// RemoveAllAnchorGameObjects();
 			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_3 = V_1;
 			NullCheck(L_3);
-			SpatialAnchorManager_t1156F8BE3B95187830DC5E8DD1181380E86C2EC0 * L_4 = L_3->get__spatialAnchorManager_6();
+			AzureSpatialAnchorsScript_RemoveAllAnchorGameObjects_m0F67921AEBC0E5D353444EF3BD54891425DA22BE(L_3, /*hidden argument*/NULL);
+			// if (_spatialAnchorManager.IsSessionStarted)
+			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_4 = V_1;
 			NullCheck(L_4);
-			bool L_5;
-			L_5 = SpatialAnchorManager_get_IsSessionStarted_m140782A164C3DC62557FCC7E9597090786D326BB_inline(L_4, /*hidden argument*/NULL);
-			if (!L_5)
+			SpatialAnchorManager_t1156F8BE3B95187830DC5E8DD1181380E86C2EC0 * L_5 = L_4->get__spatialAnchorManager_6();
+			NullCheck(L_5);
+			bool L_6;
+			L_6 = SpatialAnchorManager_get_IsSessionStarted_m140782A164C3DC62557FCC7E9597090786D326BB_inline(L_5, /*hidden argument*/NULL);
+			if (!L_6)
 			{
-				goto IL_0029;
+				goto IL_002f;
 			}
 		}
 
-IL_001e:
+IL_0024:
 		{
 			// _spatialAnchorManager.DestroySession();
-			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_6 = V_1;
-			NullCheck(L_6);
-			SpatialAnchorManager_t1156F8BE3B95187830DC5E8DD1181380E86C2EC0 * L_7 = L_6->get__spatialAnchorManager_6();
+			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_7 = V_1;
 			NullCheck(L_7);
-			SpatialAnchorManager_DestroySession_m94B13C4EBF5D638B0AA5DC9E558954A4510DE4C9(L_7, /*hidden argument*/NULL);
+			SpatialAnchorManager_t1156F8BE3B95187830DC5E8DD1181380E86C2EC0 * L_8 = L_7->get__spatialAnchorManager_6();
+			NullCheck(L_8);
+			SpatialAnchorManager_DestroySession_m94B13C4EBF5D638B0AA5DC9E558954A4510DE4C9(L_8, /*hidden argument*/NULL);
 		}
 
-IL_0029:
+IL_002f:
 		{
 			// await _spatialAnchorManager.StartSessionAsync();
-			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_8 = V_1;
-			NullCheck(L_8);
-			SpatialAnchorManager_t1156F8BE3B95187830DC5E8DD1181380E86C2EC0 * L_9 = L_8->get__spatialAnchorManager_6();
+			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_9 = V_1;
 			NullCheck(L_9);
-			Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * L_10;
-			L_10 = SpatialAnchorManager_StartSessionAsync_mD147CB686A27AA4932E3176DA1322D794D9B357E(L_9, /*hidden argument*/NULL);
+			SpatialAnchorManager_t1156F8BE3B95187830DC5E8DD1181380E86C2EC0 * L_10 = L_9->get__spatialAnchorManager_6();
 			NullCheck(L_10);
-			TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  L_11;
-			L_11 = Task_GetAwaiter_m1FF7528A8FE13F79207DFE970F642078EF6B1260(L_10, /*hidden argument*/NULL);
-			V_2 = L_11;
-			bool L_12;
-			L_12 = TaskAwaiter_get_IsCompleted_m6F97613C55E505B5664C3C0CFC4677D296EAA8BC((TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *)(&V_2), /*hidden argument*/NULL);
-			if (L_12)
+			Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * L_11;
+			L_11 = SpatialAnchorManager_StartSessionAsync_mD147CB686A27AA4932E3176DA1322D794D9B357E(L_10, /*hidden argument*/NULL);
+			NullCheck(L_11);
+			TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  L_12;
+			L_12 = Task_GetAwaiter_m1FF7528A8FE13F79207DFE970F642078EF6B1260(L_11, /*hidden argument*/NULL);
+			V_2 = L_12;
+			bool L_13;
+			L_13 = TaskAwaiter_get_IsCompleted_m6F97613C55E505B5664C3C0CFC4677D296EAA8BC((TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *)(&V_2), /*hidden argument*/NULL);
+			if (L_13)
 			{
-				goto IL_007f;
+				goto IL_0085;
 			}
 		}
 
-IL_0043:
+IL_0049:
 		{
-			int32_t L_13 = 0;
-			V_0 = L_13;
-			__this->set_U3CU3E1__state_0(L_13);
-			TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  L_14 = V_2;
-			__this->set_U3CU3Eu__1_3(L_14);
-			AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * L_15 = __this->get_address_of_U3CU3Et__builder_1();
-			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B_m7D14B118FCEDF25707DBFBD9687452B7C6E4C82E((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)L_15, (TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *)(&V_2), (U3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B_m7D14B118FCEDF25707DBFBD9687452B7C6E4C82E_RuntimeMethod_var);
-			goto IL_00b8;
+			int32_t L_14 = 0;
+			V_0 = L_14;
+			__this->set_U3CU3E1__state_0(L_14);
+			TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  L_15 = V_2;
+			__this->set_U3CU3Eu__1_3(L_15);
+			AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * L_16 = __this->get_address_of_U3CU3Et__builder_1();
+			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B_m7D14B118FCEDF25707DBFBD9687452B7C6E4C82E((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)L_16, (TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *)(&V_2), (U3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CLongTapU3Ed__12_t1E5321FFC62604E8B3A359069CD1074C66B40E7B_m7D14B118FCEDF25707DBFBD9687452B7C6E4C82E_RuntimeMethod_var);
+			goto IL_00be;
 		}
 
-IL_0063:
+IL_0069:
 		{
-			TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  L_16 = __this->get_U3CU3Eu__1_3();
-			V_2 = L_16;
-			TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * L_17 = __this->get_address_of_U3CU3Eu__1_3();
-			il2cpp_codegen_initobj(L_17, sizeof(TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C ));
-			int32_t L_18 = (-1);
-			V_0 = L_18;
-			__this->set_U3CU3E1__state_0(L_18);
+			TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  L_17 = __this->get_U3CU3Eu__1_3();
+			V_2 = L_17;
+			TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * L_18 = __this->get_address_of_U3CU3Eu__1_3();
+			il2cpp_codegen_initobj(L_18, sizeof(TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C ));
+			int32_t L_19 = (-1);
+			V_0 = L_19;
+			__this->set_U3CU3E1__state_0(L_19);
 		}
 
-IL_007f:
+IL_0085:
 		{
 			TaskAwaiter_GetResult_m578EEFEC4DD1AE5E77C899B8BAA3825EB79D1330((TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *)(&V_2), /*hidden argument*/NULL);
 			// LocateAnchor();
-			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_19 = V_1;
-			NullCheck(L_19);
-			AzureSpatialAnchorsScript_LocateAnchor_m631A88B7631D5A3E291866F2DEA2DA7C6FCF299B(L_19, /*hidden argument*/NULL);
-			goto IL_00a5;
+			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_20 = V_1;
+			NullCheck(L_20);
+			AzureSpatialAnchorsScript_LocateAnchor_m631A88B7631D5A3E291866F2DEA2DA7C6FCF299B(L_20, /*hidden argument*/NULL);
+			goto IL_00ab;
 		}
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -19673,31 +19887,31 @@ IL_007f:
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_008e;
+			goto CATCH_0094;
 		}
 		throw e;
 	}
 
-CATCH_008e:
+CATCH_0094:
 	{ // begin catch(System.Exception)
 		V_3 = ((Exception_t *)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t *));
 		__this->set_U3CU3E1__state_0(((int32_t)-2));
-		AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * L_20 = __this->get_address_of_U3CU3Et__builder_1();
-		Exception_t * L_21 = V_3;
-		AsyncVoidMethodBuilder_SetException_m16372173CEA3031B4CB9B8D15DA97C457F835155((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)L_20, L_21, /*hidden argument*/NULL);
+		AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * L_21 = __this->get_address_of_U3CU3Et__builder_1();
+		Exception_t * L_22 = V_3;
+		AsyncVoidMethodBuilder_SetException_m16372173CEA3031B4CB9B8D15DA97C457F835155((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)L_21, L_22, /*hidden argument*/NULL);
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_00b8;
+		goto IL_00be;
 	} // end catch (depth: 1)
 
-IL_00a5:
+IL_00ab:
 	{
 		// }
 		__this->set_U3CU3E1__state_0(((int32_t)-2));
-		AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * L_22 = __this->get_address_of_U3CU3Et__builder_1();
-		AsyncVoidMethodBuilder_SetResult_m901385B56EBE93E472A77EA48F61E4F498F3E00E((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)L_22, /*hidden argument*/NULL);
+		AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * L_23 = __this->get_address_of_U3CU3Et__builder_1();
+		AsyncVoidMethodBuilder_SetResult_m901385B56EBE93E472A77EA48F61E4F498F3E00E((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)L_23, /*hidden argument*/NULL);
 	}
 
-IL_00b8:
+IL_00be:
 	{
 		return;
 	}
@@ -19738,7 +19952,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMediumTapU3Ed__11_MoveNext_mE509A553E
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_m906B7C4B744E8EAE311C72E8FB0A708E9913EAFA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mA5C8D9850A56E7CC2BB060EEF2D9D5CEB5C307B4_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -19819,8 +20033,8 @@ IL_0043:
 			__this->set_U3CU3E1__state_0(L_13);
 			TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  L_14 = V_2;
 			__this->set_U3CU3Eu__1_3(L_14);
-			AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * L_15 = __this->get_address_of_U3CU3Et__builder_1();
-			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_m906B7C4B744E8EAE311C72E8FB0A708E9913EAFA((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)L_15, (TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *)(&V_2), (U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_m906B7C4B744E8EAE311C72E8FB0A708E9913EAFA_RuntimeMethod_var);
+			AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * L_15 = __this->get_address_of_U3CU3Et__builder_1();
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mA5C8D9850A56E7CC2BB060EEF2D9D5CEB5C307B4((AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B *)L_15, (TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *)(&V_2), (U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA *)__this, /*hidden argument*/AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mA5C8D9850A56E7CC2BB060EEF2D9D5CEB5C307B4_RuntimeMethod_var);
 			goto IL_00b8;
 		}
 
@@ -19859,9 +20073,9 @@ CATCH_008e:
 	{ // begin catch(System.Exception)
 		V_3 = ((Exception_t *)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t *));
 		__this->set_U3CU3E1__state_0(((int32_t)-2));
-		AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * L_20 = __this->get_address_of_U3CU3Et__builder_1();
+		AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * L_20 = __this->get_address_of_U3CU3Et__builder_1();
 		Exception_t * L_21 = V_3;
-		AsyncVoidMethodBuilder_SetException_m16372173CEA3031B4CB9B8D15DA97C457F835155((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)L_20, L_21, /*hidden argument*/NULL);
+		AsyncTaskMethodBuilder_SetException_m54A9FC97C33C9AC4E514923F7C58D76B94D344C4((AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B *)L_20, L_21, /*hidden argument*/NULL);
 		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_00b8;
 	} // end catch (depth: 1)
@@ -19870,8 +20084,8 @@ IL_00a5:
 	{
 		// }
 		__this->set_U3CU3E1__state_0(((int32_t)-2));
-		AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * L_22 = __this->get_address_of_U3CU3Et__builder_1();
-		AsyncVoidMethodBuilder_SetResult_m901385B56EBE93E472A77EA48F61E4F498F3E00E((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)L_22, /*hidden argument*/NULL);
+		AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * L_22 = __this->get_address_of_U3CU3Et__builder_1();
+		AsyncTaskMethodBuilder_SetResult_m89AF7435D1B349EE8A377B5DFFC082999D9F8CD9((AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B *)L_22, /*hidden argument*/NULL);
 	}
 
 IL_00b8:
@@ -19889,9 +20103,9 @@ IL2CPP_EXTERN_C  void U3CMediumTapU3Ed__11_MoveNext_mE509A553EF08F76D2DC8389BD4E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMediumTapU3Ed__11_SetStateMachine_m52091E87271F361E3835472A485B0DE6BE7DC8A3 (U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
 {
 	{
-		AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * L_0 = __this->get_address_of_U3CU3Et__builder_1();
+		AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * L_0 = __this->get_address_of_U3CU3Et__builder_1();
 		RuntimeObject* L_1 = ___stateMachine0;
-		AsyncVoidMethodBuilder_SetStateMachine_m1ED99BE03B146D8A7117E299EBA5D74999EB52D7((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)L_0, L_1, /*hidden argument*/NULL);
+		AsyncTaskMethodBuilder_SetStateMachine_m68788E9C6C30BBAA030DEC1963E8A6C6B2C8A3E6((AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B *)L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -20151,6 +20365,378 @@ IL2CPP_EXTERN_C  void U3CStartU3Ed__6_SetStateMachine_m34C443DFDB73C78A5399A5CF0
 	int32_t _offset = 1;
 	U3CStartU3Ed__6_t70A3A7190F57CBE025DFE94D5F74B3E36F70CCCB * _thisAdjusted = reinterpret_cast<U3CStartU3Ed__6_t70A3A7190F57CBE025DFE94D5F74B3E36F70CCCB *>(__this + _offset);
 	U3CStartU3Ed__6_SetStateMachine_m34C443DFDB73C78A5399A5CF08E7313C8269036D(_thisAdjusted, ___stateMachine0, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void AzureSpatialAnchorsScript/<Update>d__7::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateU3Ed__7_MoveNext_m8C35A9D2639839D70E67705AFF238AEE64AF0C05 (U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785_m2E367D04BF3246FA2421DD2EFA1661F1276554CD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CommonUsages_t7C87E4E093DD61D8467CC60E3CF211F4BEAB466A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * V_1 = NULL;
+	InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E  V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	Exception_t * V_7 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 3> __leave_targets;
+	int32_t G_B6_0 = 0;
+	{
+		int32_t L_0 = __this->get_U3CU3E1__state_0();
+		V_0 = L_0;
+		AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_1 = __this->get_U3CU3E4__this_2();
+		V_1 = L_1;
+	}
+
+IL_000e:
+	try
+	{ // begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_00f5;
+			}
+		}
+
+IL_0014:
+		{
+			// for (int i = 0; i < 2; i++)
+			__this->set_U3CiU3E5__2_3(0);
+			goto IL_0185;
+		}
+
+IL_0020:
+		{
+			// InputDevice device = InputDevices.GetDeviceAtXRNode((i == 0) ? XRNode.RightHand : XRNode.LeftHand);
+			int32_t L_3 = __this->get_U3CiU3E5__2_3();
+			if (!L_3)
+			{
+				goto IL_002b;
+			}
+		}
+
+IL_0028:
+		{
+			G_B6_0 = 4;
+			goto IL_002c;
+		}
+
+IL_002b:
+		{
+			G_B6_0 = 5;
+		}
+
+IL_002c:
+		{
+			InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E  L_4;
+			L_4 = InputDevices_GetDeviceAtXRNode_m87495BA0026D710C1F1975B90F7AAAD3A9AA089F(G_B6_0, /*hidden argument*/NULL);
+			V_2 = L_4;
+			// if (device.TryGetFeatureValue(CommonUsages.primaryButton, out bool isTapping))
+			IL2CPP_RUNTIME_CLASS_INIT(CommonUsages_t7C87E4E093DD61D8467CC60E3CF211F4BEAB466A_il2cpp_TypeInfo_var);
+			InputFeatureUsage_1_t28793BE3C4ACB9F1B34C0C392EAAFB16A5FA8E40  L_5 = ((CommonUsages_t7C87E4E093DD61D8467CC60E3CF211F4BEAB466A_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t7C87E4E093DD61D8467CC60E3CF211F4BEAB466A_il2cpp_TypeInfo_var))->get_primaryButton_1();
+			bool L_6;
+			L_6 = InputDevice_TryGetFeatureValue_mF70AB4F4BC703E9242A757D0A6D84A4DA48BBBBE((InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E *)(&V_2), L_5, (bool*)(&V_3), /*hidden argument*/NULL);
+			if (!L_6)
+			{
+				goto IL_0173;
+			}
+		}
+
+IL_0045:
+		{
+			// if (!isTapping)
+			bool L_7 = V_3;
+			if (L_7)
+			{
+				goto IL_012d;
+			}
+		}
+
+IL_004b:
+		{
+			// if (.5f < _tappingTimer[i] && _tappingTimer[i] < 2f)
+			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_8 = V_1;
+			NullCheck(L_8);
+			SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_9 = L_8->get__tappingTimer_5();
+			int32_t L_10 = __this->get_U3CiU3E5__2_3();
+			NullCheck(L_9);
+			int32_t L_11 = L_10;
+			float L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+			if ((!(((float)(0.5f)) < ((float)L_12))))
+			{
+				goto IL_0093;
+			}
+		}
+
+IL_005f:
+		{
+			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_13 = V_1;
+			NullCheck(L_13);
+			SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_14 = L_13->get__tappingTimer_5();
+			int32_t L_15 = __this->get_U3CiU3E5__2_3();
+			NullCheck(L_14);
+			int32_t L_16 = L_15;
+			float L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+			if ((!(((float)L_17) < ((float)(2.0f)))))
+			{
+				goto IL_0093;
+			}
+		}
+
+IL_0073:
+		{
+			// if (device.TryGetFeatureValue(CommonUsages.devicePosition, out Vector3 handPosition))
+			IL2CPP_RUNTIME_CLASS_INIT(CommonUsages_t7C87E4E093DD61D8467CC60E3CF211F4BEAB466A_il2cpp_TypeInfo_var);
+			InputFeatureUsage_1_t2E7E3FD2C721D53BE7A1B809921F9476185C8709  L_18 = ((CommonUsages_t7C87E4E093DD61D8467CC60E3CF211F4BEAB466A_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t7C87E4E093DD61D8467CC60E3CF211F4BEAB466A_il2cpp_TypeInfo_var))->get_devicePosition_19();
+			bool L_19;
+			L_19 = InputDevice_TryGetFeatureValue_m9B40B8FAD5FED79E840DA7064A7A48FD9AA61C1A((InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E *)(&V_2), L_18, (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *)(&V_4), /*hidden argument*/NULL);
+			if (!L_19)
+			{
+				goto IL_0119;
+			}
+		}
+
+IL_0086:
+		{
+			// ShortTap(handPosition);
+			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_20 = V_1;
+			Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_21 = V_4;
+			NullCheck(L_20);
+			AzureSpatialAnchorsScript_ShortTap_m47C9D401B9A08DB5A72A6B11D2B17F64121D7EEF(L_20, L_21, /*hidden argument*/NULL);
+			// }
+			goto IL_0119;
+		}
+
+IL_0093:
+		{
+			// else if (2f < _tappingTimer[i] && _tappingTimer[i] < 10f)
+			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_22 = V_1;
+			NullCheck(L_22);
+			SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_23 = L_22->get__tappingTimer_5();
+			int32_t L_24 = __this->get_U3CiU3E5__2_3();
+			NullCheck(L_23);
+			int32_t L_25 = L_24;
+			float L_26 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
+			if ((!(((float)(2.0f)) < ((float)L_26))))
+			{
+				goto IL_0119;
+			}
+		}
+
+IL_00a7:
+		{
+			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_27 = V_1;
+			NullCheck(L_27);
+			SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_28 = L_27->get__tappingTimer_5();
+			int32_t L_29 = __this->get_U3CiU3E5__2_3();
+			NullCheck(L_28);
+			int32_t L_30 = L_29;
+			float L_31 = (L_28)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
+			if ((!(((float)L_31) < ((float)(10.0f)))))
+			{
+				goto IL_0119;
+			}
+		}
+
+IL_00bb:
+		{
+			// await MediumTap();
+			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_32 = V_1;
+			NullCheck(L_32);
+			Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * L_33;
+			L_33 = AzureSpatialAnchorsScript_MediumTap_m5EAA9A2D09D969EE1E4B33896FE52EED1E349261(L_32, /*hidden argument*/NULL);
+			NullCheck(L_33);
+			TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  L_34;
+			L_34 = Task_GetAwaiter_m1FF7528A8FE13F79207DFE970F642078EF6B1260(L_33, /*hidden argument*/NULL);
+			V_5 = L_34;
+			bool L_35;
+			L_35 = TaskAwaiter_get_IsCompleted_m6F97613C55E505B5664C3C0CFC4677D296EAA8BC((TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *)(&V_5), /*hidden argument*/NULL);
+			if (L_35)
+			{
+				goto IL_0112;
+			}
+		}
+
+IL_00d1:
+		{
+			int32_t L_36 = 0;
+			V_0 = L_36;
+			__this->set_U3CU3E1__state_0(L_36);
+			TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  L_37 = V_5;
+			__this->set_U3CU3Eu__1_4(L_37);
+			AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * L_38 = __this->get_address_of_U3CU3Et__builder_1();
+			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785_m2E367D04BF3246FA2421DD2EFA1661F1276554CD((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)L_38, (TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *)(&V_5), (U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785 *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785_m2E367D04BF3246FA2421DD2EFA1661F1276554CD_RuntimeMethod_var);
+			goto IL_01bf;
+		}
+
+IL_00f5:
+		{
+			TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  L_39 = __this->get_U3CU3Eu__1_4();
+			V_5 = L_39;
+			TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * L_40 = __this->get_address_of_U3CU3Eu__1_4();
+			il2cpp_codegen_initobj(L_40, sizeof(TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C ));
+			int32_t L_41 = (-1);
+			V_0 = L_41;
+			__this->set_U3CU3E1__state_0(L_41);
+		}
+
+IL_0112:
+		{
+			TaskAwaiter_GetResult_m578EEFEC4DD1AE5E77C899B8BAA3825EB79D1330((TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *)(&V_5), /*hidden argument*/NULL);
+		}
+
+IL_0119:
+		{
+			// _tappingTimer[i] = 0;
+			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_42 = V_1;
+			NullCheck(L_42);
+			SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_43 = L_42->get__tappingTimer_5();
+			int32_t L_44 = __this->get_U3CiU3E5__2_3();
+			NullCheck(L_43);
+			(L_43)->SetAt(static_cast<il2cpp_array_size_t>(L_44), (float)(0.0f));
+			// }
+			goto IL_0173;
+		}
+
+IL_012d:
+		{
+			// _tappingTimer[i] += Time.deltaTime;
+			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_45 = V_1;
+			NullCheck(L_45);
+			SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_46 = L_45->get__tappingTimer_5();
+			int32_t L_47 = __this->get_U3CiU3E5__2_3();
+			NullCheck(L_46);
+			float* L_48 = ((L_46)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_47)));
+			float L_49 = *((float*)L_48);
+			float L_50;
+			L_50 = Time_get_deltaTime_mF558623BBB4EE65C8810243B05ED204A9E8D6FD1(/*hidden argument*/NULL);
+			*((float*)L_48) = (float)((float)il2cpp_codegen_add((float)L_49, (float)L_50));
+			// if (_tappingTimer[i] >= 10f)
+			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_51 = V_1;
+			NullCheck(L_51);
+			SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_52 = L_51->get__tappingTimer_5();
+			int32_t L_53 = __this->get_U3CiU3E5__2_3();
+			NullCheck(L_52);
+			int32_t L_54 = L_53;
+			float L_55 = (L_52)->GetAt(static_cast<il2cpp_array_size_t>(L_54));
+			if ((!(((float)L_55) >= ((float)(10.0f)))))
+			{
+				goto IL_0173;
+			}
+		}
+
+IL_015b:
+		{
+			// LongTap();
+			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_56 = V_1;
+			NullCheck(L_56);
+			AzureSpatialAnchorsScript_LongTap_m8D532EA2E2853842F657191F556B7207319EB83B(L_56, /*hidden argument*/NULL);
+			// _tappingTimer[i] = -float.MaxValue; // reset the timer, to avoid retriggering if user is still holding tap
+			AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * L_57 = V_1;
+			NullCheck(L_57);
+			SingleU5BU5D_t47E8DBF5B597C122478D1FFBD9DD57399A0650FA* L_58 = L_57->get__tappingTimer_5();
+			int32_t L_59 = __this->get_U3CiU3E5__2_3();
+			NullCheck(L_58);
+			(L_58)->SetAt(static_cast<il2cpp_array_size_t>(L_59), (float)(-(std::numeric_limits<float>::max)()));
+		}
+
+IL_0173:
+		{
+			// for (int i = 0; i < 2; i++)
+			int32_t L_60 = __this->get_U3CiU3E5__2_3();
+			V_6 = L_60;
+			int32_t L_61 = V_6;
+			__this->set_U3CiU3E5__2_3(((int32_t)il2cpp_codegen_add((int32_t)L_61, (int32_t)1)));
+		}
+
+IL_0185:
+		{
+			// for (int i = 0; i < 2; i++)
+			int32_t L_62 = __this->get_U3CiU3E5__2_3();
+			if ((((int32_t)L_62) < ((int32_t)2)))
+			{
+				goto IL_0020;
+			}
+		}
+
+IL_0191:
+		{
+			goto IL_01ac;
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0193;
+		}
+		throw e;
+	}
+
+CATCH_0193:
+	{ // begin catch(System.Exception)
+		V_7 = ((Exception_t *)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t *));
+		__this->set_U3CU3E1__state_0(((int32_t)-2));
+		AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * L_63 = __this->get_address_of_U3CU3Et__builder_1();
+		Exception_t * L_64 = V_7;
+		AsyncVoidMethodBuilder_SetException_m16372173CEA3031B4CB9B8D15DA97C457F835155((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)L_63, L_64, /*hidden argument*/NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_01bf;
+	} // end catch (depth: 1)
+
+IL_01ac:
+	{
+		// }
+		__this->set_U3CU3E1__state_0(((int32_t)-2));
+		AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * L_65 = __this->get_address_of_U3CU3Et__builder_1();
+		AsyncVoidMethodBuilder_SetResult_m901385B56EBE93E472A77EA48F61E4F498F3E00E((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)L_65, /*hidden argument*/NULL);
+	}
+
+IL_01bf:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CUpdateU3Ed__7_MoveNext_m8C35A9D2639839D70E67705AFF238AEE64AF0C05_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785 * _thisAdjusted = reinterpret_cast<U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785 *>(__this + _offset);
+	U3CUpdateU3Ed__7_MoveNext_m8C35A9D2639839D70E67705AFF238AEE64AF0C05(_thisAdjusted, method);
+}
+// System.Void AzureSpatialAnchorsScript/<Update>d__7::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateU3Ed__7_SetStateMachine_m2D0A55CA9C0D923EE0D3E5E0D584E301BBBD427E (U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+{
+	{
+		AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * L_0 = __this->get_address_of_U3CU3Et__builder_1();
+		RuntimeObject* L_1 = ___stateMachine0;
+		AsyncVoidMethodBuilder_SetStateMachine_m1ED99BE03B146D8A7117E299EBA5D74999EB52D7((AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 *)L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CUpdateU3Ed__7_SetStateMachine_m2D0A55CA9C0D923EE0D3E5E0D584E301BBBD427E_AdjustorThunk (RuntimeObject * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785 * _thisAdjusted = reinterpret_cast<U3CUpdateU3Ed__7_t4CAC662D82B275D575F4F20790AE96BCAA2D8785 *>(__this + _offset);
+	U3CUpdateU3Ed__7_SetStateMachine_m2D0A55CA9C0D923EE0D3E5E0D584E301BBBD427E(_thisAdjusted, ___stateMachine0, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

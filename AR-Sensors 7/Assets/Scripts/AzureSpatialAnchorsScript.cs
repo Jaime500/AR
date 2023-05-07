@@ -4,7 +4,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.XR;
 
@@ -59,7 +58,7 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
             new SensorInformation (new Vector3(1.25f, 0, 0), Quaternion.AngleAxis(90, Vector3.up), "70886b12335b", 0),
             new SensorInformation (new Vector3(0, 0, -1.5f), Quaternion.AngleAxis(180, Vector3.up), "awair-3446", 0),
         } },
-        { "51213bfc-3e7e-434c-bcf6-ca08a4a37e16", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } }, // 5
+        { "51213bfc-3e7e-434c-bcf6-ca08a4a37e16", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } },
         { "1c9d29da-1b17-4d43-8d8f-38a1d837a556", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } },
         { "9843ccca-397e-4b28-b500-ee40571822e7", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } },
         { "09ce0a2a-6ed9-4bb8-8754-9811df9d7592", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } },
@@ -70,7 +69,7 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
             new SensorInformation (new Vector3(-1.25f, 0, -2), new Quaternion(0, 0, 0, 0), "018169f7", 3),
             new SensorInformation (new Vector3(-.2f, 1, 0), new Quaternion(0, 0, 0, 0), "050621c6", 4),
             new SensorInformation (new Vector3(1.2f, 1, 0), new Quaternion(0, 0, 0, 0), "050d68bf", 5),
-        } }, // 10
+        } },
         { "59aff259-44e9-4b8e-9935-28a21770eccc", new List<SensorInformation>() {
             new SensorInformation (new Vector3(0, 0.3f, -2.6f), Quaternion.AngleAxis(180, Vector3.up), "70886b123992", 0), // Entrance 1
             new SensorInformation (new Vector3(0, -0.3f, -2.6f), Quaternion.AngleAxis(180, Vector3.up), "70886b1268c6", 0), // Entrance 2
@@ -92,6 +91,7 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
         } }, // (211)
         { "d7a52e8e-0bc1-4707-899e-a80efdfc7e3a", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 0.5f), new Quaternion(0, 0, 0, 0), "70886b123c0b", 0) } }, // elevator (210)
         { "f19def10-eca3-4efd-9fac-0da4c7f4e09d", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } },
+        { "0074e2e5-1f5b-46f6-bb22-2bc26d3f7556", new List<SensorInformation>() {new SensorInformation (new Vector3(0.25f, 0, -0.5f), Quaternion.AngleAxis(180, Vector3.up), "70886b122593", 0) } }, // meeting room (217)
     };
 
     // <Start>
@@ -110,7 +110,7 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
 
     // <Update>
     // Update is called once per frame
-    void Update()
+    async void Update()
     {
 
         //Check for any air taps from either hand
@@ -122,7 +122,7 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
                 if (!isTapping)
                 {
                     //Stopped Tapping or wasn't tapping
-                    if (1f < _tappingTimer[i] && _tappingTimer[i] < 2f)
+                    if (.5f < _tappingTimer[i] && _tappingTimer[i] < 2f)
                     {
                         //User has been tapping for less than 2 sec. Get hand position and call ShortTap
                         if (device.TryGetFeatureValue(CommonUsages.devicePosition, out Vector3 handPosition))
@@ -130,20 +130,20 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
                             ShortTap(handPosition);
                         }
                     }
-                    else if (4f < _tappingTimer[i] && _tappingTimer[i] < 8f)
+                    else if (2f < _tappingTimer[i] && _tappingTimer[i] < 10f)
                     {
                         //User has been tapping for less than 8 sec. Get hand position and call ShortTap
-                        MediumTap();
+                        await MediumTap();
                     }
                     _tappingTimer[i] = 0;
                 }
                 else
                 {
                     _tappingTimer[i] += Time.deltaTime;
-                    if (_tappingTimer[i] >= 4f)
+                    if (_tappingTimer[i] >= 10f)
                     {
                         //User has been air tapping for at least 10sec. Get hand position and call LongTap
-                            MediumTap();
+                        LongTap();
                         _tappingTimer[i] = -float.MaxValue; // reset the timer, to avoid retriggering if user is still holding tap
                     }
                 }
@@ -160,13 +160,6 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
     /// <param name="handPosition">Location where tap was registered</param>
     private void ShortTap(Vector3 handPosition)
     {
-        //RaycastHit hitInfo;
-        //if (Physics.Raycast(transform.position, transform.forward, out hitInfo))
-        //{
-        //    GameObject anchorGameObject = hitInfo.collider.gameObject;
-        //    while (anchorGameObject.transform.parent != null) { anchorGameObject = anchorGameObject.transform.parent.gameObject; }
-        //    DeleteAnchor(anchorGameObject);
-        //}
         if (IsAnchorNearby(handPosition, out GameObject anchorGameObject))
         {
             //Delete nearby Anchor
@@ -177,12 +170,12 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
 
     // <DeleteAnchor>
     /// <summary>
-    /// Deleting Cloud Anchor attached to the given GameObject and deleting the GameObject
+    /// Deleting the anchor GameObject
     /// </summary>
     /// <param name="anchorGameObject">Anchor GameObject that is to be deleted</param>
-    private void DeleteAnchor(GameObject anchorGameObject)
+    private async void DeleteAnchor(GameObject anchorGameObject)
     {
-        MediumTap();
+        await MediumTap();
         //Remove reference
         _foundAnchorGameObjects.Remove(anchorGameObject);
         Destroy(anchorGameObject);
@@ -195,7 +188,7 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
     /// Returns true if an Anchor GameObject is within 2m of the received reference position
     /// </summary>
     /// <param name="position">Reference position</param>
-    /// <param name="anchorGameObject">Anchor GameObject within 2m of received position. Not necessarily the nearest to this position. If no AnchorObject is within 15cm, this value will be null</param>
+    /// <param name="anchorGameObject">Anchor GameObject within 2m of received position. Not necessarily the nearest to this position. If no AnchorObject is within 2m, this value will be null</param>
     /// <returns>True if a Anchor GameObject is within 2m</returns>
     private bool IsAnchorNearby(Vector3 position, out GameObject anchorGameObject)
     {
@@ -233,7 +226,7 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
     /// <summary>
     /// Called when a user is air tapping for a long time (>=4 sec)
     /// </summary>
-    private async void MediumTap()
+    private async Task MediumTap()
     {
         if (_spatialAnchorManager.IsSessionStarted)
         {
@@ -252,6 +245,7 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
     /// </summary>
     private async void LongTap()
     {
+        RemoveAllAnchorGameObjects();
         if (_spatialAnchorManager.IsSessionStarted)
         {
             _spatialAnchorManager.DestroySession();
