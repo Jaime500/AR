@@ -5,12 +5,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.UIElements;
 using UnityEngine.XR;
 
 
 [RequireComponent(typeof(SpatialAnchorManager))]
 public class AzureSpatialAnchorsScript : MonoBehaviour
 {
+    /// <summary>
+    /// Used to show the spatial anchor locations
+    /// </summary>
+    public bool show_anchors;
+
+    /// <summary>
+    /// Used to create sensor GameObjects
+    /// </summary>
     public GameObject sensor;
 
     /// <summary>
@@ -98,10 +107,11 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
         } }, // Heydarian office (281)
         { "16ed98d4-8846-4cf0-ada7-779843f0cbbe", new List<SensorInformation>() {
             new SensorInformation (new Vector3(0.3f, 0, 1.3f), new Quaternion(0, 0, 0, 0), "70886b123039", 0), // awair
+            new SensorInformation (new Vector3(0.2f, 0.5f, 1.3f), new Quaternion(0, 0, 0, 0), "018984f9", 2), // co2
             new SensorInformation (new Vector3(-1.2f, 0, -1.25f), Quaternion.AngleAxis(180, Vector3.up), "018984f9", 1), // temp/humidity
             new SensorInformation (new Vector3(0.5f, 1.25f, 0), new Quaternion(0, 0, 0, 0), "050621a8", 4), // light
             new SensorInformation (new Vector3(0.1f, 1.25f, 0), new Quaternion(0, 0, 0, 0), "050d69ce", 5), // dual motion
-        } }, // Campbell office (281)
+        } }, // Campbell office (241)
     };
 
     // <Start>
@@ -334,6 +344,14 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
                 // Link to Cloud Anchor
                 anchorGameObject.AddComponent<CloudNativeAnchor>().CloudToNative(cloudSpatialAnchor);
                 _foundAnchorGameObjects.Add(anchorGameObject, args.Identifier);
+
+                if (show_anchors)
+                {
+                    GameObject anchorCube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                    anchorCube.transform.position = anchorGameObject.transform.position;
+                    anchorCube.transform.rotation = anchorGameObject.transform.rotation;
+                    anchorCube.transform.localScale = Vector3.one * 0.1f;
+                }
 
                 Debug.Log("Sensor list length: " + _AnchorIDs[args.Identifier].Count);
                 foreach (SensorInformation sensorInfo in _AnchorIDs[args.Identifier])

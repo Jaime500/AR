@@ -15120,21 +15120,21 @@ public:
 };
 
 
-// AzureSpatialAnchorsScript/<MediumTap>d__11
-struct U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA 
+// AzureSpatialAnchorsScript/<MediumTap>d__12
+struct U3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA 
 {
 public:
-	// System.Int32 AzureSpatialAnchorsScript/<MediumTap>d__11::<>1__state
+	// System.Int32 AzureSpatialAnchorsScript/<MediumTap>d__12::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder AzureSpatialAnchorsScript/<MediumTap>d__11::<>t__builder
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder AzureSpatialAnchorsScript/<MediumTap>d__12::<>t__builder
 	AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B  ___U3CU3Et__builder_1;
-	// AzureSpatialAnchorsScript AzureSpatialAnchorsScript/<MediumTap>d__11::<>4__this
+	// AzureSpatialAnchorsScript AzureSpatialAnchorsScript/<MediumTap>d__12::<>4__this
 	AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * ___U3CU3E4__this_2;
-	// System.Runtime.CompilerServices.TaskAwaiter AzureSpatialAnchorsScript/<MediumTap>d__11::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter AzureSpatialAnchorsScript/<MediumTap>d__12::<>u__1
 	TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  ___U3CU3Eu__1_3;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -15142,7 +15142,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA, ___U3CU3Et__builder_1)); }
+	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA, ___U3CU3Et__builder_1)); }
 	inline AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
 	inline AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
 	inline void set_U3CU3Et__builder_1(AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B  value)
@@ -15157,7 +15157,7 @@ public:
 		#endif
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA, ___U3CU3E4__this_2)); }
 	inline AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(AzureSpatialAnchorsScript_tFA35248F8E0966AD537FD9267786670056D7167F * value)
@@ -15166,7 +15166,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_2), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3Eu__1_3() { return static_cast<int32_t>(offsetof(U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA, ___U3CU3Eu__1_3)); }
+	inline static int32_t get_offset_of_U3CU3Eu__1_3() { return static_cast<int32_t>(offsetof(U3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA, ___U3CU3Eu__1_3)); }
 	inline TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  get_U3CU3Eu__1_3() const { return ___U3CU3Eu__1_3; }
 	inline TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * get_address_of_U3CU3Eu__1_3() { return &___U3CU3Eu__1_3; }
 	inline void set_U3CU3Eu__1_3(TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C  value)
@@ -30453,10 +30453,10 @@ public:
 // Mono.Net.Security.AsyncProtocolRequest/<ProcessOperation>d__24
 
 
-// AzureSpatialAnchorsScript/<MediumTap>d__11
+// AzureSpatialAnchorsScript/<MediumTap>d__12
 
 
-// AzureSpatialAnchorsScript/<MediumTap>d__11
+// AzureSpatialAnchorsScript/<MediumTap>d__12
 
 
 // Microsoft.Azure.SpatialAnchors.Unity.CloudNativeAnchor/<NativeToCloud>d__5
@@ -31671,8 +31671,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t65FD5EE287B61746F015BBC8E90A97D38D258
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CSaveAnchorsU3Ed__28_tBEC33C1D0F220CEF22212C5A024D41AAED5551F8_mD89BE7CEF4B3319F7446D0CBC6E33FBDED1C38C2_gshared (AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CSaveAnchorsU3Ed__28_tBEC33C1D0F220CEF22212C5A024D41AAED5551F8 * ___stateMachine1, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,Microsoft.MixedReality.WorldLocking.Core.AnchorManagerXR/<SaveAnchorsWMR>d__36>(TAwaiter&,TStateMachine&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CSaveAnchorsWMRU3Ed__36_t6CF02AF61F7FE9A11790D2AF4F7DE8EDBA3AB068_m3D877EE9C223B4206FC8D5B7A63A1A1AE100D6C9_gshared (AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CSaveAnchorsWMRU3Ed__36_t6CF02AF61F7FE9A11790D2AF4F7DE8EDBA3AB068 * ___stateMachine1, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,AzureSpatialAnchorsScript/<MediumTap>d__11>(TAwaiter&,TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mAC272C4353334F0DA0C100132D22B10E7AA4957A_gshared (AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA * ___stateMachine1, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,AzureSpatialAnchorsScript/<MediumTap>d__12>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA_mF9F6CC3809D8A269E1873564771FD5E06947042F_gshared (AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA * ___stateMachine1, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,Microsoft.Azure.SpatialAnchors.Unity.CloudNativeAnchor/<NativeToCloud>d__5>(TAwaiter&,TStateMachine&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CNativeToCloudU3Ed__5_t4393AF641C9D5BBB5D14F18A4A81E42EC2402D5A_m29D3037DB0865A920C6880A199CA2068810B1588_gshared (AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CNativeToCloudU3Ed__5_t4393AF641C9D5BBB5D14F18A4A81E42EC2402D5A * ___stateMachine1, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,Microsoft.Azure.SpatialAnchors.CloudSpatialAnchorSession/<CreateAnchorAsync>d__66>(TAwaiter&,TStateMachine&)
@@ -31871,10 +31871,10 @@ inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780
 {
 	((  void (*) (AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD *, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *, U3CSaveAnchorsWMRU3Ed__36_t6CF02AF61F7FE9A11790D2AF4F7DE8EDBA3AB068 *, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CSaveAnchorsWMRU3Ed__36_t6CF02AF61F7FE9A11790D2AF4F7DE8EDBA3AB068_m3D877EE9C223B4206FC8D5B7A63A1A1AE100D6C9_gshared)(__this, ___awaiter0, ___stateMachine1, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,AzureSpatialAnchorsScript/<MediumTap>d__11>(TAwaiter&,TStateMachine&)
-inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mAC272C4353334F0DA0C100132D22B10E7AA4957A (AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA * ___stateMachine1, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,AzureSpatialAnchorsScript/<MediumTap>d__12>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA_mF9F6CC3809D8A269E1873564771FD5E06947042F (AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA * ___stateMachine1, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD *, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *, U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA *, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mAC272C4353334F0DA0C100132D22B10E7AA4957A_gshared)(__this, ___awaiter0, ___stateMachine1, method);
+	((  void (*) (AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD *, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C *, U3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA *, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA_mF9F6CC3809D8A269E1873564771FD5E06947042F_gshared)(__this, ___awaiter0, ___stateMachine1, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,Microsoft.Azure.SpatialAnchors.Unity.CloudNativeAnchor/<NativeToCloud>d__5>(TAwaiter&,TStateMachine&)
 inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CNativeToCloudU3Ed__5_t4393AF641C9D5BBB5D14F18A4A81E42EC2402D5A_m29D3037DB0865A920C6880A199CA2068810B1588 (AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CNativeToCloudU3Ed__5_t4393AF641C9D5BBB5D14F18A4A81E42EC2402D5A * ___stateMachine1, const RuntimeMethod* method)
@@ -32660,8 +32660,8 @@ IL2CPP_EXTERN_C  void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwa
 	AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD * _thisAdjusted = reinterpret_cast<AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD *>(__this + _offset);
 	AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CSaveAnchorsWMRU3Ed__36_t6CF02AF61F7FE9A11790D2AF4F7DE8EDBA3AB068_m3D877EE9C223B4206FC8D5B7A63A1A1AE100D6C9(_thisAdjusted, ___awaiter0, ___stateMachine1, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,AzureSpatialAnchorsScript/<MediumTap>d__11>(TAwaiter&,TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mAC272C4353334F0DA0C100132D22B10E7AA4957A_gshared (AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA * ___stateMachine1, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,AzureSpatialAnchorsScript/<MediumTap>d__12>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA_mF9F6CC3809D8A269E1873564771FD5E06947042F_gshared (AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA * ___stateMachine1, const RuntimeMethod* method)
 {
 	MoveNextRunner_tFAEA0BEDD353E2E34E8E287C67B1F5572FD30C2D * V_0 = NULL;
 	Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6 * V_1 = NULL;
@@ -32723,9 +32723,9 @@ IL_002d:
 			L_6 = AsyncTaskMethodBuilder_1_get_Task_m9BEB12C7CBB6409BFD0DB957CD58899F8D9AF23F((AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD *)(AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 			V_2 = (Task_1_t65FD5EE287B61746F015BBC8E90A97D38D258FB3 *)L_6;
 			AsyncMethodBuilderCore_t2C85055E04767C52B9F66144476FCBF500DBFA34 * L_7 = (AsyncMethodBuilderCore_t2C85055E04767C52B9F66144476FCBF500DBFA34 *)__this->get_address_of_m_coreState_1();
-			U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA * L_8 = ___stateMachine1;
-			U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA  L_9 = (*(U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA *)L_8);
-			U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA  L_10 = (U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA )L_9;
+			U3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA * L_8 = ___stateMachine1;
+			U3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA  L_9 = (*(U3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA *)L_8);
+			U3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA  L_10 = (U3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA )L_9;
 			RuntimeObject * L_11 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_10);
 			MoveNextRunner_tFAEA0BEDD353E2E34E8E287C67B1F5572FD30C2D * L_12 = V_0;
 			Task_1_t65FD5EE287B61746F015BBC8E90A97D38D258FB3 * L_13 = V_2;
@@ -32762,11 +32762,11 @@ IL_0063:
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mAC272C4353334F0DA0C100132D22B10E7AA4957A_AdjustorThunk (RuntimeObject * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA * ___stateMachine1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA_mF9F6CC3809D8A269E1873564771FD5E06947042F_AdjustorThunk (RuntimeObject * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA * ___stateMachine1, const RuntimeMethod* method)
 {
 	int32_t _offset = 1;
 	AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD * _thisAdjusted = reinterpret_cast<AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD *>(__this + _offset);
-	AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__11_t8345D4517D895ABC5EE206E40854FA00268A36FA_mAC272C4353334F0DA0C100132D22B10E7AA4957A(_thisAdjusted, ___awaiter0, ___stateMachine1, method);
+	AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CMediumTapU3Ed__12_tB834E804FDE77A79EA7CF22C6E5942FBAC4780AA_mF9F6CC3809D8A269E1873564771FD5E06947042F(_thisAdjusted, ___awaiter0, ___stateMachine1, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,Microsoft.Azure.SpatialAnchors.Unity.CloudNativeAnchor/<NativeToCloud>d__5>(TAwaiter&,TStateMachine&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C_TisU3CNativeToCloudU3Ed__5_t4393AF641C9D5BBB5D14F18A4A81E42EC2402D5A_m29D3037DB0865A920C6880A199CA2068810B1588_gshared (AsyncTaskMethodBuilder_1_t3E10C35B53D8718724E2BF748600FB762F4719AD * __this, TaskAwaiter_t3780D365E9D10C2D6C4E76C78AA0CDF92B8F181C * ___awaiter0, U3CNativeToCloudU3Ed__5_t4393AF641C9D5BBB5D14F18A4A81E42EC2402D5A * ___stateMachine1, const RuntimeMethod* method)

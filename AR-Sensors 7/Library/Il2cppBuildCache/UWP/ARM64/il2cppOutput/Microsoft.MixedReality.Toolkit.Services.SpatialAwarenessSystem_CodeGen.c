@@ -147,17 +147,17 @@ static const Il2CppTokenRangePair s_rgctxIndices[9] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[12] = 
 {
-	{ (Il2CppRGCTXDataType)3, 61132 },
-	{ (Il2CppRGCTXDataType)3, 61127 },
+	{ (Il2CppRGCTXDataType)3, 61135 },
+	{ (Il2CppRGCTXDataType)3, 61130 },
 	{ (Il2CppRGCTXDataType)1, 399 },
-	{ (Il2CppRGCTXDataType)3, 61131 },
+	{ (Il2CppRGCTXDataType)3, 61134 },
 	{ (Il2CppRGCTXDataType)1, 406 },
-	{ (Il2CppRGCTXDataType)3, 61126 },
+	{ (Il2CppRGCTXDataType)3, 61129 },
 	{ (Il2CppRGCTXDataType)2, 403 },
 	{ (Il2CppRGCTXDataType)2, 402 },
 	{ (Il2CppRGCTXDataType)2, 405 },
 	{ (Il2CppRGCTXDataType)2, 404 },
-	{ (Il2CppRGCTXDataType)3, 62634 },
+	{ (Il2CppRGCTXDataType)3, 62637 },
 	{ (Il2CppRGCTXDataType)2, 401 },
 };
 extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_Toolkit_Services_SpatialAwarenessSystem_AttributeGenerators[];

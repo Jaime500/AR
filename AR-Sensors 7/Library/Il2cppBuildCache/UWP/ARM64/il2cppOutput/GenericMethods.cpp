@@ -12362,14 +12362,16 @@ public:
 	int32_t ___U3CU3E1__state_0;
 	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> Sensor_Update/<get_data>d__6::<>t__builder
 	AsyncTaskMethodBuilder_1_tC561582A8C127A49DDAFC5B849F2648DCEEFC84F  ___U3CU3Et__builder_1;
+	// System.Boolean Sensor_Update/<get_data>d__6::location
+	bool ___location_2;
 	// System.String Sensor_Update/<get_data>d__6::sensor_type
-	String_t* ___sensor_type_2;
+	String_t* ___sensor_type_3;
 	// System.String Sensor_Update/<get_data>d__6::device_id
-	String_t* ___device_id_3;
+	String_t* ___device_id_4;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Net.Http.HttpResponseMessage> Sensor_Update/<get_data>d__6::<>u__1
-	TaskAwaiter_1_t3F873A730BD2097E63D7E6302B9F81D15457EC02  ___U3CU3Eu__1_4;
+	TaskAwaiter_1_t3F873A730BD2097E63D7E6302B9F81D15457EC02  ___U3CU3Eu__1_5;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<System.String> Sensor_Update/<get_data>d__6::<>u__2
-	TaskAwaiter_1_t454F5B9CE4CDFF1EE8835FB7E6FCB8441363315D  ___U3CU3Eu__2_5;
+	TaskAwaiter_1_t454F5B9CE4CDFF1EE8835FB7E6FCB8441363315D  ___U3CU3Eu__2_6;
 
 public:
 	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3Cget_dataU3Ed__6_t7C634CCD38C4833AA9C48DA84B5BA5DAD187D270, ___U3CU3E1__state_0)); }
@@ -12395,40 +12397,48 @@ public:
 		#endif
 	}
 
-	inline static int32_t get_offset_of_sensor_type_2() { return static_cast<int32_t>(offsetof(U3Cget_dataU3Ed__6_t7C634CCD38C4833AA9C48DA84B5BA5DAD187D270, ___sensor_type_2)); }
-	inline String_t* get_sensor_type_2() const { return ___sensor_type_2; }
-	inline String_t** get_address_of_sensor_type_2() { return &___sensor_type_2; }
-	inline void set_sensor_type_2(String_t* value)
+	inline static int32_t get_offset_of_location_2() { return static_cast<int32_t>(offsetof(U3Cget_dataU3Ed__6_t7C634CCD38C4833AA9C48DA84B5BA5DAD187D270, ___location_2)); }
+	inline bool get_location_2() const { return ___location_2; }
+	inline bool* get_address_of_location_2() { return &___location_2; }
+	inline void set_location_2(bool value)
 	{
-		___sensor_type_2 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___sensor_type_2), (void*)value);
+		___location_2 = value;
 	}
 
-	inline static int32_t get_offset_of_device_id_3() { return static_cast<int32_t>(offsetof(U3Cget_dataU3Ed__6_t7C634CCD38C4833AA9C48DA84B5BA5DAD187D270, ___device_id_3)); }
-	inline String_t* get_device_id_3() const { return ___device_id_3; }
-	inline String_t** get_address_of_device_id_3() { return &___device_id_3; }
-	inline void set_device_id_3(String_t* value)
+	inline static int32_t get_offset_of_sensor_type_3() { return static_cast<int32_t>(offsetof(U3Cget_dataU3Ed__6_t7C634CCD38C4833AA9C48DA84B5BA5DAD187D270, ___sensor_type_3)); }
+	inline String_t* get_sensor_type_3() const { return ___sensor_type_3; }
+	inline String_t** get_address_of_sensor_type_3() { return &___sensor_type_3; }
+	inline void set_sensor_type_3(String_t* value)
 	{
-		___device_id_3 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___device_id_3), (void*)value);
+		___sensor_type_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___sensor_type_3), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3Eu__1_4() { return static_cast<int32_t>(offsetof(U3Cget_dataU3Ed__6_t7C634CCD38C4833AA9C48DA84B5BA5DAD187D270, ___U3CU3Eu__1_4)); }
-	inline TaskAwaiter_1_t3F873A730BD2097E63D7E6302B9F81D15457EC02  get_U3CU3Eu__1_4() const { return ___U3CU3Eu__1_4; }
-	inline TaskAwaiter_1_t3F873A730BD2097E63D7E6302B9F81D15457EC02 * get_address_of_U3CU3Eu__1_4() { return &___U3CU3Eu__1_4; }
-	inline void set_U3CU3Eu__1_4(TaskAwaiter_1_t3F873A730BD2097E63D7E6302B9F81D15457EC02  value)
+	inline static int32_t get_offset_of_device_id_4() { return static_cast<int32_t>(offsetof(U3Cget_dataU3Ed__6_t7C634CCD38C4833AA9C48DA84B5BA5DAD187D270, ___device_id_4)); }
+	inline String_t* get_device_id_4() const { return ___device_id_4; }
+	inline String_t** get_address_of_device_id_4() { return &___device_id_4; }
+	inline void set_device_id_4(String_t* value)
 	{
-		___U3CU3Eu__1_4 = value;
-		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__1_4))->___m_task_0), (void*)NULL);
+		___device_id_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___device_id_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3Eu__2_5() { return static_cast<int32_t>(offsetof(U3Cget_dataU3Ed__6_t7C634CCD38C4833AA9C48DA84B5BA5DAD187D270, ___U3CU3Eu__2_5)); }
-	inline TaskAwaiter_1_t454F5B9CE4CDFF1EE8835FB7E6FCB8441363315D  get_U3CU3Eu__2_5() const { return ___U3CU3Eu__2_5; }
-	inline TaskAwaiter_1_t454F5B9CE4CDFF1EE8835FB7E6FCB8441363315D * get_address_of_U3CU3Eu__2_5() { return &___U3CU3Eu__2_5; }
-	inline void set_U3CU3Eu__2_5(TaskAwaiter_1_t454F5B9CE4CDFF1EE8835FB7E6FCB8441363315D  value)
+	inline static int32_t get_offset_of_U3CU3Eu__1_5() { return static_cast<int32_t>(offsetof(U3Cget_dataU3Ed__6_t7C634CCD38C4833AA9C48DA84B5BA5DAD187D270, ___U3CU3Eu__1_5)); }
+	inline TaskAwaiter_1_t3F873A730BD2097E63D7E6302B9F81D15457EC02  get_U3CU3Eu__1_5() const { return ___U3CU3Eu__1_5; }
+	inline TaskAwaiter_1_t3F873A730BD2097E63D7E6302B9F81D15457EC02 * get_address_of_U3CU3Eu__1_5() { return &___U3CU3Eu__1_5; }
+	inline void set_U3CU3Eu__1_5(TaskAwaiter_1_t3F873A730BD2097E63D7E6302B9F81D15457EC02  value)
 	{
-		___U3CU3Eu__2_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__2_5))->___m_task_0), (void*)NULL);
+		___U3CU3Eu__1_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__1_5))->___m_task_0), (void*)NULL);
+	}
+
+	inline static int32_t get_offset_of_U3CU3Eu__2_6() { return static_cast<int32_t>(offsetof(U3Cget_dataU3Ed__6_t7C634CCD38C4833AA9C48DA84B5BA5DAD187D270, ___U3CU3Eu__2_6)); }
+	inline TaskAwaiter_1_t454F5B9CE4CDFF1EE8835FB7E6FCB8441363315D  get_U3CU3Eu__2_6() const { return ___U3CU3Eu__2_6; }
+	inline TaskAwaiter_1_t454F5B9CE4CDFF1EE8835FB7E6FCB8441363315D * get_address_of_U3CU3Eu__2_6() { return &___U3CU3Eu__2_6; }
+	inline void set_U3CU3Eu__2_6(TaskAwaiter_1_t454F5B9CE4CDFF1EE8835FB7E6FCB8441363315D  value)
+	{
+		___U3CU3Eu__2_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__2_6))->___m_task_0), (void*)NULL);
 	}
 };
 
