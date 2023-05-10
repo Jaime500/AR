@@ -60,24 +60,31 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
     /// </summary>
     private readonly Dictionary<string, List<SensorInformation>> _AnchorIDs = new Dictionary<string, List<SensorInformation>>()
     {
-        { "e4d6bf30-79e4-4ba9-a56d-7e65055f88a0", new List<SensorInformation>() {new SensorInformation (new Vector3(-1.25f, 0, 2), new Quaternion(0, 0, 0, 0), "awair-4019", 0) } }, // by sink (201)
+        { "e4d6bf30-79e4-4ba9-a56d-7e65055f88a0", new List<SensorInformation>() {new SensorInformation (new Vector3(-1.25f, -0.9f, 2), new Quaternion(0, 0, 0, 0), "awair-4019", 0) } }, // by sink (201)
         { "3348a9b0-c726-485e-9e22-4a962dada085", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } },
         { "1eea0fd2-9d0a-4365-9b2e-83e406f68a86", new List<SensorInformation>() {new SensorInformation (new Vector3(-0.75f, 0, 1.5f), new Quaternion(0, 0, 0, 0), "70886b125d88", 0) } }, // arena north wall near TV (203)
         { "f0b94dd6-cf1a-426f-870c-b933924dfa8d", new List<SensorInformation>() { // kitchen (208)
             new SensorInformation (new Vector3(1.25f, 0, 0), Quaternion.AngleAxis(90, Vector3.up), "70886b12335b", 0),
-            new SensorInformation (new Vector3(0, 0, -1.5f), Quaternion.AngleAxis(180, Vector3.up), "awair-3446", 0),
+            new SensorInformation (new Vector3(0, -0.25f, -1.5f), Quaternion.AngleAxis(180, Vector3.up), "awair-3446", 0),
         } },
-        { "51213bfc-3e7e-434c-bcf6-ca08a4a37e16", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } },
-        { "1c9d29da-1b17-4d43-8d8f-38a1d837a556", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } },
-        { "9843ccca-397e-4b28-b500-ee40571822e7", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } },
-        { "09ce0a2a-6ed9-4bb8-8754-9811df9d7592", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } },
-        { "f0408c3c-59b6-4fe6-a163-f612574558c5", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } },
+        { "51213bfc-3e7e-434c-bcf6-ca08a4a37e16", new List<SensorInformation>() {
+            new SensorInformation (new Vector3(-1f, -0.35f, 2.25f), new Quaternion(0, 0, 0, 0), "awair-3509", 0),
+            new SensorInformation (new Vector3(0.5f, -0.2f, -0.9f), Quaternion.AngleAxis(180, Vector3.up), "70886b12532b", 0) 
+        } }, //221 desks 5-8
+        { "1c9d29da-1b17-4d43-8d8f-38a1d837a556", new List<SensorInformation>() {
+            new SensorInformation (new Vector3(-1.5f, -0.25f, 2.5f), new Quaternion(0, 0, 0, 0), "70886b12349c", 0), //NE 11
+            new SensorInformation (new Vector3(.5f, -0.25f, -2), Quaternion.AngleAxis(180, Vector3.up), "70886b126a7b", 0), //NE 18
+            new SensorInformation (new Vector3(2f, -0.25f, 2.25f), new Quaternion(0, 0, 0, 0), "awair-3358", 0) //NE corner
+        } }, //Olsson 221 desks 11-18
+        { "9843ccca-397e-4b28-b500-ee40571822e7", new List<SensorInformation>() {new SensorInformation (new Vector3(-0.75f, 0, 2), new Quaternion(0, 0, 0, 0), "70886b12537c", 0) } }, // NE 42 Olss 221
+        { "09ce0a2a-6ed9-4bb8-8754-9811df9d7592", new List<SensorInformation>() {new SensorInformation (new Vector3(-1.25f, -0.15f, -1.5f), Quaternion.AngleAxis(180, Vector3.up), "70886b125d64", 0) } }, //Work Cubby
+        { "f0408c3c-59b6-4fe6-a163-f612574558c5", new List<SensorInformation>() {new SensorInformation (new Vector3(1, 0.3f, 1.75f), new Quaternion(0, 0, 0, 0), "70886b123a62", 0) } }, // Olsson 225
         { "a0d2bf22-fe2f-4640-9a6b-61b437336739", new List<SensorInformation>() { // 217
-            new SensorInformation (new Vector3(2, 0, 1.8f), new Quaternion(0, 0, 0, 0), "70886b123507", 0),
-            new SensorInformation (new Vector3(0.25f, 0, -1.75f), Quaternion.AngleAxis(180, Vector3.up), "018a2c81", 1),
-            new SensorInformation (new Vector3(-1.25f, 0, -2), new Quaternion(0, 0, 0, 0), "018169f7", 3),
-            new SensorInformation (new Vector3(-.2f, 1, 0), new Quaternion(0, 0, 0, 0), "050621c6", 4),
-            new SensorInformation (new Vector3(1.2f, 1, 0), new Quaternion(0, 0, 0, 0), "050d68bf", 5),
+            new SensorInformation (new Vector3(2, 0.25f, 1.8f), new Quaternion(0, 0, 0, 0), "70886b123507", 0), //AWAIR
+            new SensorInformation (new Vector3(0.25f, 0, -1.75f), Quaternion.AngleAxis(180, Vector3.up), "018a2c81", 1), //TH
+            new SensorInformation (new Vector3(-1.25f, 0.75f, -2), new Quaternion(0, 0, 0, 0), "018169f7", 3), //door
+            new SensorInformation (new Vector3(-.2f, 1, 0), new Quaternion(0, 0, 0, 0), "050621c6", 4), //light
+            new SensorInformation (new Vector3(1.2f, 1, 0), new Quaternion(0, 0, 0, 0), "050d68bf", 5), //dual motion
         } },
         { "59aff259-44e9-4b8e-9935-28a21770eccc", new List<SensorInformation>() {
             new SensorInformation (new Vector3(0, 0.3f, -2.6f), Quaternion.AngleAxis(180, Vector3.up), "70886b123992", 0), // Entrance 1
@@ -99,18 +106,18 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
             new SensorInformation (new Vector3(-0.5f, -0.5f, 0), new Quaternion(0, 0, 0, 0), "70886b123962", 0), // Table 3
         } }, // (211)
         { "d7a52e8e-0bc1-4707-899e-a80efdfc7e3a", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 0.5f), new Quaternion(0, 0, 0, 0), "70886b123c0b", 0) } }, // elevator (210)
-        { "f19def10-eca3-4efd-9fac-0da4c7f4e09d", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 1), new Quaternion(0, 0, 0, 0), "70886b123507", 0) } },
+        { "f19def10-eca3-4efd-9fac-0da4c7f4e09d", new List<SensorInformation>() {new SensorInformation (new Vector3(0, 0, 0.7f), new Quaternion(0, 0, 0, 0), "70886b123a60", 0) } }, //218 copier room
         { "0074e2e5-1f5b-46f6-bb22-2bc26d3f7556", new List<SensorInformation>() {new SensorInformation (new Vector3(-0.25f, 0, -0.75f), Quaternion.AngleAxis(180, Vector3.up), "70886b122593", 0) } }, // team room (217)
         { "e22df7d4-0f27-4738-888f-908096daa38d", new List<SensorInformation>() {
             new SensorInformation (new Vector3(-1.25f, 0, -.3f), Quaternion.AngleAxis(270, Vector3.up), "70886b125f1e", 0), // awair
-            new SensorInformation (new Vector3(1.3f, 0, 1.8f), new Quaternion(0, 0, 0, 0), "018a2167", 1), // temp/humidity
+            new SensorInformation (new Vector3(1.5f, 0.25f, 1.8f), new Quaternion(0, 0, 0, 0), "018a2167", 1), // temp/humidity
         } }, // Heydarian office (281)
         { "16ed98d4-8846-4cf0-ada7-779843f0cbbe", new List<SensorInformation>() {
-            new SensorInformation (new Vector3(0.3f, 0, 1.3f), new Quaternion(0, 0, 0, 0), "70886b123039", 0), // awair
-            new SensorInformation (new Vector3(0.2f, 0.5f, 1.3f), new Quaternion(0, 0, 0, 0), "018984f9", 2), // co2
-            new SensorInformation (new Vector3(-1.2f, 0, -1.25f), Quaternion.AngleAxis(180, Vector3.up), "018984f9", 1), // temp/humidity
-            new SensorInformation (new Vector3(0.5f, 1.25f, 0), new Quaternion(0, 0, 0, 0), "050621a8", 4), // light
-            new SensorInformation (new Vector3(0.1f, 1.25f, 0), new Quaternion(0, 0, 0, 0), "050d69ce", 5), // dual motion
+            new SensorInformation (new Vector3(0.3f, -0.1f, 1.3f), new Quaternion(0, 0, 0, 0), "70886b123039", 0), // awair
+            //new SensorInformation (new Vector3(0.2f, 0.5f, 1.3f), new Quaternion(0, 0, 0, 0), "018984f9", 2), // co2
+            new SensorInformation (new Vector3(-1.25f, 0.15f, -1.25f), Quaternion.AngleAxis(180, Vector3.up), "018a33c5", 1), // temp/humidity
+            new SensorInformation (new Vector3(0.5f, 1.3f, 0), new Quaternion(0, 0, 0, 0), "050621a8", 4), // light
+            new SensorInformation (new Vector3(0.1f, 1.3f, 0), new Quaternion(0, 0, 0, 0), "050d69ce", 5), // dual motion
         } }, // Campbell office (241)
     };
 
@@ -130,7 +137,7 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
 
     // <Update>
     // Update is called once per frame
-    async void Update()
+    void Update()
     {
 
         //Check for any air taps from either hand
@@ -153,7 +160,7 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
                     else if (2f < _tappingTimer[i] && _tappingTimer[i] < 10f)
                     {
                         //User has been tapping for less than 8 sec. Get hand position and call ShortTap
-                        await MediumTap();
+                        MediumTap();
                     }
                     _tappingTimer[i] = 0;
                 }
@@ -193,9 +200,8 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
     /// Deleting the anchor GameObject
     /// </summary>
     /// <param name="anchorGameObject">Anchor GameObject that is to be deleted</param>
-    private async void DeleteAnchor(GameObject anchorGameObject)
+    private void DeleteAnchor(GameObject anchorGameObject)
     {
-        await MediumTap();
         //Remove reference
         _foundAnchorGameObjects.Remove(anchorGameObject);
         Destroy(anchorGameObject);
@@ -246,7 +252,7 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
     /// <summary>
     /// Called when a user is air tapping for a long time (>=4 sec)
     /// </summary>
-    private async Task MediumTap()
+    private async void MediumTap()
     {
         if (_spatialAnchorManager.IsSessionStarted)
         {

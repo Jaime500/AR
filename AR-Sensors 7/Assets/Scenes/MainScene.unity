@@ -586,7 +586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7c02d5c31c78e74b99db476e3e59287, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  show_anchors: 1
+  show_anchors: 0
   sensor: {fileID: 8599866797754603389, guid: 77eee19a198bda9468d27a96156cf38f, type: 3}
 --- !u!4 &1763023014
 Transform:

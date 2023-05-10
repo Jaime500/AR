@@ -3151,4 +3151,4 @@ ScriptsOnlyBuild:
   platform: 21
   scenePathNames:
   - Assets/Scenes/MainScene.unity
-  playerPath: C:/AR Build Show Sensors
+  playerPath: C:/B1

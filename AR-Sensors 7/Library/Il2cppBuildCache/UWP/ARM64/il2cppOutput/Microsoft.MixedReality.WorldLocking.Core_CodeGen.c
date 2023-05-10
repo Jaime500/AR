@@ -3083,19 +3083,19 @@ static const Il2CppTokenRangePair s_rgctxIndices[2] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[13] = 
 {
-	{ (Il2CppRGCTXDataType)3, 34382 },
+	{ (Il2CppRGCTXDataType)3, 34381 },
 	{ (Il2CppRGCTXDataType)2, 7414 },
 	{ (Il2CppRGCTXDataType)2, 7574 },
-	{ (Il2CppRGCTXDataType)3, 34383 },
-	{ (Il2CppRGCTXDataType)3, 5148 },
-	{ (Il2CppRGCTXDataType)3, 7876 },
-	{ (Il2CppRGCTXDataType)3, 34381 },
-	{ (Il2CppRGCTXDataType)3, 7861 },
+	{ (Il2CppRGCTXDataType)3, 34382 },
+	{ (Il2CppRGCTXDataType)3, 5147 },
+	{ (Il2CppRGCTXDataType)3, 7875 },
 	{ (Il2CppRGCTXDataType)3, 34380 },
-	{ (Il2CppRGCTXDataType)3, 53678 },
-	{ (Il2CppRGCTXDataType)3, 5164 },
-	{ (Il2CppRGCTXDataType)2, 1969 },
+	{ (Il2CppRGCTXDataType)3, 7860 },
+	{ (Il2CppRGCTXDataType)3, 34379 },
+	{ (Il2CppRGCTXDataType)3, 53677 },
 	{ (Il2CppRGCTXDataType)3, 5163 },
+	{ (Il2CppRGCTXDataType)2, 1969 },
+	{ (Il2CppRGCTXDataType)3, 5162 },
 };
 extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_WorldLocking_Core_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_WorldLocking_Core_CodeGenModule;

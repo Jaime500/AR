@@ -1423,7 +1423,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[5] =
 	{ (Il2CppRGCTXDataType)2, 475 },
 	{ (Il2CppRGCTXDataType)2, 476 },
 	{ (Il2CppRGCTXDataType)2, 477 },
-	{ (Il2CppRGCTXDataType)3, 20726 },
+	{ (Il2CppRGCTXDataType)3, 20725 },
 	{ (Il2CppRGCTXDataType)2, 474 },
 };
 extern const CustomAttributesCacheGenerator g_AzureSpatialAnchors_SDK_Windows_Runtime_AttributeGenerators[];
