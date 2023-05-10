@@ -146,14 +146,14 @@ public class Sensor_Update : MonoBehaviour
         Task<string> response2 = get_data("Humidity_%", deviceId);
         // Task<string> response3 = get_data("rssi", deviceId);
 
-        await Task.WhenAll(location, response0, response1);
+        await Task.WhenAll(location, response0, response1, response2);
 
         string locationtext = location.Result;
         string response0text = response0.Result;
         string response1text = response1.Result;
         string response2text = response2.Result;
         //string response3text = response3.Result;
-
+        
         locationtext = locationtext.Substring(1, locationtext.Length - 2);
         string response1text2 = (float.Parse(response1text) * 1.8 + 32).ToString();
         if (response1text.Length > 5)

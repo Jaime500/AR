@@ -114,7 +114,7 @@ public class AzureSpatialAnchorsScript : MonoBehaviour
         } }, // Heydarian office (281)
         { "16ed98d4-8846-4cf0-ada7-779843f0cbbe", new List<SensorInformation>() {
             new SensorInformation (new Vector3(0.3f, -0.1f, 1.3f), new Quaternion(0, 0, 0, 0), "70886b123039", 0), // awair
-            //new SensorInformation (new Vector3(0.2f, 0.5f, 1.3f), new Quaternion(0, 0, 0, 0), "018984f9", 2), // co2
+            new SensorInformation (new Vector3(0.2f, 0.5f, 1.3f), new Quaternion(0, 0, 0, 0), "018984f9", 2), // co2
             new SensorInformation (new Vector3(-1.25f, 0.15f, -1.25f), Quaternion.AngleAxis(180, Vector3.up), "018a33c5", 1), // temp/humidity
             new SensorInformation (new Vector3(0.5f, 1.3f, 0), new Quaternion(0, 0, 0, 0), "050621a8", 4), // light
             new SensorInformation (new Vector3(0.1f, 1.3f, 0), new Quaternion(0, 0, 0, 0), "050d69ce", 5), // dual motion
